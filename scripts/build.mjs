@@ -43,7 +43,7 @@ function prepareImage(image, field) {
 }
 
 function validate(lesson, filename) {
-  const { id, title, category, intro, date, cover, sections, quiz, sources } = lesson;
+  const { id, title, category, intro, date, publicationOrder, cover, sections, quiz, sources } = lesson;
   if (typeof id !== 'string' || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(id) || filename !== `${id}.json`) {
     throw new Error('ID musí odpovídat názvu souboru a obsahovat jen malá ASCII písmena, číslice a pomlčky.');
   }
@@ -57,6 +57,9 @@ function validate(lesson, filename) {
         || !Number.isFinite(parsed.getTime()) || parsed.toISOString().slice(0, 10) !== date) {
       throw new Error('date musí být platné datum ve formátu RRRR-MM-DD.');
     }
+  }
+  if (publicationOrder !== undefined && (!date || !Number.isSafeInteger(publicationOrder) || publicationOrder < 1)) {
+    throw new Error('publicationOrder vyžaduje datum a musí být kladné celé číslo.');
   }
   if (sources !== undefined) {
     requiredList(sources, 'sources');

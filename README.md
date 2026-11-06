@@ -26,7 +26,7 @@ Místní katalog se otevře na [localhost:8000](http://localhost:8000/). Výstup
 
 V [Settings → Pages](https://github.com/ivochvojka/general-knowledge/settings/pages) vyberte jako zdroj **GitHub Actions**. Workflow `.github/workflows/pages.yml` ověřuje sestavení u pull requestů do `main` a po změně na `main` nasadí nový výstup. Po prvním úspěšném nasazení je očekávaná adresa [ivochvojka.github.io/general-knowledge](https://ivochvojka.github.io/general-knowledge/). Workflow lze také spustit ručně z karty Actions.
 
-U lekcí z prvního vydání uvádíme datum prvního doloženého zveřejnění na GitHub Pages. Přesnější pořadí lekcí ze stejného vydání z dat zveřejnění nevyplývá.
+U převzatých lekcí uvádíme datum původního zveřejnění v ChatGPT, pokud ho známe. Pole `publicationOrder` je volitelné kladné celé číslo pro známé pořadí v rámci jednoho dne (1 je první). Přesný čas k tomu není potřeba. Katalog lze procházet podle tématu nebo podle data od nejnovějších či od nejstarších; vyhledávání a filtr tématu fungují ve všech režimech.
 
 ## Pravidelné lekce
 

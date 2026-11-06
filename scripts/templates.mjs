@@ -58,7 +58,7 @@ function publicationDate(date) {
 function card(lesson) {
   const keywords = [lesson.category, ...lesson.sections.flatMap(section =>
     [section.title, section.text, section.extra, ...(section.music ?? [])].filter(Boolean))];
-  return `<li class="lesson-card" data-lesson="${lesson.id}" data-search="${escape(keywords.join(' '))}">
+  return `<li class="lesson-card" data-lesson="${lesson.id}" data-order="${lesson.publicationOrder ?? ''}" data-search="${escape(keywords.join(' '))}">
     <a href="./lekce/${lesson.id}/">
       <span class="card-meta">${escape(lesson.category)} · ${readingTime(lesson)} min${lesson.date ? ` · ${publicationDate(lesson.date)}` : ''}</span>
       <h4>${escape(lesson.title)}</h4>
@@ -104,8 +104,19 @@ export function renderIndex(lessons, earth) {
             ${topics.map(([topic]) => `<option>${escape(topic)}</option>`).join('')}
           </select>
         </label>
+        <label for="sort">Řazení
+          <select id="sort">
+            <option value="topic">Podle tématu</option>
+            <option value="newest">Od nejnovějších</option>
+            <option value="oldest">Od nejstarších</option>
+          </select>
+        </label>
       </div>
       <p class="results" id="results" role="status">${lessons.length} lekcí v knihovně</p>
+      <section class="topic" id="chronology" hidden>
+        <h3 class="topic-name">Podle data publikace</h3>
+        <ul class="lesson-grid"></ul>
+      </section>
       ${topics.map(([topic, items]) => `<section class="topic" data-topic="${escape(topic)}">
         <h3 class="topic-name">${escape(topic)}</h3>
         <ul class="lesson-grid">${items.map(card).join('')}</ul>
