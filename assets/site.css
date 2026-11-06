@@ -39,8 +39,8 @@ a:hover { color: var(--rust); }
 
 .hero {
   color: var(--cream);
-  background: linear-gradient(90deg, transparent, var(--forest) 42% 58%, transparent),
-    var(--forest) url(atlas.svg) center / cover no-repeat;
+  background: linear-gradient(90deg, transparent 12%, #102b22d9 36% 64%, transparent 88%),
+    var(--forest) url(atlas-header.webp) center / cover no-repeat;
   border-bottom: 3px solid #ae7950;
   text-align: center;
 }
@@ -63,23 +63,35 @@ input, select { min-width: 0; width: 100%; border: 1px solid #918f81; border-rad
 .results { margin-top: .85rem; font-size: .88rem; color: var(--muted); }
 .topic { margin-top: 1.8rem; }
 .topic-name { font-size: 1.4rem; border-bottom: 1px solid var(--line); padding-bottom: .55rem; color: var(--green); }
-.lesson-grid { list-style: none; margin: .8rem 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .8rem; }
-.lesson-card a { display: block; height: 100%; overflow: hidden; border: 1px solid var(--line); border-radius: .35rem; background: var(--card); text-decoration: none; }
+.lesson-grid { list-style: none; margin: .8rem 0 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .8rem; }
+.lesson-card a { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); height: 100%; overflow: hidden; border: 1px solid var(--line); border-radius: .35rem; background: var(--card); text-decoration: none; }
 .lesson-card a:hover { border-color: var(--rust); }
-.card-cover { aspect-ratio: 16 / 8; background: var(--forest) url(atlas.svg) center / cover; }
-.card-cover img { display: block; width: 100%; height: 100%; object-fit: cover; }
-.card-body { position: relative; padding: 1.15rem 2.55rem 1.25rem 1.15rem; }
+.card-cover {
+  position: relative;
+  min-height: 12rem;
+  background: #eee3cf;
+}
+.card-cover img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; object-position: right center; }
+.card-cover:has(img[hidden]) { background: var(--forest) url(atlas.svg) center / cover; }
+.card-cover::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, var(--card), transparent 52%);
+  pointer-events: none;
+}
+.card-body { grid-column: 1; grid-row: 1; padding: 1.15rem .5rem 1.25rem 1.15rem; }
 .lesson-card h4 { margin-block: .35rem; font-size: 1.45rem; }
 .lesson-card p { color: var(--muted); font-size: .9rem; }
 .card-meta { color: var(--muted); font-size: .78rem; }
-.card-arrow { position: absolute; top: 1rem; right: 1rem; font-size: 1.2rem; color: var(--rust); }
+.card-arrow { display: inline-block; margin-top: .35rem; font-size: 1.2rem; color: var(--rust); }
 
 .reading { max-width: 47rem; padding-block: 1.75rem 4rem; }
 .back { display: inline-block; margin-bottom: 1.75rem; font-size: .9rem; }
 .reading h1 { margin-block: .45rem .85rem; font-size: clamp(2.5rem, 7vw, 5rem); letter-spacing: -.045em; }
 .article-header .lede { max-width: 55ch; }
 .reading figure { margin-top: 1.75rem; padding: .85rem; border: 1px solid var(--line); background: #e9e4d7; }
-.reading figure img { width: 100%; height: clamp(17rem, 55vw, 30rem); object-fit: contain; background: #dfd8c6; }
+.reading figure img { width: auto; height: auto; max-width: 100%; max-height: 38rem; object-fit: contain; margin-inline: auto; }
 .chapter { margin-top: 2rem; }
 .chapter h2 { font-size: clamp(1.5rem, 4vw, 2.15rem); }
 .chapter > p { margin-top: .65rem; font-size: 1.05rem; line-height: 1.75; }
@@ -95,11 +107,24 @@ input, select { min-width: 0; width: 100%; border: 1px solid #918f81; border-rad
 .footer { display: flex; flex-wrap: wrap; gap: .45rem 1.25rem; justify-content: space-between; padding-block: 1.4rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .85rem; }
 
 @media (max-width: 52rem) {
-  .lesson-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .lesson-grid { grid-template-columns: minmax(0, 1fr); }
 }
 
 @media (max-width: 43rem) {
   .wrap { width: calc(100% - 2rem); }
-  .catalog-controls, .lesson-grid { grid-template-columns: minmax(0, 1fr); }
-  .hero { background-position: center, left center; }
+  .catalog-controls { grid-template-columns: minmax(0, 1fr); }
+  .hero {
+    background-image: linear-gradient(var(--forest) 69%, transparent 92%), url(atlas-header.webp);
+    background-position: center, center bottom;
+    background-size: cover, 100% auto;
+  }
+  .hero-inner { padding-bottom: 6rem; }
+}
+
+@media (max-width: 30rem) {
+  .lesson-card a { grid-template-columns: minmax(0, 1fr); }
+  .card-cover { min-height: 11rem; }
+  .card-cover img { object-position: center; }
+  .card-cover::after { background: linear-gradient(0deg, var(--card), transparent 15%); }
+  .card-body { grid-row: auto; padding-right: 1.15rem; }
 }
