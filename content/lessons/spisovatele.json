@@ -2,7 +2,7 @@
   "id": "spisovatele",
   "category": "Literatura",
   "title": "Světoví spisovatelé",
-  "intro": "Dvanáct autorů, kteří zásadně ovlivnili světovou literaturu.",
+  "intro": "Sedmnáct autorů, kteří zásadně ovlivnili světovou literaturu.",
   "cover": {
     "file": "William_Shakespeare_Chandos_Portrait.jpg",
     "alt": "Chandosův portrét tradičně ztotožňovaný s Williamem Shakespearem",
@@ -57,12 +57,58 @@
     {
       "title": "Johann Wolfgang Goethe (1749–1832)",
       "text": "Německý básník a myslitel, autor Fausta a Utrpení mladého Werthera."
+    },
+    {
+      "title": "Dante Alighieri (1265–1321)",
+      "text": "Florentský básník a autor Božské komedie (Divina Commedia). Báseň sleduje poutníkovu cestu Peklem, Očistcem a Rájem. Dante ji napsal v italštině své doby a přispěl k jejímu literárnímu významu."
+    },
+    {
+      "title": "Jane Austenová (1775–1817)",
+      "text": "Anglická romanopiskyně, autorka Pýchy a předsudku (Pride and Prejudice) a Rozumu a citu (Sense and Sensibility). Prostřednictvím námluv a rodinných vztahů ukazuje, jak majetek a společenské postavení ovlivňují volby jejích hrdinek."
+    },
+    {
+      "title": "Charles Dickens (1812–1870)",
+      "text": "Anglický spisovatel viktoriánské éry. V Oliveru Twistovi sleduje osudy chlapce, který vyrůstá v chudobinci. V Nadějných vyhlídkách (Great Expectations) zkoumá společenský vzestup a cenu, kterou za něj mladý Pip platí."
+    },
+    {
+      "title": "Mark Twain (1835–1910)",
+      "text": "Americký spisovatel a humorista, vlastním jménem Samuel Langhorne Clemens. Dobrodružství Toma Sawyera a Dobrodružství Huckleberryho Finna zasadil do prostředí kolem Mississippi. V druhém románu putuje Huck po řece s Jimem, který uprchl z otroctví."
+    },
+    {
+      "title": "Virginia Woolfová (1882–1941)",
+      "text": "Britská modernistická spisovatelka. Román Paní Dallowayová (Mrs Dalloway) se odehrává během jednoho červnového dne v Londýně a střídá pohledy několika postav. V eseji Vlastní pokoj (A Room of One’s Own) se zabývá podmínkami, které ženám umožňují psát."
     }
   ],
   "quiz": [
     {
       "question": "Který autor napsal román 1984?",
       "answer": "George Orwell."
+    },
+    {
+      "question": "Kdo napsal Božskou komedii a jak se jmenují její tři části?",
+      "answer": "Dante Alighieri. Tři části jsou Peklo, Očistec a Ráj."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Princeton University — Princeton Dante Project",
+      "url": "https://dante.princeton.edu/projinfo.html"
+    },
+    {
+      "title": "British Library — Jane Austenová",
+      "url": "https://www.bl.uk/stories/blogs/posts/jane-austen-at-250"
+    },
+    {
+      "title": "Charles Dickens Museum — Charles Dickens",
+      "url": "https://dickensmuseum.com/products/a-world-full-of-dickens-stories-book"
+    },
+    {
+      "title": "Library of Congress — America Reads",
+      "url": "https://www.loc.gov/exhibits/america-reads/1750-to-1899.html"
+    },
+    {
+      "title": "British Library — Paní Dallowayová",
+      "url": "https://shop.bl.uk/products/mrs-dalloway-1"
     }
   ]
 }

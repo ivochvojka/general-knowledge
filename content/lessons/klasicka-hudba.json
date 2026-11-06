@@ -2,7 +2,7 @@
   "id": "klasicka-hudba",
   "category": "Hudba",
   "title": "Klasická hudba",
-  "intro": "Šest skladatelů, jejichž díla formovala evropskou hudbu.",
+  "intro": "Deset skladatelů, jejichž díla formovala evropskou hudbu.",
   "cover": {
     "file": "Johann_Sebastian_Bach.jpg",
     "alt": "Portrét Johanna Sebastiana Bacha z roku 1748",
@@ -71,12 +71,70 @@
         "Slovanské tance",
         "Rusalka"
       ]
+    },
+    {
+      "title": "Franz Schubert (1797–1828)",
+      "text": "Rakouský skladatel a výrazný tvůrce umělé písně. Píseň Král duchů (Erlkönig) zhudebňuje Goethovu baladu. Z jeho symfonie h moll D 759 se běžně hrají dvě dokončené věty, odtud její přezdívka Nedokončená.",
+      "music": [
+        "Erlkönig D 328",
+        "Symfonie h moll D 759 Nedokončená"
+      ]
+    },
+    {
+      "title": "Fryderyk Chopin (1810–1849)",
+      "text": "Polský skladatel a klavírista, který značnou část života strávil v Paříži. V mazurkách a polonézách využíval rytmy polských tanců. K jeho nejznámějším klavírním skladbám patří Nokturno Es dur op. 9 č. 2 a Polonéza As dur op. 53.",
+      "music": [
+        "Nokturno Es dur op. 9 č. 2",
+        "Polonéza As dur op. 53"
+      ]
+    },
+    {
+      "title": "Giuseppe Verdi (1813–1901)",
+      "text": "Italský operní skladatel. V Rigolettovi sleduje tragédii dvorního šaška a jeho dcery, v La traviatě příběh Violetty Valéry. K jeho pozdějším operám patří Aida a Otello.",
+      "music": [
+        "Rigoletto",
+        "La traviata",
+        "Aida",
+        "Otello"
+      ]
+    },
+    {
+      "title": "Petr Iljič Čajkovskij (1840–1893)",
+      "text": "Ruský skladatel období romantismu. Napsal hudbu k baletům Labutí jezero, Šípková Růženka a Louskáček. Z Louskáčka sestavil také orchestrální suitu, která zazněla na koncertě ještě před premiérou baletu v roce 1892.",
+      "music": [
+        "Labutí jezero",
+        "Šípková Růženka",
+        "Louskáček op. 71",
+        "Suita z Louskáčka op. 71a"
+      ]
     }
   ],
   "quiz": [
     {
       "question": "Kdo složil symfonický cyklus Má vlast?",
       "answer": "Bedřich Smetana."
+    },
+    {
+      "question": "Kdo složil hudbu k baletům Labutí jezero a Louskáček?",
+      "answer": "Petr Iljič Čajkovskij. Jeho třetím baletem je Šípková Růženka."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Berliner Philharmoniker — Schubertova Nedokončená symfonie",
+      "url": "https://www.berliner-philharmoniker.de/en/programme-notes/franz-schubert-symphony-no-7-in-b-minor-d-759-unfinished/"
+    },
+    {
+      "title": "Narodowy Instytut Fryderyka Chopina — Fryderyk Chopin",
+      "url": "https://chopin.nifc.pl/en/chopin/osoba/1_chopin_fryderyk"
+    },
+    {
+      "title": "Royal Ballet and Opera — Giuseppe Verdi",
+      "url": "https://www.rbo.org.uk/people/giuseppe-verdi"
+    },
+    {
+      "title": "Tchaikovsky Research — Louskáček",
+      "url": "https://en.tchaikovsky-research.net/pages/The_Nutcracker"
     }
   ]
 }
