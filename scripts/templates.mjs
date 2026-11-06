@@ -33,7 +33,7 @@ function page({ title, description, base, body, script }) {
 
 function illustration({ src, alt, credit, source, license, licenseUrl }) {
   return `<figure>
-    <img src="${escape(src)}" alt="${escape(alt)}" decoding="async">
+    <img src="${escape(src)}" alt="${escape(alt)}" loading="lazy" decoding="async">
     <figcaption>${escape(alt)}. ${escape(credit)} · <a href="${escape(source)}">Wikimedia Commons</a> ·
       ${licenseUrl ? `<a href="${escape(licenseUrl)}">${escape(license)}</a>` : escape(license)}
     </figcaption>
@@ -116,13 +116,16 @@ function musicLinks({ title, music }) {
 }
 
 export function renderLesson(lesson) {
-  const { title, category, intro, cover, sections, quiz } = lesson;
+  const { title, category, intro, date, cover, sections, quiz, sources } = lesson;
+  const dateLabel = date && new Intl.DateTimeFormat('cs', {
+    dateStyle: 'long', timeZone: 'Europe/Prague',
+  }).format(new Date(date));
   return page({ title: `${title} | ${site}`, description: intro, base: '../../', body: `
   <main id="obsah" class="reading wrap">
     <a class="back" href="../../#prehled">← Všechny lekce</a>
     <article>
       <header class="article-header">
-        <p class="eyebrow">${escape(category)} · ${readingTime(lesson)} min čtení</p>
+        <p class="eyebrow">${escape(category)} · ${readingTime(lesson)} min čtení${date ? ` · <time datetime="${date}">${dateLabel}</time>` : ''}</p>
         <h1>${escape(title)}</h1>
         <p class="lede">${escape(intro)}</p>
       </header>
@@ -130,9 +133,14 @@ export function renderLesson(lesson) {
       ${sections.map(section => `<section class="chapter">
         <h2>${escape(section.title)}</h2>
         ${section.text.split(/\n\s*\n/).map(paragraph => `<p>${escape(paragraph)}</p>`).join('')}
+        ${section.image ? illustration(section.image) : ''}
         ${section.extra ? `<p class="aside-note"><strong>Zapamatujte si</strong> ${escape(section.extra)}</p>` : ''}
         ${musicLinks(section)}
       </section>`).join('')}
+      ${sources ? `<section class="chapter">
+        <h2>Zdroje</h2>
+        <ul>${sources.map(({ title, url }) => `<li><a href="${escape(url)}">${escape(title)}</a></li>`).join('')}</ul>
+      </section>` : ''}
       <section class="quiz">
         <p class="eyebrow">Co si pamatujete?</p>
         <h2>Krátký kvíz</h2>

@@ -18,8 +18,8 @@ Místní katalog se otevře na [localhost:8000](http://localhost:8000/). Výstup
 ## Přidání lekce
 
 1. Přidejte soubor `content/lessons/<id>.json` podle některé stávající lekce. Stabilní `id` musí odpovídat názvu souboru a používat malá ASCII písmena, číslice a pomlčky.
-2. Vyplňte `title`, `category`, `intro`, oddíly `sections` a otázky `quiz`. Oddíl má `title` a `text`, volitelně `extra` a seznam názvů skladeb `music`. Prázdný řádek v textu odděluje odstavce. Položka kvízu má `question` a `answer`.
-3. Do `cover` zapište přesný název souboru z Wikimedia Commons bez předpony `File:`, s podtržítky místo mezer. Přidejte český alternativní popis `alt`, autora `credit`, licenci `license` a u licencovaných obrázků také odkaz `licenseUrl`. Údaje ověřte přímo na stránce konkrétního souboru.
+2. Vyplňte `title`, `category`, datum lekce `date` ve formátu `RRRR-MM-DD` podle pražského času, `intro`, oddíly `sections` a otázky `quiz`. Oddíl má `title` a `text`, volitelně `extra`, obrázek `image` nebo seznam skladeb `music`. Prázdný řádek v textu odděluje odstavce. Položka kvízu má `question` a `answer`. Zdroje pro text patří do pole `sources`, každá položka má `title` a HTTPS odkaz `url`.
+3. Do `cover` a případného `sections[].image` zapište přesný název souboru z Wikimedia Commons bez předpony `File:`, s podtržítky místo mezer. Přidejte český alternativní popis `alt`, autora `credit`, licenci `license` a u licencovaných obrázků také odkaz `licenseUrl`. Pokud stránka souboru nabízí náhled v šířce 330, 500, 960 nebo 1280 px, lze ji nastavit v `thumbnailWidth`. Ověřte dostupnost náhledu i údaje na stránce konkrétního souboru.
 4. Spusťte `node scripts/build.mjs` a zkontrolujte vygenerovanou stránku. Nový soubor se při sestavení automaticky objeví v katalogu a ve vyhledávání.
 
 ## GitHub Pages
@@ -28,11 +28,8 @@ V [Settings → Pages](https://github.com/ivochvojka/general-knowledge/settings/
 
 ## Pravidelné lekce
 
-Smlouva pro budoucí plánovanou úlohu:
+Místní úloha Codex **Všeobecný rozhled – nová lekce** je naplánována na pondělí a čtvrtek v 8:00 pražského času. Připravuje lekce k revizi v místním klonu.
 
-1. Spouštět v pondělí a ve čtvrtek v časovém pásmu `Europe/Prague`.
-2. Z aktuální větve `main` načíst názvy a osnovy všech lekcí i otevřených návrhů. Při výběru tématu kontrolovat i významové překryvy. Sestavení kontroluje shodu ID s názvem souboru a duplicity názvů.
-3. Střídat historii, geografii, vědu, kulturu, literaturu a významné osobnosti. Pro čtyři minuty čtení mířit přibližně na 700–800 českých slov. Zařadit důležitá data, souvislosti, zajímavost a krátký kvíz s odpověďmi.
-4. Ověřit fakta a licenci obrázku, přidat jeden nový JSON, spustit sestavení a otevřít pull request k redakční kontrole. Pro stejný publikační den používat stejnou větev, aby opakované spuštění aktualizovalo existující návrh. Po sloučení lekci zveřejní workflow GitHub Pages.
-
-Pravidelný generátor ani jeho plán zatím nejsou připojené. Dosavadní kratší lekce lze rozšiřovat přímo v jejich datových souborech.
+1. Projít inventář `content/lessons/`, historii Gitu i rozpracované návrhy a vyloučit významové překryvy. Pokud už pro daný termín lekce existuje, ohlásit její stav.
+2. Střídat historii, geografii, vědu, kulturu, literaturu a významné osobnosti. Pro čtyři minuty čtení mířit přibližně na 600–750 českých slov. Zařadit důležitá data, souvislosti, zajímavosti a 3–5 otázek s odpověďmi.
+3. Ověřit fakta, zdroje a licence, přidat jeden nový JSON, spustit kontroly a připravit místní commit. Odeslání na GitHub, vzdálený pull request i publikování vyžadují výslovné oprávnění a funkční přístup.

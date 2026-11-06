@@ -1,0 +1,97 @@
+{
+  "id": "deskova-tektonika",
+  "category": "Věda",
+  "title": "Desková tektonika: proč se hýbou kontinenty",
+  "date": "2026-11-06",
+  "intro": "Na Islandu se dá projít podél skalní stěny, která vznikla tam, kde se zemský povrch roztahuje. Stejná teorie, která vysvětluje tuto islandskou krajinu, objasňuje také růst Himálaje a zemětřesení v Kalifornii. Klíčem je způsob, jakým se vůči sobě pohybují tektonické desky.",
+  "cover": {
+    "file": "Tectonic_plates_boundaries_detailed-en.svg",
+    "alt": "Mapa hranic tektonických desek se šipkami směru jejich pohybu",
+    "credit": "Eric Gaba (Sting), data o deskách podle Petera Birda",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+    "thumbnailWidth": 1280
+  },
+  "sections": [
+    {
+      "title": "Deska je víc než kontinent",
+      "text": "Tuhý vnější obal Země se nazývá litosféra. Tvoří ji zemská kůra a nejsvrchnější pevná část pláště. Litosféra je rozdělena na desky, z nichž některé nesou pevninu i oceánské dno. Pobřeží proto samo o sobě neříká, kde deska končí. Pod deskami je teplejší a poddajnější část pláště, astenosféra. I tam je hornina převážně pevná, ale během velmi dlouhé doby se může pomalu deformovat. Desky se vůči sobě obvykle posouvají o centimetry za rok, zhruba tempem růstu nehtů. Při rychlosti tři centimetry za rok se za milion let posunou o třicet kilometrů."
+    },
+    {
+      "title": "Od obrysů kontinentů k magnetickým pruhům",
+      "text": "Německý meteorolog Alfred Wegener v roce 1915 v knize Die Entstehung der Kontinente und Ozeane rozvinul myšlenku kontinentálního driftu. Opíral se mimo jiné o podobnost okrajů kontinentů a výskyt stejných fosilií na pevninách oddělených oceánem. Nedokázal ale přesvědčivě vysvětlit, jak by se kontinenty mohly pohybovat. Důležité stopy se našly až při mapování oceánského dna. Americký geolog Harry Hess roku 1962 publikoval představu, podle níž nové oceánské dno vzniká u podmořských hřbetů a postupně se od nich vzdaluje.\n\nJak láva tuhne, některé minerály zaznamenají tehdejší orientaci zemského magnetického pole. Jeho polarita se v geologické minulosti opakovaně obracela. Na oceánském dně proto vznikly střídavé magnetické pásy, které se na obou stranách hřbetu zrcadlí. Pruhy uprostřed jsou nejmladší. Z tohoto vzoru lze vyčíst, že nová hornina přibývala uprostřed a starší se odtud posouvala na obě strany.\n\nDnes se pohyb zemského povrchu měří i přímo. Přesné přijímače GPS na pevných stanovištích zaznamenávají signály družic. Geodeti porovnávají polohu stejných bodů v různých obdobích a z malých změn odvozují směr a rychlost pohybu. Stanice na obou stranách aktivního zlomu navíc pomáhají ukázat, kde se horniny kolem zlomu postupně deformují. Družicová měření zachycují pohyb v posledních letech, kdežto magnetické pásy dovolují odhadnout průměrnou rychlost rozpínání během mnohem delších období. Když se oba odhady liší, mohou vědci zkoumat, zda se tempo pohybu v čase měnilo."
+    },
+    {
+      "title": "Když se desky rozestupují",
+      "text": "Na rozbíhavém rozhraní vzniká nová oceánská kůra. Horká hornina v plášti stoupá, tlak na ni klesá a část horniny se taví. Vzniklé magma může vystoupit výš a ztuhnout. Většina takových rozhraní leží pod hladinou. Island je výjimečný tím, že část Středoatlantského hřbetu leží nad mořem. V oblasti Þingvellir je rozestupování patrné v krajině jako pás zlomů a puklin. Na fotografii je jedna z nich, Almannagjá.",
+      "image": {
+        "file": "Almannagjá_rift_at_Þingvellir_National_Park.jpg",
+        "alt": "Skalní stěny pukliny Almannagjá v islandském národním parku Þingvellir",
+        "credit": "Olga Ernst, 11. června 2022",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "thumbnailWidth": 960
+      }
+    },
+    {
+      "title": "Když se desky střetávají nebo míjejí",
+      "text": "Na sbíhavém rozhraní se může jedna deska podsouvat pod druhou. Tomuto procesu se říká subdukce. U okraje svrchní desky často vzniká hlubokomořský příkop. Voda uvolněná z podsouvané desky napomáhá tavení hornin nad ní a vzniklé magma může zásobovat řetězec sopek. Když se střetnou dvě pevninské části desek, kůra se může zkracovat a ztlušťovat. Tak rostl a dál roste Himálaj v místě, kde Indie naráží do Eurasie.\n\nNa transformním rozhraní se desky posouvají převážně podél sebe. Příkladem je kalifornský zlom San Andreas mezi Pacifickou a Severoamerickou deskou. Část zlomu se může na dlouhou dobu zaseknout, i když pohyb desek pokračuje. V okolních horninách pak narůstá napětí. Jakmile se zablokovaný úsek náhle posune, uvolněná energie se šíří jako seismické vlny."
+    },
+    {
+      "title": "Co vyčíst z mapy desek",
+      "text": "Až si na mapě všimnete podmořského hřbetu, příkopu nebo pásu vysokých hor, zkuste si představit, kterým směrem se okolní desky pohybují. Hřbet může ukazovat na vznik nové oceánské kůry, příkop na její návrat do pláště a vysoké pohoří na srážku pevnin. Stejný pomalý pohyb, který se během lidského života měří v metrech, dokáže za miliony let změnit tvar oceánů a kontinentů."
+    }
+  ],
+  "sources": [
+    {
+      "title": "U.S. Geological Survey — Alfred Lothar Wegener a kontinentální drift",
+      "url": "https://pubs.usgs.gov/gip/dynamic/wegener.html"
+    },
+    {
+      "title": "U.S. Geological Survey — Harry Hammond Hess a rozpínání oceánského dna",
+      "url": "https://pubs.usgs.gov/gip/dynamic/HHH.html"
+    },
+    {
+      "title": "U.S. Geological Survey — Magnetický záznam rozpínání oceánského dna",
+      "url": "https://pubs.usgs.gov/cp/41/report.pdf"
+    },
+    {
+      "title": "U.S. Geological Survey — Jak se měří pohyb desek",
+      "url": "https://www.usgs.gov/faqs/how-fast-do-tectonic-plates-move"
+    },
+    {
+      "title": "U.S. Geological Survey — Sledování pohybu zlomů pomocí GPS",
+      "url": "https://earthquake.usgs.gov/monitoring/gps/about.php"
+    },
+    {
+      "title": "National Park Service — Typy deskových rozhraní",
+      "url": "https://www.nps.gov/subjects/geology/plate-tectonics-types-of-plate-boundaries.htm"
+    },
+    {
+      "title": "National Park Service — Důkazy o pohybu desek a vznik pohoří",
+      "url": "https://www.nps.gov/subjects/geology/plate-tectonics-evidence-of-plate-motions.htm"
+    },
+    {
+      "title": "National Park Service — Island, litosféra a rozestup desek",
+      "url": "https://www.nps.gov/para/learn/nature/plate-tectonics.htm"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Ze kterých dvou částí Země se skládá litosféra?",
+      "answer": "Ze zemské kůry a nejsvrchnější pevné části zemského pláště. Tektonické desky jsou části tohoto tuhého obalu."
+    },
+    {
+      "question": "Proč jsou magnetické pásy po obou stranách oceánského hřbetu zrcadlově uspořádané?",
+      "answer": "Nová hornina vzniká u hřbetu a odsouvá se na obě strany. Při tuhnutí zaznamenává tehdejší polaritu magnetického pole, takže se stejná posloupnost změn zapíše na obě strany."
+    },
+    {
+      "question": "Který typ deskového rozhraní lze pozorovat na Islandu a který u zlomu San Andreas?",
+      "answer": "Na Islandu je rozbíhavé rozhraní, kde se desky vzdalují. San Andreas je transformní rozhraní, kde se desky posouvají převážně podél sebe."
+    },
+    {
+      "question": "Proč vzniká Himálaj právě na jižním okraji Eurasie?",
+      "answer": "Indie se tam střetává s Eurasií. Při srážce se pevninská kůra zkracuje a ztlušťuje, což přispívá k vyzdvižení pohoří."
+    }
+  ]
+}
