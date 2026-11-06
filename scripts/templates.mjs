@@ -2,6 +2,10 @@ const site = 'Všeobecný rozhled';
 const entities = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
 const escape = value => value.replace(/[&<>"']/g, character => entities[character]);
 
+function externalLink(url, label) {
+  return `<a href="${escape(url)}" target="_blank" rel="noopener" aria-label="${escape(label)} (otevře se na nové kartě)">${escape(label)}</a>`;
+}
+
 function page({ title, description, base, body, script }) {
   return `<!doctype html>
 <html lang="cs">
@@ -25,7 +29,7 @@ function page({ title, description, base, body, script }) {
   ${body}
   <footer class="footer wrap">
     <span>${site} · Osobní encyklopedie</span>
-    <a href="https://github.com/ivochvojka/general-knowledge">Zdrojový kód a lekce na GitHubu</a>
+    ${externalLink('https://github.com/ivochvojka/general-knowledge', 'Zdrojový kód a lekce na GitHubu')}
   </footer>
 </body>
 </html>`;
@@ -34,8 +38,8 @@ function page({ title, description, base, body, script }) {
 function illustration({ src, alt, credit, source, license, licenseUrl }) {
   return `<figure>
     <img src="${escape(src)}" alt="${escape(alt)}" loading="lazy" decoding="async">
-    <figcaption>${escape(alt)}. ${escape(credit)} · <a href="${escape(source)}">Wikimedia Commons</a> ·
-      ${licenseUrl ? `<a href="${escape(licenseUrl)}">${escape(license)}</a>` : escape(license)}
+    <figcaption>${escape(alt)}. ${escape(credit)} · ${externalLink(source, 'Wikimedia Commons')} ·
+      ${licenseUrl ? externalLink(licenseUrl, license) : escape(license)}
     </figcaption>
   </figure>`;
 }
@@ -129,7 +133,7 @@ function musicLinks({ title, music }) {
   if (!music) return '';
   const composer = title.replace(/\s*\([^)]*\)\s*$/, '');
   return `<div class="music"><p>Poslech na YouTube Music</p><ul>${music.map(work =>
-    `<li><a href="https://music.youtube.com/search?q=${encodeURIComponent(`${composer} ${work}`)}">${escape(work)}</a></li>`
+    `<li>${externalLink(`https://music.youtube.com/search?q=${encodeURIComponent(`${composer} ${work}`)}`, work)}</li>`
   ).join('')}</ul></div>`;
 }
 
@@ -154,7 +158,7 @@ export function renderLesson(lesson) {
       </section>`).join('')}
       ${sources ? `<section class="chapter">
         <h2>Zdroje</h2>
-        <ul>${sources.map(({ title, url }) => `<li><a href="${escape(url)}">${escape(title)}</a></li>`).join('')}</ul>
+        <ul>${sources.map(({ title, url }) => `<li>${externalLink(url, title)}</li>`).join('')}</ul>
       </section>` : ''}
       <section class="quiz">
         <p class="eyebrow">Co si pamatujete?</p>
