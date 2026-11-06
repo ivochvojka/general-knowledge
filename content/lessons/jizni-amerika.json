@@ -1,0 +1,48 @@
+{
+  "id": "jizni-amerika",
+  "category": "Geografie",
+  "title": "Jižní Amerika",
+  "intro": "Sedm zemí, jejich krajina, kultura a dějiny.",
+  "cover": {
+    "file": "1855_Spruner_Map_of_South_America_-_Overview_of_Discovery,_Conquest_and_Colonization_-_Geographicus_-_SudAmerica-spruner-1855.jpg",
+    "alt": "Historická mapa Jižní Ameriky z atlasu vydaného roku 1855",
+    "credit": "Karl Spruner von Merz",
+    "license": "Volné dílo"
+  },
+  "sections": [
+    {
+      "title": "Brazílie",
+      "text": "Největší stát Jižní Ameriky, jehož úředním jazykem je portugalština. Proslul Amazonkou, karnevalem a městem Rio de Janeiro."
+    },
+    {
+      "title": "Argentina",
+      "text": "Země pamp, tanga a Patagonie. Hlavním městem je Buenos Aires."
+    },
+    {
+      "title": "Chile",
+      "text": "Velmi dlouhá země podél Tichého oceánu, s pouští Atacama na severu a Patagonií na jihu."
+    },
+    {
+      "title": "Peru",
+      "text": "Země s významným dědictvím Incké říše. Nejznámější památkou je Machu Picchu v Andách."
+    },
+    {
+      "title": "Kolumbie",
+      "text": "Země na severozápadě kontinentu, známá kávou, karibským pobřežím a rozmanitou přírodou."
+    },
+    {
+      "title": "Venezuela",
+      "text": "Země s rozsáhlými zásobami ropy. Nachází se zde Salto Ángel, jeden z nejvyšších vodopádů světa."
+    },
+    {
+      "title": "Uruguay",
+      "text": "Menší stát mezi Brazílií a Argentinou s hlavním městem Montevideo."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Ve které zemi leží Machu Picchu?",
+      "answer": "V Peru."
+    }
+  ]
+}

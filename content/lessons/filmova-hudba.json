@@ -1,0 +1,66 @@
+{
+  "id": "filmova-hudba",
+  "category": "Kultura",
+  "title": "Filmová hudba",
+  "intro": "Hudební skladatelé, kteří dali filmům nezapomenutelný zvuk.",
+  "cover": {
+    "file": "John_Williams_Boston_Pops_2018.jpg",
+    "alt": "John Williams diriguje Boston Pops v roce 2018",
+    "credit": "Choodcree",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sections": [
+    {
+      "title": "John Williams (1932–)",
+      "text": "Americký skladatel známý hudbou k filmům Star Wars, Indiana Jones, Jurský park či Harry Potter.",
+      "music": [
+        "Star Wars",
+        "Indiana Jones",
+        "Jurský park",
+        "Harry Potter"
+      ]
+    },
+    {
+      "title": "Hans Zimmer (1957–)",
+      "text": "Německý skladatel známý kombinováním orchestru a elektronických zvuků. Složil hudbu například k filmům Gladiátor, Počátek, Interstellar a Duna.",
+      "music": [
+        "Gladiátor",
+        "Počátek",
+        "Interstellar",
+        "Duna"
+      ]
+    },
+    {
+      "title": "Ennio Morricone (1928–2020)",
+      "text": "Italský skladatel proslulý hudbou k westernům Sergia Leoneho, filmu Mise a snímku Osm hrozných.",
+      "music": [
+        "Hodný, zlý a ošklivý",
+        "Mise",
+        "Osm hrozných"
+      ]
+    },
+    {
+      "title": "Howard Shore (1946–)",
+      "text": "Kanadský skladatel, jehož rozsáhlá hudba k trilogii Pán prstenů využívá charakteristické motivy postav a míst.",
+      "music": [
+        "Pán prstenů"
+      ]
+    },
+    {
+      "title": "James Horner (1953–2015)",
+      "text": "Americký skladatel známý hudbou k filmům Titanic, Avatar a Statečné srdce.",
+      "music": [
+        "Titanic",
+        "Avatar",
+        "Statečné srdce"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Kdo složil hudbu k trilogii Pán prstenů?",
+      "answer": "Howard Shore."
+    }
+  ]
+}

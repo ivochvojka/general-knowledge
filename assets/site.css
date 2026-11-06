@@ -1,0 +1,92 @@
+:root {
+  color-scheme: light;
+  --paper: #f6f3eb;
+  --card: #fffcf5;
+  --ink: #242820;
+  --muted: #545a4b;
+  --line: #d4d2c4;
+  --green: #263d30;
+  --rust: #963d27;
+  --serif: Georgia, 'Times New Roman', serif;
+  font: 100%/1.55 system-ui, sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; }
+h1, h2, h3, h4, p, figure { margin: 0; }
+h1, h2, h3, h4 { font-family: var(--serif); line-height: 1.13; }
+a { color: var(--green); text-underline-offset: .22em; }
+a:hover { color: var(--rust); }
+:focus-visible { outline: 3px solid var(--rust); outline-offset: 4px; }
+.wrap { width: min(72rem, calc(100% - 3rem)); margin-inline: auto; }
+.skip { position: absolute; left: 1rem; top: 1rem; transform: translateY(-200%); background: white; padding: .5rem; z-index: 1; }
+.skip:focus { transform: none; }
+
+.masthead { border-bottom: 1px solid var(--line); }
+.masthead-inner { min-height: 4.25rem; display: flex; align-items: center; justify-content: space-between; gap: .75rem; }
+.brand { display: inline-flex; align-items: center; gap: .65rem; font: bold 1.15rem var(--serif); text-decoration: none; }
+.monogram { display: grid; place-items: center; width: 2.1rem; aspect-ratio: 1; background: var(--green); color: white; font: 700 .75rem system-ui, sans-serif; letter-spacing: .06em; }
+.nav-link { font-size: .85rem; font-weight: 650; }
+
+.hero { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); align-items: center; gap: clamp(1.75rem, 6vw, 6rem); padding-block: clamp(2.5rem, 7vw, 6rem); }
+.eyebrow { color: var(--rust); font-size: .76rem; font-weight: 750; text-transform: uppercase; letter-spacing: .13em; }
+.hero h1 { font-size: clamp(3.25rem, 8vw, 7.7rem); letter-spacing: -.065em; line-height: .92; margin-block: .9rem 1.4rem; }
+.accent { color: var(--rust); }
+.lede { max-width: 43ch; font-size: clamp(1.05rem, 2vw, 1.22rem); color: var(--muted); }
+.button { display: inline-flex; align-items: center; gap: 1.5rem; margin-top: 1.4rem; padding: .78rem 1.05rem; border-radius: .28rem; background: var(--green); color: white; font-size: .9rem; font-weight: 650; text-decoration: none; }
+.button:hover { color: white; background: #3d5946; }
+.featured { background: #e9e4d7; border: 1px solid var(--line); padding: .9rem; }
+.featured figure img { width: 100%; aspect-ratio: 4 / 3; object-fit: contain; background: #dfd8c6; }
+figure img { display: block; }
+figcaption { margin-top: .65rem; font-size: .78rem; color: var(--muted); overflow-wrap: anywhere; }
+.featured-link { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .25rem 1rem; margin-top: .85rem; padding-top: .65rem; border-top: 1px solid var(--line); font-size: .85rem; }
+
+.catalog { padding-block: 2.3rem 4rem; border-top: 1px solid var(--line); }
+.catalog h2, .quiz h2 { margin-top: .3rem; font-size: clamp(2rem, 5vw, 3rem); }
+.catalog-controls { display: grid; grid-template-columns: minmax(0, 1fr) minmax(11rem, .33fr); gap: 1rem; margin-top: 1.5rem; }
+.catalog-controls label { display: grid; gap: .4rem; font-size: .88rem; font-weight: 650; }
+input, select { min-width: 0; width: 100%; border: 1px solid #918f81; border-radius: .3rem; padding: .7rem .85rem; font: inherit; font-size: 1rem; background: var(--card); color: var(--ink); }
+.results { margin-top: .85rem; font-size: .88rem; color: var(--muted); }
+.topic { margin-top: 1.8rem; }
+.topic-name { font-size: 1.4rem; border-bottom: 1px solid var(--line); padding-bottom: .55rem; }
+.lesson-grid { list-style: none; margin: .8rem 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .8rem; }
+.lesson-card a { position: relative; display: block; height: 100%; padding: 1.15rem 2.4rem 1.15rem 1.15rem; border: 1px solid var(--line); border-radius: .35rem; background: var(--card); text-decoration: none; }
+.lesson-card a:hover { border-color: var(--rust); }
+.lesson-card h4 { margin-block: .35rem; font-size: 1.45rem; }
+.lesson-card p { color: var(--muted); font-size: .9rem; }
+.card-meta { color: var(--muted); font-size: .78rem; }
+.card-arrow { position: absolute; top: 1rem; right: 1rem; font-size: 1.2rem; }
+
+.reading { max-width: 47rem; padding-block: 1.75rem 4rem; }
+.back { display: inline-block; margin-bottom: 1.75rem; font-size: .9rem; }
+.reading h1 { margin-block: .45rem .85rem; font-size: clamp(2.5rem, 7vw, 5rem); letter-spacing: -.045em; }
+.article-header .lede { max-width: 55ch; }
+.reading figure { margin-top: 1.75rem; padding: .85rem; border: 1px solid var(--line); background: #e9e4d7; }
+.reading figure img { width: 100%; height: clamp(17rem, 55vw, 30rem); object-fit: contain; background: #dfd8c6; }
+.chapter { margin-top: 2rem; }
+.chapter h2 { font-size: clamp(1.5rem, 4vw, 2.15rem); }
+.chapter > p { margin-top: .65rem; font-size: 1.05rem; line-height: 1.75; }
+.aside-note { padding: .65rem 1rem; border-left: 3px solid var(--rust); background: var(--card); }
+.music { margin-top: .85rem; }
+.music p { font-size: .86rem; font-weight: 700; }
+.music ul { display: flex; flex-wrap: wrap; gap: .5rem; list-style: none; padding: 0; margin: .45rem 0 0; }
+.music a { display: inline-block; border: 1px solid var(--line); border-radius: .25rem; background: var(--card); padding: .35rem .55rem; font-size: .9rem; }
+.quiz { margin-top: 2.5rem; padding: clamp(1rem, 4vw, 1.7rem); background: #e8ede3; border: 1px solid #c5cebf; }
+.quiz details { margin-top: .75rem; background: var(--card); border: 1px solid var(--line); }
+.quiz summary { cursor: pointer; padding: .75rem; font-weight: 650; }
+.quiz details p { padding: 0 .75rem .75rem; }
+.footer { display: flex; flex-wrap: wrap; gap: .45rem 1.25rem; justify-content: space-between; padding-block: 1.4rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .85rem; }
+
+@media (max-width: 52rem) {
+  .lesson-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 43rem) {
+  .wrap { width: calc(100% - 2rem); }
+  .hero, .catalog-controls, .lesson-grid { grid-template-columns: minmax(0, 1fr); }
+  .hero h1 { font-size: clamp(3.15rem, 13vw, 5.7rem); }
+  .featured figure img { aspect-ratio: 16 / 10; }
+}

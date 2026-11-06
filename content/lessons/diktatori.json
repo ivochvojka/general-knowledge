@@ -1,0 +1,44 @@
+{
+  "id": "diktatori",
+  "category": "Moderní dějiny",
+  "title": "Diktátoři 20. století",
+  "intro": "Šest autoritářských vládců a jejich historický kontext.",
+  "cover": {
+    "file": "Stalin_in_1943.png",
+    "alt": "Josif Stalin na konferenci v Teheránu v roce 1943",
+    "credit": "United States Army 12th Air Force",
+    "license": "Volné dílo v USA"
+  },
+  "sections": [
+    {
+      "title": "Adolf Hitler (1889–1945)",
+      "text": "Vůdce nacistického Německa od roku 1933. Jeho režim rozpoutal druhou světovou válku v Evropě a organizoval holokaust."
+    },
+    {
+      "title": "Josif Stalin (1878–1953)",
+      "text": "Sovětský vůdce spojený s nucenou kolektivizací, politickými čistkami, gulagy a masovými represemi."
+    },
+    {
+      "title": "Benito Mussolini (1883–1945)",
+      "text": "Zakladatel italského fašismu. V Itálii vládl od roku 1922 a později se spojil s nacistickým Německem."
+    },
+    {
+      "title": "Mao Ce-tung (1893–1976)",
+      "text": "Vůdce čínské komunistické revoluce a Čínské lidové republiky. Velký skok vpřed a kulturní revoluce měly rozsáhlé lidské a společenské důsledky."
+    },
+    {
+      "title": "Francisco Franco (1892–1975)",
+      "text": "Španělský diktátor, který se dostal k moci po občanské válce a vládl do roku 1975."
+    },
+    {
+      "title": "Pol Pot (1925–1998)",
+      "text": "Vůdce Rudých Khmerů v Kambodži. Jeho režim v letech 1975–1979 způsobil smrt velké části obyvatelstva."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Ve které zemi vládl Francisco Franco?",
+      "answer": "Ve Španělsku."
+    }
+  ]
+}

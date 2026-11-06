@@ -1,0 +1,68 @@
+{
+  "id": "spisovatele",
+  "category": "Literatura",
+  "title": "Světoví spisovatelé",
+  "intro": "Dvanáct autorů, kteří zásadně ovlivnili světovou literaturu.",
+  "cover": {
+    "file": "William_Shakespeare_Chandos_Portrait.jpg",
+    "alt": "Chandosův portrét tradičně ztotožňovaný s Williamem Shakespearem",
+    "credit": "Připisováno Johnu Taylorovi",
+    "license": "Volné dílo"
+  },
+  "sections": [
+    {
+      "title": "William Shakespeare (1564–1616)",
+      "text": "Anglický dramatik, autor tragédií Hamlet, Macbeth, Othello a Romeo a Julie."
+    },
+    {
+      "title": "Lev Tolstoj (1828–1910)",
+      "text": "Ruský romanopisec, autor Vojny a míru a Anny Kareniny."
+    },
+    {
+      "title": "Fjodor Dostojevskij (1821–1881)",
+      "text": "Ruský spisovatel zkoumající vinu, svědomí a víru v románech Zločin a trest a Bratři Karamazovi."
+    },
+    {
+      "title": "George Orwell (1903–1950)",
+      "text": "Britský autor románů 1984 a Farma zvířat, které kriticky zobrazují totalitní moc."
+    },
+    {
+      "title": "Ernest Hemingway (1899–1961)",
+      "text": "Americký spisovatel, autor knih Stařec a moře a Komu zvoní hrana."
+    },
+    {
+      "title": "Franz Kafka (1883–1924)",
+      "text": "Pražský německy píšící spisovatel, autor Proměny a Procesu."
+    },
+    {
+      "title": "Victor Hugo (1802–1885)",
+      "text": "Francouzský romantik, autor Bídníků a Chrámu Matky Boží v Paříži."
+    },
+    {
+      "title": "Miguel de Cervantes (1547–1616)",
+      "text": "Španělský spisovatel, autor románu Důmyslný rytíř Don Quijote de la Mancha."
+    },
+    {
+      "title": "Gabriel García Márquez (1927–2014)",
+      "text": "Kolumbijský nositel Nobelovy ceny, autor Sto roků samoty, spojený s magickým realismem."
+    },
+    {
+      "title": "J. R. R. Tolkien (1892–1973)",
+      "text": "Britský filolog a autor Hobita a Pána prstenů."
+    },
+    {
+      "title": "Agatha Christie (1890–1976)",
+      "text": "Britská autorka detektivek, která vytvořila Hercula Poirota a slečnu Marplovou."
+    },
+    {
+      "title": "Johann Wolfgang Goethe (1749–1832)",
+      "text": "Německý básník a myslitel, autor Fausta a Utrpení mladého Werthera."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Který autor napsal román 1984?",
+      "answer": "George Orwell."
+    }
+  ]
+}

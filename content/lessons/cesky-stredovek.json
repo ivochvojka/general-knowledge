@@ -1,0 +1,44 @@
+{
+  "id": "cesky-stredovek",
+  "category": "České dějiny",
+  "title": "Český středověk",
+  "intro": "Od Velké Moravy přes Přemyslovce až po Karla IV.",
+  "cover": {
+    "file": "Charles_IV-John_Ocko_votive_picture-fragment.jpg",
+    "alt": "Karel IV. na votivní desce Jana Očka z Vlašimi",
+    "credit": "Anonym z okruhu Mistra Theodorika",
+    "license": "Volné dílo"
+  },
+  "sections": [
+    {
+      "title": "Velká Morava a rok 863",
+      "text": "Velká Morava patřila k prvním významným slovanským státním útvarům ve střední Evropě. Roku 863 přišli Konstantin (Cyril) a Metoděj s misí, která podpořila slovanskou liturgii a písemnictví."
+    },
+    {
+      "title": "Svatý Václav († 935)",
+      "text": "Český kníže z rodu Přemyslovců, později uctívaný jako zemský patron. Podle tradičního datování byl zavražděn roku 935 ve Staré Boleslavi."
+    },
+    {
+      "title": "Zlatá bula sicilská (1212)",
+      "text": "Listina vydaná Fridrichem II., která významně potvrdila dědičný královský titul českých panovníků."
+    },
+    {
+      "title": "Konec Přemyslovců (1306)",
+      "text": "Zavražděním Václava III. v Olomouci roku 1306 vymřeli Přemyslovci po meči."
+    },
+    {
+      "title": "Karel IV. (1316–1378)",
+      "text": "Český král a římský císař z rodu Lucemburků. Roku 1348 založil pražskou univerzitu; roku 1357 začala stavba Karlova mostu."
+    },
+    {
+      "title": "Praha za Lucemburků",
+      "text": "Ve 14. století se Praha stala významným evropským centrem. Karel IV. založil Nové Město pražské a podporoval výstavbu i vzdělanost."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Ve kterém roce byla založena Univerzita Karlova?",
+      "answer": "V roce 1348."
+    }
+  ]
+}

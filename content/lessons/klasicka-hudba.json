@@ -1,0 +1,82 @@
+{
+  "id": "klasicka-hudba",
+  "category": "Hudba",
+  "title": "Klasická hudba",
+  "intro": "Šest skladatelů, jejichž díla formovala evropskou hudbu.",
+  "cover": {
+    "file": "Johann_Sebastian_Bach.jpg",
+    "alt": "Portrét Johanna Sebastiana Bacha z roku 1748",
+    "credit": "Elias Gottlob Haussmann",
+    "license": "Volné dílo"
+  },
+  "sections": [
+    {
+      "title": "Johann Sebastian Bach (1685–1750)",
+      "text": "Německý barokní skladatel a mistr kontrapunktu. Jeho tvorba zahrnuje Braniborské koncerty, Matoušovy pašije a Dobře temperovaný klavír.",
+      "extra": "Baroko – důraz na polyfonii a složitou stavbu skladeb.",
+      "music": [
+        "Braniborské koncerty",
+        "Matoušovy pašije",
+        "Dobře temperovaný klavír"
+      ]
+    },
+    {
+      "title": "Antonio Vivaldi (1678–1741)",
+      "text": "Italský barokní skladatel a houslista, autor cyklu Čtvero ročních dob. Působil také jako pedagog v benátském sirotčinci Ospedale della Pietà.",
+      "music": [
+        "Čtvero ročních dob"
+      ]
+    },
+    {
+      "title": "Wolfgang Amadeus Mozart (1756–1791)",
+      "text": "Rakouský skladatel období klasicismu. Mezi jeho nejznámější díla patří Kouzelná flétna, Figarova svatba, Don Giovanni a nedokončené Rekviem.",
+      "music": [
+        "Kouzelná flétna",
+        "Figarova svatba",
+        "Don Giovanni",
+        "Rekviem"
+      ]
+    },
+    {
+      "title": "Ludwig van Beethoven (1770–1827)",
+      "text": "Skladatel stojící na pomezí klasicismu a romantismu. Proslavil se mimo jiné Devátou symfonií, Měsíční sonátou a symfonií Osudovou. Komponoval i přes postupující ztrátu sluchu.",
+      "music": [
+        "Devátá symfonie",
+        "Měsíční sonáta",
+        "Symfonie Osudová"
+      ]
+    },
+    {
+      "title": "Bedřich Smetana (1824–1884)",
+      "text": "Český skladatel, autor cyklu šesti symfonických básní Má vlast: Vyšehrad, Vltava, Šárka, Z českých luhů a hájů, Tábor a Blaník. Napsal opery Prodaná nevěsta, Libuše, Dalibor a Hubička.",
+      "music": [
+        "Má vlast",
+        "Vyšehrad",
+        "Vltava",
+        "Šárka",
+        "Z českých luhů a hájů",
+        "Tábor",
+        "Blaník",
+        "Prodaná nevěsta",
+        "Libuše",
+        "Dalibor",
+        "Hubička"
+      ]
+    },
+    {
+      "title": "Antonín Dvořák (1841–1904)",
+      "text": "Český skladatel světového významu. Proslavil se Symfonií č. 9 Z Nového světa, Slovanskými tanci a operou Rusalka. Působil také ve Spojených státech.",
+      "music": [
+        "Symfonie č. 9 Z Nového světa",
+        "Slovanské tance",
+        "Rusalka"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Kdo složil symfonický cyklus Má vlast?",
+      "answer": "Bedřich Smetana."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "starovek",
+  "category": "Historie",
+  "title": "Starověké civilizace",
+  "intro": "Čtyři civilizace, jejichž dědictví ovlivňuje svět dodnes.",
+  "cover": {
+    "file": "Kheops-Pyramid.jpg",
+    "alt": "Chufuova pyramida v Gíze",
+    "credit": "Nina (Nina-no)",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5/"
+  },
+  "sections": [
+    {
+      "title": "Mezopotámie",
+      "text": "Oblast mezi řekami Eufrat a Tigris. Vznikala zde první města a klínové písmo; významnou památkou je Chammurapiho zákoník."
+    },
+    {
+      "title": "Starověký Egypt",
+      "text": "Civilizace kolem Nilu známá pyramidami, hieroglyfy a vládou faraonů. Velká pyramida v Gíze vznikla přibližně ve 26. století př. n. l."
+    },
+    {
+      "title": "Starověké Řecko",
+      "text": "Řecké městské státy rozvíjely filozofii, divadlo a formy občanské správy. Athény jsou spojovány s ranou demokracií."
+    },
+    {
+      "title": "Starověký Řím",
+      "text": "Z městského státu vznikla republika a později rozsáhlé císařství. Římské právo, silnice a architektura výrazně ovlivnily Evropu."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Mezi kterými řekami ležela Mezopotámie?",
+      "answer": "Mezi Eufratem a Tigridem."
+    }
+  ]
+}
