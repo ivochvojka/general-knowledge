@@ -103,15 +103,7 @@ await rm(dist, { recursive: true, force: true });
 await mkdir(new URL('lekce/', dist), { recursive: true });
 await cp(new URL('assets/', root), new URL('assets/', dist), { recursive: true });
 await writeFile(new URL('.nojekyll', dist), '');
-const earth = {
-  file: 'The_Blue_Marble,_AS17-148-22727.jpg',
-  alt: 'Země z vesmíru',
-  credit: 'Harrison Schmitt / Apollo 17 / NASA',
-  license: 'Volné dílo v USA',
-  thumbnailWidth: 960,
-};
-prepareImage(earth, 'homepage.image');
-await writeFile(new URL('index.html', dist), renderIndex(lessons, earth));
+await writeFile(new URL('index.html', dist), renderIndex(lessons));
 await writeFile(new URL('404.html', dist), renderNotFound());
 for (const lesson of lessons) {
   const directory = new URL(`lekce/${lesson.id}/`, dist);

@@ -12,7 +12,7 @@ function page({ title, description, base, body, script }) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f6f3eb">
+  <meta name="theme-color" content="#102b22">
   <meta name="description" content="${escape(description)}">
   <title>${escape(title)}</title>
   <link rel="stylesheet" href="${base}assets/site.css">
@@ -22,7 +22,7 @@ function page({ title, description, base, body, script }) {
   <a class="skip" href="#obsah">Přeskočit na obsah</a>
   <header class="masthead">
     <div class="wrap masthead-inner">
-      <a class="brand" href="${base}"><span class="monogram" aria-hidden="true">VR</span> ${site}</a>
+      <a class="brand" href="${base}"><span class="monogram" aria-hidden="true">✧</span> ${site}</a>
       <a class="nav-link" href="${base}#prehled">Přehled lekcí</a>
     </div>
   </header>
@@ -64,15 +64,20 @@ function card(lesson) {
     [section.title, section.text, section.extra, ...(section.music ?? [])].filter(Boolean))];
   return `<li class="lesson-card" data-lesson="${lesson.id}" data-order="${lesson.publicationOrder ?? ''}" data-search="${escape(keywords.join(' '))}">
     <a href="./lekce/${lesson.id}/">
-      <span class="card-meta">${escape(lesson.category)} · ${readingTime(lesson)} min${lesson.date ? ` · ${publicationDate(lesson.date)}` : ''}</span>
-      <h4>${escape(lesson.title)}</h4>
-      <p>${escape(lesson.intro)}</p>
-      <span class="card-arrow" aria-hidden="true">↗</span>
+      <div class="card-cover" aria-hidden="true">
+        <img src="${escape(lesson.cover.src)}" alt="" loading="lazy" decoding="async">
+      </div>
+      <div class="card-body">
+        <span class="card-meta">${escape(lesson.category)} · ${readingTime(lesson)} min${lesson.date ? ` · ${publicationDate(lesson.date)}` : ''}</span>
+        <h4>${escape(lesson.title)}</h4>
+        <p>${escape(lesson.intro)}</p>
+        <span class="card-arrow" aria-hidden="true">→</span>
+      </div>
     </a>
   </li>`;
 }
 
-export function renderIndex(lessons, earth) {
+export function renderIndex(lessons) {
   const groups = new Map();
   for (const lesson of lessons) {
     const topic = ['České dějiny', 'Moderní dějiny'].includes(lesson.category) ? 'Historie' : lesson.category;
@@ -84,15 +89,12 @@ export function renderIndex(lessons, earth) {
 
   return page({ title: site, description, base: './', script: 'catalog.js', body: `
   <main id="obsah">
-    <section class="hero wrap">
-      <div>
-        <p class="eyebrow">Osobní encyklopedie</p>
-        <h1>Všeobecný<br>rozhled<span class="accent">.</span></h1>
+    <section class="hero" aria-labelledby="home-title">
+      <div class="hero-inner wrap">
+        <p class="eyebrow">Encyklopedie pro zvídavé</p>
+        <h1 id="home-title">${site}</h1>
         <p class="lede">Krátké lekce o dějinách, místech a lidech, kteří utvářeli svět. Na konci každé lekce si můžete vyzkoušet, co jste si zapamatovali.</p>
         <a class="button" href="#prehled">Procházet lekce <span aria-hidden="true">↓</span></a>
-      </div>
-      <div class="featured">
-        <img src="${escape(earth.src)}" alt="${escape(earth.alt)}" decoding="async">
       </div>
     </section>
     <section id="prehled" class="catalog wrap">

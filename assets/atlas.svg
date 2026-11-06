@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 460" fill="none">
+  <defs>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M0 48V0h48" stroke="#e9bc85" stroke-opacity=".19"/>
+    </pattern>
+    <g id="contours" stroke="#e9bc85">
+      <path d="M-80 43C-2 112 49 34 111 72s52 117 121 148 161 4 174 84-85 131-62 189"/>
+      <path d="M-83 59C-5 128 47 51 103 87s48 115 123 148 154 5 165 73-82 123-63 184"/>
+      <path d="M-86 75C-8 143 45 69 95 102s44 113 125 148 146 7 156 62-79 116-63 179"/>
+      <path d="M-89 91C-11 158 43 86 87 117s40 111 127 148 139 8 147 51-76 109-63 174"/>
+      <path d="M-92 107C-14 173 40 103 79 132s37 109 129 148 132 10 138 40-73 101-63 169"/>
+      <path d="M-95 123C-17 188 38 120 71 147s33 107 131 148 125 11 129 29-70 93-63 164"/>
+      <path d="M-98 139C-20 203 36 138 63 162s29 105 133 148 109 13 111 27-60 83-54 150"/>
+    </g>
+  </defs>
+  <path d="M0 0h1440v460H0z" fill="url(#grid)"/>
+  <g opacity=".38">
+    <use href="#contours"/>
+    <use href="#contours" transform="rotate(180 720 230)"/>
+  </g>
+  <g transform="translate(1250 297)" stroke="#e9bc85" opacity=".67">
+    <circle r="57"/>
+    <circle r="47" stroke-dasharray="1 4"/>
+    <path d="m0-80 10 70 70 10-70 10-10 70-10-70-70-10 70-10Z"/>
+    <path d="m0-80 10 70L0 0Zm80 80-70 10L0 0ZM0 80l-10-70L0 0Zm-80-80 70-10L0 0Z" fill="#e9bc85"/>
+    <path d="m-37-37 23 23m28 28 23 23m0-74L14-14m-28 28-23 23"/>
+  </g>
+</svg>

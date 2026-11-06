@@ -1,12 +1,15 @@
 :root {
   color-scheme: light;
-  --paper: #f6f3eb;
-  --card: #fffcf5;
-  --ink: #242820;
-  --muted: #545a4b;
-  --line: #d4d2c4;
-  --green: #263d30;
-  --rust: #963d27;
+  --paper: #f4eddf;
+  --card: #fffaf0;
+  --ink: #172820;
+  --muted: #4b564b;
+  --line: #d7c9b1;
+  --green: #173a2c;
+  --rust: #85421f;
+  --forest: #102b22;
+  --gold: #e7ba84;
+  --cream: #fff3db;
   --serif: Georgia, 'Times New Roman', serif;
   font: 100%/1.55 system-ui, sans-serif;
   color: var(--ink);
@@ -25,39 +28,51 @@ a:hover { color: var(--rust); }
 .skip { position: absolute; left: 1rem; top: 1rem; transform: translateY(-200%); background: white; padding: .5rem; z-index: 1; }
 .skip:focus { transform: none; }
 
-.masthead { border-bottom: 1px solid var(--line); }
+.masthead { background: var(--forest); border-bottom: 1px solid #b68a5e66; }
+.masthead a { color: var(--cream); }
+.masthead a:hover { color: var(--gold); }
+.masthead :focus-visible, .hero :focus-visible { outline-color: var(--gold); }
 .masthead-inner { min-height: 4.25rem; display: flex; align-items: center; justify-content: space-between; gap: .75rem; }
 .brand { display: inline-flex; align-items: center; gap: .65rem; font: bold 1.15rem var(--serif); text-decoration: none; }
-.monogram { display: grid; place-items: center; width: 2.1rem; aspect-ratio: 1; background: var(--green); color: white; font: 700 .75rem system-ui, sans-serif; letter-spacing: .06em; }
+.monogram { display: grid; place-items: center; width: 2.1rem; aspect-ratio: 1; border: 1px solid #e7ba8480; border-radius: 50%; color: var(--gold); font: 1.5rem var(--serif); }
 .nav-link { font-size: .85rem; font-weight: 650; }
 
-.hero { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); align-items: center; gap: clamp(1.75rem, 6vw, 6rem); padding-block: clamp(2.5rem, 7vw, 6rem); }
+.hero {
+  color: var(--cream);
+  background: linear-gradient(90deg, transparent, var(--forest) 42% 58%, transparent),
+    var(--forest) url(atlas.svg) center / cover no-repeat;
+  border-bottom: 3px solid #ae7950;
+  text-align: center;
+}
+.hero-inner { padding-block: clamp(2.75rem, 6vw, 5.5rem); }
 .eyebrow { color: var(--rust); font-size: .76rem; font-weight: 750; text-transform: uppercase; letter-spacing: .13em; }
-.hero h1 { font-size: clamp(3.25rem, 8vw, 7.7rem); letter-spacing: -.065em; line-height: .92; margin-block: .9rem 1.4rem; }
-.accent { color: var(--rust); }
+.hero .eyebrow { color: var(--gold); letter-spacing: .19em; }
+.hero h1 { font-size: clamp(2.85rem, 8vw, 7rem); letter-spacing: -.055em; line-height: .97; margin-block: .85rem 1.2rem; }
 .lede { max-width: 43ch; font-size: clamp(1.05rem, 2vw, 1.22rem); color: var(--muted); }
-.button { display: inline-flex; align-items: center; gap: 1.5rem; margin-top: 1.4rem; padding: .78rem 1.05rem; border-radius: .28rem; background: var(--green); color: white; font-size: .9rem; font-weight: 650; text-decoration: none; }
-.button:hover { color: white; background: #3d5946; }
-.featured { background: #e9e4d7; border: 1px solid var(--line); padding: .9rem; }
-.featured img { width: 100%; aspect-ratio: 4 / 3; object-fit: contain; background: #000; }
+.hero .lede { max-width: 55ch; margin-inline: auto; color: var(--cream); }
+.button { display: inline-flex; align-items: center; gap: 1.5rem; margin-top: 1.5rem; padding: .75rem 1.1rem; border-radius: .25rem; background: var(--gold); color: var(--forest); font-size: .9rem; font-weight: 700; text-decoration: none; }
+.button:hover { color: var(--forest); background: var(--cream); }
 figure img { display: block; }
 figcaption { margin-top: .65rem; font-size: .78rem; color: var(--muted); overflow-wrap: anywhere; }
 
-.catalog { padding-block: 2.3rem 4rem; border-top: 1px solid var(--line); }
+.catalog { padding-block: clamp(2rem, 5vw, 3.5rem) 4rem; }
 .catalog h2, .quiz h2 { margin-top: .3rem; font-size: clamp(2rem, 5vw, 3rem); }
 .catalog-controls { display: grid; grid-template-columns: minmax(0, 1fr) repeat(2, minmax(11rem, .33fr)); gap: 1rem; margin-top: 1.5rem; }
 .catalog-controls label { display: grid; gap: .4rem; font-size: .88rem; font-weight: 650; }
 input, select { min-width: 0; width: 100%; border: 1px solid #918f81; border-radius: .3rem; padding: .7rem .85rem; font: inherit; font-size: 1rem; background: var(--card); color: var(--ink); }
 .results { margin-top: .85rem; font-size: .88rem; color: var(--muted); }
 .topic { margin-top: 1.8rem; }
-.topic-name { font-size: 1.4rem; border-bottom: 1px solid var(--line); padding-bottom: .55rem; }
+.topic-name { font-size: 1.4rem; border-bottom: 1px solid var(--line); padding-bottom: .55rem; color: var(--green); }
 .lesson-grid { list-style: none; margin: .8rem 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .8rem; }
-.lesson-card a { position: relative; display: block; height: 100%; padding: 1.15rem 2.4rem 1.15rem 1.15rem; border: 1px solid var(--line); border-radius: .35rem; background: var(--card); text-decoration: none; }
+.lesson-card a { display: block; height: 100%; overflow: hidden; border: 1px solid var(--line); border-radius: .35rem; background: var(--card); text-decoration: none; }
 .lesson-card a:hover { border-color: var(--rust); }
+.card-cover { aspect-ratio: 16 / 8; background: var(--forest) url(atlas.svg) center / cover; }
+.card-cover img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.card-body { position: relative; padding: 1.15rem 2.55rem 1.25rem 1.15rem; }
 .lesson-card h4 { margin-block: .35rem; font-size: 1.45rem; }
 .lesson-card p { color: var(--muted); font-size: .9rem; }
 .card-meta { color: var(--muted); font-size: .78rem; }
-.card-arrow { position: absolute; top: 1rem; right: 1rem; font-size: 1.2rem; }
+.card-arrow { position: absolute; top: 1rem; right: 1rem; font-size: 1.2rem; color: var(--rust); }
 
 .reading { max-width: 47rem; padding-block: 1.75rem 4rem; }
 .back { display: inline-block; margin-bottom: 1.75rem; font-size: .9rem; }
@@ -85,7 +100,6 @@ input, select { min-width: 0; width: 100%; border: 1px solid #918f81; border-rad
 
 @media (max-width: 43rem) {
   .wrap { width: calc(100% - 2rem); }
-  .hero, .catalog-controls, .lesson-grid { grid-template-columns: minmax(0, 1fr); }
-  .hero h1 { font-size: clamp(3.15rem, 13vw, 5.7rem); }
-  .featured img { aspect-ratio: 16 / 10; }
+  .catalog-controls, .lesson-grid { grid-template-columns: minmax(0, 1fr); }
+  .hero { background-position: center, left center; }
 }

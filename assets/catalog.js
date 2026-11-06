@@ -7,6 +7,12 @@ const chronologicalList = chronology.querySelector('ul');
 const results = document.querySelector('#results');
 const groups = [...document.querySelectorAll('[data-topic]')];
 
+for (const image of document.querySelectorAll('.card-cover img')) {
+  const hideImage = () => { image.hidden = true; };
+  image.addEventListener('error', hideImage, { once: true });
+  if (image.complete && !image.naturalWidth) hideImage();
+}
+
 const normalize = text => text.toLocaleLowerCase('cs').normalize('NFD').replace(/\p{M}/gu, '');
 const entries = groups.map(group => ({
   group,
