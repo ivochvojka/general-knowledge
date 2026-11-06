@@ -72,7 +72,7 @@ Before delivering a change:
 3. Run existing tests/lint/build if configured; add lightweight automated checks when useful.
 4. Verify external media URLs when possible, and flag links that could not be checked.
 5. Review attribution and source metadata for newly added images.
-6. Make focused, descriptive commits. Do not force-push or overwrite user changes. Prefer a branch/PR for substantial or potentially breaking changes; only push/deploy with the user's authorization and available credentials.
+6. Make focused, descriptive commits. The owner authorizes pushing completed changes to `ivochvojka/general-knowledge` after checks, including changes from scheduled lessons. Push routine changes to `origin/main` and verify the resulting Pages deployment. Prefer pushing a branch and opening a PR for substantial or potentially breaking changes. Do not force-push, overwrite user changes, or include unrelated local commits.
 
 ## Deployment
 - Primary hosting: **GitHub Pages**, repository `ivochvojka/general-knowledge`.
@@ -91,13 +91,13 @@ Desired replacement: a **Codex automation** (if supported in the owner's environ
 4. Adds verified authentic images and complete attribution; if reliable images cannot be acquired, leaves explicit fallbacks rather than inventing assets.
 5. Adds quiz and updates lesson index/search metadata.
 6. Runs validation/build/tests.
-7. Commits changes and, **only when explicitly authorized and technically supported**, pushes/publishes them; otherwise creates a PR or leaves a clear reviewable change summary.
+7. Commits the new lesson and pushes it to `origin/main` after successful checks under the owner's standing authorization. If push is blocked, preserves the commit and reports the blocker.
 8. Reports the lesson title, links, validation results and whether publication actually succeeded.
 
 **Do not claim this automation is configured merely because this AGENTS.md exists.** The owner must configure/enable it in Codex or another supported scheduler, and verify that the environment has repo write access, network access for sources/images, and permission to publish. A scheduled run on a powered-off Mac may not execute depending on the scheduler; verify the actual runtime behavior.
 
 ### Suggested Codex automation prompt
-> Read AGENTS.md and the current lessons in this repository. Prepare exactly one new, non-duplicative Czech general-knowledge lesson, following the topic rotation and four-minute format. Research and verify facts; select relevant genuine Wikimedia Commons or other properly licensed images with attribution; include a 3–5-question quiz. Update the content inventory, run all checks, and prepare a focused commit. Push/publish only if explicitly authorized and supported; otherwise provide a reviewable PR or changes. Report precisely what was created and what remains unverified.
+> Read AGENTS.md and the current lessons in this repository. Prepare exactly one new, non-duplicative Czech general-knowledge lesson, following the topic rotation and four-minute format. Research and verify facts; select relevant genuine Wikimedia Commons or other properly licensed images with attribution; include a 3–5-question quiz. Update the content inventory, run all checks, and prepare a focused commit. The owner authorizes pushing the verified lesson to `origin/main`. Verify GitHub Pages deployment and report any blocker or unverified result.
 
 ## Working with previous content
 The earlier spreadsheet and illustrated Excel were **intermediate prototypes**, not authoritative complete source documents. Some Excel images were generic illustrations; **do not reuse them as authentic portraits**. The first web prototype was explicitly abridged. If original full lesson text is unavailable in the repository, ask the owner for an export or reconstruct an accurate, newly researched full article rather than claiming a verbatim migration.
