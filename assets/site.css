@@ -39,10 +39,9 @@ a:hover { color: var(--rust); }
 .button { display: inline-flex; align-items: center; gap: 1.5rem; margin-top: 1.4rem; padding: .78rem 1.05rem; border-radius: .28rem; background: var(--green); color: white; font-size: .9rem; font-weight: 650; text-decoration: none; }
 .button:hover { color: white; background: #3d5946; }
 .featured { background: #e9e4d7; border: 1px solid var(--line); padding: .9rem; }
-.featured figure img { width: 100%; aspect-ratio: 4 / 3; object-fit: contain; background: #dfd8c6; }
+.featured figure img { width: 100%; aspect-ratio: 4 / 3; object-fit: contain; background: #000; }
 figure img { display: block; }
 figcaption { margin-top: .65rem; font-size: .78rem; color: var(--muted); overflow-wrap: anywhere; }
-.featured-link { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .25rem 1rem; margin-top: .85rem; padding-top: .65rem; border-top: 1px solid var(--line); font-size: .85rem; }
 
 .catalog { padding-block: 2.3rem 4rem; border-top: 1px solid var(--line); }
 .catalog h2, .quiz h2 { margin-top: .3rem; font-size: clamp(2rem, 5vw, 3rem); }

@@ -68,7 +68,7 @@ function card(lesson) {
   </li>`;
 }
 
-export function renderIndex(lessons) {
+export function renderIndex(lessons, earth) {
   const groups = new Map();
   for (const lesson of lessons) {
     const topic = ['České dějiny', 'Moderní dějiny'].includes(lesson.category) ? 'Historie' : lesson.category;
@@ -76,7 +76,6 @@ export function renderIndex(lessons) {
     groups.get(topic).push(lesson);
   }
   const topics = [...groups.entries()].sort(([a], [b]) => a.localeCompare(b, 'cs'));
-  const featured = lessons.find(lesson => lesson.id === 'jizni-amerika') ?? lessons[0];
   const description = 'Česká osobní encyklopedie s krátkými lekcemi o historii, geografii, hudbě a literatuře.';
 
   return page({ title: site, description, base: './', script: 'catalog.js', body: `
@@ -88,10 +87,9 @@ export function renderIndex(lessons) {
         <p class="lede">Krátké lekce o dějinách, místech a lidech, kteří utvářeli svět. Na konci každé lekce si můžete vyzkoušet, co jste si zapamatovali.</p>
         <a class="button" href="#prehled">Procházet lekce <span aria-hidden="true">↓</span></a>
       </div>
-      <aside class="featured" aria-label="Z obrazového archivu">
-        ${illustration(featured.cover)}
-        <a class="featured-link" href="./lekce/${featured.id}/">Z obrazového archivu <strong>${escape(featured.title)} ↗</strong></a>
-      </aside>
+      <div class="featured">
+        ${illustration(earth)}
+      </div>
     </section>
     <section id="prehled" class="catalog wrap">
       <p class="eyebrow">Knihovna</p>
