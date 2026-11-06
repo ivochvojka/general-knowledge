@@ -88,7 +88,7 @@ export function renderIndex(lessons, earth) {
         <a class="button" href="#prehled">Procházet lekce <span aria-hidden="true">↓</span></a>
       </div>
       <div class="featured">
-        ${illustration(earth)}
+        <img src="${escape(earth.src)}" alt="${escape(earth.alt)}" decoding="async">
       </div>
     </section>
     <section id="prehled" class="catalog wrap">

@@ -39,7 +39,7 @@ a:hover { color: var(--rust); }
 .button { display: inline-flex; align-items: center; gap: 1.5rem; margin-top: 1.4rem; padding: .78rem 1.05rem; border-radius: .28rem; background: var(--green); color: white; font-size: .9rem; font-weight: 650; text-decoration: none; }
 .button:hover { color: white; background: #3d5946; }
 .featured { background: #e9e4d7; border: 1px solid var(--line); padding: .9rem; }
-.featured figure img { width: 100%; aspect-ratio: 4 / 3; object-fit: contain; background: #000; }
+.featured img { width: 100%; aspect-ratio: 4 / 3; object-fit: contain; background: #000; }
 figure img { display: block; }
 figcaption { margin-top: .65rem; font-size: .78rem; color: var(--muted); overflow-wrap: anywhere; }
 
@@ -87,5 +87,5 @@ input, select { min-width: 0; width: 100%; border: 1px solid #918f81; border-rad
   .wrap { width: calc(100% - 2rem); }
   .hero, .catalog-controls, .lesson-grid { grid-template-columns: minmax(0, 1fr); }
   .hero h1 { font-size: clamp(3.15rem, 13vw, 5.7rem); }
-  .featured figure img { aspect-ratio: 16 / 10; }
+  .featured img { aspect-ratio: 16 / 10; }
 }

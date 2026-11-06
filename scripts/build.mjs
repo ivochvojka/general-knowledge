@@ -102,7 +102,7 @@ await cp(new URL('assets/', root), new URL('assets/', dist), { recursive: true }
 await writeFile(new URL('.nojekyll', dist), '');
 const earth = {
   file: 'The_Blue_Marble,_AS17-148-22727.jpg',
-  alt: 'Země z vesmíru na snímku mise Apollo 17 ze 7. prosince 1972',
+  alt: 'Země z vesmíru',
   credit: 'Harrison Schmitt / Apollo 17 / NASA',
   license: 'Volné dílo v USA',
   thumbnailWidth: 960,
