@@ -18,14 +18,26 @@
         "Braniborské koncerty",
         "Matoušovy pašije",
         "Dobře temperovaný klavír"
-      ]
+      ],
+      "image": {
+        "file": "Johann_Sebastian_Bach.jpg",
+        "alt": "Portrét Johanna Sebastiana Bacha z roku 1748",
+        "credit": "Elias Gottlob Haussmann",
+        "license": "Volné dílo podle Wikimedia Commons"
+      }
     },
     {
       "title": "Antonio Vivaldi (1678–1741)",
       "text": "Italský barokní skladatel a houslista, autor cyklu Čtvero ročních dob. Působil také jako pedagog v benátském sirotčinci Ospedale della Pietà.",
       "music": [
         "Čtvero ročních dob"
-      ]
+      ],
+      "image": {
+        "file": "Vivaldi.jpg",
+        "alt": "Portrét tradičně ztotožňovaný s Antoniem Vivaldim",
+        "credit": "Neznámý malíř",
+        "license": "Volné dílo podle Wikimedia Commons"
+      }
     },
     {
       "title": "Wolfgang Amadeus Mozart (1756–1791)",
@@ -35,7 +47,13 @@
         "Figarova svatba",
         "Don Giovanni",
         "Rekviem"
-      ]
+      ],
+      "image": {
+        "file": "The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg",
+        "alt": "Wolfgang Amadeus Mozart na rodinném portrétu",
+        "credit": "Johann Nepomuk della Croce",
+        "license": "Volné dílo podle Wikimedia Commons"
+      }
     },
     {
       "title": "Ludwig van Beethoven (1770–1827)",
@@ -44,7 +62,13 @@
         "Devátá symfonie",
         "Měsíční sonáta",
         "Symfonie Osudová"
-      ]
+      ],
+      "image": {
+        "file": "Joseph_Karl_Stieler's_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg",
+        "alt": "Ludwig van Beethoven s rukopisem Missa solemnis",
+        "credit": "Joseph Karl Stieler",
+        "license": "Volné dílo podle Wikimedia Commons"
+      }
     },
     {
       "title": "Bedřich Smetana (1824–1884)",
@@ -61,7 +85,13 @@
         "Libuše",
         "Dalibor",
         "Hubička"
-      ]
+      ],
+      "image": {
+        "file": "Smetana_LCCN2014716851_(cropped).jpg",
+        "alt": "Archivní portrét Bedřicha Smetany",
+        "credit": "Bain News Service, publisher",
+        "license": "Volné dílo podle Wikimedia Commons"
+      }
     },
     {
       "title": "Antonín Dvořák (1841–1904)",
@@ -70,7 +100,13 @@
         "Symfonie č. 9 Z Nového světa",
         "Slovanské tance",
         "Rusalka"
-      ]
+      ],
+      "image": {
+        "file": "Dvorak.jpg",
+        "alt": "Archivní portrét Antonína Dvořáka",
+        "credit": "Neznámý autor",
+        "license": "Volné dílo podle Wikimedia Commons"
+      }
     },
     {
       "title": "Franz Schubert (1797–1828)",
@@ -78,7 +114,13 @@
       "music": [
         "Erlkönig D 328",
         "Symfonie h moll D 759 Nedokončená"
-      ]
+      ],
+      "image": {
+        "file": "Franz_Schubert_by_Wilhelm_August_Rieder_1875.jpg",
+        "alt": "Posmrtný portrét Franze Schuberta od Wilhelma Augusta Riedera",
+        "credit": "Wilhelm August Rieder",
+        "license": "Volné dílo podle Wikimedia Commons"
+      }
     },
     {
       "title": "Fryderyk Chopin (1810–1849)",
@@ -86,7 +128,13 @@
       "music": [
         "Nokturno Es dur op. 9 č. 2",
         "Polonéza As dur op. 53"
-      ]
+      ],
+      "image": {
+        "file": "Frederic_Chopin_photo.jpeg",
+        "alt": "Fotografický portrét Fryderyka Chopina",
+        "credit": "Louis-Auguste Bisson",
+        "license": "Volné dílo podle Wikimedia Commons"
+      }
     },
     {
       "title": "Giuseppe Verdi (1813–1901)",
@@ -96,7 +144,13 @@
         "La traviata",
         "Aida",
         "Otello"
-      ]
+      ],
+      "image": {
+        "file": "Giuseppe_Verdi_by_Ferdinand_Mulnier_BW.jpg",
+        "alt": "Archivní portrét Giuseppe Verdiho",
+        "credit": "Ferdinand Mulnier",
+        "license": "Volné dílo podle Wikimedia Commons"
+      }
     },
     {
       "title": "Petr Iljič Čajkovskij (1840–1893)",
@@ -106,7 +160,13 @@
         "Šípková Růženka",
         "Louskáček op. 71",
         "Suita z Louskáčka op. 71a"
-      ]
+      ],
+      "image": {
+        "file": "Tchaikovsky_by_Reutlinger_(cropped).jpg",
+        "alt": "Archivní portrét Petra Iljiče Čajkovského",
+        "credit": "Émile Reutlinger",
+        "license": "Volné dílo podle Wikimedia Commons"
+      }
     }
   ],
   "quiz": [
@@ -136,5 +196,6 @@
       "title": "Tchaikovsky Research — Louskáček",
       "url": "https://en.tchaikovsky-research.net/pages/The_Nutcracker"
     }
-  ]
+  ],
+  "date": "2026-11-06"
 }

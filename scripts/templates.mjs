@@ -46,12 +46,21 @@ function readingTime({ intro, sections }) {
   return Math.max(1, Math.ceil(words / 200));
 }
 
+const publicationDateFormat = new Intl.DateTimeFormat('cs', {
+  dateStyle: 'long', timeZone: 'Europe/Prague',
+});
+
+function publicationDate(date) {
+  if (!date) return '';
+  return `<time datetime="${date}">${publicationDateFormat.format(new Date(date))}</time>`;
+}
+
 function card(lesson) {
   const keywords = [lesson.category, ...lesson.sections.flatMap(section =>
     [section.title, section.text, section.extra, ...(section.music ?? [])].filter(Boolean))];
   return `<li class="lesson-card" data-lesson="${lesson.id}" data-search="${escape(keywords.join(' '))}">
     <a href="./lekce/${lesson.id}/">
-      <span class="card-meta">${escape(lesson.category)} · ${readingTime(lesson)} min</span>
+      <span class="card-meta">${escape(lesson.category)} · ${readingTime(lesson)} min${lesson.date ? ` · ${publicationDate(lesson.date)}` : ''}</span>
       <h4>${escape(lesson.title)}</h4>
       <p>${escape(lesson.intro)}</p>
       <span class="card-arrow" aria-hidden="true">↗</span>
@@ -117,19 +126,16 @@ function musicLinks({ title, music }) {
 
 export function renderLesson(lesson) {
   const { title, category, intro, date, cover, sections, quiz, sources } = lesson;
-  const dateLabel = date && new Intl.DateTimeFormat('cs', {
-    dateStyle: 'long', timeZone: 'Europe/Prague',
-  }).format(new Date(date));
   return page({ title: `${title} | ${site}`, description: intro, base: '../../', body: `
   <main id="obsah" class="reading wrap">
     <a class="back" href="../../#prehled">← Všechny lekce</a>
     <article>
       <header class="article-header">
-        <p class="eyebrow">${escape(category)} · ${readingTime(lesson)} min čtení${date ? ` · <time datetime="${date}">${dateLabel}</time>` : ''}</p>
+        <p class="eyebrow">${escape(category)} · ${readingTime(lesson)} min čtení${date ? ` · Publikováno ${publicationDate(date)}` : ''}</p>
         <h1>${escape(title)}</h1>
         <p class="lede">${escape(intro)}</p>
       </header>
-      ${illustration(cover)}
+      ${sections.some(section => section.image?.file === cover.file) ? '' : illustration(cover)}
       ${sections.map(section => `<section class="chapter">
         <h2>${escape(section.title)}</h2>
         ${section.text.split(/\n\s*\n/).map(paragraph => `<p>${escape(paragraph)}</p>`).join('')}

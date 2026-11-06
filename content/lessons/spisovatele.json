@@ -12,71 +12,176 @@
   "sections": [
     {
       "title": "William Shakespeare (1564–1616)",
-      "text": "Anglický dramatik, autor tragédií Hamlet, Macbeth, Othello a Romeo a Julie."
+      "text": "Anglický dramatik, autor tragédií Hamlet, Macbeth, Othello a Romeo a Julie.",
+      "image": {
+        "file": "William_Shakespeare_Chandos_Portrait.jpg",
+        "alt": "Chandosův portrét tradičně ztotožňovaný s Williamem Shakespearem",
+        "credit": "Připisováno Johnu Taylorovi",
+        "license": "Volné dílo"
+      }
     },
     {
       "title": "Lev Tolstoj (1828–1910)",
-      "text": "Ruský romanopisec, autor Vojny a míru a Anny Kareniny."
+      "text": "Ruský romanopisec, autor Vojny a míru a Anny Kareniny.",
+      "image": {
+        "file": "Leo_Tolstoy_1908_Portrait_(3x4_cropped).jpg",
+        "alt": "Portrét – Lev Tolstoj",
+        "credit": "Sergei Prokudin-Gorskii",
+        "license": "Volné dílo podle Wikimedia Commons"
+      }
     },
     {
       "title": "Fjodor Dostojevskij (1821–1881)",
-      "text": "Ruský spisovatel zkoumající vinu, svědomí a víru v románech Zločin a trest a Bratři Karamazovi."
+      "text": "Ruský spisovatel zkoumající vinu, svědomí a víru v románech Zločin a trest a Bratři Karamazovi.",
+      "image": {
+        "file": "Vasily_Perov_-_Портрет_Ф.М.Достоевского_-_Google_Art_Project.jpg",
+        "alt": "Portrét – Fjodor Dostojevskij",
+        "credit": "Vasily Perov",
+        "license": "Volné dílo podle Wikimedia Commons"
+      }
     },
     {
       "title": "George Orwell (1903–1950)",
-      "text": "Britský autor románů 1984 a Farma zvířat, které kriticky zobrazují totalitní moc."
+      "text": "Britský autor románů 1984 a Farma zvířat, které kriticky zobrazují totalitní moc.",
+      "image": {
+        "file": "George_Orwell_press_photo.jpg",
+        "alt": "Portrét – George Orwell",
+        "credit": "Branch of the National Union of Journalists (BNUJ).",
+        "license": "Volné dílo podle Wikimedia Commons"
+      }
     },
     {
       "title": "Ernest Hemingway (1899–1961)",
-      "text": "Americký spisovatel, autor knih Stařec a moře a Komu zvoní hrana."
+      "text": "Americký spisovatel, autor knih Stařec a moře a Komu zvoní hrana.",
+      "image": {
+        "file": "ErnestHemingway.jpg",
+        "alt": "Portrét – Ernest Hemingway",
+        "credit": "Lloyd Arnold",
+        "license": "Volné dílo podle Wikimedia Commons"
+      }
     },
     {
       "title": "Franz Kafka (1883–1924)",
-      "text": "Pražský německy píšící spisovatel, autor Proměny a Procesu."
+      "text": "Pražský německy píšící spisovatel, autor Proměny a Procesu.",
+      "image": {
+        "file": "Franz_Kafka,_1923.jpg",
+        "alt": "Portrét – Franz Kafka",
+        "credit": "Neznámý fotograf",
+        "license": "Volné dílo podle Wikimedia Commons"
+      }
     },
     {
       "title": "Victor Hugo (1802–1885)",
-      "text": "Francouzský romantik, autor Bídníků a Chrámu Matky Boží v Paříži."
+      "text": "Francouzský romantik, autor Bídníků a Chrámu Matky Boží v Paříži.",
+      "image": {
+        "file": "Victor_Hugo_by_Étienne_Carjat_1876_-_full.jpg",
+        "alt": "Portrét – Victor Hugo",
+        "credit": "Étienne Carjat",
+        "license": "Volné dílo podle Wikimedia Commons"
+      }
     },
     {
       "title": "Miguel de Cervantes (1547–1616)",
-      "text": "Španělský spisovatel, autor románu Důmyslný rytíř Don Quijote de la Mancha."
+      "text": "Španělský spisovatel, autor románu Důmyslný rytíř Don Quijote de la Mancha.",
+      "image": {
+        "file": "Cervantes_Jáuregui.jpg",
+        "alt": "Historický portrét tradičně ztotožňovaný s autorem: Miguel de Cervantes",
+        "credit": "Attributed to Juan de Jáuregui",
+        "license": "Volné dílo podle Wikimedia Commons"
+      }
     },
     {
       "title": "Gabriel García Márquez (1927–2014)",
-      "text": "Kolumbijský nositel Nobelovy ceny, autor Sto roků samoty, spojený s magickým realismem."
+      "text": "Kolumbijský nositel Nobelovy ceny, autor Sto roků samoty, spojený s magickým realismem.",
+      "image": {
+        "file": "Gabriel_Garcia_Marquez.jpg",
+        "alt": "Portrét – Gabriel García Márquez",
+        "credit": "Jose Lara",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
     },
     {
       "title": "J. R. R. Tolkien (1892–1973)",
-      "text": "Britský filolog a autor Hobita a Pána prstenů."
+      "text": "Britský filolog a autor Hobita a Pána prstenů.",
+      "image": {
+        "file": "J._R._R._Tolkien,_ca._1925.jpg",
+        "alt": "Portrét – J. R. R. Tolkien",
+        "credit": "Neznámý fotografický ateliér",
+        "license": "Volné dílo podle Wikimedia Commons"
+      }
     },
     {
       "title": "Agatha Christie (1890–1976)",
-      "text": "Britská autorka detektivek, která vytvořila Hercula Poirota a slečnu Marplovou."
+      "text": "Britská autorka detektivek, která vytvořila Hercula Poirota a slečnu Marplovou.",
+      "image": {
+        "file": "Agatha_Christie_in_Nederland_(detectiveschrijfster),_bij_aankomst_op_Schiphol_me,_Bestanddeelnr_916-8898_(cropped).jpg",
+        "alt": "Portrét – Agatha Christie",
+        "credit": "Joop van Bilsen for Anefo",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
     },
     {
       "title": "Johann Wolfgang Goethe (1749–1832)",
-      "text": "Německý básník a myslitel, autor Fausta a Utrpení mladého Werthera."
+      "text": "Německý básník a myslitel, autor Fausta a Utrpení mladého Werthera.",
+      "image": {
+        "file": "Goethe_(Stieler_1828).jpg",
+        "alt": "Portrét – Johann Wolfgang Goethe",
+        "credit": "Joseph Karl Stieler",
+        "license": "Volné dílo podle Wikimedia Commons"
+      }
     },
     {
       "title": "Dante Alighieri (1265–1321)",
-      "text": "Florentský básník a autor Božské komedie (Divina Commedia). Báseň sleduje poutníkovu cestu Peklem, Očistcem a Rájem. Dante ji napsal v italštině své doby a přispěl k jejímu literárnímu významu."
+      "text": "Florentský básník a autor Božské komedie (Divina Commedia). Báseň sleduje poutníkovu cestu Peklem, Očistcem a Rájem. Dante ji napsal v italštině své doby a přispěl k jejímu literárnímu významu.",
+      "image": {
+        "file": "Bargello_-_Kapelle_Fresko_2a.jpg",
+        "alt": "Dante Alighieri na fresce v kapli paláce Bargello ve Florencii",
+        "credit": "Wolfgang Sauber",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
     },
     {
       "title": "Jane Austenová (1775–1817)",
-      "text": "Anglická romanopiskyně, autorka Pýchy a předsudku (Pride and Prejudice) a Rozumu a citu (Sense and Sensibility). Prostřednictvím námluv a rodinných vztahů ukazuje, jak majetek a společenské postavení ovlivňují volby jejích hrdinek."
+      "text": "Anglická romanopiskyně, autorka Pýchy a předsudku (Pride and Prejudice) a Rozumu a citu (Sense and Sensibility). Prostřednictvím námluv a rodinných vztahů ukazuje, jak majetek a společenské postavení ovlivňují volby jejích hrdinek.",
+      "image": {
+        "file": "CassandraAusten-JaneAusten(c.1810)_hires.jpg",
+        "alt": "Portrét – Jane Austenová",
+        "credit": "Cassandra Austen",
+        "license": "Volné dílo podle Wikimedia Commons"
+      }
     },
     {
       "title": "Charles Dickens (1812–1870)",
-      "text": "Anglický spisovatel viktoriánské éry. V Oliveru Twistovi sleduje osudy chlapce, který vyrůstá v chudobinci. V Nadějných vyhlídkách (Great Expectations) zkoumá společenský vzestup a cenu, kterou za něj mladý Pip platí."
+      "text": "Anglický spisovatel viktoriánské éry. V Oliveru Twistovi sleduje osudy chlapce, který vyrůstá v chudobinci. V Nadějných vyhlídkách (Great Expectations) zkoumá společenský vzestup a cenu, kterou za něj mladý Pip platí.",
+      "image": {
+        "file": "Dickens_Gurney_head.jpg",
+        "alt": "Portrét – Charles Dickens",
+        "credit": "Jeremiah Gurney",
+        "license": "Volné dílo podle Wikimedia Commons"
+      }
     },
     {
       "title": "Mark Twain (1835–1910)",
-      "text": "Americký spisovatel a humorista, vlastním jménem Samuel Langhorne Clemens. Dobrodružství Toma Sawyera a Dobrodružství Huckleberryho Finna zasadil do prostředí kolem Mississippi. V druhém románu putuje Huck po řece s Jimem, který uprchl z otroctví."
+      "text": "Americký spisovatel a humorista, vlastním jménem Samuel Langhorne Clemens. Dobrodružství Toma Sawyera a Dobrodružství Huckleberryho Finna zasadil do prostředí kolem Mississippi. V druhém románu putuje Huck po řece s Jimem, který uprchl z otroctví.",
+      "image": {
+        "file": "Mark_Twain_by_AF_Bradley_(cropped_2).jpg",
+        "alt": "Portrét – Mark Twain",
+        "credit": "A.F. Bradley, New York",
+        "license": "Volné dílo podle Wikimedia Commons"
+      }
     },
     {
       "title": "Virginia Woolfová (1882–1941)",
-      "text": "Britská modernistická spisovatelka. Román Paní Dallowayová (Mrs Dalloway) se odehrává během jednoho červnového dne v Londýně a střídá pohledy několika postav. V eseji Vlastní pokoj (A Room of One’s Own) se zabývá podmínkami, které ženám umožňují psát."
+      "text": "Britská modernistická spisovatelka. Román Paní Dallowayová (Mrs Dalloway) se odehrává během jednoho červnového dne v Londýně a střídá pohledy několika postav. V eseji Vlastní pokoj (A Room of One’s Own) se zabývá podmínkami, které ženám umožňují psát.",
+      "image": {
+        "file": "George_Charles_Beresford_-_Virginia_Woolf_in_1902_-_Restoration.jpg",
+        "alt": "Portrét – Virginia Woolfová",
+        "credit": "George Charles Beresford / Adam Cuerden",
+        "license": "Volné dílo podle Wikimedia Commons"
+      }
     }
   ],
   "quiz": [
@@ -110,5 +215,6 @@
       "title": "British Library — Paní Dallowayová",
       "url": "https://shop.bl.uk/products/mrs-dalloway-1"
     }
-  ]
+  ],
+  "date": "2026-11-06"
 }

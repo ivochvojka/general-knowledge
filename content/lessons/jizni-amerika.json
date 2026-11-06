@@ -12,31 +12,79 @@
   "sections": [
     {
       "title": "Brazílie",
-      "text": "Největší stát Jižní Ameriky, jehož úředním jazykem je portugalština. Proslul Amazonkou, karnevalem a městem Rio de Janeiro."
+      "text": "Největší stát Jižní Ameriky, jehož úředním jazykem je portugalština. Proslul Amazonkou, karnevalem a městem Rio de Janeiro.",
+      "image": {
+        "file": "Christ_the_Redeemer_-_Cristo_Redentor.jpg",
+        "alt": "Socha Krista Spasitele v Riu de Janeiru",
+        "credit": "Arne Müseler",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+      }
     },
     {
       "title": "Argentina",
-      "text": "Země pamp, tanga a Patagonie. Hlavním městem je Buenos Aires."
+      "text": "Země pamp, tanga a Patagonie. Hlavním městem je Buenos Aires.",
+      "image": {
+        "file": "Panorama_Obelisco_de_Buenos_Aires_2019.jpg",
+        "alt": "Obelisk v Buenos Aires",
+        "credit": "Luis Santos",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
     },
     {
       "title": "Chile",
-      "text": "Velmi dlouhá země podél Tichého oceánu, s pouští Atacama na severu a Patagonií na jihu."
+      "text": "Velmi dlouhá země podél Tichého oceánu, s pouští Atacama na severu a Patagonií na jihu.",
+      "image": {
+        "file": "Atacama.png",
+        "alt": "Satelitní snímek pouště Atacama",
+        "credit": "NASA",
+        "license": "Volné dílo podle Wikimedia Commons"
+      }
     },
     {
       "title": "Peru",
-      "text": "Země s významným dědictvím Incké říše. Nejznámější památkou je Machu Picchu v Andách."
+      "text": "Země s významným dědictvím Incké říše. Nejznámější památkou je Machu Picchu v Andách.",
+      "image": {
+        "file": "Machu_Picchu,_2023_(012).jpg",
+        "alt": "Incká památka Machu Picchu v Peru",
+        "credit": "Draceane",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
     },
     {
       "title": "Kolumbie",
-      "text": "Země na severozápadě kontinentu, známá kávou, karibským pobřežím a rozmanitou přírodou."
+      "text": "Země na severozápadě kontinentu, známá kávou, karibským pobřežím a rozmanitou přírodou.",
+      "image": {
+        "file": "Museo_Naval_del_Caribe.JPG",
+        "alt": "Námořní muzeum v kolumbijské Cartageně",
+        "credit": "Sgonzalezb",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
     },
     {
       "title": "Venezuela",
-      "text": "Země s rozsáhlými zásobami ropy. Nachází se zde Salto Ángel, jeden z nejvyšších vodopádů světa."
+      "text": "Země s rozsáhlými zásobami ropy. Nachází se zde Salto Ángel, jeden z nejvyšších vodopádů světa.",
+      "image": {
+        "file": "SaltoAngel1.jpg",
+        "alt": "Vodopád Salto Ángel ve Venezuele",
+        "credit": "Rich Childs",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
     },
     {
       "title": "Uruguay",
-      "text": "Menší stát mezi Brazílií a Argentinou s hlavním městem Montevideo."
+      "text": "Menší stát mezi Brazílií a Argentinou s hlavním městem Montevideo.",
+      "image": {
+        "file": "La_Plaza_Independencia_y_el_Palacio_Salvo,_Montevideo,_Uruguay_-_panoramio.jpg",
+        "alt": "Náměstí Nezávislosti a Palacio Salvo v Montevideu",
+        "credit": "rodoluca",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
     }
   ],
   "quiz": [
@@ -44,5 +92,6 @@
       "question": "Ve které zemi leží Machu Picchu?",
       "answer": "V Peru."
     }
-  ]
+  ],
+  "date": "2026-11-06"
 }

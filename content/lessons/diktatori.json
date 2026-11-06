@@ -12,33 +12,107 @@
   "sections": [
     {
       "title": "Adolf Hitler (1889–1945)",
-      "text": "Vůdce nacistického Německa od roku 1933. Jeho režim rozpoutal druhou světovou válku v Evropě a organizoval holokaust."
+      "text": "Vůdce nacistického Německa od roku 1933. Jeho režim rozpoutal druhou světovou válku v Evropě a organizoval holokaust.\n\nPrezident Paul von Hindenburg ho 30. ledna 1933 jmenoval kancléřem. V březnu zmocňovací zákon umožnil vládě vydávat zákony bez parlamentu a nacisté během několika měsíců rozložili demokratické instituce. Německý útok na Polsko 1. září 1939 zahájil válku v Evropě. Nacistický režim a jeho spolupracovníci zavraždili během holokaustu šest milionů evropských Židů.",
+      "image": {
+        "file": "Hitler_portrait_crop_(cropped)(2).jpg",
+        "alt": "Archivní portrét Adolfa Hitlera z roku 1938",
+        "credit": "Heinrich Hoffmann",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+      }
     },
     {
       "title": "Josif Stalin (1878–1953)",
-      "text": "Sovětský vůdce spojený s nucenou kolektivizací, politickými čistkami, gulagy a masovými represemi."
+      "text": "Sovětský vůdce spojený s nucenou kolektivizací, politickými čistkami, gulagy a masovými represemi.\n\nNa konci 20. let prosadil nucené slučování rolnických hospodářství a rychlou industrializaci. Kolektivizace a státní rekvizice obilí přispěly k ničivému hladomoru, který těžce zasáhl zejména Ukrajinu. Za velkého teroru v letech 1936–1938 režim ve velkém zatýkal, popravoval a posílal lidi do pracovních táborů. Stalin vládl až do smrti v roce 1953.",
+      "image": {
+        "file": "Stalin_in_1943.png",
+        "alt": "Josif Stalin na konferenci v Teheránu v roce 1943",
+        "credit": "United States Army 12th Air Force",
+        "license": "Volné dílo v USA"
+      }
     },
     {
       "title": "Benito Mussolini (1883–1945)",
-      "text": "Zakladatel italského fašismu. V Itálii vládl od roku 1922 a později se spojil s nacistickým Německem."
+      "text": "Zakladatel italského fašismu. V Itálii vládl od roku 1922 a později se spojil s nacistickým Německem.\n\nPo pochodu fašistů na Řím ho král Viktor Emanuel III. v říjnu 1922 pověřil sestavením vlády. Fašistický režim postupně potlačil opozici a svobodný tisk. V roce 1938 zavedl protižidovské rasové zákony a v roce 1940 vstoupil do války po boku Německa. Po sesazení v roce 1943 vedl na severu země režim závislý na nacistickém Německu.",
+      "image": {
+        "file": "Mussolini_mezzobusto.jpg",
+        "alt": "Dobový portrét Benita Mussoliniho",
+        "credit": "Neznámý fotograf, reprodukce z knihy Mussolini als Journalist (1939)",
+        "license": "Volné dílo podle Wikimedia Commons"
+      }
     },
     {
       "title": "Mao Ce-tung (1893–1976)",
-      "text": "Vůdce čínské komunistické revoluce a Čínské lidové republiky. Velký skok vpřed a kulturní revoluce měly rozsáhlé lidské a společenské důsledky."
+      "text": "Vůdce čínské komunistické revoluce a Čínské lidové republiky. Velký skok vpřed a kulturní revoluce měly rozsáhlé lidské a společenské důsledky.\n\nPo vítězství komunistů v občanské válce vyhlásil 1. října 1949 Čínskou lidovou republiku. Velký skok vpřed, zahájený roku 1958, měl urychlit industrializaci a přeměnil venkov prostřednictvím lidových komun. Politika přispěla ke katastrofálnímu hladomoru. Kulturní revoluce, zahájená v roce 1966, vedla k politickému pronásledování a rozsáhlým útokům na kulturní dědictví.",
+      "image": {
+        "file": "Mao_Zedong_1950_Portrait_(3x4_cropped)(2).jpg",
+        "alt": "Oficiální portrét Mao Ce-tunga z roku 1950",
+        "credit": "Chen Zhengqing (1917–1966)",
+        "license": "Volné dílo podle Wikimedia Commons"
+      }
     },
     {
       "title": "Francisco Franco (1892–1975)",
-      "text": "Španělský diktátor, který se dostal k moci po občanské válce a vládl do roku 1975."
+      "text": "Španělský diktátor, který se dostal k moci po občanské válce a vládl do roku 1975.\n\nPatřil k vůdcům vojenského povstání proti republice v roce 1936. Jeho nacionalisté zvítězili v občanské válce v roce 1939. Diktatura potlačovala politickou opozici, využívala cenzuru a její odpůrci čelili věznění i popravám. Po Francově smrti v listopadu 1975 zahájilo Španělsko přechod k parlamentní demokracii.",
+      "image": {
+        "file": "Francisco_Franco_posed_portrait_photograph.jpg",
+        "alt": "Portrétní fotografie Francisca Franca",
+        "credit": "Neznámý autor",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
     },
     {
       "title": "Pol Pot (1925–1998)",
-      "text": "Vůdce Rudých Khmerů v Kambodži. Jeho režim v letech 1975–1979 způsobil smrt velké části obyvatelstva."
+      "text": "Vůdce Rudých Khmerů v Kambodži. Jeho režim v letech 1975–1979 způsobil smrt velké části obyvatelstva.\n\nRudí Khmerové obsadili Phnompenh 17. dubna 1975 a násilně vystěhovali jeho obyvatele. Režim Demokratické Kampučie nutil lidi pracovat v zemědělských družstvech a pronásledoval domnělé odpůrce. Obyvatelé umírali při popravách i v důsledku hladu, nemocí a nucené práce. V lednu 1979 dobyla Phnompenh vietnamská vojska a režim ztratil kontrolu nad hlavním městem.",
+      "image": {
+        "file": "PolPot.jpg",
+        "alt": "Pol Pot při setkání s rumunskou delegací v květnu 1978",
+        "credit": "Neznámý fotograf, Fototeca online a comunismului românesc, snímek č. 45014X1X4 (přístup 6. listopadu 2026)",
+        "license": "Licence FOCR s uvedením zdroje",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Template:FOCR"
+      }
     }
   ],
   "quiz": [
     {
       "question": "Ve které zemi vládl Francisco Franco?",
       "answer": "Ve Španělsku."
+    }
+  ],
+  "date": "2026-11-06",
+  "sources": [
+    {
+      "title": "United States Holocaust Memorial Museum — vznik nacistického státu",
+      "url": "https://encyclopedia.ushmm.org/content/en/article/foundations-of-the-nazi-state"
+    },
+    {
+      "title": "United States Holocaust Memorial Museum — holokaust a začátek války",
+      "url": "https://www.ushmm.org/de/teach/fundamentals/holocaust-questions"
+    },
+    {
+      "title": "Library of Congress — stalinská kolektivizace a teror",
+      "url": "https://www.loc.gov/exhibits/archives/intn.html"
+    },
+    {
+      "title": "United States Holocaust Memorial Museum — fašistická Itálie",
+      "url": "https://encyclopedia.ushmm.org/content/en/article/italy"
+    },
+    {
+      "title": "Office of the Historian — čínská revoluce roku 1949",
+      "url": "https://history.state.gov/milestones/1945-1952/chinese-rev"
+    },
+    {
+      "title": "Library of Congress — Velký skok vpřed a kulturní revoluce",
+      "url": "https://tile.loc.gov/storage-services/master/frd/frdcstdy/ch/chinacountrystud00word/chinacountrystud00word.pdf"
+    },
+    {
+      "title": "Library of Congress — dějiny frankistického Španělska",
+      "url": "https://tile.loc.gov/storage-services/master/frd/frdcstdy/sp/spaincountrystud00sols_0/spaincountrystud00sols_0.pdf"
+    },
+    {
+      "title": "Mimořádné soudní senáty v Kambodži — Demokratická Kampučie",
+      "url": "https://timeline.eccc.gov.kh/en/section/the-democratic-kampuchea-regime"
     }
   ]
 }

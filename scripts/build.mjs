@@ -95,7 +95,7 @@ for (const filename of (await readdir(content)).filter(name => name.endsWith('.j
   }
 }
 requiredList(lessons, 'content/lessons');
-lessons.sort((a, b) => a.title.localeCompare(b.title, 'cs'));
+lessons.sort((a, b) => (b.date ?? '').localeCompare(a.date ?? '') || a.title.localeCompare(b.title, 'cs'));
 await rm(dist, { recursive: true, force: true });
 await mkdir(new URL('lekce/', dist), { recursive: true });
 await cp(new URL('assets/', root), new URL('assets/', dist), { recursive: true });

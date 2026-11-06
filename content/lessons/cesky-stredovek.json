@@ -12,27 +12,65 @@
   "sections": [
     {
       "title": "Velká Morava a rok 863",
-      "text": "Velká Morava patřila k prvním významným slovanským státním útvarům ve střední Evropě. Roku 863 přišli Konstantin (Cyril) a Metoděj s misí, která podpořila slovanskou liturgii a písemnictví."
+      "text": "Velká Morava patřila k prvním významným slovanským státním útvarům ve střední Evropě. Roku 863 přišli Konstantin (Cyril) a Metoděj s misí, která podpořila slovanskou liturgii a písemnictví.",
+      "image": {
+        "file": "Mikulčice_Archaeopark_19.JPG",
+        "alt": "Archeologický areál v Mikulčicích",
+        "credit": "Tyssil",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
     },
     {
       "title": "Svatý Václav († 935)",
-      "text": "Český kníže z rodu Přemyslovců, později uctívaný jako zemský patron. Podle tradičního datování byl zavražděn roku 935 ve Staré Boleslavi."
+      "text": "Český kníže z rodu Přemyslovců, později uctívaný jako zemský patron. Podle tradičního datování byl zavražděn roku 935 ve Staré Boleslavi.",
+      "image": {
+        "file": "Wolfenbüttelský_kodex_–_Gumpoldova_legenda_–_18v_cr.jpg",
+        "alt": "Dobové vyobrazení svatého Václava v rukopisu Gumpoldovy legendy",
+        "credit": "Neznámý autor",
+        "license": "Volné dílo podle Wikimedia Commons"
+      }
     },
     {
       "title": "Zlatá bula sicilská (1212)",
-      "text": "Listina vydaná Fridrichem II., která významně potvrdila dědičný královský titul českých panovníků."
+      "text": "Listina vydaná Fridrichem II., která významně potvrdila dědičný královský titul českých panovníků.",
+      "image": {
+        "file": "Golden_Bull_of_Sicily.jpg",
+        "alt": "Zlatá bula sicilská z roku 1212",
+        "credit": "Listina Fridricha II., digitalizaci nahrál Pastorius",
+        "license": "Volné dílo podle Wikimedia Commons"
+      }
     },
     {
       "title": "Konec Přemyslovců (1306)",
-      "text": "Zavražděním Václava III. v Olomouci roku 1306 vymřeli Přemyslovci po meči."
+      "text": "Zavražděním Václava III. v Olomouci roku 1306 vymřeli Přemyslovci po meči.",
+      "image": {
+        "file": "Vaclav3_pecet.jpg",
+        "alt": "Pečeť Václava III. v historické reprodukci",
+        "credit": "Szilágyi Sándor",
+        "license": "Volné dílo podle Wikimedia Commons"
+      }
     },
     {
       "title": "Karel IV. (1316–1378)",
-      "text": "Český král a římský císař z rodu Lucemburků. Roku 1348 založil pražskou univerzitu; roku 1357 začala stavba Karlova mostu."
+      "text": "Český král a římský císař z rodu Lucemburků. Roku 1348 založil pražskou univerzitu; roku 1357 začala stavba Karlova mostu.",
+      "image": {
+        "file": "Charles_IV-John_Ocko_votive_picture-fragment.jpg",
+        "alt": "Karel IV. na votivní desce Jana Očka z Vlašimi",
+        "credit": "Circle of Theodoric of Prague",
+        "license": "Volné dílo podle Wikimedia Commons"
+      }
     },
     {
       "title": "Praha za Lucemburků",
-      "text": "Ve 14. století se Praha stala významným evropským centrem. Karel IV. založil Nové Město pražské a podporoval výstavbu i vzdělanost."
+      "text": "Ve 14. století se Praha stala významným evropským centrem. Karel IV. založil Nové Město pražské a podporoval výstavbu i vzdělanost.",
+      "image": {
+        "file": "Prague_07-2016_view_from_Lesser_Town_Tower_of_Charles_Bridge_img3.jpg",
+        "alt": "Pohled z Malostranské mostecké věže na Karlův most",
+        "credit": "A.Savin",
+        "license": "FAL",
+        "licenseUrl": "https://artlibre.org/licence/lal/en"
+      }
     }
   ],
   "quiz": [
@@ -40,5 +78,6 @@
       "question": "Ve kterém roce byla založena Univerzita Karlova?",
       "answer": "V roce 1348."
     }
-  ]
+  ],
+  "date": "2026-11-06"
 }

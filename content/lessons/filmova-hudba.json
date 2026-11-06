@@ -19,7 +19,14 @@
         "Indiana Jones",
         "Jurský park",
         "Harry Potter"
-      ]
+      ],
+      "image": {
+        "file": "John_Williams_Boston_Pops_2018.jpg",
+        "alt": "John Williams diriguje Boston Pops v roce 2018",
+        "credit": "Choodcree",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
     },
     {
       "title": "Hans Zimmer (1957–)",
@@ -29,7 +36,14 @@
         "Počátek",
         "Interstellar",
         "Duna"
-      ]
+      ],
+      "image": {
+        "file": "Hans-Zimmer-profile.jpg",
+        "alt": "Portrét – Hans Zimmer",
+        "credit": "ColliderVideo . Uploader cropped.",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
     },
     {
       "title": "Ennio Morricone (1928–2020)",
@@ -38,14 +52,28 @@
         "Hodný, zlý a ošklivý",
         "Mise",
         "Osm hrozných"
-      ]
+      ],
+      "image": {
+        "file": "Ennio_Morricone_Cannes_2007.jpg",
+        "alt": "Portrét – Ennio Morricone",
+        "credit": "Olivier Strecker",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
     },
     {
       "title": "Howard Shore (1946–)",
       "text": "Kanadský skladatel, jehož rozsáhlá hudba k trilogii Pán prstenů využívá charakteristické motivy postav a míst.",
       "music": [
         "Pán prstenů"
-      ]
+      ],
+      "image": {
+        "file": "Howard_Shore,_Canadian_Film_Centre,_2013-1.jpg",
+        "alt": "Portrét – Howard Shore",
+        "credit": "Sam Santos, Canadian Film Centre",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
     },
     {
       "title": "James Horner (1953–2015)",
@@ -54,7 +82,14 @@
         "Titanic",
         "Avatar",
         "Statečné srdce"
-      ]
+      ],
+      "image": {
+        "file": "James-horner-07.jpg",
+        "alt": "Portrét – James Horner",
+        "credit": "FERT98",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
     }
   ],
   "quiz": [
@@ -62,5 +97,6 @@
       "question": "Kdo složil hudbu k trilogii Pán prstenů?",
       "answer": "Howard Shore."
     }
-  ]
+  ],
+  "date": "2026-11-06"
 }

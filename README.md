@@ -26,10 +26,12 @@ Místní katalog se otevře na [localhost:8000](http://localhost:8000/). Výstup
 
 V [Settings → Pages](https://github.com/ivochvojka/general-knowledge/settings/pages) vyberte jako zdroj **GitHub Actions**. Workflow `.github/workflows/pages.yml` ověřuje sestavení u pull requestů do `main` a po změně na `main` nasadí nový výstup. Po prvním úspěšném nasazení je očekávaná adresa [ivochvojka.github.io/general-knowledge](https://ivochvojka.github.io/general-knowledge/). Workflow lze také spustit ručně z karty Actions.
 
+U lekcí z prvního vydání uvádíme datum prvního doloženého zveřejnění na GitHub Pages. Přesnější pořadí lekcí ze stejného vydání z dat zveřejnění nevyplývá.
+
 ## Pravidelné lekce
 
-Místní úloha Codex **Všeobecný rozhled – nová lekce** je naplánována na pondělí a čtvrtek v 8:00 pražského času. Připravuje lekce k revizi v místním klonu.
+Místní úloha Codex **Všeobecný rozhled – nová lekce** je naplánována na pondělí a čtvrtek v 8:00 pražského času. Po úspěšných kontrolách odesílá nové lekce přímo do `main`.
 
 1. Projít inventář `content/lessons/`, historii Gitu i rozpracované návrhy a vyloučit významové překryvy. Pokud už pro daný termín lekce existuje, ohlásit její stav.
 2. Střídat historii, geografii, vědu, kulturu, literaturu a významné osobnosti. Pro čtyři minuty čtení mířit přibližně na 600–750 českých slov. Zařadit důležitá data, souvislosti, zajímavosti a 3–5 otázek s odpověďmi.
-3. Ověřit fakta, zdroje a licence, přidat jeden nový JSON, spustit kontroly a připravit místní commit. Odeslání na GitHub, vzdálený pull request i publikování vyžadují výslovné oprávnění a funkční přístup.
+3. Ověřit fakta, zdroje a licence, přidat jeden nový JSON, spustit kontroly a připravit místní commit. Ověřit zdroj GitHub Pages a odeslat nový commit přímo do `origin/main`. Po nasazení ověřit veřejnou stránku lekce.
