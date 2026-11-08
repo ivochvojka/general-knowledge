@@ -1,0 +1,16 @@
+{
+  "status": "Podklady k budoucí lekci; dosud nepublikováno",
+  "origin": "Přesunuto z lekce spisovatele dne 2026-11-08. Kafka patří k pražské německojazyčné literatuře; představit jako souvislost českého prostředí, nikoli automaticky jako česky píšícího autora.",
+  "sections": [
+    {
+      "title": "Franz Kafka (1883–1924)",
+      "text": "Pražský německy píšící spisovatel, autor Proměny a Procesu.",
+      "image": {
+        "file": "Franz_Kafka,_1923.jpg",
+        "alt": "Portrét – Franz Kafka",
+        "credit": "Neznámý fotograf",
+        "license": "Volné dílo podle Wikimedia Commons"
+      }
+    }
+  ]
+}

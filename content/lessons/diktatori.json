@@ -2,7 +2,7 @@
   "id": "diktatori",
   "category": "Moderní dějiny",
   "title": "Diktátoři 20. století",
-  "intro": "Šest autoritářských vládců a jejich historický kontext.",
+  "intro": "Jak se šest vládců dostalo k moci, jaké prostředky používali a jaké lidské ztráty jejich režimy způsobily. Odhad obětí je vždy potřeba číst společně s obdobím a tím, co se do něj započítává.",
   "cover": {
     "file": "Stalin_in_1943.png",
     "alt": "Josif Stalin na konferenci v Teheránu v roce 1943",
@@ -10,6 +10,10 @@
     "license": "Volné dílo v USA"
   },
   "sections": [
+    {
+      "title": "Jak číst počty obětí",
+      "text": "Historici používají různé metody: archivní seznamy poprav, táborové evidence nebo demografické odhady úmrtnosti nad běžnou úroveň. Zničené záznamy a nejistota o velikosti populace brání jedinému přesnému součtu. „Oběti režimu“ proto mohou znamenat jiný soubor než „všichni mrtví během jeho vlády“.\n\nNíže uváděná čísla nejsou srovnatelným žebříčkem ani důvodem zlehčovat menší součty. Odpovědnost za vyhlazovací politiku, hladomor a útočnou válku vyžaduje popsat konkrétní rozhodnutí. Rozpětí vždy čtěte spolu s vysvětlením, koho a které roky zahrnuje."
+    },
     {
       "title": "Adolf Hitler (1889–1945)",
       "text": "Vůdce nacistického Německa od roku 1933. Jeho režim rozpoutal druhou světovou válku v Evropě a organizoval holokaust.\n\nPrezident Paul von Hindenburg ho 30. ledna 1933 jmenoval kancléřem. V březnu zmocňovací zákon umožnil vládě vydávat zákony bez parlamentu a nacisté během několika měsíců rozložili demokratické instituce. Německý útok na Polsko 1. září 1939 zahájil válku v Evropě. Nacistický režim a jeho spolupracovníci zavraždili během holokaustu šest milionů evropských Židů.",
@@ -19,7 +23,19 @@
         "credit": "Heinrich Hoffmann",
         "license": "CC BY-SA 3.0 de",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
-      }
+      },
+      "subsections": [
+        {
+          "title": "Lidské ztráty a meze odhadu",
+          "text": "Odhad obětí: přibližně 11 milionů úmyslně usmrcených nebojujících osob podle vymezení historika Timothyho Snydera; při zahrnutí dalších předvídatelných úmrtí v důsledku deportací, hladu a věznění přes 12 milionů. Šest milionů zavražděných Židů je součástí tohoto počtu, nikoli položkou navíc. Jiné výzkumy používají širší soubory obětí. Jde o oběti nacistických vražedných politik, nikoli o všechny padlé a zemřelé ve druhé světové válce."
+        }
+      ],
+      "links": [
+        {
+          "title": "Timothy Snyder — vymezení obětí nacismu a stalinismu",
+          "url": "https://www.nybooks.com/online/2011/01/27/hitler-vs-stalin-who-was-worse/"
+        }
+      ]
     },
     {
       "title": "Josif Stalin (1878–1953)",
@@ -29,7 +45,19 @@
         "alt": "Josif Stalin na konferenci v Teheránu v roce 1943",
         "credit": "United States Army 12th Air Force",
         "license": "Volné dílo v USA"
-      }
+      },
+      "subsections": [
+        {
+          "title": "Lidské ztráty a meze odhadu",
+          "text": "Odhad obětí: Snyder uvádí přibližně 6 milionů úmyslně usmrcených nebojujících osob za Stalinovy vlády a asi 9 milionů při zahrnutí dalších předvídatelných úmrtí v důsledku deportací, hladu a táborových podmínek. Rozdíl není statistická chyba: jde o různé definice odpovědnosti. Starší i některé jiné odhady jsou vyšší. Čísla se netýkají všech sovětských válečných ztrát a nemají se k nim mechanicky přičítat. Hladomor na Ukrajině z let 1932–1933 je znám jako holodomor; hlad současně zasáhl i další části SSSR."
+        }
+      ],
+      "links": [
+        {
+          "title": "Timothy Snyder — jak definice mění odhady obětí",
+          "url": "https://www.nybooks.com/online/2011/01/27/hitler-vs-stalin-who-was-worse/"
+        }
+      ]
     },
     {
       "title": "Benito Mussolini (1883–1945)",
@@ -39,7 +67,19 @@
         "alt": "Dobový portrét Benita Mussoliniho",
         "credit": "Neznámý fotograf, reprodukce z knihy Mussolini als Journalist (1939)",
         "license": "Volné dílo podle Wikimedia Commons"
-      }
+      },
+      "subsections": [
+        {
+          "title": "Lidské ztráty a meze odhadu",
+          "text": "Odhad obětí: samotná internace obyvatel libyjské Kyrenaiky v táborech na počátku 30. let si podle historických studií vyžádala asi 40–48 tisíc mrtvých. To je pouze část obětí fašistického režimu, nikoli jeho celkový součet. Další lidé umírali při agresi proti Etiopii od roku 1935, za okupace i ve válkách v Evropě. Pro všechny tyto odlišné okruhy není v této lekci uváděno jediné souhrnné číslo: dostupné odhady mají různý rozsah a nelze je bez dalšího sčítat. Koloniální násilí zároveň ukazuje, proč obraz „mírnějšího“ fašismu přehlíží zkušenost afrických obyvatel."
+        }
+      ],
+      "links": [
+        {
+          "title": "International Review of Social History — deportace Libyjců a 40–48 tisíc úmrtí v táborech",
+          "url": "https://www.cambridge.org/core/journals/international-review-of-social-history/article/other-at-home-deportation-and-transportation-of-libyans-to-italy-during-the-colonial-era-19111943/FAFA1592C6350550622B210623CF57CE"
+        }
+      ]
     },
     {
       "title": "Mao Ce-tung (1893–1976)",
@@ -49,7 +89,19 @@
         "alt": "Oficiální portrét Mao Ce-tunga z roku 1950",
         "credit": "Chen Zhengqing (1917–1966)",
         "license": "Volné dílo podle Wikimedia Commons"
-      }
+      },
+      "subsections": [
+        {
+          "title": "Lidské ztráty a meze odhadu",
+          "text": "Odhad obětí: výzkum velkého čínského hladomoru spojeného s Velkým skokem vpřed často pracuje s přibližně 30 miliony předčasných úmrtí v letech kolem 1959–1961; odhady se podle dat, období a metody výrazně liší. Jde o úmrtí nad očekávanou úroveň, ne o seznam popravených. Násilí a pronásledování během kulturní revoluce představují další okruh obětí, který toto číslo neobsahuje. Nerealistické výrobní cíle, rekvizice a strach úředníků přiznat neúrodu pomáhaly katastrofu prohlubovat."
+        }
+      ],
+      "links": [
+        {
+          "title": "Stanford — výzkum velkého čínského hladomoru a odhad kolem 30 milionů",
+          "url": "https://stanford.edu/~dyang1/pdfs/famine_draft.pdf"
+        }
+      ]
     },
     {
       "title": "Francisco Franco (1892–1975)",
@@ -60,7 +112,19 @@
         "credit": "Neznámý autor",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
-      }
+      },
+      "subsections": [
+        {
+          "title": "Lidské ztráty a meze odhadu",
+          "text": "Odhad obětí: odborná literatura uvádí kolem 150 tisíc zabitých při nacionalistickém a frankistickém teroru za občanské války a v raném poválečném období. Paul Preston samostatně upozorňuje také na přibližně 20 tisíc poprav po skončení války; jednotlivé soubory a časová vymezení se liší, proto je zde nesčítáme do zdánlivě přesného celku. Nejde o všechny oběti občanské války, bojové ztráty ani o součet násilí obou stran. Represe pokračovaly i po vítězství režimu, kdy už nebylo možné vysvětlovat popravy probíhajícím frontovým bojem."
+        }
+      ],
+      "links": [
+        {
+          "title": "Current Anthropology — odhady frankistického teroru a poválečných poprav",
+          "url": "https://www.journals.uchicago.edu/doi/full/10.1086/701057"
+        }
+      ]
     },
     {
       "title": "Pol Pot (1925–1998)",
@@ -71,13 +135,57 @@
         "credit": "Neznámý fotograf, Fototeca online a comunismului românesc, snímek č. 45014X1X4 (přístup 6. listopadu 2026)",
         "license": "Licence FOCR s uvedením zdroje",
         "licenseUrl": "https://commons.wikimedia.org/wiki/Template:FOCR"
-      }
+      },
+      "subsections": [
+        {
+          "title": "Lidské ztráty a meze odhadu",
+          "text": "Odhad obětí: přibližně 1,5–2 miliony mrtvých mezi dubnem 1975 a lednem 1979 podle shrnutí kambodžského tribunálu ECCC. Zahrnuje popravy i úmrtí v důsledku hladu, nemocí a nucené práce. Pro tehdejší Kambodžu to znamenalo ztrátu přibližně pětiny až čtvrtiny obyvatel. Není správné všechny mrtvé označit za popravené. Tribunál rozlišoval zločiny proti lidskosti a genocidu konkrétních etnických a náboženských skupin; masové umírání tak mělo více právních i historických podob."
+        }
+      ],
+      "links": [
+        {
+          "title": "ECCC — historický kontext a odhad 1,5–2 milionů obětí",
+          "url": "https://timeline.eccc.gov.kh/en/section/the-democratic-kampuchea-regime"
+        }
+      ]
+    },
+    {
+      "title": "Co mají diktatury společného",
+      "text": "Nacistická rasová ideologie, stalinský komunismus, italský fašismus a frankistické autoritářství nebyly totožné systémy. Opakovaly se však útoky na nezávislé instituce, cenzura, hledání vnitřního nepřítele a trestání opozice. K porozumění nestačí znát jméno vůdce: důležité je sledovat, kdo směl kontrolovat jeho rozhodnutí a co se stalo lidem, kteří mu odporovali."
     }
   ],
   "quiz": [
     {
       "question": "Ve které zemi vládl Francisco Franco?",
-      "answer": "Ve Španělsku."
+      "answer": "Ve Španělsku, po vítězství v občanské válce roku 1939 až do smrti roku 1975."
+    },
+    {
+      "question": "Proč se nesmí k odhadu nacistických obětí prostě přičíst šest milionů Židů?",
+      "answer": "Protože židovské oběti už jsou součástí uvedeného širšího odhadu. Jejich přičtení by bylo dvojím započítáním."
+    },
+    {
+      "question": "Co znamená demografický odhad předčasných úmrtí?",
+      "answer": "Porovnává skutečné či odhadované úmrtí s očekávanou běžnou úmrtností. Může zahrnovat hlad a nemoci, ne pouze popravy."
+    },
+    {
+      "question": "Která Stalinova politika přispěla k hladomoru na počátku 30. let?",
+      "answer": "Nucená kolektivizace a státní rekvizice. Hladomor zasáhl zejména Ukrajinu, ale také jiné části SSSR."
+    },
+    {
+      "question": "Ke které události se vztahuje uvedených zhruba 30 milionů obětí za Maa?",
+      "answer": "K velkému čínskému hladomoru spojenému s Velkým skokem vpřed, zejména v letech 1959–1961. Není to součet všech obětí celé Maovy vlády."
+    },
+    {
+      "question": "Proč libyjských 40–48 tisíc mrtvých není celkový počet Mussoliniho obětí?",
+      "answer": "Jde pouze o úmrtí internovaných obyvatel Kyrenaiky v táborech. Nezahrnuje další koloniální násilí ani evropské války."
+    },
+    {
+      "question": "Jaké příčiny smrti zahrnuje kambodžský odhad 1,5–2 milionů?",
+      "answer": "Popravy, hlad, nemoci a nucenou práci za režimu Rudých Khmerů v letech 1975–1979."
+    },
+    {
+      "question": "Proč nelze všechny mrtvé ve španělské občanské válce označit za oběti frankistických poprav?",
+      "answer": "Bojové ztráty, represe frankistů a násilí v republikánské zóně jsou odlišné soubory. Odhad musí vždy určit příčinu, pachatele i období."
     }
   ],
   "date": "2026-11-02",
@@ -113,6 +221,30 @@
     },
     {
       "title": "Mimořádné soudní senáty v Kambodži — Demokratická Kampučie",
+      "url": "https://timeline.eccc.gov.kh/en/section/the-democratic-kampuchea-regime"
+    },
+    {
+      "title": "Timothy Snyder — vymezení obětí nacismu a stalinismu",
+      "url": "https://www.nybooks.com/online/2011/01/27/hitler-vs-stalin-who-was-worse/"
+    },
+    {
+      "title": "Timothy Snyder — jak definice mění odhady obětí",
+      "url": "https://www.nybooks.com/online/2011/01/27/hitler-vs-stalin-who-was-worse/"
+    },
+    {
+      "title": "International Review of Social History — deportace Libyjců a 40–48 tisíc úmrtí v táborech",
+      "url": "https://www.cambridge.org/core/journals/international-review-of-social-history/article/other-at-home-deportation-and-transportation-of-libyans-to-italy-during-the-colonial-era-19111943/FAFA1592C6350550622B210623CF57CE"
+    },
+    {
+      "title": "Stanford — výzkum velkého čínského hladomoru a odhad kolem 30 milionů",
+      "url": "https://stanford.edu/~dyang1/pdfs/famine_draft.pdf"
+    },
+    {
+      "title": "Current Anthropology — odhady frankistického teroru a poválečných poprav",
+      "url": "https://www.journals.uchicago.edu/doi/full/10.1086/701057"
+    },
+    {
+      "title": "ECCC — historický kontext a odhad 1,5–2 milionů obětí",
       "url": "https://timeline.eccc.gov.kh/en/section/the-democratic-kampuchea-regime"
     }
   ]

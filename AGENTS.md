@@ -25,7 +25,7 @@ Each **new lesson** must:
 - Have a specific title, unique stable slug/ID, subject category, publication date (Europe/Prague), engaging introduction, clear subsections, and a memorable conclusion.
 - Explain important **dates, people, places, causes and consequences**, historical context, and at least two illuminating or surprising facts.
 - Distinguish established facts from uncertain or disputed interpretations; do not invent dates, quotes, statistics, bibliographic facts, or references. Verify material factual claims against reliable sources when network/research tools are available. If verification is not possible, say so and avoid unverified specifics.
-- End with a short **quiz** (ideally 3–5 questions) and clearly accessible correct answers/explanations; use the site's interactive quiz UI if available.
+- End with a **quiz of at least 5 questions** and clearly accessible correct answers/explanations; include both recall and understanding, using the site's interactive quiz UI if available.
 - Use real, relevant **historical portraits, photographs, maps or reproductions**, not generated placeholder art or generic icon templates. If a genuine image cannot be obtained, show a tasteful text fallback rather than a misleading image.
 - For musical works, add useful **YouTube Music** links where a real, relevant URL has been verified; never fabricate links.
 - Include source references for claims and media attribution where appropriate. Preserve original work titles, accents and names.
@@ -33,6 +33,12 @@ Each **new lesson** must:
 
 ### Topic rotation
 Rotate among world literature and authors; countries and regions (South America, Asia, Africa, Europe); Czech and world history; ancient civilizations; culture and music; science; geography; political history; and significant people. Avoid two closely overlapping topics in succession. Read existing lessons to prevent repetition. Be neutral, factual, and well-sourced on contested political or historical matters.
+
+### Reader preferences and approved follow-up lessons (2026-11-08)
+- Read `content/plan.json` before choosing a topic. It records approved future lessons on Czech composers, Czech authors, Ancient Civilizations II and Czech Middle Ages II; interleave them with other subjects. Remove a plan item when its lesson is published, preserving its reserved ID or deliberately updating it.
+- Existing overview lessons may exceed four minutes when needed for learning. Give people basic biographical and historical context; explain works with concise summaries and verified links. For music, include major choral/symphonic works and a brief listening guide.
+- Czech composers and Czech literature belong in separate lessons. The current world overviews retain a short acknowledgment of Czech contributors. Preserve the relocated material in `content/planning/` until incorporated; Kafka must be identified as a Prague German-language author, not simply a Czech-language writer.
+- Dictators' casualty estimates must specify scope, period, source and uncertainty; do not sum overlapping categories. Country profiles should include capital, area, population with a reference year, context and interesting facts.
 
 ### Existing seed subjects — preserve and expand
 These seven topics already existed in the prior ChatGPT encyclopedia/prototype. **Inspect the repository for their actual contents**; the initial web prototype may be abridged, so do not assume it contains the complete original lessons.
@@ -97,7 +103,7 @@ Desired replacement: a **Codex automation** (if supported in the owner's environ
 **Do not claim this automation is configured merely because this AGENTS.md exists.** The owner must configure/enable it in Codex or another supported scheduler, and verify that the environment has repo write access, network access for sources/images, and permission to publish. A scheduled run on a powered-off Mac may not execute depending on the scheduler; verify the actual runtime behavior.
 
 ### Suggested Codex automation prompt
-> Read AGENTS.md and the current lessons in this repository. Prepare exactly one new, non-duplicative Czech general-knowledge lesson, following the topic rotation and four-minute format. Research and verify facts; select relevant genuine Wikimedia Commons or other properly licensed images with attribution; include a 3–5-question quiz. Update the content inventory, run all checks, and prepare a focused commit. The owner authorizes pushing the verified lesson to `origin/main`. Verify GitHub Pages deployment and report any blocker or unverified result.
+> Read AGENTS.md, content/plan.json and the current lessons in this repository. Prepare exactly one new, non-duplicative Czech general-knowledge lesson, following the topic rotation and four-minute format. Research and verify facts; select relevant genuine Wikimedia Commons or other properly licensed images with attribution; include at least 5 quiz questions with explanations. Update the content inventory and plan, run all checks, and prepare a focused commit. The owner authorizes pushing the verified lesson to `origin/main`. Verify GitHub Pages deployment and report any blocker or unverified result.
 
 ## Working with previous content
 The earlier spreadsheet and illustrated Excel were **intermediate prototypes**, not authoritative complete source documents. Some Excel images were generic illustrations; **do not reuse them as authentic portraits**. The first web prototype was explicitly abridged. If original full lesson text is unavailable in the repository, ask the owner for an export or reconstruct an accurate, newly researched full article rather than claiming a verbatim migration.

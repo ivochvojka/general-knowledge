@@ -2,7 +2,7 @@
   "id": "jizni-amerika",
   "category": "Geografie",
   "title": "Jižní Amerika",
-  "intro": "Sedm zemí, jejich krajina, kultura a dějiny.",
+  "intro": "Sedm zemí mezi Andami, Amazonií a Atlantikem. Kontinent není jediná tropická krajina: najdeme tu pouště, ledovce, vysokohorská města i travnaté pampy. Základní údaje doplňují příběhy, které pomohou země od sebe odlišit.",
   "cover": {
     "file": "1855_Spruner_Map_of_South_America_-_Overview_of_Discovery,_Conquest_and_Colonization_-_Geographicus_-_SudAmerica-spruner-1855.jpg",
     "alt": "Historická mapa Jižní Ameriky z atlasu vydaného roku 1855",
@@ -11,87 +11,446 @@
   },
   "sections": [
     {
+      "title": "Jak údaje porovnávat",
+      "text": "Počty obyvatel jsou zaokrouhlené údaje Světové banky za rok 2024, nikoli průběžný počet lidí v roce 2026. Díky společnému roku je lze porovnávat; pozdější revize odhadů jsou běžné. Rozlohy jsou orientačně zaokrouhlené; různé databáze se mohou lišit započtením vodních ploch a vymezením území. U Argentiny a Chile nezahrnujeme antarktické nároky. U Venezuely není započten nárok na Guyanou spravované Essequibo.\n\nJde o výběr sedmi zemí, nikoli seznam všech států kontinentu. Jižní Amerika zahrnuje také například Bolívii, Ekvádor, Paraguay, Guyanu a Surinam. Obrázek na úvodu je historická mapa z roku 1855; pro dnešní hranice slouží současné geografické zdroje.",
+      "links": [
+        {
+          "title": "Světová banka — obyvatelstvo jednotlivých zemí, 2024",
+          "url": "https://datacatalogfiles.worldbank.org/ddh-published/0038126/DR0046429/POP.pdf"
+        }
+      ]
+    },
+    {
       "title": "Brazílie",
-      "text": "Největší stát Jižní Ameriky, jehož úředním jazykem je portugalština. Proslul Amazonkou, karnevalem a městem Rio de Janeiro.",
+      "text": "Brazílie je rozlohou i počtem obyvatel největší stát Jižní Ameriky. Zaujímá velkou část Amazonie, ale zahrnuje také savanové cerrado, zemědělské oblasti a hustě osídlený jihovýchod. Amazonie není jen „prázdný prales“: žijí v ní původní národy i obyvatelé velkých měst. Odlesňování mění biodiverzitu i koloběh vody.\n\nPortugalština připomíná kolonizaci Portugalskem; většinu ostatních zde probíraných zemí kolonizovalo Španělsko. Nezávislost Brazílie byla vyhlášena roku 1822. Po dlouhé období monarchie vznikla roku 1889 republika. Hospodářství zahrnuje zemědělství, těžbu, průmysl i služby; žádný jediný produkt nevystihuje celou zemi.",
       "image": {
         "file": "Christ_the_Redeemer_-_Cristo_Redentor.jpg",
         "alt": "Socha Krista Spasitele v Riu de Janeiru",
         "credit": "Arne Müseler",
         "license": "CC BY-SA 3.0 de",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
-      }
+      },
+      "facts": [
+        {
+          "label": "Hlavní město",
+          "value": "Brasília"
+        },
+        {
+          "label": "Přibližná rozloha",
+          "value": "8,5 milionu km²"
+        },
+        {
+          "label": "Obyvatelstvo (2024, zaokrouhleno)",
+          "value": "212,0 milionu"
+        },
+        {
+          "label": "Jazyk",
+          "value": "Portugalština"
+        }
+      ],
+      "extra": "Hlavním městem není Rio de Janeiro ani největší São Paulo. Nově vybudovaná Brasília se jím stala roku 1960, aby se rozvoj více obrátil do vnitrozemí. Její modernistické urbanistické řešení je na seznamu UNESCO. Brazilský karneval a samba zase připomínají silné afrobrazilské kulturní dědictví.",
+      "links": [
+        {
+          "title": "UNESCO — Brasília",
+          "url": "https://whc.unesco.org/en/list/445"
+        },
+        {
+          "title": "Brazilská vláda — hlavní město",
+          "url": "https://www.gov.br/g20/en/about-the-g20/host-cities/brasilia-df"
+        },
+        {
+          "title": "National Geographic — Brazílie, základní zeměpisné údaje",
+          "url": "https://kids.nationalgeographic.com/geography/countries/article/brazil"
+        }
+      ]
     },
     {
       "title": "Argentina",
-      "text": "Země pamp, tanga a Patagonie. Hlavním městem je Buenos Aires.",
+      "text": "Argentina sahá od subtropického severu přes travnaté pampy po chladnou Patagonii. Na západě ji od Chile oddělují Andy; v argentinské části leží Aconcagua, nejvyšší hora Ameriky. Úrodné pampy pomáhaly rozvoji obilnářství a chovu dobytka. Buenos Aires je přístav a kulturní centrum u ústí Río de la Plata.\n\nNezávislost byla vyhlášena roku 1816. Silná evropská migrace v 19. a na počátku 20. století ovlivnila podobu měst a společnosti, neměla by však zakrýt přítomnost původních obyvatel ani násilí při rozšiřování státní kontroly. Dějiny 20. století zahrnovaly vojenské diktatury, peronismus i opakované hospodářské krize.",
       "image": {
         "file": "Panorama_Obelisco_de_Buenos_Aires_2019.jpg",
         "alt": "Obelisk v Buenos Aires",
         "credit": "Luis Santos",
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
-      }
+      },
+      "facts": [
+        {
+          "label": "Hlavní město",
+          "value": "Buenos Aires"
+        },
+        {
+          "label": "Přibližná rozloha",
+          "value": "2,78 milionu km²"
+        },
+        {
+          "label": "Obyvatelstvo (2024, zaokrouhleno)",
+          "value": "45,7 milionu"
+        },
+        {
+          "label": "Jazyk",
+          "value": "Španělština"
+        }
+      ],
+      "extra": "Tango je společným dědictvím Argentiny a Uruguaye, nikoli výhradně argentinským vynálezem. Stejně tak Patagonie leží v obou státech, Argentině i Chile. Obě kulturní a geografické oblasti tedy překračují státní hranice.",
+      "links": [
+        {
+          "title": "UNESCO — tango Argentiny a Uruguaye",
+          "url": "https://ich.unesco.org/en/rl/tango-00258"
+        },
+        {
+          "title": "Argentina — geografický přehled",
+          "url": "https://en.wikipedia.org/wiki/Argentina"
+        }
+      ]
     },
     {
       "title": "Chile",
-      "text": "Velmi dlouhá země podél Tichého oceánu, s pouští Atacama na severu a Patagonií na jihu.",
+      "text": "Chile tvoří dlouhý pás mezi Andami a Tichým oceánem. Severní Atacama patří k nejsušším oblastem Země, střed země má podmínky vhodné pro vinařství a jih přechází do fjordů a patagonské krajiny. Studený Humboldtův proud podporuje mořský život a přispívá k suchému klimatu pobřeží. Poušť tedy neleží v tropech jen kvůli horku.\n\nMěď má zásadní hospodářský význam. Země zároveň leží na aktivním rozhraní tektonických desek, proto je důležitá příprava na zemětřesení a tsunami. Po převratu roku 1973 vládl Augusto Pinochet; přechod k civilní demokratické vládě nastal roku 1990. Tento historický zlom ovlivnil politiku i veřejnou paměť.",
       "image": {
         "file": "Atacama.png",
         "alt": "Satelitní snímek pouště Atacama",
         "credit": "NASA",
         "license": "Volné dílo podle Wikimedia Commons"
-      }
+      },
+      "facts": [
+        {
+          "label": "Hlavní město",
+          "value": "Santiago"
+        },
+        {
+          "label": "Přibližná rozloha",
+          "value": "756 tisíc km²"
+        },
+        {
+          "label": "Obyvatelstvo (2024, zaokrouhleno)",
+          "value": "19,8 milionu"
+        },
+        {
+          "label": "Jazyk",
+          "value": "Španělština"
+        }
+      ],
+      "extra": "K Chile patří také Rapa Nui neboli Velikonoční ostrov v Polynésii, daleko od jihoamerické pevniny. Suché ovzduší a vysoká nadmořská výška v Atacamě zase umožňují mimořádná astronomická pozorování. Země tak spojuje tichomořskou ostrovní kulturu s observatořemi v Andách.",
+      "links": [
+        {
+          "title": "UNESCO — národní park Rapa Nui",
+          "url": "https://whc.unesco.org/en/list/715"
+        },
+        {
+          "title": "ESO — jasná obloha nad observatoří ALMA",
+          "url": "https://www.hq.eso.org/public/images/potw1150a/"
+        },
+        {
+          "title": "Biblioteca Nacional de Chile — diktatura a návrat k demokracii",
+          "url": "https://www.memoriachilena.gob.cl/602/w3-article-31395.html"
+        }
+      ]
     },
     {
       "title": "Peru",
-      "text": "Země s významným dědictvím Incké říše. Nejznámější památkou je Machu Picchu v Andách.",
+      "text": "Peru tvoří tři výrazné přírodní světy: suché tichomořské pobřeží, vysoké Andy a amazonské nížiny. Lima leží na pobřeží, nikoli vysoko v Andách. Incká říše měla centrum v Cuscu a v 15. století spojovala rozsáhlá území sítí cest a správních středisek. Španělské dobývání v 16. století využilo také vnitřních konfliktů říše.\n\nMachu Picchu, vybudované v 15. století, ukazuje umění kamenného stavitelství a přizpůsobení strmému terénu. Inkové ale nebyli první civilizací Peru: předcházely jim například kultury Moche a Nazca. Místní dějiny proto nelze zúžit na jedinou říši a její dobytí.",
       "image": {
         "file": "Machu_Picchu,_2023_(012).jpg",
         "alt": "Incká památka Machu Picchu v Peru",
         "credit": "Draceane",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
+      },
+      "facts": [
+        {
+          "label": "Hlavní město",
+          "value": "Lima"
+        },
+        {
+          "label": "Přibližná rozloha",
+          "value": "1,285 milionu km²"
+        },
+        {
+          "label": "Obyvatelstvo (2024, zaokrouhleno)",
+          "value": "34,2 milionu"
+        },
+        {
+          "label": "Jazyk",
+          "value": "Španělština; regionálně také kečuánština, ajmarština a další původní jazyky"
+        }
+      ],
+      "extra": "Machu Picchu nebylo úplně „ztracené město“, o kterém by nikdo nevěděl: místní obyvatelé lokalitu znali i před příchodem Hirama Binghama roku 1911. Brambory mají významné kořeny domestikace v andské oblasti; dnešní běžná evropská plodina tak připomíná propojení světadílů po zámořských cestách.",
+      "links": [
+        {
+          "title": "UNESCO — Machu Picchu",
+          "url": "https://whc.unesco.org/en/list/274"
+        },
+        {
+          "title": "Peruánské ministerstvo kultury — Machu Picchu nebylo ztracené",
+          "url": "https://www.machupicchu.gob.pe/documents/poliptico_en.pdf"
+        }
+      ]
     },
     {
       "title": "Kolumbie",
-      "text": "Země na severozápadě kontinentu, známá kávou, karibským pobřežím a rozmanitou přírodou.",
+      "text": "Kolumbie leží na severozápadě kontinentu a má pobřeží u Karibského moře i Tichého oceánu. Andy se zde větví a mezi horskými oblastmi, nížinami a Amazonií vznikají velmi rozdílná prostředí. Bogotá leží vysoko v Andách; rovníková blízkost proto neznamená tropické vedro všude.\n\nKáva spojuje krajinu, práci pěstitelů a obchodní dějiny. Dlouhé vnitřní ozbrojené konflikty způsobovaly násilí a vysídlování; je však zavádějící redukovat celou zemi na kriminalitu. Historie zahrnuje bohaté předkolumbovské kultury i výraznou moderní literaturu. Gabriel García Márquez získal Nobelovu cenu za literaturu roku 1982.",
       "image": {
         "file": "Museo_Naval_del_Caribe.JPG",
         "alt": "Námořní muzeum v kolumbijské Cartageně",
         "credit": "Sgonzalezb",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
+      },
+      "facts": [
+        {
+          "label": "Hlavní město",
+          "value": "Bogotá"
+        },
+        {
+          "label": "Přibližná rozloha",
+          "value": "1,142 milionu km²"
+        },
+        {
+          "label": "Obyvatelstvo (2024, zaokrouhleno)",
+          "value": "52,9 milionu"
+        },
+        {
+          "label": "Jazyk",
+          "value": "Španělština; další jazyky mají regionální úřední postavení"
+        }
+      ],
+      "extra": "Pověst o El Doradu souvisela mimo jiné s rituály Muisců, ne s doloženým městem z čistého zlata. Zlatý model obřadního voru uchovává bogotské Museo del Oro. Kolumbijská kávová kulturní krajina je na seznamu UNESCO: ceněná není jen plodina, ale i způsob využití horského prostředí.",
+      "links": [
+        {
+          "title": "Banco de la República — muiscký vor a El Dorado",
+          "url": "https://enciclopedia.banrepcultural.org/Balsa_muisca"
+        },
+        {
+          "title": "UNESCO — kolumbijská kávová krajina",
+          "url": "https://whc.unesco.org/en/list/1121"
+        }
+      ]
     },
     {
       "title": "Venezuela",
-      "text": "Země s rozsáhlými zásobami ropy. Nachází se zde Salto Ángel, jeden z nejvyšších vodopádů světa.",
+      "text": "Venezuela spojuje karibské pobřeží, andské oblasti, savany Llanos a Guyanskou vysočinu. Řeka Orinoko patří k velkým říčním systémům kontinentu. Ropa zásadně proměnila hospodářství ve 20. století; závislost na jejím vývozu však vytváří zranitelnost vůči výkyvům příjmů. Velké přírodní bohatství samo o sobě nezaručuje stabilní životní podmínky.\n\nZemě je spojena se Simónem Bolívarem a bojem za nezávislost severu Jižní Ameriky na Španělsku. Dlouhodobá politická a hospodářská krize v novější době vedla k rozsáhlému odchodu obyvatel. U populačních odhadů je proto zvlášť důležité uvádět rok a zdroj.",
       "image": {
         "file": "SaltoAngel1.jpg",
         "alt": "Vodopád Salto Ángel ve Venezuele",
         "credit": "Rich Childs",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
+      },
+      "facts": [
+        {
+          "label": "Hlavní město",
+          "value": "Caracas"
+        },
+        {
+          "label": "Přibližná rozloha",
+          "value": "912 tisíc km²"
+        },
+        {
+          "label": "Obyvatelstvo (2024, zaokrouhleno)",
+          "value": "28,4 milionu"
+        },
+        {
+          "label": "Jazyk",
+          "value": "Španělština; pro původní národy také jejich jazyky"
+        }
+      ],
+      "extra": "Salto Ángel neboli Kerepakupai Merú má celkovou výšku přibližně 979 metrů a bývá uváděn jako nejvyšší nadzemní vodopád světa. Padá ze stolové hory Auyán-tepui v parku Canaima. Izolované vrcholy tepui hostí organismy přizpůsobené specifickým podmínkám; krajina tak připomíná přírodní ostrovy vysoko nad okolním lesem.",
+      "links": [
+        {
+          "title": "UNESCO — Canaima",
+          "url": "https://whc.unesco.org/en/list/701"
+        },
+        {
+          "title": "Guinness World Records — výška Salto Ángel",
+          "url": "https://www.guinnessworldrecords.com/world-records/highest-waterfall"
+        },
+        {
+          "title": "UNHCR — venezuelská krize a migrace",
+          "url": "https://www.unhcr.org/emergencies/venezuela-situation"
+        }
+      ]
     },
     {
       "title": "Uruguay",
-      "text": "Menší stát mezi Brazílií a Argentinou s hlavním městem Montevideo.",
+      "text": "Uruguay leží mezi Brazílií a Argentinou při ústí Río de la Plata a u Atlantiku. Převládá mírně zvlněná travnatá krajina, důležitá pro chov dobytka a zemědělství. Montevideo je přístav, hlavní město a nejvýznamnější městské centrum. Na rozdíl od andských států zde nenajdeme vysoká pohoří.\n\nJako samostatný stát se Uruguay ustavila roku 1828 po soupeření sousedních mocností. Její moderní identitu utvářely sociální reformy i výrazná sekulární tradice. Dějiny zahrnují také vojenskou diktaturu v letech 1973–1985; pověst stabilní demokracie proto neznamená nepřerušený demokratický vývoj.",
       "image": {
         "file": "La_Plaza_Independencia_y_el_Palacio_Salvo,_Montevideo,_Uruguay_-_panoramio.jpg",
         "alt": "Náměstí Nezávislosti a Palacio Salvo v Montevideu",
         "credit": "rodoluca",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
+      },
+      "facts": [
+        {
+          "label": "Hlavní město",
+          "value": "Montevideo"
+        },
+        {
+          "label": "Přibližná rozloha",
+          "value": "176 tisíc km²"
+        },
+        {
+          "label": "Obyvatelstvo (2024, zaokrouhleno)",
+          "value": "3,4 milionu"
+        },
+        {
+          "label": "Jazyk",
+          "value": "Španělština"
+        }
+      ],
+      "extra": "Uruguay pořádala roku 1930 první mistrovství světa ve fotbale a také ho vyhrála. Kromě sdílené tradice tanga je důležité candombe, hudba a tanec s africkými kořeny a výraznými bubny. Obě tradice připomínají, že kultura oblasti Río de la Plata nevznikla jen z evropského přistěhovalectví.",
+      "links": [
+        {
+          "title": "UNESCO — candombe",
+          "url": "https://ich.unesco.org/en/rl/candombe-and-its-socio-cultural-space-a-community-practice-00182"
+        },
+        {
+          "title": "National Geographic — Uruguay",
+          "url": "https://kids.nationalgeographic.com/geography/countries/article/uruguay"
+        },
+        {
+          "title": "Uruguayské prezidenství — návrat demokracie v roce 1985",
+          "url": "https://www.gub.uy/presidencia/comunicacion/noticias/pueblo-uruguayo-celebra-40-anos-democracia-ininterrumpida"
+        }
+      ]
+    },
+    {
+      "title": "Mapa, kterou si lze zapamatovat",
+      "text": "Zkuste si kontinent projít od severu k jihu: karibská Venezuela a Kolumbie, andské Peru a Chile, obrovská Brazílie na východě a jižní Argentina s Uruguayí u Río de la Plata. Když k názvu připojíte hlavní město, typ krajiny a jednu historickou souvislost, získáte pevnější orientaci než ze seznamu rekordů."
     }
   ],
   "quiz": [
     {
-      "question": "Ve které zemi leží Machu Picchu?",
-      "answer": "V Peru."
+      "question": "Ve které zemi leží Machu Picchu a co bylo centrem Incké říše?",
+      "answer": "V Peru. Hlavním centrem říše bylo Cusco; Machu Picchu je jiná incká lokalita z 15. století."
+    },
+    {
+      "question": "Jaké je hlavní město Brazílie a od kdy tuto funkci plní?",
+      "answer": "Brasília od roku 1960. Rio de Janeiro bylo předchozím hlavním městem; São Paulo je největším městem země."
+    },
+    {
+      "question": "Proč se v Brazílii mluví portugalsky?",
+      "answer": "Kvůli portugalské kolonizaci. Většina ostatních zde probíraných zemí má dědictví španělské kolonizace."
+    },
+    {
+      "question": "Které hlavní město patří Argentině, které Chile a které Peru?",
+      "answer": "Buenos Aires — Argentina; Santiago — Chile; Lima — Peru."
+    },
+    {
+      "question": "Která země z přehledu má karibské i tichomořské pobřeží?",
+      "answer": "Kolumbie, jejímž hlavním městem je Bogotá."
+    },
+    {
+      "question": "Kde leží Salto Ángel a jaká krajina ho obklopuje?",
+      "answer": "Ve Venezuele, v národním parku Canaima. Padá ze stolové hory Auyán-tepui."
+    },
+    {
+      "question": "Které dvě země sdílejí Patagonii a které tradici tanga?",
+      "answer": "Patagonii Argentina a Chile. Tango je společným dědictvím Argentiny a Uruguaye."
+    },
+    {
+      "question": "Jak se jmenuje hlavní město Uruguaye a hlavní město Venezuely?",
+      "answer": "Montevideo a Caracas."
+    },
+    {
+      "question": "Která z uvedených zemí má nejvíce obyvatel a jaký je přibližný počet?",
+      "answer": "Brazílie, přibližně 212 milionů podle společného srovnávacího roku 2024."
+    },
+    {
+      "question": "Proč nelze automaticky srovnávat dva počty obyvatel z různých internetových přehledů?",
+      "answer": "Mohou se týkat různých roků, metod a revizí. Proto je u každého údaje nutné znát datum a zdroj."
     }
   ],
-  "date": "2026-11-06"
+  "date": "2026-11-06",
+  "sources": [
+    {
+      "title": "Světová banka — populační údaje 2024",
+      "url": "https://datacatalogfiles.worldbank.org/ddh-published/0038126/DR0046429/POP.pdf"
+    },
+    {
+      "title": "OAS — obyvatelstvo 2024, demografické údaje OSN",
+      "url": "https://www.oas.org/IOS/indicatorsdetails.aspx?indicator=74&lang=es"
+    },
+    {
+      "title": "OSN — statistická příručka, rozlohy a hlavní města",
+      "url": "https://unstats.un.org/unsd/publications/pocketbook/files/world-stats-pocketbook-2021.pdf"
+    },
+    {
+      "title": "CEPAL — rozloha Uruguaye a Montevideo",
+      "url": "https://crpd.cepal.org/6/en/event-information"
+    },
+    {
+      "title": "UNESCO — Brasília",
+      "url": "https://whc.unesco.org/en/list/445"
+    },
+    {
+      "title": "Brazilská vláda — hlavní město",
+      "url": "https://www.gov.br/g20/en/about-the-g20/host-cities/brasilia-df"
+    },
+    {
+      "title": "UNESCO — tango Argentiny a Uruguaye",
+      "url": "https://ich.unesco.org/en/rl/tango-00258"
+    },
+    {
+      "title": "Argentina — geografický přehled",
+      "url": "https://en.wikipedia.org/wiki/Argentina"
+    },
+    {
+      "title": "UNESCO — národní park Rapa Nui",
+      "url": "https://whc.unesco.org/en/list/715"
+    },
+    {
+      "title": "ESO — jasná obloha nad observatoří ALMA",
+      "url": "https://www.hq.eso.org/public/images/potw1150a/"
+    },
+    {
+      "title": "UNESCO — Machu Picchu",
+      "url": "https://whc.unesco.org/en/list/274"
+    },
+    {
+      "title": "Peruánské ministerstvo kultury — Machu Picchu nebylo ztracené",
+      "url": "https://www.machupicchu.gob.pe/documents/poliptico_en.pdf"
+    },
+    {
+      "title": "Banco de la República — muiscký vor a El Dorado",
+      "url": "https://enciclopedia.banrepcultural.org/Balsa_muisca"
+    },
+    {
+      "title": "UNESCO — kolumbijská kávová krajina",
+      "url": "https://whc.unesco.org/en/list/1121"
+    },
+    {
+      "title": "UNESCO — Canaima",
+      "url": "https://whc.unesco.org/en/list/701"
+    },
+    {
+      "title": "Guinness World Records — výška Salto Ángel",
+      "url": "https://www.guinnessworldrecords.com/world-records/highest-waterfall"
+    },
+    {
+      "title": "UNESCO — candombe",
+      "url": "https://ich.unesco.org/en/rl/candombe-and-its-socio-cultural-space-a-community-practice-00182"
+    },
+    {
+      "title": "National Geographic — Uruguay",
+      "url": "https://kids.nationalgeographic.com/geography/countries/article/uruguay"
+    },
+    {
+      "title": "National Geographic — Brazílie, základní zeměpisné údaje",
+      "url": "https://kids.nationalgeographic.com/geography/countries/article/brazil"
+    },
+    {
+      "title": "Biblioteca Nacional de Chile — diktatura a návrat k demokracii",
+      "url": "https://www.memoriachilena.gob.cl/602/w3-article-31395.html"
+    },
+    {
+      "title": "UNHCR — venezuelská krize a migrace",
+      "url": "https://www.unhcr.org/emergencies/venezuela-situation"
+    },
+    {
+      "title": "Uruguayské prezidenství — návrat demokracie v roce 1985",
+      "url": "https://www.gub.uy/presidencia/comunicacion/noticias/pueblo-uruguayo-celebra-40-anos-democracia-ininterrumpida"
+    }
+  ]
 }

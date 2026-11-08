@@ -95,7 +95,23 @@
   "quiz": [
     {
       "question": "Kdo složil hudbu k trilogii Pán prstenů?",
-      "answer": "Howard Shore."
+      "answer": "Howard Shore. Charakteristické motivy spojuje s postavami, národy i místy."
+    },
+    {
+      "question": "Kdo je autorem hudby ke Star Wars, Jurskému parku a Indianu Jonesovi?",
+      "answer": "John Williams."
+    },
+    {
+      "question": "Který skladatel propojuje orchestr a elektronické zvuky například v Počátku a Interstellaru?",
+      "answer": "Hans Zimmer."
+    },
+    {
+      "question": "Který italský skladatel je spojen s westerny Sergia Leoneho a filmem Mise?",
+      "answer": "Ennio Morricone."
+    },
+    {
+      "question": "Kdo složil hudbu k Titanicu, Avataru a Statečnému srdci?",
+      "answer": "James Horner."
     }
   ],
   "date": "2026-11-02",

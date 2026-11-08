@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ceska-klasicka-hudba",
+    "title": "Čeští skladatelé světového významu",
+    "category": "Hudba",
+    "summary": "Smetana a Dvořák: životní souvislosti, Má vlast se všemi šesti částmi, zásadní opery a velká symfonická díla. Poslech s vysvětlením, na co se zaměřit."
+  },
+  {
+    "id": "staroveke-civilizace-ii",
+    "title": "Starověké civilizace II: Persie, Indie a Čína",
+    "category": "Historie",
+    "summary": "Perská říše, civilizace údolí Indu a počátky čínských států. Časové osy, správa říší, písmo, náboženství, obchod a vztahy se světem první lekce."
+  },
+  {
+    "id": "ceska-literatura",
+    "title": "Čeští autoři ve světové literatuře",
+    "category": "Literatura",
+    "summary": "Čapek, Hašek, Hrabal, Seifert a Kundera: medailonky, srozumitelné anotace a odkazy k dílům. Samostatně vysvětlit Kafku jako pražského německy píšícího autora."
+  },
+  {
+    "id": "cesky-stredovek-ii",
+    "title": "Český středověk II: Jan Hus a husitství",
+    "category": "České dějiny",
+    "summary": "Společnost po Karlu IV., kritika církve, Hus a Kostnice, různé husitské proudy, válečná léta i jejich důsledky. Rozlišit legendy, dobové motivace a doložené události."
+  }
+]

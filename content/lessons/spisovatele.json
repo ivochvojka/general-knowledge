@@ -2,7 +2,7 @@
   "id": "spisovatele",
   "category": "Literatura",
   "title": "Světoví spisovatelé",
-  "intro": "Sedmnáct autorů, kteří zásadně ovlivnili světovou literaturu.",
+  "intro": "Šestnáct zahraničních autorů od Danta po modernismus a magický realismus. U každého najdete základní orientaci i stručné anotace knih a her. Odkazy vedou k podrobnějším popisům, většinou anglicky; ty mohou prozrazovat celý děj. Přehled čtěte po částech a vyberte si dílo, které vás něčím osloví.",
   "cover": {
     "file": "William_Shakespeare_Chandos_Portrait.jpg",
     "alt": "Chandosův portrét tradičně ztotožňovaný s Williamem Shakespearem",
@@ -12,186 +12,665 @@
   "sections": [
     {
       "title": "William Shakespeare (1564–1616)",
-      "text": "Anglický dramatik, autor tragédií Hamlet, Macbeth, Othello a Romeo a Julie.",
+      "text": "Anglický dramatik a básník ze Stratfordu nad Avonou působil v londýnském divadle. Psal tragédie, komedie, historické hry i sonety. Jeho postavy nejsou jen vzory dobra a zla: rozhodují se pod tlakem lásky, moci, žárlivosti a vlastního svědomí. Hry byly určeny k provozování před publikem, což pomáhá vysvětlit jejich dramatický jazyk a střídání vážných i komických scén.",
       "image": {
         "file": "William_Shakespeare_Chandos_Portrait.jpg",
         "alt": "Chandosův portrét tradičně ztotožňovaný s Williamem Shakespearem",
         "credit": "Připisováno Johnu Taylorovi",
         "license": "Volné dílo"
-      }
+      },
+      "facts": [
+        {
+          "label": "Prostředí",
+          "value": "Anglie"
+        },
+        {
+          "label": "Zařazení",
+          "value": "Renesance a raně novověké divadlo"
+        }
+      ],
+      "works": [
+        {
+          "title": "Hamlet",
+          "summary": "Dánský princ má pomstít zavražděného otce, ale pochybuje o důkazech i o správnosti vlastního jednání. Tragédie zkoumá vztah myšlení, činu a odpovědnosti.",
+          "url": "https://www.shakespeare.org.uk/explore-shakespeare/shakespedia/shakespeares-plays/hamlet/"
+        },
+        {
+          "title": "Macbeth",
+          "summary": "Vojevůdce zatouží po skotském trůnu. Násilím získaná moc vede k dalším vraždám, podezírání a rozkladu osobnosti.",
+          "url": "https://www.folger.edu/explore/shakespeares-works/macbeth/"
+        },
+        {
+          "title": "Othello",
+          "summary": "Jagova manipulace obrací Othellovu důvěru v ničivou žárlivost. Hra ukazuje, jak lze nejistotu a předsudky využít proti druhému člověku.",
+          "url": "https://www.folger.edu/explore/shakespeares-works/othello/"
+        },
+        {
+          "title": "Romeo a Julie",
+          "summary": "Dva mladí lidé se zamilují navzdory nepřátelství rodin. Jejich soukromý vztah ničí veřejná nenávist a řetězec nešťastných rozhodnutí.",
+          "url": "https://www.rsc.org.uk/romeo-and-juliet/the-plot"
+        }
+      ],
+      "links": [
+        {
+          "title": "Život a souvislosti — William Shakespeare",
+          "url": "https://www.folger.edu/explore/shakespeares-life/"
+        }
+      ]
     },
     {
       "title": "Lev Tolstoj (1828–1910)",
-      "text": "Ruský romanopisec, autor Vojny a míru a Anny Kareniny.",
+      "text": "Ruský romanopisec a myslitel pocházel ze šlechtického prostředí. Ve velkých románech spojoval rodinné vztahy s otázkami dějin, morálky a smyslu života. Později kritizoval násilí a společenské nerovnosti. Při čtení je užitečné sledovat, jak historické události mění jednotlivce a jak se osobní rozhodnutí promítají do širšího světa.",
       "image": {
         "file": "Leo_Tolstoy_1908_Portrait_(3x4_cropped).jpg",
         "alt": "Portrét – Lev Tolstoj",
         "credit": "Sergei Prokudin-Gorskii",
         "license": "Volné dílo podle Wikimedia Commons"
-      }
+      },
+      "facts": [
+        {
+          "label": "Prostředí",
+          "value": "Rusko"
+        },
+        {
+          "label": "Zařazení",
+          "value": "Realismus"
+        }
+      ],
+      "works": [
+        {
+          "title": "Vojna a mír",
+          "summary": "Osudy několika ruských rodin v době napoleonských válek propojují bojiště, společenské salony i hledání smyslu života. Tolstoj zároveň zpochybňuje představu, že dějiny vytvářejí jen velcí vůdci.",
+          "url": "https://en.wikipedia.org/wiki/War_and_Peace"
+        },
+        {
+          "title": "Anna Karenina",
+          "summary": "Vdaná Anna vstupuje do vztahu s Vronským a střetává se s pravidly své společnosti. Paralelní příběh Levina zkoumá rodinu, práci a hledání životní opory.",
+          "url": "https://en.wikipedia.org/wiki/Anna_Karenina"
+        }
+      ],
+      "links": [
+        {
+          "title": "Život a souvislosti — Lev Tolstoj",
+          "url": "https://en.wikipedia.org/wiki/Leo_Tolstoy"
+        }
+      ]
     },
     {
       "title": "Fjodor Dostojevskij (1821–1881)",
-      "text": "Ruský spisovatel zkoumající vinu, svědomí a víru v románech Zločin a trest a Bratři Karamazovi.",
+      "text": "Ruský spisovatel spojoval napínavý děj s otázkami viny, svědomí, víry a svobody. Jeho hrdinové často obhajují vyhraněnou myšlenku, kterou potom jejich život bolestně prověří. Rozhovory a vnitřní spory jsou proto stejně důležité jako samotný zločin. Zkušenost s vězněním a sibiřským vyhnanstvím přispěla k jeho zájmu o utrpení a morální odpovědnost.",
       "image": {
         "file": "Vasily_Perov_-_Портрет_Ф.М.Достоевского_-_Google_Art_Project.jpg",
         "alt": "Portrét – Fjodor Dostojevskij",
         "credit": "Vasily Perov",
         "license": "Volné dílo podle Wikimedia Commons"
-      }
+      },
+      "facts": [
+        {
+          "label": "Prostředí",
+          "value": "Rusko"
+        },
+        {
+          "label": "Zařazení",
+          "value": "Psychologický a filozofický román"
+        }
+      ],
+      "works": [
+        {
+          "title": "Zločin a trest",
+          "summary": "Chudý student Raskolnikov se pokusí ospravedlnit vraždu teorií o výjimečných lidech. Důležitější než pátrání po pachateli je jeho zápas se svědomím a možnost nápravy.",
+          "url": "https://en.wikipedia.org/wiki/Crime_and_Punishment"
+        },
+        {
+          "title": "Bratři Karamazovi",
+          "summary": "Rodinný konflikt a vražda otce otevírají spor o Boha, svobodu i odpovědnost. Různé životní postoje bratrů nelze převést na jedinou jednoduchou autorovu odpověď.",
+          "url": "https://exhibits.udayton.edu/s/rosebook/page/dostoevsky"
+        }
+      ],
+      "links": [
+        {
+          "title": "Život a souvislosti — Fjodor Dostojevskij",
+          "url": "https://en.wikipedia.org/wiki/Fyodor_Dostoevsky"
+        }
+      ]
     },
     {
       "title": "George Orwell (1903–1950)",
-      "text": "Britský autor románů 1984 a Farma zvířat, které kriticky zobrazují totalitní moc.",
+      "text": "George Orwell, vlastním jménem Eric Arthur Blair, byl britský prozaik, esejista a reportér. Kritizoval imperialismus i totalitní moc. Zkušenost ze španělské občanské války posílila jeho odpor ke stalinismu; sám se hlásil k demokratickému socialismu. Jeho knihy ukazují, jak ovládání jazyka, paměti a informací pomáhá udržovat moc.",
       "image": {
         "file": "George_Orwell_press_photo.jpg",
         "alt": "Portrét – George Orwell",
         "credit": "Branch of the National Union of Journalists (BNUJ).",
         "license": "Volné dílo podle Wikimedia Commons"
-      }
+      },
+      "facts": [
+        {
+          "label": "Prostředí",
+          "value": "Británie"
+        },
+        {
+          "label": "Zařazení",
+          "value": "Politická próza a dystopie"
+        }
+      ],
+      "works": [
+        {
+          "title": "Farma zvířat",
+          "summary": "Zvířata svrhnou farmáře a slíbí si rovnost. Postupné soustředění moci u prasat mění revoluční naději v novou tyranii; jde o alegorii sovětského vývoje.",
+          "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/books-by-orwell/animal-farm/"
+        },
+        {
+          "title": "1984",
+          "summary": "Winston Smith žije ve státě, který sleduje obyvatele a přepisuje minulost. Jeho pokus o soukromou pravdu a blízkost naráží na systém usilující ovládnout i lidské myšlení.",
+          "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/books-by-orwell/nineteen-eighty-four/"
+        }
+      ],
+      "links": [
+        {
+          "title": "Život a souvislosti — George Orwell",
+          "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/biography/"
+        }
+      ]
     },
     {
       "title": "Ernest Hemingway (1899–1961)",
-      "text": "Americký spisovatel, autor knih Stařec a moře a Komu zvoní hrana.",
+      "text": "Americký spisovatel a novinář proslul úsporným stylem. Mnohé podstatné nechává nevyřčené, takže čtenář skládá emoce a minulost postav z náznaků. Patří k autorům spojovaným se ztracenou generací po první světové válce. Nobelovu cenu za literaturu obdržel roku 1954, mimo jiné za vypravěčské mistrovství projevené ve Starci a moři.",
       "image": {
         "file": "ErnestHemingway.jpg",
         "alt": "Portrét – Ernest Hemingway",
         "credit": "Lloyd Arnold",
         "license": "Volné dílo podle Wikimedia Commons"
-      }
-    },
-    {
-      "title": "Franz Kafka (1883–1924)",
-      "text": "Pražský německy píšící spisovatel, autor Proměny a Procesu.",
-      "image": {
-        "file": "Franz_Kafka,_1923.jpg",
-        "alt": "Portrét – Franz Kafka",
-        "credit": "Neznámý fotograf",
-        "license": "Volné dílo podle Wikimedia Commons"
-      }
+      },
+      "facts": [
+        {
+          "label": "Prostředí",
+          "value": "Spojené státy"
+        },
+        {
+          "label": "Zařazení",
+          "value": "Moderní próza; ztracená generace"
+        }
+      ],
+      "works": [
+        {
+          "title": "Stařec a moře",
+          "summary": "Kubánský rybář Santiago zápasí s velkou rybou a poté s její ztrátou. Krátká próza klade otázku, zda má lidské úsilí hodnotu i tehdy, když nepřinese hmatatelné vítězství.",
+          "url": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea"
+        },
+        {
+          "title": "Komu zvoní hrana",
+          "summary": "Američan Robert Jordan plní úkol mezi republikánskými partyzány za španělské občanské války. Láska a sounáležitost se střetávají s násilím a povinností.",
+          "url": "https://en.wikipedia.org/wiki/For_Whom_the_Bell_Tolls"
+        }
+      ],
+      "links": [
+        {
+          "title": "Život a souvislosti — Ernest Hemingway",
+          "url": "https://www.nobelprize.org/prizes/literature/1954/hemingway/biographical/"
+        }
+      ]
     },
     {
       "title": "Victor Hugo (1802–1885)",
-      "text": "Francouzský romantik, autor Bídníků a Chrámu Matky Boží v Paříži.",
+      "text": "Francouzský básník, dramatik a romanopisec patřil k výrazným představitelům romantismu. Věnoval se také politice a část života strávil v exilu. Jeho rozsáhlé příběhy propojují silné osobní vášně se zájmem o chudobu, právo a nespravedlnost. Architektura a město u něj nejsou pouhou kulisou: spoluvytvářejí osudy postav.",
       "image": {
         "file": "Victor_Hugo_by_Étienne_Carjat_1876_-_full.jpg",
         "alt": "Portrét – Victor Hugo",
         "credit": "Étienne Carjat",
         "license": "Volné dílo podle Wikimedia Commons"
-      }
+      },
+      "facts": [
+        {
+          "label": "Prostředí",
+          "value": "Francie"
+        },
+        {
+          "label": "Zařazení",
+          "value": "Romantismus"
+        }
+      ],
+      "works": [
+        {
+          "title": "Bídníci",
+          "summary": "Bývalý trestanec Jean Valjean se snaží začít znovu, zatímco inspektor Javert ztělesňuje neústupnost zákona. Román porovnává zákonnost, milosrdenství a společenskou bídu.",
+          "url": "https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables"
+        },
+        {
+          "title": "Chrám Matky Boží v Paříži",
+          "summary": "Osudy Esmeraldy, zvoníka Quasimoda a kněze Frolla se protínají ve středověké Paříži. Příběh zkoumá touhu, předsudky a krutost davu; významnou roli má sama katedrála.",
+          "url": "https://en.wikipedia.org/wiki/The_Hunchback_of_Notre-Dame"
+        }
+      ],
+      "links": [
+        {
+          "title": "Život a souvislosti — Victor Hugo",
+          "url": "https://en.wikipedia.org/wiki/Victor_Hugo"
+        }
+      ]
     },
     {
       "title": "Miguel de Cervantes (1547–1616)",
-      "text": "Španělský spisovatel, autor románu Důmyslný rytíř Don Quijote de la Mancha.",
+      "text": "Španělský spisovatel, dramatik a někdejší voják prožil také zajetí v Alžíru. Don Quijote patří k základním dílům moderního románu. Cervantes si pohrává s rozdílem mezi četbou a skutečností: hrdina se snaží žít podle rytířských knih, ale jeho okolí takto uspořádané není. Humor se tu střídá se soucitem.",
       "image": {
         "file": "Cervantes_Jáuregui.jpg",
         "alt": "Historický portrét tradičně ztotožňovaný s autorem: Miguel de Cervantes",
         "credit": "Attributed to Juan de Jáuregui",
         "license": "Volné dílo podle Wikimedia Commons"
-      }
+      },
+      "facts": [
+        {
+          "label": "Prostředí",
+          "value": "Španělsko"
+        },
+        {
+          "label": "Zařazení",
+          "value": "Raně novověký román"
+        }
+      ],
+      "works": [
+        {
+          "title": "Důmyslný rytíř Don Quijote de la Mancha",
+          "summary": "Zchudlý šlechtic vyrazí se Sanchem Panzou napravovat svět jako rytíř. Slavný boj s větrnými mlýny vystihuje střet ideálů s realitou, ale román současně ukazuje cenu představivosti. Vyšel ve dvou částech roku 1605 a 1615.",
+          "url": "https://en.wikipedia.org/wiki/Don_Quixote"
+        }
+      ],
+      "links": [
+        {
+          "title": "Život a souvislosti — Miguel de Cervantes",
+          "url": "https://en.wikipedia.org/wiki/Miguel_de_Cervantes"
+        }
+      ]
     },
     {
       "title": "Gabriel García Márquez (1927–2014)",
-      "text": "Kolumbijský nositel Nobelovy ceny, autor Sto roků samoty, spojený s magickým realismem.",
+      "text": "Kolumbijský spisovatel a novinář získal Nobelovu cenu za literaturu roku 1982. Je spojován s magickým realismem: mimořádné události vstupují do každodenního světa a vyprávění s nimi zachází jako s jeho přirozenou součástí. Jeho prózy čerpají z latinskoamerických dějin, rodinné paměti, násilí i zkušenosti samoty.",
       "image": {
         "file": "Gabriel_Garcia_Marquez.jpg",
         "alt": "Portrét – Gabriel García Márquez",
         "credit": "Jose Lara",
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
-      }
+      },
+      "facts": [
+        {
+          "label": "Prostředí",
+          "value": "Kolumbie"
+        },
+        {
+          "label": "Zařazení",
+          "value": "Magický realismus a latinskoamerický román"
+        }
+      ],
+      "works": [
+        {
+          "title": "Sto roků samoty",
+          "summary": "Několik generací rodu Buendíů žije ve fiktivním Macondu. Opakování jmen, lásek i konfliktů vytváří dojem kruhového času; rodinný příběh se proplétá s dějinami země.",
+          "url": "https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude"
+        }
+      ],
+      "links": [
+        {
+          "title": "Život a souvislosti — Gabriel García Márquez",
+          "url": "https://www.nobelprize.org/prizes/literature/1982/marquez/biographical/"
+        }
+      ]
     },
     {
       "title": "J. R. R. Tolkien (1892–1973)",
-      "text": "Britský filolog a autor Hobita a Pána prstenů.",
+      "text": "Britský filolog působil na Oxfordské univerzitě a věnoval se staré i střední angličtině. Zájem o jazyky a mýty se promítl do Středozemě, které vytvářel dějiny, vlastní národy i řeči. Zkušenost první světové války patří k jeho životnímu kontextu; jeho příběhy ovšem nelze zjednodušit na jedinou politickou alegorii.",
       "image": {
         "file": "J._R._R._Tolkien,_ca._1925.jpg",
         "alt": "Portrét – J. R. R. Tolkien",
         "credit": "Neznámý fotografický ateliér",
         "license": "Volné dílo podle Wikimedia Commons"
-      }
+      },
+      "facts": [
+        {
+          "label": "Prostředí",
+          "value": "Británie"
+        },
+        {
+          "label": "Zařazení",
+          "value": "Fantasy; filologie"
+        }
+      ],
+      "works": [
+        {
+          "title": "Hobit",
+          "summary": "Bilbo Pytlík opouští pohodlí domova a přidá se k výpravě trpaslíků za pokladem střeženým drakem. Dobrodružství proměňuje jeho představu o odvaze a přináší i nález prstenu.",
+          "url": "https://en.wikipedia.org/wiki/The_Hobbit"
+        },
+        {
+          "title": "Pán prstenů",
+          "summary": "Frodo a jeho společníci nesou prsten k zničení, zatímco ostatní čelí válce. Ústředním tématem je pokušení mocí a význam věrnosti, soucitu a zdánlivě malých rozhodnutí.",
+          "url": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings"
+        }
+      ],
+      "links": [
+        {
+          "title": "Život a souvislosti — J. R. R. Tolkien",
+          "url": "https://www.tolkienestate.com/life/biography/"
+        }
+      ]
     },
     {
       "title": "Agatha Christie (1890–1976)",
-      "text": "Britská autorka detektivek, která vytvořila Hercula Poirota a slečnu Marplovou.",
+      "text": "Britská autorka pomohla formovat klasickou detektivku. Vytvořila belgického detektiva Hercula Poirota i nenápadnou slečnu Marplovou. Její zápletky využívají uzavřený okruh podezřelých a informace, které čtenář může vykládat různými způsoby. Zájem nespočívá jen v totožnosti vraha, ale také v tom, proč určitému vysvětlení ochotně uvěříme.",
       "image": {
         "file": "Agatha_Christie_in_Nederland_(detectiveschrijfster),_bij_aankomst_op_Schiphol_me,_Bestanddeelnr_916-8898_(cropped).jpg",
         "alt": "Portrét – Agatha Christie",
         "credit": "Joop van Bilsen for Anefo",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
-      }
+      },
+      "facts": [
+        {
+          "label": "Prostředí",
+          "value": "Británie"
+        },
+        {
+          "label": "Zařazení",
+          "value": "Detektivní próza"
+        }
+      ],
+      "works": [
+        {
+          "title": "Vražda v Orient expresu",
+          "summary": "Poirot vyšetřuje vraždu ve vlaku uvázlém ve sněhu. Výpovědi cestujících vytvářejí zdánlivě neslučitelné možnosti; řešení otevírá také otázku spravedlnosti.",
+          "url": "https://www.agathachristie.com/stories/murder-on-the-orient-express"
+        },
+        {
+          "title": "A pak nezbyl žádný (And Then There Were None)",
+          "summary": "Deset pozvaných lidí se ocitne na odříznutém ostrově. Postupná úmrtí a obvinění z minulosti proměňují společenské setkání v příběh strachu a kolektivní nedůvěry.",
+          "url": "https://www.agathachristie.com/stories/and-then-there-were-none"
+        }
+      ],
+      "links": [
+        {
+          "title": "Život a souvislosti — Agatha Christie",
+          "url": "https://www.agathachristie.com/about-christie"
+        }
+      ]
     },
     {
-      "title": "Johann Wolfgang Goethe (1749–1832)",
-      "text": "Německý básník a myslitel, autor Fausta a Utrpení mladého Werthera.",
+      "title": "Johann Wolfgang von Goethe (1749–1832)",
+      "text": "Johann Wolfgang von Goethe byl německý básník, prozaik, dramatik a myslitel spojený s Výmarem. V jeho tvorbě se setkává prudký cit s hledáním řádu a vzdělání. Označit ho jen za romantika by bylo zjednodušení: důležitý je jak raný proud Sturm und Drang, tak pozdější výmarská klasika.",
       "image": {
         "file": "Goethe_(Stieler_1828).jpg",
         "alt": "Portrét – Johann Wolfgang Goethe",
         "credit": "Joseph Karl Stieler",
         "license": "Volné dílo podle Wikimedia Commons"
-      }
+      },
+      "facts": [
+        {
+          "label": "Prostředí",
+          "value": "Německé země"
+        },
+        {
+          "label": "Zařazení",
+          "value": "Sturm und Drang; výmarská klasika"
+        }
+      ],
+      "works": [
+        {
+          "title": "Faust",
+          "summary": "Učenec nespokojený s dosaženým poznáním uzavírá s Mefistofelem sázku a vstupuje do nových zkušeností. Drama zkoumá touhu, odpovědnost a cenu lidského usilování.",
+          "url": "https://en.wikipedia.org/wiki/Faust_(Goethe)"
+        },
+        {
+          "title": "Utrpení mladého Werthera",
+          "summary": "Román v dopisech zachycuje mladého muže, jeho nešťastnou lásku k Lottě a střet citové intenzity se společenskými pravidly. Patří k výrazným dílům evropské kultury citovosti.",
+          "url": "https://www.sparknotes.com/lit/sorrows-of-young-werther/summary/"
+        }
+      ],
+      "links": [
+        {
+          "title": "Život a souvislosti — Johann Wolfgang Goethe",
+          "url": "https://www.metopera.org/discover/education/educator-guides/werther/timeline-goethe/"
+        }
+      ]
     },
     {
       "title": "Dante Alighieri (1265–1321)",
-      "text": "Florentský básník a autor Božské komedie (Divina Commedia). Báseň sleduje poutníkovu cestu Peklem, Očistcem a Rájem. Dante ji napsal v italštině své doby a přispěl k jejímu literárnímu významu.",
+      "text": "Florentský básník prožil politické konflikty rodného města a dlouhé vyhnanství. Božskou komedii napsal v italštině své doby, nikoli latinsky, a posílil tak její literární význam. Báseň spojuje křesťanský obraz světa s antickou vzdělaností a dobovou politikou. Skutečné historické osoby se v ní setkávají s literárními a mytologickými postavami.",
       "image": {
         "file": "Bargello_-_Kapelle_Fresko_2a.jpg",
         "alt": "Dante Alighieri na fresce v kapli paláce Bargello ve Florencii",
         "credit": "Wolfgang Sauber",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
+      },
+      "facts": [
+        {
+          "label": "Prostředí",
+          "value": "Florencie / Itálie"
+        },
+        {
+          "label": "Zařazení",
+          "value": "Středověká poezie"
+        }
+      ],
+      "works": [
+        {
+          "title": "Božská komedie (Divina Commedia)",
+          "summary": "Poutník Dante prochází Peklem, Očistcem a Rájem. Cesta je zároveň hledáním morální orientace; jeho průvodci zahrnují římského básníka Vergilia a Beatrici.",
+          "url": "https://dante.princeton.edu/projinfo.html"
+        }
+      ],
+      "links": [
+        {
+          "title": "Život a souvislosti — Dante Alighieri",
+          "url": "https://en.wikipedia.org/wiki/Dante_Alighieri"
+        }
+      ]
     },
     {
       "title": "Jane Austenová (1775–1817)",
-      "text": "Anglická romanopiskyně, autorka Pýchy a předsudku (Pride and Prejudice) a Rozumu a citu (Sense and Sensibility). Prostřednictvím námluv a rodinných vztahů ukazuje, jak majetek a společenské postavení ovlivňují volby jejích hrdinek.",
+      "text": "Anglická romanopiskyně pozorovala život venkovských a majetnějších rodin. Její ironie odhaluje rozdíl mezi tím, co postavy říkají, a jejich skutečnými motivy. Námluvy nejsou pouhou romantickou zápletkou: manželství souvisí s majetkem, děděním a omezenými možnostmi žen. Právě přesnost společenského pozorování dává jejím románům trvalý význam.",
       "image": {
         "file": "CassandraAusten-JaneAusten(c.1810)_hires.jpg",
         "alt": "Portrét – Jane Austenová",
         "credit": "Cassandra Austen",
         "license": "Volné dílo podle Wikimedia Commons"
-      }
+      },
+      "facts": [
+        {
+          "label": "Prostředí",
+          "value": "Anglie"
+        },
+        {
+          "label": "Zařazení",
+          "value": "Společenský román"
+        }
+      ],
+      "works": [
+        {
+          "title": "Pýcha a předsudek (Pride and Prejudice)",
+          "summary": "Elizabeth Bennetová a pan Darcy se musí vyrovnat s vlastními chybnými soudy. Milostný příběh je současně komedií společenského postavení, rodinných tlaků a sebepoznání.",
+          "url": "https://en.wikipedia.org/wiki/Pride_and_Prejudice"
+        },
+        {
+          "title": "Rozum a cit (Sense and Sensibility)",
+          "summary": "Sestry Elinor a Marianne Dashwoodovy reagují na citové zklamání rozdílně. Román nepovyšuje jednoduše rozum nad emoce, ale zkoumá potřebu jejich rovnováhy i finanční nejistotu rodiny.",
+          "url": "https://en.wikipedia.org/wiki/Sense_and_Sensibility"
+        }
+      ],
+      "links": [
+        {
+          "title": "Život a souvislosti — Jane Austenová",
+          "url": "https://www.bl.uk/stories/blogs/posts/jane-austen-at-250"
+        }
+      ]
     },
     {
       "title": "Charles Dickens (1812–1870)",
-      "text": "Anglický spisovatel viktoriánské éry. V Oliveru Twistovi sleduje osudy chlapce, který vyrůstá v chudobinci. V Nadějných vyhlídkách (Great Expectations) zkoumá společenský vzestup a cenu, kterou za něj mladý Pip platí.",
+      "text": "Anglický spisovatel viktoriánské éry zobrazoval rychle se měnící společnost průmyslové Británie. Spojoval sociální kritiku s humorem, sentimentem a výraznými postavami. Mnohé romány vycházely na pokračování. Osudy dětí a chudých lidí umožňují sledovat, jak instituce, peníze a rodinné vztahy ovlivňují možnosti jednotlivce.",
       "image": {
         "file": "Dickens_Gurney_head.jpg",
         "alt": "Portrét – Charles Dickens",
         "credit": "Jeremiah Gurney",
         "license": "Volné dílo podle Wikimedia Commons"
-      }
+      },
+      "facts": [
+        {
+          "label": "Prostředí",
+          "value": "Anglie"
+        },
+        {
+          "label": "Zařazení",
+          "value": "Viktoriánský román"
+        }
+      ],
+      "works": [
+        {
+          "title": "Oliver Twist",
+          "summary": "Chlapec vychovaný v chudobinci se dostává do londýnského prostředí zločinu. Příběh kritizuje nelidské zacházení s chudými a ukazuje zranitelnost dítěte bez ochrany.",
+          "url": "https://en.wikipedia.org/wiki/Oliver_Twist"
+        },
+        {
+          "title": "Nadějné vyhlídky (Great Expectations)",
+          "summary": "Mladý Pip získá naději na společenský vzestup a začne se stydět za své zázemí. Román prověřuje, zda peníze a postavení znamenají také lidskou hodnotu.",
+          "url": "https://en.wikipedia.org/wiki/Great_Expectations"
+        }
+      ],
+      "links": [
+        {
+          "title": "Život a souvislosti — Charles Dickens",
+          "url": "https://en.wikipedia.org/wiki/Charles_Dickens"
+        }
+      ]
     },
     {
       "title": "Mark Twain (1835–1910)",
-      "text": "Americký spisovatel a humorista, vlastním jménem Samuel Langhorne Clemens. Dobrodružství Toma Sawyera a Dobrodružství Huckleberryho Finna zasadil do prostředí kolem Mississippi. V druhém románu putuje Huck po řece s Jimem, který uprchl z otroctví.",
+      "text": "Americký spisovatel a humorista se vlastním jménem jmenoval Samuel Langhorne Clemens. Dobře znal prostředí Mississippi a používal hovorový jazyk i různé způsoby vyprávění. Dobrodružství u něj mohou zároveň kritizovat pokrytectví, rasismus a pravidla „slušné“ společnosti. Dětský či dospívající vypravěč někdy odhalí rozpor, který dospělí přehlížejí.",
       "image": {
         "file": "Mark_Twain_by_AF_Bradley_(cropped_2).jpg",
         "alt": "Portrét – Mark Twain",
         "credit": "A.F. Bradley, New York",
         "license": "Volné dílo podle Wikimedia Commons"
-      }
+      },
+      "facts": [
+        {
+          "label": "Prostředí",
+          "value": "Spojené státy"
+        },
+        {
+          "label": "Zařazení",
+          "value": "Realismus a satira"
+        }
+      ],
+      "works": [
+        {
+          "title": "Dobrodružství Toma Sawyera",
+          "summary": "Tom vyrůstá v městečku u Mississippi, vymýšlí dobrodružství a zkouší hranice pravidel. Veselá vyprávění se střídají s nebezpečím a postupným poznáváním odpovědnosti.",
+          "url": "https://en.wikipedia.org/wiki/The_Adventures_of_Tom_Sawyer"
+        },
+        {
+          "title": "Dobrodružství Huckleberryho Finna",
+          "summary": "Huck pluje po Mississippi s Jimem, který uprchl z otroctví. Jeho zkušenost se dostává do konfliktu s předsudky společnosti, jež otroctví považuje za samozřejmé.",
+          "url": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn"
+        }
+      ],
+      "links": [
+        {
+          "title": "Život a souvislosti — Mark Twain",
+          "url": "https://en.wikipedia.org/wiki/Mark_Twain"
+        }
+      ]
     },
     {
       "title": "Virginia Woolfová (1882–1941)",
-      "text": "Britská modernistická spisovatelka. Román Paní Dallowayová (Mrs Dalloway) se odehrává během jednoho červnového dne v Londýně a střídá pohledy několika postav. V eseji Vlastní pokoj (A Room of One’s Own) se zabývá podmínkami, které ženám umožňují psát.",
+      "text": "Britská modernistická spisovatelka přesouvala pozornost od vnějšího děje k proudu vzpomínek, pocitů a myšlenek. Jediná událost může v jejím vyprávění vyvolat celé vrstvy minulosti. Zajímala se také o postavení žen a materiální podmínky tvorby. Její dílo pomáhá pochopit, proč modernistický román nemusí postupovat přímočaře od události k události.",
       "image": {
         "file": "George_Charles_Beresford_-_Virginia_Woolf_in_1902_-_Restoration.jpg",
         "alt": "Portrét – Virginia Woolfová",
         "credit": "George Charles Beresford / Adam Cuerden",
         "license": "Volné dílo podle Wikimedia Commons"
-      }
+      },
+      "facts": [
+        {
+          "label": "Prostředí",
+          "value": "Británie"
+        },
+        {
+          "label": "Zařazení",
+          "value": "Modernismus"
+        }
+      ],
+      "works": [
+        {
+          "title": "Paní Dallowayová (Mrs Dalloway)",
+          "summary": "Jeden červnový den v Londýně sledujeme Clarissu připravující večírek i osudy dalších postav. Vzpomínky a válečné trauma ukazují, kolik různých životů se skrývá pod běžným městským dnem.",
+          "url": "https://en.wikipedia.org/wiki/Mrs_Dalloway"
+        },
+        {
+          "title": "Vlastní pokoj (A Room of One’s Own)",
+          "summary": "Esej zkoumá, co ženy potřebují, aby mohly svobodně psát: nejen talent, ale i příjem, prostor a vzdělání. Literární dějiny tak propojuje s každodenními podmínkami života.",
+          "url": "https://en.wikipedia.org/wiki/A_Room_of_One%27s_Own"
+        }
+      ],
+      "links": [
+        {
+          "title": "Život a souvislosti — Virginia Woolfová",
+          "url": "https://en.wikipedia.org/wiki/Virginia_Woolf"
+        }
+      ]
+    },
+    {
+      "title": "Čeští autoři ve světovém kontextu",
+      "text": "Mezi české autory s výrazným mezinárodním ohlasem patří Karel Čapek, Jaroslav Hašek, Bohumil Hrabal, Milan Kundera a Jaroslav Seifert, nositel Nobelovy ceny za literaturu za rok 1984. Podrobněji je představí plánovaná samostatná lekce české literatury; Kundera přitom patří také do francouzského literárního prostředí.\n\nZvláštní postavení má Franz Kafka (1883–1924): pražský německy píšící autor Proměny a Procesu, spojený s českým prostředím, německým jazykem a židovskou zkušeností. Není přesné ho bez vysvětlení označit za česky píšícího autora. Jeho medailonek se přesouvá do podkladů pro navazující lekci, kde bude tento kontext vysvětlen.\n\nPři výběru vlastní četby si položte jednoduchou otázku: chci sledovat příběh, poznat určitou společnost, nebo přemýšlet o lidském rozhodování? Jedna kniha může nabídnout všechno, ale každá z těchto otázek otevírá jinou cestu do textu.",
+      "links": [
+        {
+          "title": "Nobelova cena — Jaroslav Seifert, 1984",
+          "url": "https://www.nobelprize.org/prizes/literature/1984/seifert/lecture/"
+        },
+        {
+          "title": "Goethe-Institut — Franz Kafka",
+          "url": "https://www.goethe.de/ins/cz/cs/m/kul/ser/uak/per.cfm?personId=2368"
+        }
+      ]
     }
   ],
   "quiz": [
     {
-      "question": "Který autor napsal román 1984?",
-      "answer": "George Orwell."
+      "question": "Kdo napsal 1984 a jakou roli v něm hraje minulost?",
+      "answer": "George Orwell. Režim přepisuje minulost, aby ovládal to, co mohou lidé považovat za pravdu."
     },
     {
-      "question": "Kdo napsal Božskou komedii a jak se jmenují její tři části?",
-      "answer": "Dante Alighieri. Tři části jsou Peklo, Očistec a Ráj."
+      "question": "Který autor spojuje Vojnu a mír s napoleonskými válkami?",
+      "answer": "Lev Tolstoj. Dějiny sleduje prostřednictvím osudů několika rodin i úvah o příčinách událostí."
+    },
+    {
+      "question": "Co zkoumá Raskolnikovův příběh ve Zločinu a trestu?",
+      "answer": "Vinu, svědomí a meze ospravedlnění násilí teorií o výjimečných lidech. Autorem je Fjodor Dostojevskij."
+    },
+    {
+      "question": "Kdo jsou Jean Valjean a Javert?",
+      "answer": "Postavy Hugových Bídníků. Jejich střet umožňuje porovnat nápravu a milosrdenství s neústupným dodržováním zákona."
+    },
+    {
+      "question": "Co znamená magický realismus ve Sto rocích samoty?",
+      "answer": "Mimořádné události jsou součástí každodenního vyprávění. García Márquez je propojuje s rodinnou pamětí a dějinami Maconda."
+    },
+    {
+      "question": "Kdo napsal Božskou komedii a jak se jmenují její části?",
+      "answer": "Dante Alighieri. Peklo, Očistec a Ráj."
+    },
+    {
+      "question": "Čím se liší Tolkienovo povolání od jeho nejslavnější literární tvorby?",
+      "answer": "Byl filologem a univerzitním učitelem, zatímco pro široké publikum je znám hlavně fantasy příběhy Hobit a Pán prstenů. Jazyky a mýty obě oblasti propojují."
+    },
+    {
+      "question": "Proč nejsou námluvy u Jane Austenové jen milostným tématem?",
+      "answer": "Souvisí také s majetkem, děděním, společenským postavením a možnostmi žen."
+    },
+    {
+      "question": "Kdo pluje s Huckem po Mississippi a proč je to důležité?",
+      "answer": "Jim, který uprchl z otroctví. Jejich vztah prověřuje rasové předsudky společnosti."
+    },
+    {
+      "question": "Který český autor získal Nobelovu cenu za literaturu roku 1984?",
+      "answer": "Jaroslav Seifert. Franz Kafka je jiný případ: s Prahou spojený autor píšící německy."
     }
   ],
   "sources": [
@@ -204,16 +683,32 @@
       "url": "https://www.bl.uk/stories/blogs/posts/jane-austen-at-250"
     },
     {
-      "title": "Charles Dickens Museum — Charles Dickens",
-      "url": "https://dickensmuseum.com/products/a-world-full-of-dickens-stories-book"
-    },
-    {
       "title": "Library of Congress — America Reads",
       "url": "https://www.loc.gov/exhibits/america-reads/1750-to-1899.html"
     },
     {
-      "title": "British Library — Paní Dallowayová",
-      "url": "https://shop.bl.uk/products/mrs-dalloway-1"
+      "title": "Folger Shakespeare Library — průvodce hrami",
+      "url": "https://www.folger.edu/explore/shakespeares-works/"
+    },
+    {
+      "title": "The Orwell Foundation — životopis",
+      "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/biography/"
+    },
+    {
+      "title": "Nobelova cena za literaturu 1954 — Ernest Hemingway",
+      "url": "https://www.nobelprize.org/prizes/literature/1954/summary/"
+    },
+    {
+      "title": "Nobelova cena za literaturu 1982 — García Márquez",
+      "url": "https://www.nobelprize.org/prizes/literature/1982/marquez/lecture/"
+    },
+    {
+      "title": "The Tolkien Estate — životopis",
+      "url": "https://www.tolkienestate.com/life/biography/"
+    },
+    {
+      "title": "Metropolitan Opera — Goethe v datech",
+      "url": "https://www.metopera.org/discover/education/educator-guides/werther/timeline-goethe/"
     }
   ],
   "date": "2026-11-03"

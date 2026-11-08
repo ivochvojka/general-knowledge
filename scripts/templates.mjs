@@ -16,6 +16,7 @@ function page({ title, description, base, body, script }) {
   <meta name="description" content="${escape(description)}">
   <title>${escape(title)}</title>
   <link rel="stylesheet" href="${base}assets/site.css">
+  <script src="${base}assets/media.js" defer></script>
   ${script ? `<script src="${base}assets/${script}" defer></script>` : ''}
 </head>
 <body>
@@ -38,14 +39,24 @@ function page({ title, description, base, body, script }) {
 function illustration({ src, alt, credit, source, license, licenseUrl }) {
   return `<figure>
     <img src="${escape(src)}" alt="${escape(alt)}" loading="lazy" decoding="async">
+    <p class="image-fallback" hidden>Obrázek se nepodařilo načíst: ${escape(alt)}. Originál najdete pod odkazem v popisku.</p>
     <figcaption>${escape(alt)}. ${escape(credit)} · ${externalLink(source, 'Wikimedia Commons')} ·
       ${licenseUrl ? externalLink(licenseUrl, license) : escape(license)}
     </figcaption>
   </figure>`;
 }
 
+function sectionText(section) {
+  return [section.title, section.text, section.extra,
+    ...(section.facts ?? []).flatMap(({ label, value }) => [label, value]),
+    ...(section.subsections ?? []).flatMap(({ title, text }) => [title, text]),
+    ...(section.works ?? []).flatMap(({ title, summary }) => [title, summary]),
+    ...(section.music ?? []).flatMap(work => typeof work === 'string' ? [work] : [work.title, work.description])
+  ].filter(Boolean);
+}
+
 function readingTime({ intro, sections }) {
-  const words = [intro, ...sections.flatMap(({ title, text, extra }) => [title, text, extra])]
+  const words = [intro, ...sections.flatMap(sectionText)]
     .filter(Boolean).join(' ').split(/\s+/).length;
   return Math.max(1, Math.ceil(words / 200));
 }
@@ -60,8 +71,7 @@ function publicationDate(date) {
 }
 
 function card(lesson) {
-  const keywords = [lesson.category, ...lesson.sections.flatMap(section =>
-    [section.title, section.text, section.extra, ...(section.music ?? [])].filter(Boolean))];
+  const keywords = [lesson.category, ...lesson.sections.flatMap(sectionText)];
   return `<li class="lesson-card" data-lesson="${lesson.id}" data-order="${lesson.publicationOrder ?? ''}" data-search="${escape(keywords.join(' '))}">
     <a href="./lekce/${lesson.id}/">
       <div class="card-cover" aria-hidden="true">
@@ -77,7 +87,7 @@ function card(lesson) {
   </li>`;
 }
 
-export function renderIndex(lessons) {
+export function renderIndex(lessons, plan = []) {
   const groups = new Map();
   for (const lesson of lessons) {
     const topic = ['České dějiny', 'Moderní dějiny'].includes(lesson.category) ? 'Historie' : lesson.category;
@@ -128,16 +138,31 @@ export function renderIndex(lessons) {
         <ul class="lesson-grid">${items.map(card).join('')}</ul>
       </section>`).join('')}
     </section>
+    ${plan.length ? `<section id="pripravujeme" class="planned wrap" aria-labelledby="plan-title">
+      <p class="eyebrow">Kam dál</p>
+      <h2 id="plan-title">Plánované lekce</h2>
+      <p>Pokračování a samostatná česká témata zařadíme mezi další lekce při střídání oborů. Termíny zatím nejsou stanovené.</p>
+      <ul>${plan.map(({ title, category, summary }) => `<li><h3>${escape(title)}</h3><p class="card-meta">${escape(category)}</p><p>${escape(summary)}</p></li>`).join('')}</ul>
+    </section>` : ''}
   </main>` });
 }
 
 function musicLinks({ title, music }) {
   if (!music) return '';
   const composer = title.replace(/\s*\([^)]*\)\s*$/, '');
-  return `<div class="music"><p>Poslech na YouTube Music</p><ul>${music.map(work =>
-    `<li>${externalLink(`https://music.youtube.com/search?q=${encodeURIComponent(`${composer} ${work}`)}`, work)}</li>`
-  ).join('')}</ul></div>`;
+  const recordings = music.filter(work => typeof work !== 'string');
+  const searches = music.filter(work => typeof work === 'string');
+  return `<div class="music">
+    ${recordings.length ? `<h3>Doporučený poslech na YouTube Music</h3><ul class="work-list">${recordings.map(work =>
+      `<li>${externalLink(work.url, work.title)}<p>${escape(work.description)}</p><small>${externalLink(work.verificationUrl, 'Otevřít také na YouTube')}</small></li>`
+    ).join('')}</ul>` : ''}
+    ${searches.length ? `<p>Další díla — vyhledat na YouTube Music</p><ul>${searches.map(work =>
+      `<li>${externalLink(`https://music.youtube.com/search?q=${encodeURIComponent(`${composer} ${work}`)}`, work)}</li>`
+    ).join('')}</ul>` : ''}
+  </div>`;
 }
+
+const paragraphs = text => text.split(/\n\s*\n/).map(paragraph => `<p>${escape(paragraph)}</p>`).join('');
 
 export function renderLesson(lesson) {
   const { title, category, intro, date, cover, sections, quiz, sources } = lesson;
@@ -153,10 +178,14 @@ export function renderLesson(lesson) {
       ${sections.some(section => section.image?.file === cover.file) ? '' : illustration(cover)}
       ${sections.map(section => `<section class="chapter">
         <h2>${escape(section.title)}</h2>
-        ${section.text.split(/\n\s*\n/).map(paragraph => `<p>${escape(paragraph)}</p>`).join('')}
+        ${section.facts ? `<dl class="facts">${section.facts.map(({ label, value }) => `<div><dt>${escape(label)}</dt><dd>${escape(value)}</dd></div>`).join('')}</dl>` : ''}
+        ${paragraphs(section.text)}
+        ${(section.subsections ?? []).map(({ title, text }) => `<div class="subchapter"><h3>${escape(title)}</h3>${paragraphs(text)}</div>`).join('')}
+        ${section.works ? `<h3 class="works-title">Díla v kostce</h3><ul class="work-list">${section.works.map(({ title, summary, url }) => `<li>${externalLink(url, title)}<p>${escape(summary)}</p></li>`).join('')}</ul>` : ''}
         ${section.image ? illustration(section.image) : ''}
         ${section.extra ? `<p class="aside-note"><strong>Zapamatujte si</strong> ${escape(section.extra)}</p>` : ''}
         ${musicLinks(section)}
+        ${section.links ? `<ul class="section-links">${section.links.map(({ title, url }) => `<li>${externalLink(url, title)}</li>`).join('')}</ul>` : ''}
       </section>`).join('')}
       ${sources ? `<section class="chapter">
         <h2>Zdroje</h2>

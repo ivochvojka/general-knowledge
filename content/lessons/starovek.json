@@ -2,7 +2,7 @@
   "id": "starovek",
   "category": "Historie",
   "title": "Starověké civilizace",
-  "intro": "Čtyři civilizace, jejichž dědictví ovlivňuje svět dodnes.",
+  "intro": "Města, písmo, daně, zákony i politické spory mají dlouhou minulost. Mezopotámie, Egypt, Řecko a Řím nabídly různé odpovědi na otázku, jak uspořádat velkou společnost. Jejich dědictví je stále přítomné, ale jejich svět nebyl totožný s naším.",
   "cover": {
     "file": "Kheops-Pyramid.jpg",
     "alt": "Chufuova pyramida v Gíze",
@@ -12,54 +12,288 @@
   },
   "sections": [
     {
-      "title": "Mezopotámie",
-      "text": "Oblast mezi řekami Eufrat a Tigris. Vznikala zde první města a klínové písmo; významnou památkou je Chammurapiho zákoník.",
+      "title": "Mezopotámie — města, písmo a zákony",
+      "text": "Mezopotámie znamená „meziříčí“. Na rozdíl od Egypta nebyla po celé dějiny jediným královstvím: střídaly se zde sumerské městské státy a akkadské, babylonské či asyrské říše. Zavlažování umožnilo obdělávat úrodnou, ale suchou krajinu. Přebytek potravin živil řemeslníky, obchodníky, kněze a písaře; zároveň bylo třeba organizovat práci a rozdělovat zásoby.",
       "image": {
         "file": "Ziggarat_of_Ur_001.jpg",
         "alt": "Zikkurat v mezopotámském městě Ur",
         "credit": "Tla2006 at English Wikipedia",
         "license": "Volné dílo podle Wikimedia Commons"
-      }
+      },
+      "facts": [
+        {
+          "label": "Období",
+          "value": "Od 4. tisíciletí př. n. l.; střídání mnoha států"
+        },
+        {
+          "label": "Území",
+          "value": "Povodí Eufratu a Tigridu, zejména dnešní Irák"
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Proč vzniklo písmo?",
+          "text": "V Uruku se na konci 4. tisíciletí př. n. l. rozvíjelo zapisování údajů o zboží a dávkách. Z raných značek se vyvinulo klínové písmo: rákosové pisátko vtlačovalo znaky do vlhké hlíny. Postupně se jím zapisovaly také dopisy, zákony a literatura. Nebyl to jeden jazyk; stejné písmo používala různá jazyková společenství."
+        },
+        {
+          "title": "Chammurapi a nerovná spravedlnost",
+          "text": "Babylonský král Chammurapi vládl v 18. století př. n. l. Jeho proslulá stéla zaznamenává právní ustanovení o majetku, rodině i trestech. Není to nejstarší dochovaný zákoník. Trest závisel na společenském postavení poškozeného a pachatele: nešlo o rovnost všech před zákonem v dnešním smyslu."
+        },
+        {
+          "title": "Co po Mezopotámii zůstalo",
+          "text": "Zikkurat byl stupňovitý chrámový objekt, nikoli faraonova hrobka. Epos o Gilgamešovi se ptá po přátelství, smrti a mezích lidské moci. Mezopotámská matematika používala také šedesátkovou soustavu; její dědictví připomíná naše dělení hodiny na 60 minut. Pozoruhodné je, že jedny z nejstarších písemných záznamů souvisejí s hospodařením, ne s básnickou tvorbou."
+        }
+      ],
+      "links": [
+        {
+          "title": "Louvre — Chammurapiho zákoník",
+          "url": "https://www.louvre.fr/en/the-code-of-hammurabi"
+        },
+        {
+          "title": "British Museum / Smarthistory — klínové písmo",
+          "url": "https://smarthistory.org/cuneiform"
+        }
+      ]
     },
     {
-      "title": "Starověký Egypt",
-      "text": "Civilizace kolem Nilu známá pyramidami, hieroglyfy a vládou faraonů. Velká pyramida v Gíze vznikla přibližně ve 26. století př. n. l.",
+      "title": "Starověký Egypt — civilizace Nilu",
+      "text": "Nil poskytoval vodu, dopravní cestu i úrodnou půdu. Zemědělské přebytky umožňovaly vydržovat úředníky, vojsko a rozsáhlé stavební projekty. Sjednocení Horního a Dolního Egypta se klade přibližně k roku 3100 př. n. l. Moc faraona měla politickou i náboženskou povahu: měl udržovat řád světa. Dějiny se dělí mimo jiné na Starou, Střední a Novou říši, mezi nimiž ležela období oslabení centrální vlády.",
       "image": {
         "file": "Kheops-Pyramid.jpg",
         "alt": "Chufuova pyramida v Gíze",
         "credit": "Nina (Nina-no)",
         "license": "CC BY 2.5",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.5/"
-      }
+      },
+      "facts": [
+        {
+          "label": "Období",
+          "value": "Přibližně 3100–30 př. n. l. v tradičním politickém vymezení"
+        },
+        {
+          "label": "Území",
+          "value": "Údolí a delta Nilu, dnešní Egypt"
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Pyramidy a posmrtný život",
+          "text": "Velká pyramida v Gíze vznikla pro faraona Chufua přibližně ve 26. století př. n. l., tedy za Staré říše. Pyramidy souvisejí s královským pohřebním kultem; nebyly běžným hrobem každého Egypťana. Mumifikace a pohřební výbava odrážely víru v posmrtný život, ale jejich rozsah závisel na bohatství a době. Pozdější faraoni Nové říše byli pohřbíváni také ve skalních hrobkách v Údolí králů."
+        },
+        {
+          "title": "Hieroglyfy nejsou jen obrázky",
+          "text": "Egyptské písmo kombinovalo znaky zaznamenávající zvuky se znaky významovými a určujícími. Písařská znalost byla náročná a poskytovala přístup k úřednické kariéře. Rosettská deska obsahovala stejný dekret ve třech písmech, z nichž jedno bylo řecké. Jean-François Champollion roku 1822 oznámil zásadní průlom v rozluštění hieroglyfů."
+        },
+        {
+          "title": "Kleopatra a délka egyptských dějin",
+          "text": "Kleopatra VII. patřila k ptolemaiovské dynastii makedonského původu a zemřela roku 30 př. n. l.; Egypt potom ovládl Řím. Žila časově blíž dnešku než stavbě Velké pyramidy. Tento jednoduchý časový odstup ukazuje, jak zavádějící je představovat si „starý Egypt“ jako jedinou neměnnou dobu. Politické dobytí navíc neznamenalo okamžitý zánik egyptské kultury."
+        }
+      ],
+      "links": [
+        {
+          "title": "British Museum — hieroglyfy",
+          "url": "https://smarthistory.org/ancient-egyptian-hieroglyphs/"
+        },
+        {
+          "title": "British Museum — Rosettská deska",
+          "url": "https://artsandculture.google.com/story/0060/OQVRt6m8dEG4rw"
+        },
+        {
+          "title": "World History Encyclopedia — starověký Egypt",
+          "url": "https://www.worldhistory.org/egypt/"
+        }
+      ]
     },
     {
-      "title": "Starověké Řecko",
-      "text": "Řecké městské státy rozvíjely filozofii, divadlo a formy občanské správy. Athény jsou spojovány s ranou demokracií.",
+      "title": "Starověké Řecko — polis, demokracie a filozofie",
+      "text": "Řecko nebylo jednotným státem. Tvořily je městské státy zvané polis, které měly vlastní zákony a často spolu válčily. Athény prosluly demokracií, filozofií a divadlem; Sparta vojenskou výchovou a společností závislou na práci podrobených heilótů. Společný jazyk, bohové a slavnosti umožňovaly Řekům vnímat také společnou kulturu.",
       "image": {
         "file": "The_Parthenon_in_Athens.jpg",
         "alt": "Parthenón na athénské Akropoli",
         "credit": "Steve Swayne",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
+      },
+      "facts": [
+        {
+          "label": "Období",
+          "value": "Zde především asi 800–146 př. n. l.; starší kořeny sahají dál"
+        },
+        {
+          "label": "Území",
+          "value": "Řecko, Egejské moře a osady po Středomoří i Černomoří"
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Kdy vznikla demokracie a kdo se jí účastnil?",
+          "text": "Základy athénské demokracie se formovaly zejména po Kleisthenových reformách v letech 508/507 př. n. l. Občané rozhodovali přímo na shromáždění a část úřadů se obsazovala losem. Politická práva však měli jen dospělí mužští občané: ženy, otroci a cizinci byli vyloučeni. Athény tedy nelze bez vysvětlení označit za demokracii v dnešním smyslu."
+        },
+        {
+          "title": "Tři filozofové, které je dobré znát",
+          "text": "Sókratés (asi 469–399 př. n. l.) vedl rozhovory, v nichž otázkami prověřoval zdánlivé jistoty; vlastní knihy nezanechal. Platón (asi 428/427–348/347 př. n. l.), jeho žák, psal filozofické dialogy a založil Akademii. Aristotelés (384–322 př. n. l.), Platónův žák, systematicky rozvíjel logiku, biologii, etiku a politické myšlení. Nešlo o jedinou školu se stejnými odpověďmi: žáci své učitele také kritizovali."
+        },
+        {
+          "title": "Olympia, války a Alexandr Veliký",
+          "text": "Tradiční rok prvních zaznamenaných olympijských her je 776 př. n. l.; skutečné počátky soutěží v Olympii mohly být starší. Řecko-perské války v 5. století př. n. l. vystřídal vyčerpávající konflikt Athén se Spartou. Ve 4. století získala převahu Makedonie. Alexandr Veliký dobyl Perskou říši a jeho výprava dosáhla Indie. Zemřel roku 323 př. n. l. ve 32 letech; jeho říše se rozpadla, ale řecký jazyk a kultura se šířily v helénistickém světě. Rok 146 př. n. l. připomíná římské zničení Korintu, ne konec řecké kultury."
+        }
+      ],
+      "links": [
+        {
+          "title": "Gresham College — vývoj athénské demokracie",
+          "url": "https://www.gresham.ac.uk/sites/default/files/transcript/2024-03-14-1800_Lane-T.pdf"
+        },
+        {
+          "title": "Internet Encyclopedia of Philosophy — řecká filozofie",
+          "url": "https://iep.utm.edu/ancient-greek-philosophy/"
+        },
+        {
+          "title": "Mezinárodní olympijský výbor — počátky her",
+          "url": "https://www.olympics.com/ioc/faq/history-and-origin-of-the-games/what-is-the-origin-of-the-olympic-games"
+        }
+      ]
     },
     {
-      "title": "Starověký Řím",
-      "text": "Z městského státu vznikla republika a později rozsáhlé císařství. Římské právo, silnice a architektura výrazně ovlivnily Evropu.",
+      "title": "Starověký Řím — od republiky k říši",
+      "text": "Příběh o Romulovi a Removi a rok založení 753 př. n. l. patří k římské tradici, nikoli k přesně doloženému zakládacímu aktu. Po královském období vznikla republika, tradičně datovaná od roku 509 př. n. l. Moc se dělila mezi úředníky, senát a občanská shromáždění, přesto byla společnost silně nerovná. Otroctví patřilo k základům hospodářství.",
       "image": {
         "file": "Colosseo_2020.jpg",
         "alt": "Koloseum v Římě",
         "credit": "FeaturedPics",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
+      },
+      "facts": [
+        {
+          "label": "Období",
+          "value": "Tradičně 753 př. n. l. – 476 n. l. na Západě"
+        },
+        {
+          "label": "Území",
+          "value": "Z Itálie k říši kolem Středozemního moře"
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Proč republika zanikla?",
+          "text": "Výboje přinášely bohatství i otroky, ale zvyšovaly sociální napětí a moc velitelů spojených s vlastními armádami. Punské války s Kartágem pomohly Římu ovládnout západní Středomoří. Pozdější občanské války rozložily republikánskou rovnováhu. Julius Caesar byl zavražděn roku 44 př. n. l.; prvním císařem se však obvykle označuje až Augustus, který roku 27 př. n. l. ustavil principát. Republikánské názvy institucí zůstaly, skutečná převaha připadla jednomu vládci."
+        },
+        {
+          "title": "Právo, města a občanství",
+          "text": "Římské silnice propojovaly vojsko, obchod i správu; akvadukty přiváděly vodu do měst. Stavitelé používali oblouk, klenbu a beton. Římské právo se později stalo jedním ze základů evropských právních tradic. Roku 212 císař Caracalla rozšířil římské občanství na téměř všechny svobodné obyvatele říše. Občanství tedy nebylo po celou dobu omezeno jen na lidi narozené v Římě."
+        },
+        {
+          "title": "Co znamená rok 476?",
+          "text": "Sesazení západořímského císaře Romula Augustula roku 476 je obvyklým mezníkem konce Západořímské říše. Obyvatelé však nepřestali používat římské zákony, města či latinu ze dne na den. Východořímská říše pokračovala s centrem v Konstantinopoli až do roku 1453. Označení „Byzantská říše“ je pozdější; její obyvatelé sami sebe chápali jako Římany."
+        }
+      ],
+      "links": [
+        {
+          "title": "National Geographic — římská republika",
+          "url": "https://education.nationalgeographic.org/resource/roman-republic/"
+        },
+        {
+          "title": "Smarthistory — úvod do antického Říma",
+          "url": "https://smarthistory.org/ancient-rome/"
+        },
+        {
+          "title": "Římské občanství roku 212 — Constitutio Antoniniana",
+          "url": "https://en.wikipedia.org/wiki/Constitutio_Antoniniana"
+        }
+      ]
+    },
+    {
+      "title": "Čtyři odlišné cesty k velké společnosti",
+      "text": "Mezopotámie připomíná vznik měst a záznamů, Egypt dlouhodobou organizaci země kolem řeky, Řecko spor o podobu občanského života a Řím problémy správy obrovské říše. Jejich dějiny se překrývaly a společnosti si navzájem předávaly vědomosti. V pokračování se podíváme i mimo tento středomořský okruh: na Persii, civilizaci Indu a starověkou Čínu."
     }
   ],
   "quiz": [
     {
-      "question": "Mezi kterými řekami ležela Mezopotámie?",
-      "answer": "Mezi Eufratem a Tigridem."
+      "question": "Mezi kterými řekami ležela Mezopotámie a proč bylo důležité zavlažování?",
+      "answer": "Mezi Eufratem a Tigridem. Zavlažování podporovalo zemědělské přebytky, které umožňovaly živit města a specializovaná povolání."
+    },
+    {
+      "question": "Proč vznikaly jedny z prvních písemných záznamů?",
+      "answer": "Pro evidenci hospodářství, zásob a dávek. Písmo se později používalo také pro zákony, dopisy a literaturu."
+    },
+    {
+      "question": "Proč Chammurapiho zákoník nepředstavuje dnešní rovnost před zákonem?",
+      "answer": "Výše a podoba trestů závisely i na společenském postavení lidí."
+    },
+    {
+      "question": "Jaký byl rozdíl mezi zikkuratem a egyptskou pyramidou?",
+      "answer": "Zikkurat byl chrámový objekt. Egyptské pyramidy byly součástí královských pohřebních komplexů."
+    },
+    {
+      "question": "Čím pomohla Rosettská deska rozluštit hieroglyfy?",
+      "answer": "Obsahovala stejný dekret ve třech písmech včetně čitelné řečtiny. Srovnávání pomohlo určit hodnotu egyptských znaků."
+    },
+    {
+      "question": "Kdy se formovaly základy athénské demokracie a kdo byl vyloučen?",
+      "answer": "Zejména po reformách v letech 508/507 př. n. l. Politická práva neměly ženy, otroci ani cizinci."
+    },
+    {
+      "question": "Jak na sebe navazovali Sókratés, Platón a Aristotelés?",
+      "answer": "Platón byl Sókratovým žákem a založil Akademii. Aristotelés byl Platónovým žákem a rozvíjel mimo jiné logiku a biologii."
+    },
+    {
+      "question": "Co po Alexandru Velikém přetrvalo déle než jeho jednotná říše?",
+      "answer": "Rozšíření řeckého jazyka a kultury v helénistickém světě. Alexandr zemřel roku 323 př. n. l. a říše se následně rozpadla."
+    },
+    {
+      "question": "Proč není Julius Caesar obvykle označován za prvního římského císaře?",
+      "answer": "Za prvního se obvykle považuje Augustus, který roku 27 př. n. l. ustavil principát. Caesar byl zavražděn už roku 44 př. n. l."
+    },
+    {
+      "question": "Zanikla roku 476 celá Římská říše?",
+      "answer": "Ne. Šlo o konec západní císařské vlády v tradičním datování. Východořímská říše pokračovala až do dobytí Konstantinopole roku 1453."
     }
   ],
-  "date": "2026-11-04"
+  "date": "2026-11-04",
+  "sources": [
+    {
+      "title": "Louvre — Chammurapiho zákoník",
+      "url": "https://www.louvre.fr/en/the-code-of-hammurabi"
+    },
+    {
+      "title": "British Museum / Smarthistory — klínové písmo",
+      "url": "https://smarthistory.org/cuneiform"
+    },
+    {
+      "title": "British Museum — hieroglyfy",
+      "url": "https://smarthistory.org/ancient-egyptian-hieroglyphs/"
+    },
+    {
+      "title": "British Museum — Rosettská deska",
+      "url": "https://artsandculture.google.com/story/0060/OQVRt6m8dEG4rw"
+    },
+    {
+      "title": "World History Encyclopedia — starověký Egypt",
+      "url": "https://www.worldhistory.org/egypt/"
+    },
+    {
+      "title": "Gresham College — vývoj athénské demokracie",
+      "url": "https://www.gresham.ac.uk/sites/default/files/transcript/2024-03-14-1800_Lane-T.pdf"
+    },
+    {
+      "title": "Internet Encyclopedia of Philosophy — řecká filozofie",
+      "url": "https://iep.utm.edu/ancient-greek-philosophy/"
+    },
+    {
+      "title": "Mezinárodní olympijský výbor — počátky her",
+      "url": "https://www.olympics.com/ioc/faq/history-and-origin-of-the-games/what-is-the-origin-of-the-olympic-games"
+    },
+    {
+      "title": "National Geographic — římská republika",
+      "url": "https://education.nationalgeographic.org/resource/roman-republic/"
+    },
+    {
+      "title": "Smarthistory — úvod do antického Říma",
+      "url": "https://smarthistory.org/ancient-rome/"
+    },
+    {
+      "title": "Římské občanství roku 212 — Constitutio Antoniniana",
+      "url": "https://en.wikipedia.org/wiki/Constitutio_Antoniniana"
+    }
+  ]
 }

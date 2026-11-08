@@ -75,12 +75,45 @@ function validate(lesson, filename) {
     requiredText(section.text, 'sections.text');
     if (section.image !== undefined) prepareImage(section.image, 'sections.image');
     if (section.extra !== undefined) requiredText(section.extra, 'sections.extra');
+    if (section.facts !== undefined) {
+      requiredList(section.facts, 'sections.facts');
+      for (const fact of section.facts) {
+        requiredText(fact.label, 'sections.facts.label');
+        requiredText(fact.value, 'sections.facts.value');
+      }
+    }
+    if (section.subsections !== undefined) {
+      requiredList(section.subsections, 'sections.subsections');
+      for (const part of section.subsections) {
+        requiredText(part.title, 'sections.subsections.title');
+        requiredText(part.text, 'sections.subsections.text');
+      }
+    }
+    for (const field of ['links', 'works']) {
+      if (section[field] === undefined) continue;
+      requiredList(section[field], `sections.${field}`);
+      for (const item of section[field]) {
+        requiredText(item.title, `sections.${field}.title`);
+        httpsUrl(item.url, `sections.${field}.url`);
+        if (field === 'works') requiredText(item.summary, 'sections.works.summary');
+      }
+    }
     if (section.music !== undefined) {
       requiredList(section.music, 'sections.music');
-      for (const work of section.music) requiredText(work, 'sections.music[]');
+      for (const work of section.music) {
+        if (typeof work === 'string') requiredText(work, 'sections.music[]');
+        else {
+          requiredText(work.title, 'sections.music.title');
+          requiredText(work.description, 'sections.music.description');
+          httpsUrl(work.url, 'sections.music.url');
+          httpsUrl(work.verificationUrl, 'sections.music.verificationUrl');
+          if (!/^\d{4}-\d{2}-\d{2}$/.test(work.verifiedOn ?? '')) throw new Error('Chybí datum ověření poslechu.');
+        }
+      }
     }
   }
   requiredList(quiz, 'quiz');
+  if (quiz.length < 5) throw new Error('Lekce musí mít alespoň 5 kvízových otázek.');
   for (const item of quiz) {
     requiredText(item.question, 'quiz.question');
     requiredText(item.answer, 'quiz.answer');
@@ -98,12 +131,20 @@ for (const filename of (await readdir(content)).filter(name => name.endsWith('.j
   }
 }
 requiredList(lessons, 'content/lessons');
+const plan = JSON.parse(await readFile(new URL('content/plan.json', root), 'utf8'));
+if (!Array.isArray(plan)) throw new Error('content/plan.json musí být seznam.');
+const ids = new Set(lessons.map(lesson => lesson.id));
+for (const item of plan) {
+  for (const key of ['id', 'title', 'category', 'summary']) requiredText(item[key], `plan.${key}`);
+  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(item.id) || ids.has(item.id)) throw new Error(`Neplatné nebo duplicitní plánované ID: ${item.id}`);
+  ids.add(item.id);
+}
 lessons.sort((a, b) => (b.date ?? '').localeCompare(a.date ?? '') || a.title.localeCompare(b.title, 'cs'));
 await rm(dist, { recursive: true, force: true });
 await mkdir(new URL('lekce/', dist), { recursive: true });
 await cp(new URL('assets/', root), new URL('assets/', dist), { recursive: true });
 await writeFile(new URL('.nojekyll', dist), '');
-await writeFile(new URL('index.html', dist), renderIndex(lessons));
+await writeFile(new URL('index.html', dist), renderIndex(lessons, plan));
 await writeFile(new URL('404.html', dist), renderNotFound());
 for (const lesson of lessons) {
   const directory = new URL(`lekce/${lesson.id}/`, dist);
