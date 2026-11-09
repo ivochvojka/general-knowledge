@@ -2,7 +2,7 @@
   "id": "jizni-amerika",
   "category": "Geografie",
   "title": "Jižní Amerika",
-  "intro": "Sedm zemí mezi Andami, Amazonií a Atlantikem. Kontinent není jediná tropická krajina: najdeme tu pouště, ledovce, vysokohorská města i travnaté pampy. Základní údaje doplňují příběhy, které pomohou země od sebe odlišit.",
+  "intro": "Osm zemí mezi Andami, Amazonií a Atlantikem. Kontinent není jediná tropická krajina: najdeme tu pouště, ledovce, vysokohorská města i travnaté pampy. Základní údaje doplňují příběhy, které pomohou země od sebe odlišit.",
   "cover": {
     "file": "1855_Spruner_Map_of_South_America_-_Overview_of_Discovery,_Conquest_and_Colonization_-_Geographicus_-_SudAmerica-spruner-1855.jpg",
     "alt": "Historická mapa Jižní Ameriky z atlasu vydaného roku 1855",
@@ -12,7 +12,7 @@
   "sections": [
     {
       "title": "Jak údaje porovnávat",
-      "text": "Počty obyvatel jsou zaokrouhlené údaje Světové banky za rok 2024, nikoli průběžný počet lidí v roce 2026. Díky společnému roku je lze porovnávat; pozdější revize odhadů jsou běžné. Rozlohy jsou orientačně zaokrouhlené; různé databáze se mohou lišit započtením vodních ploch a vymezením území. U Argentiny a Chile nezahrnujeme antarktické nároky. U Venezuely není započten nárok na Guyanou spravované Essequibo.\n\nJde o výběr sedmi zemí, nikoli seznam všech států kontinentu. Jižní Amerika zahrnuje také například Bolívii, Ekvádor, Paraguay, Guyanu a Surinam. Obrázek na úvodu je historická mapa z roku 1855; pro dnešní hranice slouží současné geografické zdroje.",
+      "text": "Počty obyvatel jsou zaokrouhlené údaje Světové banky za rok 2024, nikoli průběžný počet lidí v roce 2026. Díky společnému roku je lze porovnávat; pozdější revize odhadů jsou běžné. Rozlohy jsou orientačně zaokrouhlené; různé databáze se mohou lišit započtením vodních ploch a vymezením území. U Argentiny a Chile nezahrnujeme antarktické nároky. U Venezuely není započten nárok na Guyanou spravované Essequibo.\n\nJde o výběr osmi zemí, nikoli seznam všech států kontinentu. Jižní Amerika zahrnuje také například Bolívii, Ekvádor, Guyanu a Surinam. Obrázek na úvodu je historická mapa z roku 1855; pro dnešní hranice slouží současné geografické zdroje.",
       "links": [
         {
           "title": "Světová banka — obyvatelstvo jednotlivých zemí, 2024",
@@ -272,6 +272,54 @@
       ]
     },
     {
+      "title": "Paraguay",
+      "facts": [
+        {
+          "label": "Hlavní město",
+          "value": "Asunción"
+        },
+        {
+          "label": "Přibližná rozloha",
+          "value": "407 tisíc km²"
+        },
+        {
+          "label": "Obyvatelstvo (2024, zaokrouhleno)",
+          "value": "6,9 milionu"
+        },
+        {
+          "label": "Úřední jazyky",
+          "value": "Španělština a guaraní"
+        }
+      ],
+      "text": "Paraguay je vnitrozemský stát mezi Brazílií, Argentinou a Bolívií. Nemá mořské pobřeží, ale řeky jsou důležité pro dopravu a propojení se sousedy. Řeka Paraguay rozděluje zemi na východní oblast, kde leží hlavní město Asunción, a západní Chaco s rozsáhlými savanami a křovinatou krajinou. Vnitrozemská poloha tedy neznamená zemi bez významných vodních cest.\n\nNezávislost na Španělsku vyhlásila Paraguay v květnu 1811. Výrazným rysem její kultury je soužití španělštiny a guaraní, původního amerického jazyka, který má vedle španělštiny úřední postavení. Původní jazyky tak nejsou pouze památkou dávné minulosti, ale součástí současné společnosti.\n\nKoloniální dějiny připomínají jezuitské misie La Santísima Trinidad de Paraná a Jesús de Tavarangue. V 17. a 18. století zde vznikala sídla guaraníjských obyvatel pod správou jezuitů. Jejich pozůstatky ukazují propojení náboženství, urbanismu a řemeslné tvorby; zároveň připomínají proměnu původních společností během evropské kolonizace.",
+      "extra": "Paraguay si nepleťte s Uruguayí: Paraguay má hlavní město Asunción a neleží u moře, zatímco Uruguay má Montevideo a atlantické pobřeží. Dvě paraguayské jezuitské misie jsou od roku 1993 společně zapsané na seznamu světového dědictví UNESCO.",
+      "image": {
+        "file": "Ruinas_de_Jesús.jpg",
+        "alt": "Pozůstatky jezuitské misie Jesús de Tavarangue v Paraguayi",
+        "credit": "Patty P",
+        "license": "Volné dílo — autor uvolnil fotografii do public domain",
+        "thumbnailWidth": 960
+      },
+      "links": [
+        {
+          "title": "Paraguayský konzulát — zeměpisné údaje",
+          "url": "https://www2.mre.gov.py/consulpar-washington/index.php/el-paraguay/perfil-pais"
+        },
+        {
+          "title": "Paraguayské velvyslanectví — nezávislost a úřední jazyky",
+          "url": "https://www2.mre.gov.py/usa/index.php/en/paraguay/country-proifile"
+        },
+        {
+          "title": "Světová banka / FRED — obyvatelstvo Paraguaye v roce 2024",
+          "url": "https://fred.stlouisfed.org/series/POPTOTPYA647NWDB"
+        },
+        {
+          "title": "UNESCO — jezuitské misie v Paraguayi",
+          "url": "https://whc.unesco.org/en/list/648"
+        }
+      ]
+    },
+    {
       "title": "Uruguay",
       "text": "Uruguay leží mezi Brazílií a Argentinou při ústí Río de la Plata a u Atlantiku. Převládá mírně zvlněná travnatá krajina, důležitá pro chov dobytka a zemědělství. Montevideo je přístav, hlavní město a nejvýznamnější městské centrum. Na rozdíl od andských států zde nenajdeme vysoká pohoří.\n\nJako samostatný stát se Uruguay ustavila roku 1828 po soupeření sousedních mocností. Její moderní identitu utvářely sociální reformy i výrazná sekulární tradice. Dějiny zahrnují také vojenskou diktaturu v letech 1973–1985; pověst stabilní demokracie proto neznamená nepřerušený demokratický vývoj.",
       "image": {
@@ -317,7 +365,7 @@
     },
     {
       "title": "Mapa, kterou si lze zapamatovat",
-      "text": "Zkuste si kontinent projít od severu k jihu: karibská Venezuela a Kolumbie, andské Peru a Chile, obrovská Brazílie na východě a jižní Argentina s Uruguayí u Río de la Plata. Když k názvu připojíte hlavní město, typ krajiny a jednu historickou souvislost, získáte pevnější orientaci než ze seznamu rekordů."
+      "text": "Zkuste si kontinent projít od severu k jihu: karibská Venezuela a Kolumbie, andské Peru a Chile, obrovská Brazílie na východě, vnitrozemská Paraguay mezi Brazílií, Bolívií a Argentinou a jižní Argentina s Uruguayí u Río de la Plata. Když k názvu připojíte hlavní město, typ krajiny a jednu historickou souvislost, získáte pevnější orientaci než ze seznamu rekordů."
     }
   ],
   "quiz": [
@@ -360,6 +408,14 @@
     {
       "question": "Proč nelze automaticky srovnávat dva počty obyvatel z různých internetových přehledů?",
       "answer": "Mohou se týkat různých roků, metod a revizí. Proto je u každého údaje nutné znát datum a zdroj."
+    },
+    {
+      "question": "Jaké je hlavní město Paraguaye a má země přístup k moři?",
+      "answer": "Asunción. Paraguay je vnitrozemská země bez mořského pobřeží; významnou roli v dopravě hrají řeky."
+    },
+    {
+      "question": "Které dva jazyky mají v Paraguayi úřední postavení?",
+      "answer": "Španělština a guaraní. Guaraní je původní americký jazyk, který zůstává součástí současné paraguayské společnosti."
     }
   ],
   "date": "2026-11-06",
@@ -451,6 +507,22 @@
     {
       "title": "Uruguayské prezidenství — návrat demokracie v roce 1985",
       "url": "https://www.gub.uy/presidencia/comunicacion/noticias/pueblo-uruguayo-celebra-40-anos-democracia-ininterrumpida"
+    },
+    {
+      "title": "Paraguayský konzulát — zeměpisné údaje",
+      "url": "https://www2.mre.gov.py/consulpar-washington/index.php/el-paraguay/perfil-pais"
+    },
+    {
+      "title": "Paraguayské velvyslanectví — nezávislost a úřední jazyky",
+      "url": "https://www2.mre.gov.py/usa/index.php/en/paraguay/country-proifile"
+    },
+    {
+      "title": "Světová banka / FRED — obyvatelstvo Paraguaye v roce 2024",
+      "url": "https://fred.stlouisfed.org/series/POPTOTPYA647NWDB"
+    },
+    {
+      "title": "UNESCO — jezuitské misie v Paraguayi",
+      "url": "https://whc.unesco.org/en/list/648"
     }
   ]
 }
