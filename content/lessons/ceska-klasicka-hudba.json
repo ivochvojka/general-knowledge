@@ -1,0 +1,106 @@
+{
+  "id": "ceska-klasicka-hudba",
+  "category": "Hudba",
+  "title": "Čeští skladatelé světového významu",
+  "date": "2026-11-09",
+  "intro": "Bedřich Smetana a Antonín Dvořák se nestali významnými proto, že by do hudby jen vkládali české nápěvy. Oba dovedli místní historii, krajinu, řeč i zkušenost emigrace proměnit v hudbu, které rozumí posluchači daleko za českými hranicemi. Smetana otevřel cestu moderní české opeře a symfonické básni; Dvořák ji propojil se světovými koncertními sály.",
+  "cover": {
+    "file": "JanMulač-BedřichSmetana.jpg",
+    "alt": "Fotografický portrét Bedřicha Smetany z roku 1882",
+    "credit": "Jan Mulač, 1882",
+    "license": "Volné dílo (Public Domain Mark 1.0)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "thumbnailWidth": 960
+  },
+  "sections": [
+    {
+      "title": "Dva skladatelé v době národního obrození",
+      "text": "Smetana (1824–1884) se narodil v Litomyšli, Dvořák (1841–1904) v Nelahozevsi. V habsburské monarchii tehdy české prostředí usilovalo o plnohodnotný veřejný jazyk, divadlo i kulturní instituce. Hudba se proto stala jedním z míst, kde se nová občanská společnost slyšitelně utvářela. To ale neznamená, že každá jejich skladba je politickým programem: oba psali také komorní hudbu, duchovní díla a hudbu pro mezinárodní publikum.\n\nSmetana strávil pět let ve švédském Göteborgu, po návratu do Prahy vedl Prozatímní divadlo a pomáhal formovat jeho operní provoz. Když roku 1874 zcela ohluchl, musel dirigování opustit; právě poté však vznikla podstatná část jeho nejznámější tvorby. Dvořák, původně violista pražského Prozatímního divadla, získal mezinárodní uznání zejména ve Vídni a Británii. Příběh obou autorů tak není uzavřený v jedné zemi: české kulturní ambice spojovali s evropskou hudební řečí své doby."
+    },
+    {
+      "title": "Smetana: opera jako živé divadlo",
+      "text": "Smetanova Prodaná nevěsta měla první podobu roku 1866. Její komika nevychází jen z tanečních melodií: opera sleduje Mařenku a Jeníka, kteří musí obstát proti dohodnutému sňatku i Kecalově vyjednávání. Pozdější úpravy změnily mluvené dialogy na zpívané recitativy, takže dnešní podoba není úplně totožná s premiérou. Libuše, dokončená roku 1872, pracuje s mytickou zakladatelkou Prahy a byla poprvé uvedena při otevření Národního divadla roku 1881. Dalibor je vážné historické drama o věrnosti a pomstě, Hubička komornější opera o partnerském nedorozumění.\n\nPři poslechu Smetany si všímejte, jak hudba nenese jen „hezkou melodii“, ale mění tempo, barvu orchestru a vztah hlasů podle situace na scéně. Sbor v Prodané nevěstě vytváří obraz vesnického společenství, zatímco slavnostní zvuk Libuše patří veřejnému rituálu."
+    },
+    {
+      "title": "Má vlast: šest obrazů, ne jedna skladba",
+      "text": "Cyklus Má vlast tvoří šest samostatných symfonických básní: Vyšehrad, Vltava, Šárka, Z českých luhů a hájů, Tábor a Blaník. Vznikal v letech 1874–1879 a úplně byl proveden 5. listopadu 1882 na pražském Žofíně pod taktovkou Adolfa Čecha. Vyšehrad staví na zvuku harf a vzpomínce na dávné sídlo, Vltava sleduje řeku od pramenů k Praze. Šárka není popis krajiny, ale dramatický příběh z českých pověstí; Z českých luhů a hájů je spíše slavnostní obraz přírody a lidského života.\n\nZávěrečné dvojici Tábor a Blaník spojuje husitský chorál „Ktož jsú boží bojovníci“. V Táboru zní úsečně a neklidně, v Blaníku se promění ve vítěznější vyústění a propojí se i s tématem Vyšehradu. Právě toto návratné spojení dává cyklu tvar cesty, nikoli jen řady pohlednic. Překvapivé je, že Smetana tak rozsáhlé dílo dokončoval už jako zcela hluchý; neznamená to však, že „slyšel hudbu v hlavě“ nějak nadpřirozeně — opíral se o dlouholetou kompoziční zkušenost a zápis partitury."
+    },
+    {
+      "title": "Dvořák: od slovanských tanců ke světovým pódiím",
+      "text": "Dvořákův mezinárodní průlom podpořil Johannes Brahms, který doporučil jeho Moravské dvojzpěvy nakladateli Fritzi Simrockovi. Následné Slovanské tance nejsou prostými úpravami konkrétních lidových písní; Dvořák v nich vytváří vlastní hudbu v rytmech a charakterech slovanských tanců. Vedle bezprostřední tanečnosti napsal velká duchovní díla, například Stabat mater, a symfonie, v nichž dokázal z malého motivu vybudovat dlouhý oblouk.\n\nRoku 1892 odjel jako ředitel Národní hudební konzervatoře do New Yorku. Pobyt v USA nebyl jen exotickou epizodou: učil, dirigoval a přemýšlel o tom, jak může americká hudba vycházet z tamních tradic. Je potřeba rozlišovat doložený vliv prostředí od zjednodušení, že Dvořák prostě opsal indiánské nebo afroamerické melodie. U Symfonie č. 9 e moll Z nového světa badatelé debatují o konkrétních předlohách; jisté je, že vznikla v New Yorku roku 1893 a premiéru měla 16. prosince téhož roku v Carnegie Hall."
+    },
+    {
+      "title": "Amerika, domov a Rusalka",
+      "text": "Během léta 1893 ve Spillville v Iowě, obci českých přistěhovalců, Dvořák napsal Smyčcový kvartet č. 12 F dur „Americký“. Jeho melodická přímost a synkopované rytmy bývají spojovány s americkou zkušeností, ale označení neprokazuje převzetí jediné určité písně. Po návratu do Čech se obrátil i k opeře: Rusalka na libreto Jaroslava Kvapila měla premiéru v Praze 31. března 1901. Známá árie „Měsíčku na nebi hlubokém“ je jen částí dramatu, v němž orchestr průběžně rozvíjí motiv Rusalky a střet světa vody s lidským světem.\n\nSmetana i Dvořák jsou proto dobrým protipólem k představě, že „národní“ hudba musí být uzavřená. Jeden vybudoval české operní a symfonické orientační body v Praze, druhý je nesl do Londýna, New Yorku a dál. Začněte Vltavou nebo Novosvětskou, ale zkuste pak celé dílo: známá melodie bývá jen dveřmi do většího příběhu.",
+      "image": {
+        "file": "Dvorak_1882.jpg",
+        "alt": "Fotografický portrét Antonína Dvořáka z roku 1882",
+        "credit": "Neznámý fotograf, 1882",
+        "license": "Volné dílo (Public Domain Mark)",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "thumbnailWidth": 960
+      },
+      "music": [
+        {
+          "title": "Antonín Dvořák: Rusalka — celé provedení se Zdeňkem Chalabalou",
+          "url": "https://music.youtube.com/watch?v=ZbtGdrRNhF4",
+          "description": "Při árii Měsíčku na nebi hlubokém sledujte, že ji nenese pouze zpěv: orchestr připravuje atmosféru už před vstupem hlasu. V celém díle pak porovnejte její lyriku s temnějšími návraty Vodníka a Ježibaby.",
+          "verificationUrl": "https://www.youtube.com/watch?v=ZbtGdrRNhF4",
+          "verifiedOn": "2026-11-09"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Národní muzeum — Životopis Bedřicha Smetany",
+      "url": "https://bedrichsmetana.nm.cz/cs/informace/zivotopis"
+    },
+    {
+      "title": "Národní muzeum — Má vlast: katalog díla, části a premiéra",
+      "url": "https://bedrichsmetana.nm.cz/cs/dilo/detail/ma-vlast/133"
+    },
+    {
+      "title": "Národní muzeum — Příběh Smetanovy Mé vlasti a první souborné provedení",
+      "url": "https://www.nm.cz/ceske-muzeum-hudby/pribeh-smetanovy-me-vlasti-a-jeji-prvni-souborne-provedeni"
+    },
+    {
+      "title": "Institut Antonína Dvořáka — Životopis",
+      "url": "https://www.antonin-dvorak.cz/zivot/zivotopis/"
+    },
+    {
+      "title": "Institut Antonína Dvořáka — Symfonie č. 9 Z nového světa",
+      "url": "https://www.antonin-dvorak.cz/en/work/symphony-no-9/"
+    },
+    {
+      "title": "Institut Antonína Dvořáka — Smyčcový kvartet č. 12 F dur Americký",
+      "url": "https://www.antonin-dvorak.cz/dilo/smyccovy-kvartet-c-12-f-dur/"
+    },
+    {
+      "title": "Institut Antonína Dvořáka — Rusalka, op. 114",
+      "url": "https://www.antonin-dvorak.cz/dilo/rusalka/"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Proč nelze Má vlast popsat jako jedinou symfonickou báseň?",
+      "answer": "Jde o cyklus šesti samostatných symfonických básní. Každá má vlastní námět a hudební tvar, ale Tábor a Blaník i návrat tématu Vyšehradu vytvářejí spojitost celku."
+    },
+    {
+      "question": "Které dvě části Mé vlasti pracují s husitským chorálem Ktož jsú boží bojovníci?",
+      "answer": "Tábor a Blaník. V Táboru působí chorál úsečně a neklidně, v Blaníku se promění v triumfálnější závěr."
+    },
+    {
+      "question": "Jak Smetanova ztráta sluchu souvisí s jeho vrcholnými díly?",
+      "answer": "Po úplné ztrátě sluchu v roce 1874 už nemohl dirigovat a soustředil se téměř výhradně na skladbu. V letech 1874–1879 proto vznikala Má vlast, nikoli však díky nějaké nadpřirozené schopnosti, ale na základě skladatelovy zkušenosti a práce s notovým zápisem."
+    },
+    {
+      "question": "Proč je zavádějící tvrdit, že Dvořák v Americe jednoduše opisoval indiánské nebo afroamerické melodie?",
+      "answer": "Americké prostředí jeho tvorbu ovlivnilo, ale u Novosvětské ani Amerického kvartetu není doloženo prosté převzetí jediné určité melodie. Badatelé diskutují o míře a povaze těchto vlivů; slyšitelné jsou například obecnější melodické a rytmické podněty."
+    },
+    {
+      "question": "Kde a kdy měla premiéru Dvořákova Novosvětská symfonie?",
+      "answer": "16. prosince 1893 v Carnegie Hall v New Yorku, v době Dvořákova působení na Národní hudební konzervatoři."
+    }
+  ]
+}
