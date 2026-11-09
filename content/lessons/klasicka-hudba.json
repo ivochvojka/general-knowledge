@@ -2,7 +2,7 @@
   "id": "klasicka-hudba",
   "category": "Hudba",
   "title": "Klasická hudba",
-  "intro": "Osm skladatelů od baroka po romantismus: kdo byli, co změnili a kde začít poslouchat. Vedle známých melodií objevíte i velká sborová a symfonická díla. Zkuste si u každého skladatele zapamatovat jednu životní souvislost a jednu skladbu, kterou poznáte sluchem.",
+  "intro": "Osm skladatelů od baroka po romantismus: kdo byli, co změnili a kde začít poslouchat. Nejprve zkuste známé melodie, které možná poznáte i bez názvu: od Bachovy Toccaty a fugy po Labutí jezero. U každého autora najdete konkrétní nahrávky a krátké vodítko k poslechu; další díla zůstávají v rozbalitelné nabídce pro objevování.",
   "cover": {
     "file": "Johann_Sebastian_Bach.jpg",
     "alt": "Portrét Johanna Sebastiana Bacha z roku 1748",
@@ -12,19 +12,15 @@
   "sections": [
     {
       "title": "Johann Sebastian Bach (1685–1750)",
-      "text": "Německý barokní skladatel, varhaník a mistr kontrapunktu: umění spojit několik samostatných melodií tak, aby dohromady dávaly smysl. Od roku 1723 působil v Lipsku jako kantor u svatého Tomáše. Hudbu psal pro bohoslužby, dvory i výuku; jeho skladby často spojují přísný řád s výraznými emocemi.\n\nMatoušovy pašije vyprávějí o Kristově utrpení prostřednictvím vypravěče, sólistů, sborů a orchestru. Mše h moll BWV 232 je monumentální souhrn jeho duchovní tvorby. Braniborské koncerty naopak ukazují hravé střídání sólistů a nástrojových skupin. Dobře temperovaný klavír obsahuje preludia a fugy ve všech durových a mollových tóninách; slovo „klavír“ zde neznamená výhradně dnešní koncertní nástroj.",
+      "text": "Německý barokní skladatel, varhaník a mistr kontrapunktu: umění spojit několik samostatných melodií tak, aby dohromady dávaly smysl. Od roku 1723 působil v Lipsku jako kantor u svatého Tomáše. Hudbu psal pro bohoslužby, dvory i výuku; jeho skladby často spojují přísný řád s výraznými emocemi.\n\nMatoušovy pašije vyprávějí o Kristově utrpení prostřednictvím vypravěče, sólistů, sborů a orchestru. Mše h moll BWV 232 je monumentální souhrn jeho duchovní tvorby. Braniborské koncerty naopak ukazují hravé střídání sólistů a nástrojových skupin. Dobře temperovaný klavír obsahuje preludia a fugy ve všech durových a mollových tóninách; slovo „klavír“ zde neznamená výhradně dnešní koncertní nástroj.\n\nPro první setkání ale začněte Toccatou a fugou d moll BWV 565: její dramatický varhanní úvod bývá rozpoznatelnější než názvy velkých duchovních skladeb. Toccata nechává prostor volnému, téměř improvizačnímu gestu; fuga naopak nechává stejné téma vstupovat postupně v různých hlasech.",
       "music": [
         {
-          "title": "Mše h moll BWV 232 — Netherlands Bach Society, Jos van Veldhoven",
-          "url": "https://music.youtube.com/watch?v=3FLbiDrn8IE",
-          "description": "Velké dílo pro sólisty, sbor a orchestr. Začněte úvodním Kyrie: sledujte, jak jednotlivé hlasy postupně přebírají stejné téma. V závěrečném Dona nobis pacem se soustřeďte na slavnostní zvuk trubek.",
-          "verificationUrl": "https://www.youtube.com/watch?v=3FLbiDrn8IE",
-          "verifiedOn": "2026-11-08"
-        },
-        "Braniborské koncerty",
-        "Matoušovy pašije",
-        "Dobře temperovaný klavír",
-        "Mše h moll BWV 232"
+          "title": "Toccata a fuga d moll BWV 565 — Leo van Doeselaar, Netherlands Bach Society",
+          "url": "https://music.youtube.com/watch?v=Pi0IuyTS_ic",
+          "description": "Začněte tady: dramatický varhanní úvod patří k nejrozpoznatelnějším melodiím spojovaným s Bachem. Po volné toccatě následuje fuga, v níž se téma postupně ozývá v různých hlasech.",
+          "verificationUrl": "https://www.youtube.com/watch?v=Pi0IuyTS_ic",
+          "verifiedOn": "2026-11-09"
+        }
       ],
       "image": {
         "file": "Johann_Sebastian_Bach.jpg",
@@ -44,6 +40,10 @@
       ],
       "links": [
         {
+          "title": "Netherlands Bach Society — Toccata a fuga d moll BWV 565",
+          "url": "https://www.bachvereniging.nl/en/bwv/bwv-565"
+        },
+        {
           "title": "Netherlands Bach Society — Mše h moll a její vznik",
           "url": "https://www.bachvereniging.nl/en/bwv/bwv-232"
         },
@@ -51,6 +51,20 @@
           "title": "Bach-Archiv Leipzig — životopisná chronologie",
           "url": "https://www.bach-leipzig.de/de/node/3231"
         }
+      ],
+      "musicHeading": "Známé melodie — začněte tady na YouTube Music",
+      "furtherMusic": [
+        {
+          "title": "Mše h moll BWV 232 — Netherlands Bach Society, Jos van Veldhoven",
+          "url": "https://music.youtube.com/watch?v=3FLbiDrn8IE",
+          "description": "Velké dílo pro sólisty, sbor a orchestr. Začněte úvodním Kyrie: sledujte, jak jednotlivé hlasy postupně přebírají stejné téma. V závěrečném Dona nobis pacem se soustřeďte na slavnostní zvuk trubek.",
+          "verificationUrl": "https://www.youtube.com/watch?v=3FLbiDrn8IE",
+          "verifiedOn": "2026-11-08"
+        },
+        "Braniborské koncerty",
+        "Matoušovy pašije",
+        "Dobře temperovaný klavír",
+        "Mše h moll BWV 232"
       ]
     },
     {
@@ -58,14 +72,19 @@
       "text": "Italský skladatel a houslista se narodil v Benátkách a byl vysvěcen na kněze. Pro zrzavé vlasy se mu přezdívalo „rudý kněz“. Působil jako pedagog v Ospedale della Pietà, instituci pečující o opuštěné dívky, jejíž hudební soubor byl proslulý. Jeho koncerty stavějí do popředí virtuózního sólistu a zřetelný rytmický tah.\n\nČtvero ročních dob tvoří čtyři houslové koncerty, ne jedna symfonie. Hudba napodobuje ptačí zpěv, bouři i zimní chvění; k dílu patří vysvětlující sonety. Ve sborovém Gloria D dur RV 589 poznáte jinou stránku Vivaldiho: slavnostní úvod se střídá s klidnějšími a vážnějšími částmi. Právě kontrast sóla a souboru je dobrým vodítkem k poslechu baroka.",
       "music": [
         {
+          "title": "Čtvero ročních dob — Jaro RV 269, 1. věta; Shelby Yamin a Voices of Music",
+          "url": "https://music.youtube.com/watch?v=Lp09AT48bKI",
+          "description": "Hned úvodní radostné téma je výborným rozpoznávacím znamením. V sólových houslích poslouchejte napodobení ptačího zpěvu. Odkaz vede na první větu Jara, nikoli na celý cyklus.",
+          "verificationUrl": "https://www.youtube.com/watch?v=Lp09AT48bKI",
+          "verifiedOn": "2026-11-09"
+        },
+        {
           "title": "Čtvero ročních dob — Zima RV 297, Cynthia Freivogel a Voices of Music",
           "url": "https://music.youtube.com/watch?v=ZPdk5GaIDjo",
           "description": "Poslechněte si všechny tři věty koncertu. V první uslyšíte ostrý rytmus a chvění, v prostřední klidnou melodii nad doprovodem připomínajícím déšť. Pro velký sborový zvuk potom vyhledejte Gloria RV 589.",
           "verificationUrl": "https://www.youtube.com/watch?v=ZPdk5GaIDjo",
           "verifiedOn": "2026-11-08"
-        },
-        "Čtvero ročních dob",
-        "Gloria D dur RV 589"
+        }
       ],
       "image": {
         "file": "Vivaldi.jpg",
@@ -88,6 +107,11 @@
           "title": "Decca — Vivaldiho Gloria RV 589, Gardiner",
           "url": "https://www.deccaclassics.com/en/catalogue/products/handel-dixit-dominus-vivaldi-gloria-gardiner-10501"
         }
+      ],
+      "musicHeading": "Známé melodie — začněte tady na YouTube Music",
+      "furtherMusic": [
+        "Čtvero ročních dob",
+        "Gloria D dur RV 589"
       ]
     },
     {
@@ -95,17 +119,19 @@
       "text": "Mozart se narodil v Salcburku na území dnešního Rakouska a jako zázračné dítě koncertoval po Evropě. Později působil ve Vídni. Zemřel v pouhých 35 letech; zanechal přes šest set skladeb. Klasicismus u něj znamená přehledné hudební tvary, nikoli málo emocí: pod elegantní melodií se může skrývat napětí nebo smutek.\n\nMalá noční hudba je serenáda pro smyčce. Opery Figarova svatba a Don Giovanni propojují komiku se společenskými a morálními konflikty; Don Giovanni měl premiéru v Praze roku 1787. Kouzelná flétna spojuje pohádku s tématy zkoušek a poznání. Requiem d moll K. 626 je zádušní mše, kterou Mozart nedokončil. Běžně hranou podobu dopracoval Franz Xaver Süssmayr; nelze proto celé dílo považovat za výhradně Mozartovu hotovou partituru.",
       "music": [
         {
+          "title": "Malá noční hudba K. 525 — 1. věta, Allegro",
+          "url": "https://music.youtube.com/watch?v=70O_-lGhlZQ",
+          "description": "Začněte energickou smyčcovou melodií hned v úvodu: tohle je Mozart, kterého můžete znát i bez názvu. Ukázka představuje první větu serenády.",
+          "verificationUrl": "https://www.youtube.com/watch?v=70O_-lGhlZQ",
+          "verifiedOn": "2026-11-09"
+        },
+        {
           "title": "Requiem K. 626 — Lacrimosa, Wiener Philharmoniker, Herbert von Karajan",
           "url": "https://music.youtube.com/watch?v=W_kSfXbmwS4",
           "description": "Krátká, ale silná vstupní ukázka velkého sborového díla. Všímejte si kolébavého doprovodu a postupného zesilování sboru. Poté si vyhledejte celé Requiem, zejména prudké Dies irae a kontrastní Confutatis.",
           "verificationUrl": "https://www.youtube.com/watch?v=W_kSfXbmwS4",
           "verifiedOn": "2026-11-08"
-        },
-        "Kouzelná flétna",
-        "Figarova svatba",
-        "Don Giovanni",
-        "Rekviem",
-        "Malá noční hudba K. 525"
+        }
       ],
       "image": {
         "file": "The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg",
@@ -132,6 +158,14 @@
           "title": "Mozarteum — Mozartův život",
           "url": "https://mozarteum.at/en/wolfgang-amade-mozart"
         }
+      ],
+      "musicHeading": "Známé melodie — začněte tady na YouTube Music",
+      "furtherMusic": [
+        "Kouzelná flétna",
+        "Figarova svatba",
+        "Don Giovanni",
+        "Rekviem",
+        "Malá noční hudba K. 525"
       ]
     },
     {
@@ -139,16 +173,19 @@
       "text": "Beethoven se narodil v Bonnu a kariéru rozvinul ve Vídni. Navázal na klasicistní formy, ale rozšířil jejich rozměry i výraz: skladba může působit jako zápas, v němž se krátký motiv proměňuje a vrací v nové podobě. Postupně ztrácel sluch, přesto dál komponoval. Jeho pozdní hudba vznikala v době těžkého sluchového postižení.\n\nPátá symfonie, zvaná Osudová, začíná slavným čtyřtónovým motivem. Devátá symfonie d moll op. 125 připojuje v poslední větě sólisty a sbor na Schillerovu Ódu na radost; premiéru měla roku 1824. Monumentální duchovní protiváhou je Missa solemnis. Měsíční sonáta se neomezuje na tichou první větu: její závěr je bouřlivý. Beethoven tak dobře ukazuje, proč známá ukázka nemusí vystihovat celé dílo.",
       "music": [
         {
-          "title": "Symfonie č. 9 — Chicago Symphony Orchestra, Riccardo Muti",
-          "url": "https://music.youtube.com/watch?v=rOjHhS5MtvA",
-          "description": "Celá symfonie umožní slyšet cestu od neklidného začátku ke sborovému finále. Pokud začnete závěrem, všimněte si nejprve prosté melodie v hlubokých smyčcích a potom jejího rozrůstání v mohutný společný zpěv.",
-          "verificationUrl": "https://www.youtube.com/watch?v=rOjHhS5MtvA",
-          "verifiedOn": "2026-11-08"
+          "title": "Symfonie č. 5 c moll op. 67 „Osudová“ — 1. věta; Wiener Philharmoniker, Carlos Kleiber",
+          "url": "https://music.youtube.com/watch?v=TdD0Yr1Zww4",
+          "description": "Známé „ta-ta-ta-táá“ zazní hned na začátku. Všimněte si, jak Beethoven z krátkého motivu vystaví celou dramatickou větu.",
+          "verificationUrl": "https://www.youtube.com/watch?v=TdD0Yr1Zww4",
+          "verifiedOn": "2026-11-09"
         },
-        "Devátá symfonie",
-        "Měsíční sonáta",
-        "Symfonie Osudová",
-        "Missa solemnis op. 123"
+        {
+          "title": "Pro Elišku (Für Elise), WoO 59 — Lang Lang",
+          "url": "https://music.youtube.com/watch?v=FW_KCau2iTI",
+          "description": "Jemná klavírní melodie pro srovnání s mohutnou Osudovou. Poslouchejte, jak se známý začátek vrací mezi kontrastními pasážemi.",
+          "verificationUrl": "https://www.youtube.com/watch?v=FW_KCau2iTI",
+          "verifiedOn": "2026-11-09"
+        }
       ],
       "image": {
         "file": "Joseph_Karl_Stieler's_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg",
@@ -175,6 +212,20 @@
           "title": "Beethoven-Haus Bonn — život a dílo",
           "url": "https://www.beethoven.de/Beethoven"
         }
+      ],
+      "musicHeading": "Známé melodie — začněte tady na YouTube Music",
+      "furtherMusic": [
+        {
+          "title": "Symfonie č. 9 — Chicago Symphony Orchestra, Riccardo Muti",
+          "url": "https://music.youtube.com/watch?v=rOjHhS5MtvA",
+          "description": "Celá symfonie umožní slyšet cestu od neklidného začátku ke sborovému finále. Pokud začnete závěrem, všimněte si nejprve prosté melodie v hlubokých smyčcích a potom jejího rozrůstání v mohutný společný zpěv.",
+          "verificationUrl": "https://www.youtube.com/watch?v=rOjHhS5MtvA",
+          "verifiedOn": "2026-11-08"
+        },
+        "Devátá symfonie",
+        "Měsíční sonáta",
+        "Symfonie Osudová",
+        "Missa solemnis op. 123"
       ]
     },
     {
@@ -182,16 +233,12 @@
       "text": "Schubert žil převážně ve Vídni a zemřel už v 31 letech. Byl výrazným tvůrcem umělé písně, v níž klavír není pouhým doprovodem: dokáže vytvořit krajinu, pohyb i psychologické napětí. Komponoval také komorní hudbu a symfonie. Jeho tvorba připomíná, že velký účinek nemusí vyžadovat velký orchestr.\n\nV písni Král duchů (Erlkönig) D 328 na Goethovu baladu zpívá jediný interpret vypravěče, otce, dítě i zlověstnou nadpřirozenou postavu. Opakované tóny klavíru připomínají jízdu na koni. Zimní cesta je celý písňový cyklus o osamělosti. Ze symfonie h moll D 759 se běžně hrají dvě dokončené věty, proto „Nedokončená“. Pro rozměrnější orchestrální zážitek zkuste také Velkou symfonii C dur D 944.",
       "music": [
         {
-          "title": "Král duchů D 328 — Dietrich Fischer-Dieskau a Gerald Moore",
-          "url": "https://music.youtube.com/watch?v=CVnan-LEEpE",
-          "description": "Sledujte, jak pěvec mění barvu hlasu mezi postavami a jak klavír udržuje neúprosný pohyb. Je to hudební drama v několika minutách; orchestrální protějšek najdete ve Velké symfonii C dur.",
-          "verificationUrl": "https://www.youtube.com/watch?v=CVnan-LEEpE",
-          "verifiedOn": "2026-11-08"
-        },
-        "Erlkönig D 328",
-        "Symfonie h moll D 759 Nedokončená",
-        "Zimní cesta D 911",
-        "Velká symfonie C dur D 944"
+          "title": "Ave Maria D 839 — Barbara Bonney",
+          "url": "https://music.youtube.com/watch?v=2bosouX_d8Y",
+          "description": "Klidná zpěvná melodie představuje přístupný první kontakt se Schubertem. Všímejte si dlouhých pěveckých frází nad pravidelným doprovodem; další, dramatičtější podobu písně najdete níže v Králi duchů.",
+          "verificationUrl": "https://www.youtube.com/watch?v=2bosouX_d8Y",
+          "verifiedOn": "2026-11-09"
+        }
       ],
       "image": {
         "file": "Franz_Schubert_by_Wilhelm_August_Rieder_1875.jpg",
@@ -214,6 +261,20 @@
           "title": "University of Alberta — Schubertův život a tvorba",
           "url": "https://www.ualberta.ca/en/wirth-institute/online-programming/original-series/composers-of-central-europe/franz-peter-schubert.html"
         }
+      ],
+      "musicHeading": "Známé melodie — začněte tady na YouTube Music",
+      "furtherMusic": [
+        {
+          "title": "Král duchů D 328 — Dietrich Fischer-Dieskau a Gerald Moore",
+          "url": "https://music.youtube.com/watch?v=CVnan-LEEpE",
+          "description": "Sledujte, jak pěvec mění barvu hlasu mezi postavami a jak klavír udržuje neúprosný pohyb. Je to hudební drama v několika minutách; orchestrální protějšek najdete ve Velké symfonii C dur.",
+          "verificationUrl": "https://www.youtube.com/watch?v=CVnan-LEEpE",
+          "verifiedOn": "2026-11-08"
+        },
+        "Erlkönig D 328",
+        "Symfonie h moll D 759 Nedokončená",
+        "Zimní cesta D 911",
+        "Velká symfonie C dur D 944"
       ]
     },
     {
@@ -221,15 +282,19 @@
       "text": "Chopin byl polský skladatel a klavírista, který značnou část dospělého života strávil v Paříži. Soustředil se hlavně na klavír. Jeho hudba propojuje virtuozitu s jemnou prací s tónem a rytmem. V mazurkách a polonézách využíval polské taneční rytmy; nešlo přitom jen o doslovný přepis lidových tanců.\n\nNokturno Es dur op. 9 č. 2 nabízí zpěvnou melodii nad pravidelným doprovodem. Polonéza As dur op. 53, přezdívaná Hrdinská, je naopak zvukově mohutná a energická. Balada g moll op. 23 se rozvíjí téměř jako vyprávění od zamyšlení k prudkému závěru. Chopinovy etudy jsou současně technickými studiemi i koncertními skladbami. U něj lze monumentalitu hledat i v samotném klavíru, bez sboru a orchestru.",
       "music": [
         {
-          "title": "Hrdinská polonéza As dur op. 53 — Seong-Jin Cho",
-          "url": "https://music.youtube.com/watch?v=d3IKMiv8AHw",
-          "description": "Záznam z Chopinovy soutěže. Všímejte si slavnostního tanečního rytmu a opakovaných oktáv v levé ruce. Srovnejte jeho energii s klidnějším Nokturnem Es dur: obě skladby napsal tentýž autor.",
-          "verificationUrl": "https://www.youtube.com/watch?v=d3IKMiv8AHw",
-          "verifiedOn": "2026-11-08"
+          "title": "Nokturno Es dur op. 9 č. 2 — Yundi",
+          "url": "https://music.youtube.com/watch?v=kf8ckOyRGHM",
+          "description": "Začněte touto zpěvnou klavírní melodií. Levá ruka udržuje klidný doprovod, zatímco pravá opakuje a stále jemněji zdobí hlavní téma.",
+          "verificationUrl": "https://www.youtube.com/watch?v=kf8ckOyRGHM",
+          "verifiedOn": "2026-11-09"
         },
-        "Nokturno Es dur op. 9 č. 2",
-        "Polonéza As dur op. 53",
-        "Balada g moll op. 23"
+        {
+          "title": "Minutový valčík Des dur op. 64 č. 1 — Valentina Lisitsa",
+          "url": "https://music.youtube.com/watch?v=X2JCxapd5hU",
+          "description": "Rychlý, lehký valčík s točivou melodií. Zkuste rozlišit jeho svižné krajní části od klidnějšího středu.",
+          "verificationUrl": "https://www.youtube.com/watch?v=X2JCxapd5hU",
+          "verifiedOn": "2026-11-09"
+        }
       ],
       "image": {
         "file": "Frederic_Chopin_photo.jpeg",
@@ -252,6 +317,19 @@
           "title": "Narodowy Instytut Fryderyka Chopina — životopis",
           "url": "https://chopin.nifc.pl/en/chopin/osoba/1_chopin_fryderyk"
         }
+      ],
+      "musicHeading": "Známé melodie — začněte tady na YouTube Music",
+      "furtherMusic": [
+        {
+          "title": "Hrdinská polonéza As dur op. 53 — Seong-Jin Cho",
+          "url": "https://music.youtube.com/watch?v=d3IKMiv8AHw",
+          "description": "Záznam z Chopinovy soutěže. Všímejte si slavnostního tanečního rytmu a opakovaných oktáv v levé ruce. Srovnejte jeho energii s klidnějším Nokturnem Es dur: obě skladby napsal tentýž autor.",
+          "verificationUrl": "https://www.youtube.com/watch?v=d3IKMiv8AHw",
+          "verifiedOn": "2026-11-08"
+        },
+        "Nokturno Es dur op. 9 č. 2",
+        "Polonéza As dur op. 53",
+        "Balada g moll op. 23"
       ]
     },
     {
@@ -259,18 +337,19 @@
       "text": "Verdi byl italský operní skladatel, jehož kariéra provázela dobu sjednocování Itálie. Zpěv u něj často rozhoduje o dramatu: nejde jen o krásnou melodii, ale o střet lidských vztahů, veřejné moci a osobního svědomí. Vedle sólových árií dokázal mimořádně využít sbor.\n\nRigoletto sleduje tragédii dvorního šaška a jeho dcery. La traviata vypráví o Violettě Valéry, lásce a společenském odsouzení. Aida staví osobní vztahy proti válečné povinnosti; její Triumfální pochod je příkladem slavnostního velkého zvuku. Otello vychází ze Shakespeara a zkoumá žárlivost a manipulaci. Messa da Requiem spojuje text zádušní mše s mimořádně dramatickou hudbou: bouřlivé Dies irae se vrací jako připomínka posledního soudu.",
       "music": [
         {
-          "title": "Requiem — Dies irae, Symphonieorchester des Bayerischen Rundfunks, Riccardo Muti",
-          "url": "https://music.youtube.com/watch?v=GJzDGi7Sc8Y",
-          "description": "Ukázka monumentálního sborového a orchestrálního zvuku. Údery velkého bubnu a prudké vstupy sboru vytvářejí obraz děsu. V celém Requiem je porovnejte s tichými prosbami o pokoj.",
-          "verificationUrl": "https://www.youtube.com/watch?v=GJzDGi7Sc8Y",
-          "verifiedOn": "2026-11-08"
+          "title": "Rigoletto — La donna è mobile; Luciano Pavarotti, Richard Bonynge",
+          "url": "https://music.youtube.com/watch?v=aUTk9M01BrQ",
+          "description": "Krátká, okamžitě zapamatovatelná tenorová árie. V opeře ji zpívá vévoda z Mantovy; její lehkost ostře kontrastuje s tragickým příběhem.",
+          "verificationUrl": "https://www.youtube.com/watch?v=aUTk9M01BrQ",
+          "verifiedOn": "2026-11-09"
         },
-        "Rigoletto",
-        "La traviata",
-        "Aida",
-        "Otello",
-        "Messa da Requiem",
-        "Aida — Triumfální pochod"
+        {
+          "title": "La traviata — přípitek Libiamo ne’ lieti calici; Luciano Pavarotti a Joan Sutherland",
+          "url": "https://music.youtube.com/watch?v=CV6YF1XCIkg",
+          "description": "Známý operní přípitek: poslouchejte střídání sólistů a sboru i lehký taneční rytmus. Je to přístupná ukázka Verdiho melodiky před dramatičtějším Requiem.",
+          "verificationUrl": "https://www.youtube.com/watch?v=CV6YF1XCIkg",
+          "verifiedOn": "2026-11-09"
+        }
       ],
       "image": {
         "file": "Giuseppe_Verdi_by_Ferdinand_Mulnier_BW.jpg",
@@ -293,6 +372,22 @@
           "title": "Royal Ballet and Opera — Giuseppe Verdi",
           "url": "https://www.rbo.org.uk/people/giuseppe-verdi"
         }
+      ],
+      "musicHeading": "Známé melodie — začněte tady na YouTube Music",
+      "furtherMusic": [
+        {
+          "title": "Requiem — Dies irae, Symphonieorchester des Bayerischen Rundfunks, Riccardo Muti",
+          "url": "https://music.youtube.com/watch?v=GJzDGi7Sc8Y",
+          "description": "Ukázka monumentálního sborového a orchestrálního zvuku. Údery velkého bubnu a prudké vstupy sboru vytvářejí obraz děsu. V celém Requiem je porovnejte s tichými prosbami o pokoj.",
+          "verificationUrl": "https://www.youtube.com/watch?v=GJzDGi7Sc8Y",
+          "verifiedOn": "2026-11-08"
+        },
+        "Rigoletto",
+        "La traviata",
+        "Aida",
+        "Otello",
+        "Messa da Requiem",
+        "Aida — Triumfální pochod"
       ]
     },
     {
@@ -300,18 +395,19 @@
       "text": "Čajkovskij byl ruský skladatel, který spojoval výraznou melodiku s bohatou instrumentací. Psal symfonie, koncerty, opery i balety. V jeho hudbě se střídají velké taneční plochy s velmi osobně působícími, často melancholickými pasážemi.\n\nBalety Labutí jezero, Šípková Růženka a Louskáček patří k základům světového repertoáru. Z Louskáčka sestavil orchestrální suitu op. 71a, která koncertně zazněla ještě před premiérou baletu roku 1892. Předehra 1812 op. 49 připomíná Napoleonovo tažení do Ruska: její slavnostní závěr počítá i s dělovými výstřely. Skladba však vznikla až roku 1880. Pro jiný typ velkého zážitku slouží Šestá symfonie Patetická, jejíž poslední věta nekončí triumfem, ale postupným utišením.",
       "music": [
         {
-          "title": "Slavnostní předehra 1812 op. 49",
-          "url": "https://music.youtube.com/watch?v=i9skKKDbOyM",
-          "description": "Velká orchestrální skladba s klidným úvodem a slavnostním závěrem. Sledujte střet melodických témat a postupné zvětšování zvuku. Název označuje připomínaný historický rok, nikoli datum komponování.",
-          "verificationUrl": "https://www.youtube.com/watch?v=i9skKKDbOyM",
-          "verifiedOn": "2026-11-08"
+          "title": "Labutí jezero — Labutí téma; Wiener Philharmoniker, Herbert von Karajan",
+          "url": "https://music.youtube.com/watch?v=_RCOTE7ncGA",
+          "description": "Slavná melancholická melodie, kterou nejprve uslyšíte v hoboji a později v mohutném orchestru. Krátká scéna vás seznámí s hlavním hudebním symbolem baletu.",
+          "verificationUrl": "https://www.youtube.com/watch?v=_RCOTE7ncGA",
+          "verifiedOn": "2026-11-09"
         },
-        "Labutí jezero",
-        "Šípková Růženka",
-        "Louskáček op. 71",
-        "Suita z Louskáčka op. 71a",
-        "Předehra 1812 op. 49",
-        "Symfonie č. 6 Patetická"
+        {
+          "title": "Louskáček — Tanec cukrové víly; Royal Philharmonic Orchestra, Stanley Black",
+          "url": "https://music.youtube.com/watch?v=0gs-cw2-X_M",
+          "description": "Jemně cinkavá melodie nabízí jinou stránku Čajkovského než Labutí jezero. Sledujte, jak nezvyklá barva celesty vytváří pohádkovou atmosféru.",
+          "verificationUrl": "https://www.youtube.com/watch?v=0gs-cw2-X_M",
+          "verifiedOn": "2026-11-09"
+        }
       ],
       "image": {
         "file": "Tchaikovsky_by_Reutlinger_(cropped).jpg",
@@ -334,6 +430,22 @@
           "title": "Los Angeles Philharmonic — Předehra 1812",
           "url": "https://www.laphil.com/works/1812-overture"
         }
+      ],
+      "musicHeading": "Známé melodie — začněte tady na YouTube Music",
+      "furtherMusic": [
+        {
+          "title": "Slavnostní předehra 1812 op. 49",
+          "url": "https://music.youtube.com/watch?v=i9skKKDbOyM",
+          "description": "Velká orchestrální skladba s klidným úvodem a slavnostním závěrem. Sledujte střet melodických témat a postupné zvětšování zvuku. Název označuje připomínaný historický rok, nikoli datum komponování.",
+          "verificationUrl": "https://www.youtube.com/watch?v=i9skKKDbOyM",
+          "verifiedOn": "2026-11-08"
+        },
+        "Labutí jezero",
+        "Šípková Růženka",
+        "Louskáček op. 71",
+        "Suita z Louskáčka op. 71a",
+        "Předehra 1812 op. 49",
+        "Symfonie č. 6 Patetická"
       ]
     },
     {

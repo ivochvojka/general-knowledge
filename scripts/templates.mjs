@@ -51,7 +51,7 @@ function sectionText(section) {
     ...(section.facts ?? []).flatMap(({ label, value }) => [label, value]),
     ...(section.subsections ?? []).flatMap(({ title, text }) => [title, text]),
     ...(section.works ?? []).flatMap(({ title, summary }) => [title, summary]),
-    ...(section.music ?? []).flatMap(work => typeof work === 'string' ? [work] : [work.title, work.description])
+    ...[...(section.music ?? []), ...(section.furtherMusic ?? [])].flatMap(work => typeof work === 'string' ? [work] : [work.title, work.description])
   ].filter(Boolean);
 }
 
@@ -157,13 +157,13 @@ export function renderIndex(lessons, plan = []) {
   </main>` });
 }
 
-function musicLinks({ title, music }) {
+function musicLinks({ title, music, musicHeading = 'Doporučený poslech na YouTube Music' }) {
   if (!music) return '';
   const composer = title.replace(/\s*\([^)]*\)\s*$/, '');
   const recordings = music.filter(work => typeof work !== 'string');
   const searches = music.filter(work => typeof work === 'string');
   return `<div class="music">
-    ${recordings.length ? `<h3>Doporučený poslech na YouTube Music</h3><ul class="work-list">${recordings.map(work =>
+    ${recordings.length ? `<h3>${escape(musicHeading)}</h3><ul class="work-list">${recordings.map(work =>
       `<li>${externalLink(work.url, work.title)}<p>${escape(work.description)}</p><small>${externalLink(work.verificationUrl, 'Otevřít také na YouTube')}</small></li>`
     ).join('')}</ul>` : ''}
     ${searches.length ? `<p>Další díla — vyhledat na YouTube Music</p><ul>${searches.map(work =>
@@ -195,6 +195,7 @@ export function renderLesson(lesson) {
         ${section.image ? illustration(section.image) : ''}
         ${section.extra ? `<p class="aside-note"><strong>Zapamatujte si</strong> ${escape(section.extra)}</p>` : ''}
         ${musicLinks(section)}
+        ${section.furtherMusic ? `<details class="further-listening"><summary>Další poslech pro zájemce</summary>${musicLinks({ title: section.title, music: section.furtherMusic })}</details>` : ''}
         ${section.links ? `<ul class="section-links">${section.links.map(({ title, url }) => `<li>${externalLink(url, title)}</li>`).join('')}</ul>` : ''}
       </section>`).join('')}
       ${sources ? `<section class="chapter">

@@ -126,6 +126,8 @@ input, select { min-width: 0; width: 100%; border: 1px solid #918f81; border-rad
 .music p { font-size: .86rem; font-weight: 700; }
 .music ul { display: flex; flex-wrap: wrap; gap: .5rem; list-style: none; padding: 0; margin: .45rem 0 0; }
 .music a { display: inline-block; border: 1px solid var(--line); border-radius: .25rem; background: var(--card); padding: .35rem .55rem; font-size: .9rem; }
+.further-listening { margin-top: 1rem; padding: .85rem 1rem; border: 1px solid var(--line); background: var(--card); }
+.further-listening > summary { cursor: pointer; font-weight: 650; }
 .quiz { margin-top: 2.5rem; padding: clamp(1rem, 4vw, 1.7rem); background: #e8ede3; border: 1px solid #c5cebf; }
 .quiz details { margin-top: .75rem; background: var(--card); border: 1px solid var(--line); }
 .quiz summary { cursor: pointer; padding: .75rem; font-weight: 650; }

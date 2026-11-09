@@ -33,8 +33,9 @@ test('every published lesson has accessible quiz answers and retains its publica
   for (const lesson of lessons) {
     const html = pages.get(`lekce/${lesson.id}/index.html`);
     assert.ok(lesson.quiz.length >= 5);
-    assert.equal([...html.matchAll(/<details>/g)].length, lesson.quiz.length);
-    assert.equal([...html.matchAll(/<summary>/g)].length, lesson.quiz.length);
+    const quiz = html.split('<section class="quiz">')[1].split('</section>')[0];
+    assert.equal([...quiz.matchAll(/<details>/g)].length, lesson.quiz.length);
+    assert.equal([...quiz.matchAll(/<summary>/g)].length, lesson.quiz.length);
     for (const item of lesson.quiz) assert.ok(html.includes(item.answer.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;')));
     assert.ok(html.includes(`<time datetime="${lesson.date}">`));
   }
@@ -49,6 +50,28 @@ test('catalogue indexes facts, book summaries and subsections as readable text',
   assert.equal([...index.matchAll(/<h4>/g)].length, lessons.length - 1);
   assert.ok(!/<\d+>/.test(index));
   assert.ok(index.includes('id="pripravujeme"'));
+});
+
+test('additional listening is collapsed without hiding the main recordings or losing search text', () => {
+  const encode = text => text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  for (const lesson of lessons) {
+    const html = pages.get(`lekce/${lesson.id}/index.html`);
+    const chapters = html.split('<section class="chapter">').slice(1);
+    lesson.sections.forEach((section, i) => {
+      if (!section.furtherMusic) return;
+      const chapter = chapters[i];
+      const [visible, collapsed] = chapter.split('<details class="further-listening">');
+      assert.ok(collapsed.includes('<summary>Další poslech pro zájemce</summary>'));
+      for (const work of section.music ?? []) {
+        if (typeof work !== 'string') assert.ok(visible.includes(encode(work.url)));
+      }
+      for (const work of section.furtherMusic) {
+        const title = typeof work === 'string' ? work : work.title;
+        assert.ok(collapsed.includes(encode(title)));
+        assert.ok(index.includes(encode(title)));
+      }
+    });
+  }
 });
 
 test('new publications replace the featured lesson and return the previous one to its category', () => {

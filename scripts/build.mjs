@@ -98,15 +98,17 @@ function validate(lesson, filename) {
         if (field === 'works') requiredText(item.summary, 'sections.works.summary');
       }
     }
-    if (section.music !== undefined) {
-      requiredList(section.music, 'sections.music');
-      for (const work of section.music) {
-        if (typeof work === 'string') requiredText(work, 'sections.music[]');
+    if (section.musicHeading !== undefined) requiredText(section.musicHeading, 'sections.musicHeading');
+    for (const field of ['music', 'furtherMusic']) {
+      if (section[field] === undefined) continue;
+      requiredList(section[field], `sections.${field}`);
+      for (const work of section[field]) {
+        if (typeof work === 'string') requiredText(work, `sections.${field}[]`);
         else {
-          requiredText(work.title, 'sections.music.title');
-          requiredText(work.description, 'sections.music.description');
-          httpsUrl(work.url, 'sections.music.url');
-          httpsUrl(work.verificationUrl, 'sections.music.verificationUrl');
+          requiredText(work.title, `sections.${field}.title`);
+          requiredText(work.description, `sections.${field}.description`);
+          httpsUrl(work.url, `sections.${field}.url`);
+          httpsUrl(work.verificationUrl, `sections.${field}.verificationUrl`);
           if (!/^\d{4}-\d{2}-\d{2}$/.test(work.verifiedOn ?? '')) throw new Error('Chybí datum ověření poslechu.');
         }
       }

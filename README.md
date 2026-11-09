@@ -29,6 +29,8 @@ Rozšířené oddíly mohou obsahovat `facts` (seznam dvojic `label`, `value`), 
 
 Katalogové obrázky vyplňují celou výšku karty pomocí ořezu `object-fit: cover`. Na stránce lekce zůstávají celé. Při chybě načtení ukazuje lekce textovou náhradu a původní odkaz s atribucí.
 
+V přehledech skladatelů upřednostňujte obecně rozpoznatelné melodie a konkrétní ukázky; uveďte, jde-li o jednotlivou větu či árii. Pole `musicHeading` může upravit nadpis hlavního poslechu. Volitelné `furtherMusic` má stejnou strukturu jako `music` a uchovává další doporučení v rozbalitelné části **Další poslech pro zájemce**. I tento obsah zůstává dostupný bez JavaScriptu a je součástí vyhledávání.
+
 ## Redakční plán
 
 Soubor `content/plan.json` obsahuje schválené náměty bez pevných termínů a zobrazuje se na úvodní stránce v části **Plánované lekce**. Při pravidelných bězích se používá společně s tematickou rotací, nikoli jako neúprosná fronta. Po publikaci se odpovídající položka z plánu odstraní; ID nesmí kolidovat s publikovanou lekcí.
