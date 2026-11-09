@@ -41,6 +41,8 @@ V [Settings → Pages](https://github.com/ivochvojka/general-knowledge/settings/
 
 U převzatých lekcí uvádíme datum původního zveřejnění v ChatGPT, pokud ho známe. Pole `publicationOrder` je volitelné kladné celé číslo pro známé pořadí v rámci jednoho dne (1 je první). Přesný čas k tomu není potřeba. Katalog lze procházet podle tématu nebo podle data od nejnovějších či od nejstarších; vyhledávání a filtr tématu fungují ve všech režimech.
 
+Nad přehledem kategorií je sekce **Nejnovější lekce** s jedinou kartou. Generátor ji vybírá automaticky podle `date`, při shodném dni podle vyššího `publicationOrder` a nakonec abecedně pro jednoznačné pořadí. Tato karta se současně neopakuje ve své kategorii. Po vydání novější lekce se předchozí vrátí do své kategorie. Hledání a filtr zahrnují i nejnovější lekci; chronologické řazení přesouvá všechny karty do společného seznamu, přepnutí zpět obnoví původní umístění.
+
 ## Pravidelné lekce
 
 Místní úloha Codex **Všeobecný rozhled – nová lekce** je naplánována na pondělí a čtvrtek v 8:00 pražského času. Po úspěšných kontrolách odesílá nové lekce přímo do `main`.

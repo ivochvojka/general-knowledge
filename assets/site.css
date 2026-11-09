@@ -81,10 +81,16 @@ input, select { min-width: 0; width: 100%; border: 1px solid #918f81; border-rad
   pointer-events: none;
 }
 .card-body { grid-column: 1; grid-row: 1; padding: 1.15rem .5rem 1.25rem 1.15rem; }
-.lesson-card h4 { margin-block: .35rem; font-size: 1.45rem; }
+.lesson-card :is(h3, h4) { margin-block: .35rem; font-size: 1.45rem; }
 .lesson-card p { color: var(--muted); font-size: .9rem; }
 .card-meta { color: var(--muted); font-size: .78rem; }
 .card-arrow { display: inline-block; margin-top: .35rem; font-size: 1.2rem; color: var(--rust); }
+.latest { padding-top: clamp(2rem, 5vw, 3.5rem); }
+.latest h2 { margin-top: .3rem; font-size: clamp(2rem, 5vw, 3rem); }
+.latest .lesson-grid { grid-template-columns: minmax(0, 1fr); margin-top: 1.25rem; }
+.latest .lesson-card :is(h3, h4) { font-size: clamp(1.65rem, 3vw, 2.5rem); }
+.latest .card-body { padding: 1.5rem; }
+.latest .lesson-card p { max-width: 55ch; font-size: 1rem; }
 
 .reading { max-width: 47rem; padding-block: 1.75rem 4rem; }
 .back { display: inline-block; margin-bottom: 1.75rem; font-size: .9rem; }

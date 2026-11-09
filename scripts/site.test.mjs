@@ -3,6 +3,7 @@ import { readFile, readdir } from 'node:fs/promises';
 import test from 'node:test';
 import { runInNewContext } from 'node:vm';
 import './build.mjs';
+import { renderIndex } from './templates.mjs';
 
 const root = new URL('../', import.meta.url);
 const read = path => readFile(new URL(path, root), 'utf8');
@@ -45,7 +46,30 @@ test('catalogue indexes facts, book summaries and subsections as readable text',
   assert.ok(index.includes('212,0 milionu'));
   assert.ok(!index.includes('[object Object]'));
   assert.equal([...index.matchAll(/data-lesson="/g)].length, lessons.length);
+  assert.equal([...index.matchAll(/<h4>/g)].length, lessons.length - 1);
+  assert.ok(!/<\d+>/.test(index));
   assert.ok(index.includes('id="pripravujeme"'));
+});
+
+test('new publications replace the featured lesson and return the previous one to its category', () => {
+  const make = (id, date, publicationOrder = 1) => ({
+    ...lessons[0], id, date, publicationOrder, title: id, category: 'Hudba',
+    cover: { src: 'https://example.com/image.jpg' },
+  });
+  const older = make('older', '2026-11-08');
+  const current = make('current', '2026-11-09');
+  const next = make('next', '2026-11-09', 2);
+  const featuredId = html => html.match(/id="nejnovejsi"[\s\S]*?data-lesson="([^"]+)"/)?.[1];
+  const before = renderIndex([current, older]);
+  assert.equal(featuredId(before), 'current');
+  const after = renderIndex([next, older, current]);
+  assert.equal(featuredId(after), 'next');
+  assert.equal([...after.matchAll(/data-lesson="current"/g)].length, 1);
+  assert.match(after.slice(after.indexOf('id="prehled"')), /data-topic="Hudba"[\s\S]*data-lesson="current"/);
+  assert.equal([...after.matchAll(/data-lesson="/g)].length, 3);
+  assert.equal(featuredId(renderIndex([{ ...next, date: undefined, publicationOrder: undefined }, older])), 'older');
+  assert.equal(featuredId(renderIndex([older, { ...current, date: '2026-11-10' } ])), 'current');
+  assert.ok(!renderIndex([current]).includes('<section class="topic" data-topic="Hudba">'));
 });
 
 test('external links keep their labels and open safely in another tab', () => {

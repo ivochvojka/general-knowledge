@@ -21,7 +21,7 @@ const entries = groups.map(group => ({
     card,
     date: card.querySelector('time')?.dateTime ?? '',
     order: Number(card.dataset.order),
-    title: card.querySelector('h4').textContent,
+    title: card.querySelector('h3, h4').textContent,
     text: normalize([group.dataset.topic, card.textContent, card.dataset.search].join(' ')),
   })),
 }));

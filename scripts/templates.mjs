@@ -70,7 +70,7 @@ function publicationDate(date) {
   return `<time datetime="${date}">${publicationDateFormat.format(new Date(date))}</time>`;
 }
 
-function card(lesson) {
+function card(lesson, heading = 'h4') {
   const keywords = [lesson.category, ...lesson.sections.flatMap(sectionText)];
   return `<li class="lesson-card" data-lesson="${lesson.id}" data-order="${lesson.publicationOrder ?? ''}" data-search="${escape(keywords.join(' '))}">
     <a href="./lekce/${lesson.id}/">
@@ -79,7 +79,7 @@ function card(lesson) {
       </div>
       <div class="card-body">
         <span class="card-meta">${escape(lesson.category)} · ${readingTime(lesson)} min${lesson.date ? ` · ${publicationDate(lesson.date)}` : ''}</span>
-        <h4>${escape(lesson.title)}</h4>
+        <${heading}>${escape(lesson.title)}</${heading}>
         <p>${escape(lesson.intro)}</p>
         <span class="card-arrow" aria-hidden="true">→</span>
       </div>
@@ -88,9 +88,14 @@ function card(lesson) {
 }
 
 export function renderIndex(lessons, plan = []) {
+  const latest = [...lessons].sort((a, b) =>
+    (b.date ?? '').localeCompare(a.date ?? '')
+    || (b.publicationOrder ?? 0) - (a.publicationOrder ?? 0)
+    || a.title.localeCompare(b.title, 'cs'))[0];
+  const topicFor = lesson => ['České dějiny', 'Moderní dějiny'].includes(lesson.category) ? 'Historie' : lesson.category;
   const groups = new Map();
   for (const lesson of lessons) {
-    const topic = ['České dějiny', 'Moderní dějiny'].includes(lesson.category) ? 'Historie' : lesson.category;
+    const topic = topicFor(lesson);
     if (!groups.has(topic)) groups.set(topic, []);
     groups.get(topic).push(lesson);
   }
@@ -107,6 +112,11 @@ export function renderIndex(lessons, plan = []) {
         <a class="button" href="#prehled">Procházet lekce <span aria-hidden="true">↓</span></a>
       </div>
     </section>
+    ${latest ? `<section id="nejnovejsi" class="latest wrap" data-topic="${escape(topicFor(latest))}" aria-labelledby="latest-title">
+      <p class="eyebrow">Právě v knihovně</p>
+      <h2 id="latest-title">Nejnovější lekce</h2>
+      <ul class="lesson-grid">${card(latest, 'h3')}</ul>
+    </section>` : ''}
     <section id="prehled" class="catalog wrap">
       <p class="eyebrow">Knihovna</p>
       <h2>Přehled lekcí</h2>
@@ -133,9 +143,9 @@ export function renderIndex(lessons, plan = []) {
         <h3 class="topic-name">Podle data publikace</h3>
         <ul class="lesson-grid"></ul>
       </section>
-      ${topics.map(([topic, items]) => `<section class="topic" data-topic="${escape(topic)}">
+      ${topics.map(([topic, items]) => [topic, items.filter(lesson => lesson !== latest)]).filter(([, items]) => items.length).map(([topic, items]) => `<section class="topic" data-topic="${escape(topic)}">
         <h3 class="topic-name">${escape(topic)}</h3>
-        <ul class="lesson-grid">${items.map(card).join('')}</ul>
+        <ul class="lesson-grid">${items.map(lesson => card(lesson)).join('')}</ul>
       </section>`).join('')}
     </section>
     ${plan.length ? `<section id="pripravujeme" class="planned wrap" aria-labelledby="plan-title">
