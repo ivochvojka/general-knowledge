@@ -42,8 +42,16 @@ function prepareImage(image, field) {
   }
 }
 
+function validDate(value, field) {
+  const parsed = new Date(value);
+  if (typeof value !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(value)
+      || !Number.isFinite(parsed.getTime()) || parsed.toISOString().slice(0, 10) !== value) {
+    throw new Error(`${field} musí být platné datum ve formátu RRRR-MM-DD.`);
+  }
+}
+
 function validate(lesson, filename) {
-  const { id, title, category, intro, date, publicationOrder, cover, sections, quiz, sources } = lesson;
+  const { id, title, category, intro, date, scheduledFor, publicationOrder, cover, sections, quiz, sources } = lesson;
   if (typeof id !== 'string' || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(id) || filename !== `${id}.json`) {
     throw new Error('ID musí odpovídat názvu souboru a obsahovat jen malá ASCII písmena, číslice a pomlčky.');
   }
@@ -51,13 +59,8 @@ function validate(lesson, filename) {
   const titleKey = title.trim().normalize('NFC').toLocaleLowerCase('cs');
   if (titles.has(titleKey)) throw new Error(`Duplicitní název: ${title}`);
 
-  if (date !== undefined) {
-    const parsed = new Date(date);
-    if (typeof date !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(date)
-        || !Number.isFinite(parsed.getTime()) || parsed.toISOString().slice(0, 10) !== date) {
-      throw new Error('date musí být platné datum ve formátu RRRR-MM-DD.');
-    }
-  }
+  if (date !== undefined) validDate(date, 'date');
+  if (scheduledFor !== undefined) validDate(scheduledFor, 'scheduledFor');
   if (publicationOrder !== undefined && (!date || !Number.isSafeInteger(publicationOrder) || publicationOrder < 1)) {
     throw new Error('publicationOrder vyžaduje datum a musí být kladné celé číslo.');
   }
