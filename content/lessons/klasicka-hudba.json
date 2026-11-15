@@ -2,7 +2,7 @@
   "id": "klasicka-hudba",
   "category": "Hudba",
   "title": "Klasická hudba",
-  "intro": "Osm skladatelů od baroka po romantismus: kdo byli, co změnili a kde začít poslouchat. Nejprve zkuste známé melodie, které možná poznáte i bez názvu: od Bachovy Toccaty a fugy po Labutí jezero. U každého autora najdete konkrétní nahrávky a krátké vodítko k poslechu; další díla zůstávají v rozbalitelné nabídce pro objevování.",
+  "intro": "Deset skladatelů od baroka po přelom 19. a 20. století: kdo byli, co změnili a kde začít poslouchat. Nejprve zkuste známé melodie, které možná poznáte i bez názvu: od Bachovy Toccaty a fugy po Labutí jezero. U každého autora najdete konkrétní nahrávky a krátké vodítko k poslechu; další díla zůstávají v rozbalitelné nabídce pro objevování.",
   "cover": {
     "file": "Johann_Sebastian_Bach.jpg",
     "alt": "Portrét Johanna Sebastiana Bacha z roku 1748",
@@ -391,6 +391,65 @@
       ]
     },
     {
+      "title": "Johann Strauss mladší (1825–1899)",
+      "text": "Rakouský skladatel, houslista a dirigent spojený s Vídní si vysloužil přezdívku „král valčíků“. Jeho otec Johann Strauss starší byl rovněž skladatelem, ale synovu hudební kariéru zpočátku odmítal. Mladší Johann si roku 1844 založil vlastní orchestr a později získal mezinárodní věhlas. Valčíky u něj nejsou jen doprovodem k tanci: rozvinul je v pestré orchestrální skladby pro koncertní poslech.\n\nNa krásném modrém Dunaji (An der schönen blauen Donau, 1867) představuje sled zpěvných melodií v třídobém taktu. Císařský valčík (Kaiser-Walzer, 1889) střídá slavnostnost s jemností. Netopýr (Die Fledermaus, 1874) je opereta plná převleků, milostných zápletek a společenského humoru; její předehra funguje i jako samostatná koncertní skladba. Opereta obvykle propojuje zpěv, mluvené dialogy a tanec.\n\nPozor na dvě záměny: Radeckého pochod napsal jeho otec, nikoli Johann mladší. Richard Strauss zase do této vídeňské skladatelské rodiny nepatřil.",
+      "facts": [
+        {
+          "label": "Prostředí",
+          "value": "Rakousko / Vídeň"
+        },
+        {
+          "label": "Období",
+          "value": "Romantismus, vídeňský valčík a opereta"
+        }
+      ],
+      "image": {
+        "file": "Johann_Strauss_II.jpg",
+        "alt": "Historický fotografický portrét Johanna Strausse mladšího",
+        "credit": "Neznámý fotograf",
+        "license": "Volné dílo (Public Domain Mark 1.0)",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+      },
+      "musicHeading": "Známé melodie — začněte tady na YouTube Music",
+      "music": [
+        {
+          "title": "Na krásném modrém Dunaji op. 314 — Wiener Philharmoniker, Nikolaus Harnoncourt",
+          "url": "https://music.youtube.com/watch?v=BWAAxuj2LHw",
+          "description": "Po klidném úvodu přijde známá valčíková melodie. Zkuste si počítat „raz, dva, tři“ a sledovat návraty témat.",
+          "verificationUrl": "https://www.youtube.com/watch?v=BWAAxuj2LHw",
+          "verifiedOn": "2026-11-15"
+        },
+        {
+          "title": "Císařský valčík op. 437 — Wiener Johann Strauss Orchester, Willi Boskovsky",
+          "url": "https://music.youtube.com/watch?v=-LoMl_yDYwo",
+          "description": "Slavnostní začátek vystřídá houpavý valčíkový pohyb. Všímejte si kontrastu jemných smyčců a plného orchestru.",
+          "verificationUrl": "https://www.youtube.com/watch?v=-LoMl_yDYwo",
+          "verifiedOn": "2026-11-15"
+        },
+        {
+          "title": "Netopýr — předehra; Wiener Philharmoniker, Herbert von Karajan",
+          "url": "https://music.youtube.com/watch?v=Us-7ulGiEO0",
+          "description": "Orchestrální úvod k operetě střídá svižné pasáže s valčíkem. Odkaz vede jen na předehru, nikoli na celé jevištní dílo.",
+          "verificationUrl": "https://www.youtube.com/watch?v=Us-7ulGiEO0",
+          "verifiedOn": "2026-11-15"
+        }
+      ],
+      "links": [
+        {
+          "title": "University of Alberta — Johann Strauss mladší, život a dílo",
+          "url": "https://www.ualberta.ca/en/wirth-institute/online-programming/original-series/composers-of-central-europe/johann-strauss,-jr..html"
+        },
+        {
+          "title": "Wiener Institut für Strauss-Forschung — Radeckého pochod Johanna Strausse staršího",
+          "url": "https://www.johann-strauss.at/en/forschung/forschungssplitter/radetzky-marsch-entstehung/"
+        },
+        {
+          "title": "Warner Classics — Na krásném modrém Dunaji, Císařský valčík a Netopýr",
+          "url": "https://www.warnerclassics.com/release/karajan-conducts-music-johann-strauss-beautiful-blue-danube-emperor-waltz-overture-die"
+        }
+      ]
+    },
+    {
       "title": "Petr Iljič Čajkovskij (1840–1893)",
       "text": "Čajkovskij byl ruský skladatel, který spojoval výraznou melodiku s bohatou instrumentací. Psal symfonie, koncerty, opery i balety. V jeho hudbě se střídají velké taneční plochy s velmi osobně působícími, často melancholickými pasážemi.\n\nBalety Labutí jezero, Šípková Růženka a Louskáček patří k základům světového repertoáru. Z Louskáčka sestavil orchestrální suitu op. 71a, která koncertně zazněla ještě před premiérou baletu roku 1892. Předehra 1812 op. 49 připomíná Napoleonovo tažení do Ruska: její slavnostní závěr počítá i s dělovými výstřely. Skladba však vznikla až roku 1880. Pro jiný typ velkého zážitku slouží Šestá symfonie Patetická, jejíž poslední věta nekončí triumfem, ale postupným utišením.",
       "music": [
@@ -449,6 +508,59 @@
       ]
     },
     {
+      "title": "Richard Strauss (1864–1949)",
+      "text": "Německý skladatel a dirigent se narodil v Mnichově; jeho otec Franz hrál na lesní roh. S vídeňskou rodinou Johanna Strausse nebyl příbuzný. Richard patří k pozdnímu romantismu a hudbě přelomu 19. a 20. století. Proslul bohatou instrumentací: velký orchestr u něj dokáže vytvořit monumentální zvuk i jemný detail.\n\nTak pravil Zarathustra (Also sprach Zarathustra, 1896) je symfonická báseň inspirovaná stejnojmennou knihou Friedricha Nietzscheho. Její úvod proslavil také film 2001: Vesmírná odysea. Není to ale filmová skladba ani jen krátká fanfára: známý začátek otevírá mnohem rozsáhlejší hudební celek. Symfonická báseň vychází z mimohudebního námětu, například příběhu nebo filozofické myšlenky.\n\nRichard psal také opery: Salome (1905) a Elektra (1909) přinášejí vypjaté drama, Růžový kavalír (Der Rosenkavalier, 1911) spojuje komedii s melancholií a valčíkovými melodiemi. Podobný taneční rytmus tu tedy uslyšíte u jiného Strausse a v jiném hudebním světě.",
+      "facts": [
+        {
+          "label": "Prostředí",
+          "value": "Německo"
+        },
+        {
+          "label": "Období",
+          "value": "Pozdní romantismus a přelom k hudbě 20. století"
+        }
+      ],
+      "image": {
+        "file": "Richard_Strauss_1894.jpg",
+        "alt": "Richard Strauss na fotografii ateliéru Hertel ve Výmaru z roku 1894",
+        "credit": "Atelier Hertel, Výmar (Friedrich Hertel)",
+        "license": "Volné dílo (Public Domain Mark 1.0)",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "thumbnailWidth": 500
+      },
+      "musicHeading": "Známé melodie — začněte tady na YouTube Music",
+      "music": [
+        {
+          "title": "Tak pravil Zarathustra op. 30 — úvod; Berliner Philharmoniker, Gustavo Dudamel",
+          "url": "https://music.youtube.com/watch?v=fYK5Tptgm3k",
+          "description": "Poslouchejte hluboký základ, stoupající trubkový motiv a mohutné vyvrcholení s tympány. Jde o krátký úvodní výňatek z celého díla.",
+          "verificationUrl": "https://www.youtube.com/watch?v=fYK5Tptgm3k",
+          "verifiedOn": "2026-11-15"
+        }
+      ],
+      "furtherMusic": [
+        "Tak pravil Zarathustra op. 30 — celé dílo",
+        "Růžový kavalír — valčíky",
+        "Don Juan op. 20",
+        "Čtveráctví šibala Tilla Eulenspiegela op. 28",
+        "Čtyři poslední písně"
+      ],
+      "links": [
+        {
+          "title": "Richard Strauss — oficiální životopis a přehled tvorby",
+          "url": "https://www.richardstrauss.at/biography.html"
+        },
+        {
+          "title": "Los Angeles Philharmonic — Tak pravil Zarathustra",
+          "url": "https://www.laphil.com/works/also-sprach-zarathustra-op-30"
+        },
+        {
+          "title": "Deutsches Historisches Museum — Richard Strauss",
+          "url": "https://www.dhm.de/lemo/biografie/richard-strauss"
+        }
+      ]
+    },
+    {
       "title": "Čeští skladatelé světového významu",
       "text": "Bedřich Smetana a Antonín Dvořák patří mezi skladatele světového významu. Jejich životům, dílům a poslechovým ukázkám se věnuje samostatná lekce o české hudbě; zde proto zůstává prostor zahraničním skladatelům.\n\nPři poslechu si zkuste vždy vybavit skladatele, období a jeden rozpoznávací znak: Bachovo proplétání hlasů, Mozartovo operní drama nebo Beethovenovo rozvíjení krátkého motivu. Tak vzniká užitečnější orientace než pouhé memorování seznamu jmen."
     }
@@ -485,6 +597,14 @@
     {
       "question": "Kdo složil Labutí jezero a kdy vznikla Předehra 1812?",
       "answer": "Petr Iljič Čajkovskij. Předehru napsal roku 1880; její název připomíná Napoleonovo tažení do Ruska roku 1812."
+    },
+    {
+      "question": "Který Strauss je „král valčíků“ a kdo napsal Radeckého pochod?",
+      "answer": "Král valčíků je Johann Strauss mladší, autor Na krásném modrém Dunaji a Netopýra. Radeckého pochod napsal jeho otec Johann Strauss starší."
+    },
+    {
+      "question": "Byl Richard Strauss příbuzný Johanna a složil Tak pravil Zarathustra pro film?",
+      "answer": "Ne. Richard Strauss nebyl příbuzný vídeňské rodiny Straussů. Symfonická báseň vznikla roku 1896 podle Nietzscheho knihy; film 2001: Vesmírná odysea později využil její již existující hudbu."
     }
   ],
   "sources": [
@@ -547,6 +667,30 @@
     {
       "title": "Beethoven-Haus Bonn — život a dílo",
       "url": "https://www.beethoven.de/Beethoven"
+    },
+    {
+      "title": "University of Alberta — Johann Strauss mladší, život a dílo",
+      "url": "https://www.ualberta.ca/en/wirth-institute/online-programming/original-series/composers-of-central-europe/johann-strauss,-jr..html"
+    },
+    {
+      "title": "Wiener Institut für Strauss-Forschung — Radeckého pochod Johanna Strausse staršího",
+      "url": "https://www.johann-strauss.at/en/forschung/forschungssplitter/radetzky-marsch-entstehung/"
+    },
+    {
+      "title": "Warner Classics — Na krásném modrém Dunaji, Císařský valčík a Netopýr",
+      "url": "https://www.warnerclassics.com/release/karajan-conducts-music-johann-strauss-beautiful-blue-danube-emperor-waltz-overture-die"
+    },
+    {
+      "title": "Richard Strauss — oficiální životopis a přehled tvorby",
+      "url": "https://www.richardstrauss.at/biography.html"
+    },
+    {
+      "title": "Los Angeles Philharmonic — Tak pravil Zarathustra",
+      "url": "https://www.laphil.com/works/also-sprach-zarathustra-op-30"
+    },
+    {
+      "title": "Deutsches Historisches Museum — Richard Strauss",
+      "url": "https://www.dhm.de/lemo/biografie/richard-strauss"
     }
   ],
   "date": "2026-11-02",
