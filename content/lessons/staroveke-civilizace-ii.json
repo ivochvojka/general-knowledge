@@ -1,0 +1,102 @@
+{
+  "id": "staroveke-civilizace-ii",
+  "scheduledFor": "2026-11-16",
+  "date": "2026-11-16",
+  "category": "Historie",
+  "title": "Starověké civilizace II: Persie, Indie a Čína",
+  "intro": "Starověk se neodehrával jen kolem Středozemního moře. V prostoru dnešního Íránu vznikla říše, která spojila desítky národů; v povodí Indu vyrostla pozoruhodně plánovaná města; a v severní Číně zanechali vládci nápisy, z nichž se vyvinula jedna z nejdéle trvajících písařských tradic. Jejich příběhy ukazují různé odpovědi na stejnou otázku: jak spravovat velkou a složitou společnost.",
+  "cover": {
+    "file": "Persepolis_-_Royal_audience_low-relief.jpg",
+    "alt": "Achajmenovský reliéf královské audience z Persepolisu",
+    "credit": "Philippe Chavin (Simorg), fotografie reliéfu v Národním muzeu v Teheránu",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+    "thumbnailWidth": 960
+  },
+  "sections": [
+    {
+      "title": "Tři světy, které nebyly na okraji",
+      "text": "Je užitečné nezačínat starověk automaticky Řeckem a Římem. Perská říše, harappská civilizace v oblasti dnešního Pákistánu a severozápadní Indie i rané čínské státy vznikaly v odlišných krajinách a časech. Přesto je spojoval obchod, práce s vodou, organizace práce a snaha zaznamenat rozhodnutí vládců či obchodníků. Zároveň o nich víme nestejně: o Persii máme královské nápisy a řecké autory, o Indu hlavně archeologii a dosud nerozluštěné znaky, o Číně mimořádně cenné nápisy na kostech a bronzech."
+    },
+    {
+      "title": "Persie: říše cest a provincií",
+      "text": "Achajmenovská Persie začala roku 550 př. n. l., kdy Kýros II. porazil médského krále. V následujících letech ovládl Lýdii a roku 539 př. n. l. Babylon; jeho syn Kambýsés připojil Egypt. Za Dareia I. (522–486 př. n. l.) sahala říše od Egypta a Anatolie přes Írán až k severozápadní Indii — podle Metropolitního muzea šlo o největší říši, jakou tehdejší starověk poznal.\n\nTakový celek neudržela jen armáda. Dareiova správa pracovala se satrapiemi, tedy provinciemi vedenými satrapy, a s komunikačními cestami. Královská cesta mezi Súsami a Sardami sloužila správě, daním i pohybu zpráv. Persepolis, založený Dareiem na jihozápadě dnešního Íránu, byl především dynastickým a ceremoniálním centrem. Reliéfy na jeho schodištích ukazují zástupce rozličných zemí s dary; nejsou neutrální reportáží, ale promyšleným obrazem řádu, který chtěl dvůr představit."
+    },
+    {
+      "title": "Města Indu a písmo bez překladu",
+      "text": "Harappská neboli civilizace Indu dosáhla vrcholu zhruba mezi lety 2600 a 1900 př. n. l. Její známá města Harappa a Mohendžo-daro ležela v prostoru dnešního Pákistánu, další sídla i v Indii. U Mohendžo-dara se zachoval pravidelný půdorys ulic, cihlové stavby, studny i systém odvodnění. UNESCO jej označuje za jednu z nejlépe zachovaných městských lokalit jižní Asie z počátku 3. tisíciletí př. n. l.\n\nZvláštním svědectvím jsou malé pečetě se zvířaty a krátkými řadami znaků. Znakový systém zatím neumíme spolehlivě číst, takže nevíme, zda označuje jména, úřady, jazyk nebo něco jiného. Právě proto je třeba odlišovat nález od domněnky: promyšlené město a standardizované předměty jsou hmatatelné, ale náboženství a politické uspořádání nelze z pečetí prostě „přečíst“. Po roce 1900 př. n. l. se městská síť proměnila; badatelé zvažují kombinaci klimatických změn, proměn říčních toků, obchodu a osídlení, nikoli jedinou jistou katastrofu.",
+      "image": {
+        "file": "Indus_Valley_Civilization_seals.jpg",
+        "alt": "Výběr pečetí civilizace Indu se zvířecími motivy a krátkými nápisy",
+        "credit": "Ernest John Henry Mackay, publikováno roku 1935",
+        "license": "Volné dílo (Public Domain Mark 1.0)",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "thumbnailWidth": 500
+      }
+    },
+    {
+      "title": "Čína: bronz, věštba a pokračování písma",
+      "text": "V povodí Žluté řeky se kolem druhého tisíciletí př. n. l. prosadila dynastie Šang; obvykle se klade přibližně do let 1600–1046 př. n. l., přesné počátky však nejsou jisté. V posledním šangském centru u An-jangu archeologové našli bronzové rituální nádoby a takzvané věštební kosti — želví krunýře či kosti zvířat s vyrytými otázkami o sklizni, obětech, válce a panovníkově dvoře.\n\nTyto nápisy patří k nejstarším bezpečně doloženým čínským písemným památkám. Nejde o přímou podobu dnešní čínštiny, ale mezi znaky existuje dlouhá vývojová návaznost. Po Šanzích nastoupila dynastie Čou (1046–256 př. n. l.), jejíž vládcové prosazovali myšlenku „mandátu Nebes“: panovník má vládnout oprávněně jen tehdy, plní-li svou morální povinnost. Nebyl to demokratický mechanismus, nýbrž způsob, jak vysvětlovat střídání dynastií a kritizovat špatného vládce."
+    },
+    {
+      "title": "Co nám jejich rozdíly připomínají",
+      "text": "Překvapivé je, že velká civilizace nemusí zanechat čitelný archiv, aby byla složitá: Indus má precizní městské prostředí, ale jeho písmo zůstává záhadou. Naopak perské reliéfy a čínské věštební nápisy jsou samy o sobě také nástroji moci, nikoli nestrannými dějinami. Starověké civilizace proto nejsou žebříčkem „pokročilosti“. Jsou různými pokusy spojit lidi, zdroje, paměť a autoritu — a zároveň lekcí v tom, co z minulosti opravdu víme a co zatím pouze poctivě odhadujeme."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Metropolitan Museum of Art — The Achaemenid Persian Empire (550–330 B.C.)",
+      "url": "https://www.metmuseum.org/essays/the-achaemenid-persian-empire-550-330-b-c"
+    },
+    {
+      "title": "Metropolitan Museum of Art — Iran, 1000 B.C.–1 A.D.",
+      "url": "https://www.metmuseum.org/toah/ht/04/wai.html"
+    },
+    {
+      "title": "UNESCO World Heritage Centre — Archaeological Ruins at Moenjodaro",
+      "url": "https://whc.unesco.org/en/list/138/"
+    },
+    {
+      "title": "British Museum — Indus sealstone from Harappa (magazine, autumn 2020)",
+      "url": "https://www.britishmuseum.org/sites/default/files/2020-11/British_Museum_Magazine_Autumn2020_reducedsize.pdf"
+    },
+    {
+      "title": "Metropolitan Museum of Art — The Arts of Ancient China",
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Arts_of_Ancient_China_The_Metropolitan_Museum_of_Art_Bulletin_v_32_no_2_1973_1974.pdf"
+    },
+    {
+      "title": "Wikimedia Commons — Persepolis: Royal audience low-relief",
+      "url": "https://commons.wikimedia.org/wiki/File:Persepolis_-_Royal_audience_low-relief.jpg"
+    },
+    {
+      "title": "Wikimedia Commons — Indus Valley Civilization seals",
+      "url": "https://commons.wikimedia.org/wiki/File:Indus_Valley_Civilization_seals.jpg"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Proč byly satrapie pro Perskou říši důležité?",
+      "answer": "Šlo o provincie, díky nimž mohla vzdálená území spravovat místní administrace pod dohledem krále. V kombinaci s cestami umožňovaly vybírat dávky a předávat zprávy v obrovské říši."
+    },
+    {
+      "question": "Co reliéfy v Persepolisu ukazují — a co samy o sobě neprokazují?",
+      "answer": "Ukazují, jak achajmenovský dvůr zobrazoval rozmanité národy a královský řád. Nejsou však neutrální fotografií reality; jsou oficiálním obrazem moci."
+    },
+    {
+      "question": "Jaký důkaz vyspělého městského plánování poskytuje Mohendžo-daro?",
+      "answer": "Archeologie zde odhalila pravidelně uspořádané ulice, cihlové stavby, studny a odvodňovací systém. Neznamená to ale, že známe jména vládců nebo přesné fungování celé společnosti."
+    },
+    {
+      "question": "Proč nelze znaky na pečetích civilizace Indu jednoduše přeložit?",
+      "answer": "Jejich písmo dosud nebylo spolehlivě rozluštěno. Bez bilingvního textu či dostatečně dlouhých nápisů nelze bezpečně rozhodnout ani o jazyce, ani o přesném významu znaků."
+    },
+    {
+      "question": "K čemu sloužily šangské věštební kosti?",
+      "answer": "Na krunýře a kosti se zapisovaly otázky při věštění, například o sklizni, obětech či válce. Jsou proto mimořádným pramenem o královském dvoře a raném čínském písmu."
+    },
+    {
+      "question": "Co vyjadřoval čouský mandát Nebes?",
+      "answer": "Myšlenku, že vláda má morální oprávnění jen při řádném výkonu. Sloužila k vysvětlení pádu a nástupu dynastií, nikoli jako právo obyvatel volit si vládce."
+    }
+  ]
+}
