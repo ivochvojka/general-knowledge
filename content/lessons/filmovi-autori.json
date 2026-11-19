@@ -3,13 +3,13 @@
   "scheduledFor": "2026-11-19",
   "date": "2026-11-19",
   "category": "Kultura",
-  "title": "Filmoví autoři: jedenáct způsobů, jak vyprávět obrazem",
-  "intro": "Režisér není osamělý génius: film vzniká spoluprací scenáristů, herců, kameramanů, střihačů a producentů. Přesto může dát této práci rozpoznatelný tvar volbou příběhu, rytmu, prostoru, zvuku i pohledu na člověka. Charlie Chaplin spojil němou grotesku se sociální satirou, Akira Kurosawa zpochybnil jistotu jediného svědectví, Agnès Vardová proměnila všední setkání v osobní esej, Miloš Forman pozoroval jednotlivce proti instituci a současní tvůrci rozvíjejí velké publikum i žánrový film novými cestami. Jedenáct autorů z odlišných zemí a epoch dokládá, že filmový autor neznamená jeden styl.",
+  "title": "Filmoví autoři: deset způsobů, jak vyprávět obrazem",
+  "intro": "Režisér není osamělý génius: film vzniká spoluprací scenáristů, herců, kameramanů, střihačů a producentů. Přesto může dát této práci rozpoznatelný tvar volbou příběhu, rytmu, prostoru, zvuku i pohledu na člověka. Charlie Chaplin spojil němou grotesku se sociální satirou, Akira Kurosawa zpochybnil jistotu jediného svědectví, Agnès Vardová proměnila všední setkání v osobní esej, Miloš Forman pozoroval jednotlivce proti instituci a současní tvůrci rozvíjejí velké publikum i žánrový film novými cestami. Deset autorů z odlišných zemí a epoch dokládá, že filmový autor neznamená jeden styl.",
   "cover": {"file":"Agnes_varda.jpg","alt":"Agnès Vardová při rozhovoru v Harvard Film Archive roku 2009","credit":"Puchku, Agnès Vardová v Harvard Film Archive (2009)","license":"CC BY-SA 3.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/3.0/","thumbnailWidth":960},
   "sections": [
     {
       "title": "Jak vybírat zásadní filmy",
-      "text": "Slovo „zásadní“ není totéž co „nejlepší“. Zde znamená snímek, na němž je dobře vidět autorův postup, který vstoupil do širší filmové debaty nebo propojil místní zkušenost s mezinárodním publikem. Divácká obliba, ceny a kritické kánony se mohou rozcházet; žádný z nich není měřítkem sám o sobě. Nejde tedy o žebříček, ale o jedenáct vstupních bodů do dějin filmu. U každého snímku pomáhá sledovat nejen děj, ale i to, čí perspektivu kamera připouští, co střih vynechá a jak obraz zachází s časem."
+      "text": "Slovo „zásadní“ není totéž co „nejlepší“. Zde znamená snímek, na němž je dobře vidět autorův postup, který vstoupil do širší filmové debaty nebo propojil místní zkušenost s mezinárodním publikem. Divácká obliba, ceny a kritické kánony se mohou rozcházet; žádný z nich není měřítkem sám o sobě. Nejde tedy o žebříček, ale o deset vstupních bodů do dějin filmu. U každého snímku pomáhá sledovat nejen děj, ale i to, čí perspektivu kamera připouští, co střih vynechá a jak obraz zachází s časem."
     },
     {
       "title": "Charlie Chaplin: smích jako obrana důstojnosti",
@@ -32,6 +32,16 @@
           "title": "Diktátor (1940) — ČSFD",
           "summary": "Satira staví vedle sebe holiče a karikaturu diktátora Hynkela; závěr opouští čistou grotesku.",
           "url": "https://www.csfd.cz/film/1472-diktator/prehled/"
+        },
+        {
+          "title": "Kid (1921) — ČSFD",
+          "summary": "Tulák se ujme opuštěného dítěte. Chaplin spojuje grotesku s příběhem o chudobě a náhradním rodičovství.",
+          "url": "https://www.csfd.cz/film/1482-kid/prehled/"
+        },
+        {
+          "title": "Zlaté opojení (1925) — ČSFD",
+          "summary": "Osamělý zlatokop na Klondiku čelí hladu i samotě. Bída se v Chaplinově podání mění ve slavné pohybové gagy.",
+          "url": "https://www.csfd.cz/film/1471-zlate-opojeni/prehled/"
         }
       ]
     },
@@ -61,7 +71,7 @@
     },
     {
       "title": "Agnès Vardová: osobní filmová esej",
-      "text": "Agnès Vardová (1928–2019) bývá řazena k francouzské nové vlně, sama však přišla z fotografie a ráda překračovala hranici dokumentu, fikce a výtvarného umění. Cléo od pěti do sedmi (1962) sleduje přibližně dvě hodiny zpěvaččina čekání na zdravotní výsledek v pařížském čase. Všichni možní sběrači a já (2000) zkoumá lidi, kteří sbírají zbytky úrody, předměty i obrazy, a z digitální kamery dělá nástroj rozhovoru i sebereflexe.",
+      "text": "Agnès Vardová (1928–2019) bývá řazena k francouzské nové vlně, sama však přišla z fotografie a ráda překračovala hranici dokumentu, fikce a výtvarného umění. Cléo od pěti do sedmi (1962) sleduje přibližně dvě hodiny zpěvaččina čekání na zdravotní výsledek v pařížském čase. Všichni možní sběrači a já (2000) zkoumá lidi, kteří sbírají zbytky úrody, předměty i obrazy, a z digitální kamery dělá nástroj rozhovoru i sebereflexe. Její raná tvorba předjímala postupy francouzské nové vlny. V roce 2017 získala čestného Oscara za celoživotní dílo. Snímek Cléo od pěti do sedmi obsadil 14. místo v anketě kritiků časopisu Sight and Sound z roku 2022.",
       "image": {
         "file": "Agnes_varda.jpg",
         "alt": "Agnès Vardová při rozhovoru v Harvard Film Archive roku 2009",
@@ -80,6 +90,16 @@
           "title": "Všichni možní sběrači a já (2000) — ČSFD",
           "summary": "Dokumentární esej o sbírání, odpadu a pozornosti; režisérka je zároveň pozorovatelkou i účastnicí.",
           "url": "https://www.csfd.cz/film/71843-vsichni-mozni-sberaci-a-ja/prehled/"
+        },
+        {
+          "title": "Bez střechy a bez zákona (1985) — ČSFD",
+          "summary": "Setkání s lidmi, kteří poznali mladou tuláčku Monu, skládají její portrét z různých pohledů.",
+          "url": "https://www.csfd.cz/film/71854-bez-strechy-a-bez-zakona/prehled/"
+        },
+        {
+          "title": "Visages, villages (2017) — ČSFD",
+          "summary": "Vardová a fotograf JR cestují po Francii a vystavují obří portréty místních lidí přímo v jejich obcích. Film společně režírovali.",
+          "url": "https://www.csfd.cz/film/506313-visages-villages/prehled/"
         }
       ]
     },
@@ -104,6 +124,16 @@
           "title": "Přelet nad kukaččím hnízdem (1975) — ČSFD",
           "summary": "Drama o pacientovi a instituci staví individuální vzdor proti pravidlům, která se tváří jako péče.",
           "url": "https://www.csfd.cz/film/2982-prelet-nad-kukaccim-hnizdem/prehled/"
+        },
+        {
+          "title": "Hoří, má panenko (1967) — ČSFD",
+          "summary": "Hasičský ples s tombolou a soutěží krásy odhaluje v drobných trapasech, jak se společenství vyrovnává s vlastními pravidly.",
+          "url": "https://www.csfd.cz/film/2975-hori-ma-panenko/prehled/"
+        },
+        {
+          "title": "Amadeus (1984) — ČSFD",
+          "summary": "Stylizovaný příběh o Mozartovi vypráví Salieri, který obdivuje jeho hudbu a současně zápasí se závistí.",
+          "url": "https://www.csfd.cz/film/2971-amadeus/prehled/"
         }
       ]
     },
@@ -128,6 +158,16 @@
           "title": "Schindlerův seznam (1993) — ČSFD",
           "summary": "Historické drama sleduje proměnu Oskara Schindlera a záchranu části jeho židovských dělníků během holokaustu.",
           "url": "https://www.csfd.cz/film/8653-schindleruv-seznam/prehled/"
+        },
+        {
+          "title": "Jurský park (1993) — ČSFD",
+          "summary": "První návštěvníci parku s oživenými dinosaury poznávají cenu experimentu, který jeho tvůrci přestávají ovládat.",
+          "url": "https://www.csfd.cz/film/8644-jursky-park/prehled/"
+        },
+        {
+          "title": "Zachraňte vojína Ryana (1998) — ČSFD",
+          "summary": "Po vylodění v Normandii dostane americká jednotka rozkaz najít jediného vojáka. Film se ptá, jakou cenu má jeho záchrana.",
+          "url": "https://www.csfd.cz/film/8652-zachrante-vojina-ryana/prehled/"
         }
       ]
     },
@@ -152,6 +192,16 @@
           "title": "Hanebný pancharti (2009) — ČSFD",
           "summary": "Alternativní válečná fikce staví napětí na jazyku, identitě a dlouhých scénách, ne pouze na akci.",
           "url": "https://www.csfd.cz/film/117077-hanebny-pancharti/prehled/"
+        },
+        {
+          "title": "Kill Bill (2003) — ČSFD",
+          "summary": "První díl příběhu o Nevěstě na cestě za pomstou propojuje asijské bojové filmy, westernové prvky i animaci.",
+          "url": "https://www.csfd.cz/film/43483-kill-bill/prehled/"
+        },
+        {
+          "title": "Nespoutaný Django (2012) — ČSFD",
+          "summary": "Osvobozený otrok se s lovcem odměn vydává hledat svou ženu. Tarantino zasazuje styl spaghetti westernu do amerického Jihu před občanskou válkou.",
+          "url": "https://www.csfd.cz/film/294824-nespoutany-django/prehled/"
         }
       ]
     },
@@ -176,6 +226,16 @@
           "title": "Oppenheimer (2023) — ČSFD",
           "summary": "Historické drama o fyzikovi J. Robertu Oppenheimerovi skládá vědu, politiku a osobní odpovědnost do více časových rovin.",
           "url": "https://www.csfd.cz/film/1091993-oppenheimer/prehled/"
+        },
+        {
+          "title": "Temný rytíř (2008) — ČSFD",
+          "summary": "Joker nutí Batmana a obyvatele Gothamu rozhodovat pod tlakem. Komiksový film přebírá postupy městského kriminálního thrilleru.",
+          "url": "https://www.csfd.cz/film/223734-temny-rytir/prehled/"
+        },
+        {
+          "title": "Počátek (2010) — ČSFD",
+          "summary": "Tým, který umí pronikat do snů, má do cizí mysli vložit myšlenku. Každá vrstva snu má vlastní tempo.",
+          "url": "https://www.csfd.cz/film/254156-pocatek/prehled/"
         }
       ]
     },
@@ -200,30 +260,16 @@
           "title": "Blade Runner 2049 (2017) — ČSFD",
           "summary": "Dystopie rozvíjí otázku identity a lidskosti v pomalém, silně obrazovém vyprávění.",
           "url": "https://www.csfd.cz/film/343108-blade-runner-2049/prehled/"
-        }
-      ]
-    },
-    {
-      "title": "Greta Gerwigová: dospívání a hledání vlastního hlasu",
-      "text": "Greta Gerwigová (*1983) dokáže spojit komedii, rodinné vztahy a hledání vlastní řeči; Lady Bird (2017) zachycuje dospívání bez zjednodušení a Barbie (2023) používá populární značku jako hřiště pro satiru i otázky identity.",
-      "image": {
-        "file": "Greta_Gerwig_at_Barbie_Movie_Reception_(headshot).jpg",
-        "alt": "Greta Gerwigová na recepci k filmu Barbie roku 2023",
-        "credit": "UKinUSA (výřez)",
-        "license": "CC BY-SA 2.5",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
-        "thumbnailWidth": 330
-      },
-      "works": [
-        {
-          "title": "Lady Bird (2017) — ČSFD",
-          "summary": "Komedie dospívání pozoruje rodinu, přátelství a touhu po jiné budoucnosti bez sentimentality.",
-          "url": "https://www.csfd.cz/film/452081-lady-bird/prehled/"
         },
         {
-          "title": "Barbie (2023) — ČSFD",
-          "summary": "Populární hračka se stává výchozím bodem pro komedii o rolích, očekáváních a tom, kdo smí určovat příběh.",
-          "url": "https://www.csfd.cz/film/300589-barbie/prehled/"
+          "title": "Zmizení (2013) — ČSFD",
+          "summary": "Po zmizení dvou dívek volí jejich blízcí a policie různé způsoby pátrání. Thriller zkoumá, kam může člověka dotlačit nejistota.",
+          "url": "https://www.csfd.cz/film/257071-zmizeni/prehled/"
+        },
+        {
+          "title": "Duna (2021) — ČSFD",
+          "summary": "Rod Atreidů se ujímá správy pouštní planety Arrakis. Villeneuve staví na kontrastu rozlehlé krajiny, politických intrik a dospívání Paula.",
+          "url": "https://www.csfd.cz/film/236957-duna/prehled/"
         }
       ]
     },
@@ -248,6 +294,16 @@
           "title": "Ledová archa (2013) — ČSFD",
           "summary": "Dystopie uzavírá společenskou hierarchii do vlaku, jehož vagóny fungují jako obraz nerovného světa.",
           "url": "https://www.csfd.cz/film/306829-ledova-archa/prehled/"
+        },
+        {
+          "title": "Pečeť vraha (2003) — ČSFD",
+          "summary": "Dva detektivové se v jihokorejské provincii snaží objasnit sérii vražd. Černý humor střídá bezmoc vyšetřovatelů.",
+          "url": "https://www.csfd.cz/film/157306-pecet-vraha/prehled/"
+        },
+        {
+          "title": "Mickey 17 (2025) — ČSFD",
+          "summary": "Člen vesmírné kolonie podstupuje smrtelně nebezpečné úkoly, protože ho lze znovu vytisknout. Sci-fi komedie zkoumá, komu patří jeho život.",
+          "url": "https://www.csfd.cz/film/1209229-mickey-17/prehled/"
         }
       ]
     },
@@ -272,6 +328,16 @@
           "title": "Nene (2022) — ČSFD",
           "summary": "Záhadný horor sleduje obyvatele malého města, kteří se snaží pochopit hrozbu přicházející z oblohy.",
           "url": "https://www.csfd.cz/film/939689-nene/prehled/"
+        },
+        {
+          "title": "My (2019) — ČSFD",
+          "summary": "Rodina na dovolené narazí na své dvojníky. Horor využívá zrcadlení postav k otázkám identity a výsad.",
+          "url": "https://www.csfd.cz/film/618049-my/prehled/"
+        },
+        {
+          "title": "Candyman: Ďábelský přízrak (2021) — ČSFD",
+          "summary": "Výtvarník v Chicagu se začne zabývat místní městskou legendou. Peele film spolunapsal a produkoval. Režírovala ho Nia DaCosta.",
+          "url": "https://www.csfd.cz/film/806055-candyman-dabelsky-prizrak/prehled/"
         }
       ]
     },
@@ -281,13 +347,42 @@
     }
   ],
   "sources": [
-    {"title":"BFI — Where to begin with Akira Kurosawa","url":"https://www.bfi.org.uk/features/where-begin-with-akira-kurosawa"},
-    {"title":"BFI — Seven Samurai (1954)","url":"https://www.bfi.org.uk/film/01391b07-5940-5d02-aa47-1158142f2b64/seven-samurai"},
-    {"title":"Academy of Motion Picture Arts and Sciences — 48th Academy Awards (1976)","url":"https://www.oscars.org/oscars/ceremonies/1976"},
-    {"title":"Academy of Motion Picture Arts and Sciences — 66th Academy Awards (1994)","url":"https://www.oscars.org/oscars/ceremonies/1994"},
-    {"title":"Miloš Forman — One Flew Over the Cuckoo's Nest","url":"https://milosforman.com/en/movies/oneflew-over-the-cuckoos-nest"},
-    {"title":"Wikimedia Commons — Agnès Varda","url":"https://commons.wikimedia.org/wiki/File:Agnes_varda.jpg"},
-    {"title":"Wikimedia Commons — Charlie Chaplin portrait","url":"https://commons.wikimedia.org/wiki/File:Charlie_Chaplin_portrait.jpg"}
+    {
+      "title": "BFI — Where to begin with Akira Kurosawa",
+      "url": "https://www.bfi.org.uk/features/where-begin-with-akira-kurosawa"
+    },
+    {
+      "title": "BFI — Seven Samurai (1954)",
+      "url": "https://www.bfi.org.uk/film/01391b07-5940-5d02-aa47-1158142f2b64/seven-samurai"
+    },
+    {
+      "title": "Academy of Motion Picture Arts and Sciences — 48th Academy Awards (1976)",
+      "url": "https://www.oscars.org/oscars/ceremonies/1976"
+    },
+    {
+      "title": "Academy of Motion Picture Arts and Sciences — 66th Academy Awards (1994)",
+      "url": "https://www.oscars.org/oscars/ceremonies/1994"
+    },
+    {
+      "title": "Miloš Forman — One Flew Over the Cuckoo's Nest",
+      "url": "https://milosforman.com/en/movies/oneflew-over-the-cuckoos-nest"
+    },
+    {
+      "title": "Wikimedia Commons — Agnès Varda",
+      "url": "https://commons.wikimedia.org/wiki/File:Agnes_varda.jpg"
+    },
+    {
+      "title": "Wikimedia Commons — Charlie Chaplin portrait",
+      "url": "https://commons.wikimedia.org/wiki/File:Charlie_Chaplin_portrait.jpg"
+    },
+    {
+      "title": "Academy of Motion Picture Arts and Sciences — čestný Oscar pro Agnès Vardovou",
+      "url": "https://www.oscars.org/governors-awards/agnes-varda"
+    },
+    {
+      "title": "BFI — Cléo od pěti do sedmi a anketa Sight and Sound",
+      "url": "https://www.bfi.org.uk/film/7463ef92-3d4f-5cba-a9a5-5bf971fd2238/cleo-from-5-to-7"
+    }
   ],
   "quiz": [
     {"question":"Proč tato lekce neoznačuje své filmy prostě za „nejlepší“?","answer":"Protože divácká obliba, ocenění a kritické kánony měří různé věci. Výběr ukazuje snímky, na nichž je dobře vidět autorský postup a jejich širší vliv, nikoli objektivní pořadí kvality."},
