@@ -7,13 +7,278 @@
   "intro": "Režisér není osamělý génius: film vzniká spoluprací scenáristů, herců, kameramanů, střihačů a producentů. Přesto může dát této práci rozpoznatelný tvar volbou příběhu, rytmu, prostoru, zvuku i pohledu na člověka. Charlie Chaplin spojil němou grotesku se sociální satirou, Akira Kurosawa zpochybnil jistotu jediného svědectví, Agnès Vardová proměnila všední setkání v osobní esej, Miloš Forman pozoroval jednotlivce proti instituci a současní tvůrci rozvíjejí velké publikum i žánrový film novými cestami. Jedenáct autorů z odlišných zemí a epoch dokládá, že filmový autor neznamená jeden styl.",
   "cover": {"file":"Agnes_varda.jpg","alt":"Agnès Vardová při rozhovoru v Harvard Film Archive roku 2009","credit":"Puchku, Agnès Vardová v Harvard Film Archive (2009)","license":"CC BY-SA 3.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/3.0/","thumbnailWidth":960},
   "sections": [
-    {"title":"Jak vybírat zásadní filmy","text":"Slovo „zásadní“ není totéž co „nejlepší“. Zde znamená snímek, na němž je dobře vidět autorův postup, který vstoupil do širší filmové debaty nebo propojil místní zkušenost s mezinárodním publikem. Divácká obliba, ceny a kritické kánony se mohou rozcházet; žádný z nich není měřítkem sám o sobě. Nejde tedy o žebříček, ale o čtyři vstupní dveře do dějin filmu. U každého snímku pomáhá sledovat nejen děj, ale i to, čí perspektivu kamera připouští, co střih vynechá a jak obraz zachází s časem."},
-    {"title":"Charlie Chaplin: smích jako obrana důstojnosti","text":"Britský herec, scenárista a režisér Charlie Chaplin (1889–1977) se proslavil postavou Tuláka: klobouk, hůlka, příliš velké boty a pohyb, který z nouze dělá choreografii. Jeho groteska nestojí jen na pádech. V Moderní době (1936) proměňuje člověka u pásu v součást stroje a komedií míří na odlidštěnou práci v době hospodářské krize. Ve Velkém diktátorovi (1940) zase využil podobnosti Tuláka a diktátora k otevřené satiře nacismu; šlo o odvážný krok v době, kdy Spojené státy ještě nebyly ve válce.","image":{"file":"Charlie_Chaplin_portrait.jpg","alt":"Studiový portrét Charlieho Chaplina","credit":"Strauss-Peyton Studio, portrét Charlieho Chaplina","license":"Volné dílo (Public Domain)","licenseUrl":"https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States","thumbnailWidth":500},"works":[{"title":"Moderní doba (1936) — ČSFD","summary":"Groteska o Tulákovi v továrně; technika a tempo práce se tu mění v sociální satiru.","url":"https://www.csfd.cz/film/1488-moderni-doba/prehled/"},{"title":"Diktátor (1940) — ČSFD","summary":"Satira staví vedle sebe holiče a karikaturu diktátora Hynkela; závěr opouští čistou grotesku.","url":"https://www.csfd.cz/film/1472-diktator/prehled/"}]},
-    {"title":"Akira Kurosawa: pravda z několika úhlů","text":"Japonský režisér Akira Kurosawa (1910–1998) pracoval s pohybem, počasím, krajinou i skupinou postav jako s dramatickými nástroji. Rašómon (1950) vypráví násilný čin prostřednictvím vzájemně rozporných výpovědí. „Rašómonový efekt“ se dnes používá pro situaci, kdy svědkové tutéž událost líčí neslučitelně — film však není jednoduchou hádankou s jedním správným klíčem. Zlatý lev v Benátkách roku 1951 pomohl otevřít poválečné japonské kino západnímu festivalovému publiku. Sedm samurajů (1954) potom spojilo dlouhé budování postav s akcí a příběhem vesničanů, kteří si najímají obránce; jeho konstrukce ovlivnila westerny i dobrodružné filmy.","works":[{"title":"Rašómon (1950) — ČSFD","summary":"Příběh vraždy a znásilnění se rozpadá do rozdílných svědectví; film zkoumá paměť, sebeobraz i pravdu.","url":"https://www.csfd.cz/film/5434-rasomon/prehled/"},{"title":"Sedm samurajů (1954) — ČSFD","summary":"Epický příběh obrany vesnice propojuje akci s pozorností k třídním rozdílům a soudržnosti skupiny.","url":"https://www.csfd.cz/film/5435-sedm-samuraju/prehled/"}]},
-    {"title":"Agnès Vardová a Miloš Forman: blízkost všedního života","text":"Agnès Vardová (1928–2019) bývá řazena k francouzské nové vlně, sama však přišla z fotografie a ráda překračovala hranici dokumentu, fikce a výtvarného umění. Cléo od pěti do sedmi (1962) sleduje přibližně dvě hodiny zpěvaččina čekání na zdravotní výsledek v pařížském čase. Všichni možní sběrači a já (2000) zkoumá lidi, kteří sbírají zbytky úrody, předměty i obrazy, a z digitální kamery dělá nástroj rozhovoru i sebereflexe. Miloš Forman (1932–2018) vyšel z československé nové vlny. V Černém Petrovi (1964) zachytil rozpaky dospívání bez moralizujícího komentáře; banální pracovní dohled se mění v tlak okolí. Přelet nad kukaččím hnízdem (1975), americká adaptace románu Kena Keseyho, staví vzdor pacienta proti hierarchii léčebny. Získal pět Oscarů včetně filmu a režie, ale jeho síla neleží jen v cenách: Forman nechává střet svobody a moci hrát skrze vztahy celé skupiny. Vardová i Forman tak dokazují, že velké téma může vyrůst z obyčejného čekání, trapné pauzy či uzavřené místnosti.","works":[{"title":"Cléo od pěti do sedmi (1962) — ČSFD","summary":"Časově sevřená procházka Paříží spojuje strach, městský prostor a proměnu pohledu hrdinky na sebe samu.","url":"https://www.csfd.cz/film/39853-cleo-od-peti-do-sedmi/prehled/"},{"title":"Všichni možní sběrači a já (2000) — ČSFD","summary":"Dokumentární esej o sbírání, odpadu a pozornosti; režisérka je zároveň pozorovatelkou i účastnicí.","url":"https://www.csfd.cz/film/71843-vsichni-mozni-sberaci-a-ja/prehled/"},{"title":"Černý Petr (1964) — ČSFD","summary":"Nenápadný příběh učně ukazuje generační napětí a rozpaky dospívání v československém prostředí šedesátých let.","url":"https://www.csfd.cz/film/2972-cerny-petr/prehled/"},{"title":"Přelet nad kukaččím hnízdem (1975) — ČSFD","summary":"Drama o pacientovi a instituci staví individuální vzdor proti pravidlům, která se tváří jako péče.","url":"https://www.csfd.cz/film/2982-prelet-nad-kukaccim-hnizdem/prehled/"}]},
-    {"title":"Spielberg a Tarantino: dvě podoby amerického vyprávění","text":"Steven Spielberg (*1946) dokáže zřetelně vystavět prostor, napětí i emoci pro široké publikum. Čelisti (1975) proměňují omezené ukazování žraloka, hudbu Johna Williamse a pohledy postav v napětí; Schindlerův seznam (1993) vypráví o nacistickém pronásledování Židů skrze příběh Oskara Schindlera. Je důležité nezaměnit účinnost jeho vyprávění za jednoduchost: Spielbergův film často stojí na přesně dávkované informaci a na dětské či rodinné perspektivě, ale dokáže se vyrovnat i s historickým traumatem. Schindlerův seznam získal za ročník 1993 Oscary za nejlepší film a režii mimo jiné.\n\nQuentin Tarantino (*1963) naopak otevřeně skládá své filmy z dialogů, žánrů, hudebních a filmových odkazů. Pulp Fiction (1994) rozbíjí chronologii do kapitol, aniž by ztratil napětí; Hanební pancharti (2009) vytvářejí alternativní válečnou fikci, v níž jazyk, přízvuk a dlouhé rozhovory rozhodují stejně jako násilí. Jeho citace nejsou jen hra pro znalce: ukazují, že žánrové kino má vlastní paměť. Tarantinův výrazný rukopis ovšem není model pro každý film; právě srovnání s Spielbergovou srozumitelnou stavbou ukazuje šíři autorského filmu.","works":[{"title":"Čelisti (1975) — ČSFD","summary":"Thriller buduje napětí střídmým ukazováním nebezpečí, střihem, hudbou a reakcemi lidí v přímořském městě.","url":"https://www.csfd.cz/film/8643-celisti/prehled/"},{"title":"Schindlerův seznam (1993) — ČSFD","summary":"Historické drama sleduje proměnu Oskara Schindlera a záchranu části jeho židovských dělníků během holokaustu.","url":"https://www.csfd.cz/film/8653-schindleruv-seznam/prehled/"},{"title":"Pulp Fiction: Historky z podsvětí (1994) — ČSFD","summary":"Nelineární kriminální příběh spojuje několik osudů a proměňuje dialog, hudbu i popkulturní odkaz v součást stylu.","url":"https://www.csfd.cz/film/8852-pulp-fiction-historky-z-podsveti/prehled/"},{"title":"Hanebný pancharti (2009) — ČSFD","summary":"Alternativní válečná fikce staví napětí na jazyku, identitě a dlouhých scénách, ne pouze na akci.","url":"https://www.csfd.cz/film/117077-hanebny-pancharti/prehled/"}]},
-    {"title":"Současné hlasy: co sledovat dnes","text":"Christopher Nolan (*1970) vypráví o čase, paměti a vědecké či morální odpovědnosti ve velkých konstrukcích; Memento (2000) nutí diváka sdílet nejistou paměť hrdiny, Oppenheimer (2023) skládá biografii fyzika do několika časových rovin. Denis Villeneuve (*1967) buduje pomalé, obrazově přesné science fiction: Příchozí (2016) spojuje setkání s mimozemšťany s otázkou jazyka a času, Blade Runner 2049 (2017) rozvíjí dystopický svět skrze ticho, architekturu a hledání identity.\n\nGreta Gerwigová (*1983) dokáže spojit komedii, rodinné vztahy a hledání vlastní řeči; Lady Bird (2017) zachycuje dospívání bez zjednodušení a Barbie (2023) používá populární značku jako hřiště pro satiru i otázky identity. Jihokorejský Bong Joon-ho (*1969) střídá humor, napětí a společenskou kritiku: Parazit (2019) promýšlí třídní nerovnost skrze prostor domu, Ledová archa (2013) ji převádí do uzavřeného vlaku. Jordan Peele (*1979) pak obnovil společensky citlivý horor: Uteč (2017) staví nepohodlí na zdánlivě vlídném setkání a Nene (2022) nechává záhadu vyrůstat z pohledu vzhůru. Nejsou „lepší“ než dřívější autoři; jsou dobrými současnými vstupy, protože každý používá žánr k jiným otázkám.","works":[{"title":"Memento (2000) — ČSFD","summary":"Nelineární thriller spojuje formu vyprávění s hrdinovou poruchou krátkodobé paměti.","url":"https://www.csfd.cz/film/6995-memento/prehled/"},{"title":"Oppenheimer (2023) — ČSFD","summary":"Historické drama o fyzikovi J. Robertu Oppenheimerovi skládá vědu, politiku a osobní odpovědnost do více časových rovin.","url":"https://www.csfd.cz/film/1091993-oppenheimer/prehled/"},{"title":"Příchozí (2016) — ČSFD","summary":"Science fiction používá komunikaci s mimozemšťany k úvahám o jazyce, čase a rozhodování.","url":"https://www.csfd.cz/film/379848-prichozi/prehled/"},{"title":"Blade Runner 2049 (2017) — ČSFD","summary":"Dystopie rozvíjí otázku identity a lidskosti v pomalém, silně obrazovém vyprávění.","url":"https://www.csfd.cz/film/343108-blade-runner-2049/prehled/"},{"title":"Lady Bird (2017) — ČSFD","summary":"Komedie dospívání pozoruje rodinu, přátelství a touhu po jiné budoucnosti bez sentimentality.","url":"https://www.csfd.cz/film/452081-lady-bird/prehled/"},{"title":"Barbie (2023) — ČSFD","summary":"Populární hračka se stává výchozím bodem pro komedii o rolích, očekáváních a tom, kdo smí určovat příběh.","url":"https://www.csfd.cz/film/300589-barbie/prehled/"},{"title":"Parazit (2019) — ČSFD","summary":"Žánrově proměnlivé drama využívá architekturu domu k vyprávění o třídní nerovnosti.","url":"https://www.csfd.cz/film/505790-parazit/prehled/"},{"title":"Ledová archa (2013) — ČSFD","summary":"Dystopie uzavírá společenskou hierarchii do vlaku, jehož vagóny fungují jako obraz nerovného světa.","url":"https://www.csfd.cz/film/664723-ledova-archa/prehled/"},{"title":"Uteč (2017) — ČSFD","summary":"Horor proměňuje zdánlivě přátelskou návštěvu rodiny v napětí spojené s rasismem a kontrolou.","url":"https://www.csfd.cz/film/439153-utec/prehled/"},{"title":"Nene (2022) — ČSFD","summary":"Záhadný horor sleduje obyvatele malého města, kteří se snaží pochopit hrozbu přicházející z oblohy.","url":"https://www.csfd.cz/film/939689-nene/prehled/"}]},
-    {"title":"Co si z jejich filmů odnést","text":"Chaplin, Kurosawa, Vardová, Forman, Spielberg, Tarantino ani současní tvůrci netvoří ve vzduchoprázdnu: jejich díla nesou stopy hospodářské krize, války, poválečného Japonska, francouzské nové vlny, československých šedesátých let i proměn amerického a světového průmyslu. Zároveň přežívají jako lekce filmového myšlení. Komedie může být politická, více verzí příběhu může znejistit pohodlný soud a malý okamžik může vypovědět o společnosti víc než okázalý výklad. Při dalším sledování proto není nutné hledat „správný“ výklad autora. Stačí si všimnout, co film nechává vidět, čemu dává hlas a jak nás vede k vlastní otázce."}
+    {
+      "title": "Jak vybírat zásadní filmy",
+      "text": "Slovo „zásadní“ není totéž co „nejlepší“. Zde znamená snímek, na němž je dobře vidět autorův postup, který vstoupil do širší filmové debaty nebo propojil místní zkušenost s mezinárodním publikem. Divácká obliba, ceny a kritické kánony se mohou rozcházet; žádný z nich není měřítkem sám o sobě. Nejde tedy o žebříček, ale o jedenáct vstupních bodů do dějin filmu. U každého snímku pomáhá sledovat nejen děj, ale i to, čí perspektivu kamera připouští, co střih vynechá a jak obraz zachází s časem."
+    },
+    {
+      "title": "Charlie Chaplin: smích jako obrana důstojnosti",
+      "text": "Britský herec, scenárista a režisér Charlie Chaplin (1889–1977) se proslavil postavou Tuláka: klobouk, hůlka, příliš velké boty a pohyb, který z nouze dělá choreografii. Jeho groteska nestojí jen na pádech. V Moderní době (1936) proměňuje člověka u pásu v součást stroje a komedií míří na odlidštěnou práci v době hospodářské krize. Ve Velkém diktátorovi (1940) zase využil podobnosti Tuláka a diktátora k otevřené satiře nacismu; šlo o odvážný krok v době, kdy Spojené státy ještě nebyly ve válce.",
+      "image": {
+        "file": "Charlie_Chaplin_portrait.jpg",
+        "alt": "Studiový portrét Charlieho Chaplina",
+        "credit": "Strauss-Peyton Studio, portrét Charlieho Chaplina",
+        "license": "Volné dílo (Public Domain)",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+        "thumbnailWidth": 500
+      },
+      "works": [
+        {
+          "title": "Moderní doba (1936) — ČSFD",
+          "summary": "Groteska o Tulákovi v továrně; technika a tempo práce se tu mění v sociální satiru.",
+          "url": "https://www.csfd.cz/film/1488-moderni-doba/prehled/"
+        },
+        {
+          "title": "Diktátor (1940) — ČSFD",
+          "summary": "Satira staví vedle sebe holiče a karikaturu diktátora Hynkela; závěr opouští čistou grotesku.",
+          "url": "https://www.csfd.cz/film/1472-diktator/prehled/"
+        }
+      ]
+    },
+    {
+      "title": "Akira Kurosawa: pravda z několika úhlů",
+      "text": "Japonský režisér Akira Kurosawa (1910–1998) pracoval s pohybem, počasím, krajinou i skupinou postav jako s dramatickými nástroji. Rašómon (1950) vypráví násilný čin prostřednictvím vzájemně rozporných výpovědí. „Rašómonový efekt“ se dnes používá pro situaci, kdy svědkové tutéž událost líčí neslučitelně — film však není jednoduchou hádankou s jedním správným klíčem. Zlatý lev v Benátkách roku 1951 pomohl otevřít poválečné japonské kino západnímu festivalovému publiku. Sedm samurajů (1954) potom spojilo dlouhé budování postav s akcí a příběhem vesničanů, kteří si najímají obránce; jeho konstrukce ovlivnila westerny i dobrodružné filmy.",
+      "works": [
+        {
+          "title": "Rašómon (1950) — ČSFD",
+          "summary": "Příběh vraždy a znásilnění se rozpadá do rozdílných svědectví; film zkoumá paměť, sebeobraz i pravdu.",
+          "url": "https://www.csfd.cz/film/5434-rasomon/prehled/"
+        },
+        {
+          "title": "Sedm samurajů (1954) — ČSFD",
+          "summary": "Epický příběh obrany vesnice propojuje akci s pozorností k třídním rozdílům a soudržnosti skupiny.",
+          "url": "https://www.csfd.cz/film/5435-sedm-samuraju/prehled/"
+        }
+      ],
+      "image": {
+        "file": "Akirakurosawa-onthesetof7samurai-1953-page88.jpg",
+        "alt": "Akira Kurosawa při natáčení Sedmi samurajů roku 1953",
+        "credit": "Eiga no tomo",
+        "license": "Volné dílo",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "thumbnailWidth": 500
+      }
+    },
+    {
+      "title": "Agnès Vardová: osobní filmová esej",
+      "text": "Agnès Vardová (1928–2019) bývá řazena k francouzské nové vlně, sama však přišla z fotografie a ráda překračovala hranici dokumentu, fikce a výtvarného umění. Cléo od pěti do sedmi (1962) sleduje přibližně dvě hodiny zpěvaččina čekání na zdravotní výsledek v pařížském čase. Všichni možní sběrači a já (2000) zkoumá lidi, kteří sbírají zbytky úrody, předměty i obrazy, a z digitální kamery dělá nástroj rozhovoru i sebereflexe.",
+      "image": {
+        "file": "Agnes_varda.jpg",
+        "alt": "Agnès Vardová při rozhovoru v Harvard Film Archive roku 2009",
+        "credit": "Puchku, Agnès Vardová v Harvard Film Archive (2009)",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "thumbnailWidth": 960
+      },
+      "works": [
+        {
+          "title": "Cléo od pěti do sedmi (1962) — ČSFD",
+          "summary": "Časově sevřená procházka Paříží spojuje strach, městský prostor a proměnu pohledu hrdinky na sebe samu.",
+          "url": "https://www.csfd.cz/film/39853-cleo-od-peti-do-sedmi/prehled/"
+        },
+        {
+          "title": "Všichni možní sběrači a já (2000) — ČSFD",
+          "summary": "Dokumentární esej o sbírání, odpadu a pozornosti; režisérka je zároveň pozorovatelkou i účastnicí.",
+          "url": "https://www.csfd.cz/film/71843-vsichni-mozni-sberaci-a-ja/prehled/"
+        }
+      ]
+    },
+    {
+      "title": "Miloš Forman: jednotlivec proti instituci",
+      "text": "Miloš Forman (1932–2018) vyšel z československé nové vlny. V Černém Petrovi (1964) zachytil rozpaky dospívání bez moralizujícího komentáře; banální pracovní dohled se mění v tlak okolí. Přelet nad kukaččím hnízdem (1975), americká adaptace románu Kena Keseyho, staví vzdor pacienta proti hierarchii léčebny. Získal pět Oscarů včetně filmu a režie, ale jeho síla neleží jen v cenách: Forman nechává střet svobody a moci hrát skrze vztahy celé skupiny. Vardová i Forman tak dokazují, že velké téma může vyrůst z obyčejného čekání, trapné pauzy či uzavřené místnosti.",
+      "image": {
+        "file": "Milos_Forman.jpg",
+        "alt": "Miloš Forman na filmovém festivalu v Karlových Varech roku 2009",
+        "credit": "Petr Novák, Wikipedia (ořez a úprava barev)",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "thumbnailWidth": 500
+      },
+      "works": [
+        {
+          "title": "Černý Petr (1964) — ČSFD",
+          "summary": "Nenápadný příběh učně ukazuje generační napětí a rozpaky dospívání v československém prostředí šedesátých let.",
+          "url": "https://www.csfd.cz/film/2972-cerny-petr/prehled/"
+        },
+        {
+          "title": "Přelet nad kukaččím hnízdem (1975) — ČSFD",
+          "summary": "Drama o pacientovi a instituci staví individuální vzdor proti pravidlům, která se tváří jako péče.",
+          "url": "https://www.csfd.cz/film/2982-prelet-nad-kukaccim-hnizdem/prehled/"
+        }
+      ]
+    },
+    {
+      "title": "Steven Spielberg: napětí a emoce",
+      "text": "Steven Spielberg (*1946) dokáže zřetelně vystavět prostor, napětí i emoci pro široké publikum. Čelisti (1975) proměňují omezené ukazování žraloka, hudbu Johna Williamse a pohledy postav v napětí; Schindlerův seznam (1993) vypráví o nacistickém pronásledování Židů skrze příběh Oskara Schindlera. Je důležité nezaměnit účinnost jeho vyprávění za jednoduchost: Spielbergův film často stojí na přesně dávkované informaci a na dětské či rodinné perspektivě, ale dokáže se vyrovnat i s historickým traumatem. Schindlerův seznam získal za ročník 1993 Oscary za nejlepší film a režii mimo jiné.",
+      "image": {
+        "file": "MKr25402_Steven_Spielberg_(Berlinale_2023)_(3x4_cropped).jpg",
+        "alt": "Steven Spielberg na Berlinale roku 2023",
+        "credit": "Martin Kraft (photo.martinkraft.com), Wikimedia Commons (výřez)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "thumbnailWidth": 500
+      },
+      "works": [
+        {
+          "title": "Čelisti (1975) — ČSFD",
+          "summary": "Thriller buduje napětí střídmým ukazováním nebezpečí, střihem, hudbou a reakcemi lidí v přímořském městě.",
+          "url": "https://www.csfd.cz/film/8643-celisti/prehled/"
+        },
+        {
+          "title": "Schindlerův seznam (1993) — ČSFD",
+          "summary": "Historické drama sleduje proměnu Oskara Schindlera a záchranu části jeho židovských dělníků během holokaustu.",
+          "url": "https://www.csfd.cz/film/8653-schindleruv-seznam/prehled/"
+        }
+      ]
+    },
+    {
+      "title": "Quentin Tarantino: žánry, dialog a rozbitá chronologie",
+      "text": "Quentin Tarantino (*1963) otevřeně skládá své filmy z dialogů, žánrů, hudebních a filmových odkazů. Pulp Fiction (1994) rozbíjí chronologii do kapitol, aniž by ztratil napětí; Hanební pancharti (2009) vytvářejí alternativní válečnou fikci, v níž jazyk, přízvuk a dlouhé rozhovory rozhodují stejně jako násilí. Jeho citace nejsou jen hra pro znalce: ukazují, že žánrové kino má vlastní paměť. Tarantinův výrazný rukopis ovšem není model pro každý film; právě srovnání s Spielbergovou srozumitelnou stavbou ukazuje šíři autorského filmu.",
+      "image": {
+        "file": "Quentin_Tarantino_by_Gage_Skidmore.jpg",
+        "alt": "Quentin Tarantino na Comic-Conu v San Diegu roku 2015",
+        "credit": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "thumbnailWidth": 500
+      },
+      "works": [
+        {
+          "title": "Pulp Fiction: Historky z podsvětí (1994) — ČSFD",
+          "summary": "Nelineární kriminální příběh spojuje několik osudů a proměňuje dialog, hudbu i popkulturní odkaz v součást stylu.",
+          "url": "https://www.csfd.cz/film/8852-pulp-fiction-historky-z-podsveti/prehled/"
+        },
+        {
+          "title": "Hanebný pancharti (2009) — ČSFD",
+          "summary": "Alternativní válečná fikce staví napětí na jazyku, identitě a dlouhých scénách, ne pouze na akci.",
+          "url": "https://www.csfd.cz/film/117077-hanebny-pancharti/prehled/"
+        }
+      ]
+    },
+    {
+      "title": "Christopher Nolan: čas a paměť",
+      "text": "Christopher Nolan (*1970) vypráví o čase, paměti a vědecké či morální odpovědnosti ve velkých konstrukcích; Memento (2000) nutí diváka sdílet nejistou paměť hrdiny, Oppenheimer (2023) skládá biografii fyzika do několika časových rovin.",
+      "image": {
+        "file": "ChristopherNolan-byPhilipRomano_(cropped).jpg",
+        "alt": "Christopher Nolan na newyorské premiéře filmu The Odyssey roku 2026",
+        "credit": "PhilipRomano (výřez)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "thumbnailWidth": 500
+      },
+      "works": [
+        {
+          "title": "Memento (2000) — ČSFD",
+          "summary": "Nelineární thriller spojuje formu vyprávění s hrdinovou poruchou krátkodobé paměti.",
+          "url": "https://www.csfd.cz/film/6995-memento/prehled/"
+        },
+        {
+          "title": "Oppenheimer (2023) — ČSFD",
+          "summary": "Historické drama o fyzikovi J. Robertu Oppenheimerovi skládá vědu, politiku a osobní odpovědnost do více časových rovin.",
+          "url": "https://www.csfd.cz/film/1091993-oppenheimer/prehled/"
+        }
+      ]
+    },
+    {
+      "title": "Denis Villeneuve: obraz a atmosféra",
+      "text": "Denis Villeneuve (*1967) buduje pomalé, obrazově přesné science fiction: Příchozí (2016) spojuje setkání s mimozemšťany s otázkou jazyka a času, Blade Runner 2049 (2017) rozvíjí dystopický svět skrze ticho, architekturu a hledání identity.",
+      "image": {
+        "file": "DVilleneuveRFH121024_(12_of_23)_(54061976489)_(cropped).jpg",
+        "alt": "Denis Villeneuve na snímku z roku 2024",
+        "credit": "Raph_PH (výřez)",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "thumbnailWidth": 500
+      },
+      "works": [
+        {
+          "title": "Příchozí (2016) — ČSFD",
+          "summary": "Science fiction používá komunikaci s mimozemšťany k úvahám o jazyce, čase a rozhodování.",
+          "url": "https://www.csfd.cz/film/379848-prichozi/prehled/"
+        },
+        {
+          "title": "Blade Runner 2049 (2017) — ČSFD",
+          "summary": "Dystopie rozvíjí otázku identity a lidskosti v pomalém, silně obrazovém vyprávění.",
+          "url": "https://www.csfd.cz/film/343108-blade-runner-2049/prehled/"
+        }
+      ]
+    },
+    {
+      "title": "Greta Gerwigová: dospívání a hledání vlastního hlasu",
+      "text": "Greta Gerwigová (*1983) dokáže spojit komedii, rodinné vztahy a hledání vlastní řeči; Lady Bird (2017) zachycuje dospívání bez zjednodušení a Barbie (2023) používá populární značku jako hřiště pro satiru i otázky identity.",
+      "image": {
+        "file": "Greta_Gerwig_at_Barbie_Movie_Reception_(headshot).jpg",
+        "alt": "Greta Gerwigová na recepci k filmu Barbie roku 2023",
+        "credit": "UKinUSA (výřez)",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+        "thumbnailWidth": 330
+      },
+      "works": [
+        {
+          "title": "Lady Bird (2017) — ČSFD",
+          "summary": "Komedie dospívání pozoruje rodinu, přátelství a touhu po jiné budoucnosti bez sentimentality.",
+          "url": "https://www.csfd.cz/film/452081-lady-bird/prehled/"
+        },
+        {
+          "title": "Barbie (2023) — ČSFD",
+          "summary": "Populární hračka se stává výchozím bodem pro komedii o rolích, očekáváních a tom, kdo smí určovat příběh.",
+          "url": "https://www.csfd.cz/film/300589-barbie/prehled/"
+        }
+      ]
+    },
+    {
+      "title": "Bong Joon-ho: společenské rozdíly v prostoru",
+      "text": "Jihokorejský Bong Joon-ho (*1969) střídá humor, napětí a společenskou kritiku: Parazit (2019) promýšlí třídní nerovnost skrze prostor domu, Ledová archa (2013) ji převádí do uzavřeného vlaku.",
+      "image": {
+        "file": "Bong_Joon_Ho_at_the_Busan_Film_Festival_in_2025.jpg",
+        "alt": "Bong Joon-ho na filmovém festivalu v Pusanu roku 2025",
+        "credit": "Jay Dixit",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "thumbnailWidth": 500
+      },
+      "works": [
+        {
+          "title": "Parazit (2019) — ČSFD",
+          "summary": "Žánrově proměnlivé drama využívá architekturu domu k vyprávění o třídní nerovnosti.",
+          "url": "https://www.csfd.cz/film/505790-parazit/prehled/"
+        },
+        {
+          "title": "Ledová archa (2013) — ČSFD",
+          "summary": "Dystopie uzavírá společenskou hierarchii do vlaku, jehož vagóny fungují jako obraz nerovného světa.",
+          "url": "https://www.csfd.cz/film/306829-ledova-archa/prehled/"
+        }
+      ]
+    },
+    {
+      "title": "Jordan Peele: společenský horor",
+      "text": "Jordan Peele (*1979) přinesl do současného hororu výrazná společenská témata: Uteč (2017) staví nepohodlí na zdánlivě vlídném setkání a Nene (2022) nechává záhadu vyrůstat z pohledu vzhůru.",
+      "image": {
+        "file": "SXSW_2019_2_-_Jordan_Peele_(47282560202)_(cropped).jpg",
+        "alt": "Jordan Peele na festivalu SXSW roku 2019",
+        "credit": "Daniel Benavides (výřez)",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "thumbnailWidth": 500
+      },
+      "works": [
+        {
+          "title": "Uteč (2017) — ČSFD",
+          "summary": "Horor proměňuje zdánlivě přátelskou návštěvu rodiny v napětí spojené s rasismem a kontrolou.",
+          "url": "https://www.csfd.cz/film/439153-utec/prehled/"
+        },
+        {
+          "title": "Nene (2022) — ČSFD",
+          "summary": "Záhadný horor sleduje obyvatele malého města, kteří se snaží pochopit hrozbu přicházející z oblohy.",
+          "url": "https://www.csfd.cz/film/939689-nene/prehled/"
+        }
+      ]
+    },
+    {
+      "title": "Co si z jejich filmů odnést",
+      "text": "Chaplin, Kurosawa, Vardová, Forman, Spielberg, Tarantino ani současní tvůrci netvoří ve vzduchoprázdnu: jejich díla nesou stopy hospodářské krize, války, poválečného Japonska, francouzské nové vlny, československých šedesátých let i proměn amerického a světového průmyslu. Zároveň přežívají jako lekce filmového myšlení. Komedie může být politická, více verzí příběhu může znejistit pohodlný soud a malý okamžik může vypovědět o společnosti víc než okázalý výklad. Při dalším sledování proto není nutné hledat „správný“ výklad autora. Stačí si všimnout, co film nechává vidět, čemu dává hlas a jak nás vede k vlastní otázce. U Vardové a Formana může velké téma vyrůst z obyčejného čekání, trapné pauzy či uzavřené místnosti. U současných tvůrců si zase všímejte, jak obdobné žánry otevírají různé otázky."
+    }
   ],
   "sources": [
     {"title":"BFI — Where to begin with Akira Kurosawa","url":"https://www.bfi.org.uk/features/where-begin-with-akira-kurosawa"},
