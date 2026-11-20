@@ -3,13 +3,13 @@
   "scheduledFor": "2026-11-19",
   "date": "2026-11-19",
   "category": "Kultura",
-  "title": "Filmoví autoři: osm způsobů, jak vyprávět obrazem",
-  "intro": "Režisér není osamělý génius: film vzniká spoluprací scenáristů, herců, kameramanů, střihačů a producentů. Přesto může dát této práci rozpoznatelný tvar volbou příběhu, rytmu, prostoru, zvuku i pohledu na člověka. Charlie Chaplin spojil němou grotesku se sociální satirou, Akira Kurosawa zpochybnil jistotu jediného svědectví, Miloš Forman pozoroval jednotlivce proti instituci a současní tvůrci rozvíjejí velké publikum i žánrový film novými cestami. Osm autorů z odlišných zemí a epoch dokládá, že filmový autor neznamená jeden styl.",
+  "title": "Filmoví autoři: jedenáct způsobů, jak vyprávět obrazem",
+  "intro": "Režisér není osamělý génius: film vzniká spoluprací scenáristů, herců, kameramanů, střihačů a producentů. Přesto může dát této práci rozpoznatelný tvar volbou příběhu, rytmu, prostoru, zvuku i pohledu na člověka. Charlie Chaplin spojil němou grotesku se sociální satirou, Akira Kurosawa zpochybnil jistotu jediného svědectví, Miloš Forman pozoroval jednotlivce proti instituci a současní tvůrci rozvíjejí velké publikum i žánrový film novými cestami. Jedenáct autorů z odlišných zemí a epoch dokládá, že filmový autor neznamená jeden styl.",
   "cover": {"file":"MKr25402_Steven_Spielberg_(Berlinale_2023)_(3x4_cropped).jpg","alt":"Steven Spielberg na Berlinale roku 2023","credit":"Martin Kraft (photo.martinkraft.com), Wikimedia Commons (výřez)","license":"CC BY-SA 4.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0/","thumbnailWidth":500},
   "sections": [
     {
       "title": "Jak vybírat zásadní filmy",
-      "text": "Slovo „zásadní“ není totéž co „nejlepší“. Zde znamená snímek, na němž je dobře vidět autorův postup, který vstoupil do širší filmové debaty nebo propojil místní zkušenost s mezinárodním publikem. Divácká obliba, ceny a kritické kánony se mohou rozcházet; žádný z nich není měřítkem sám o sobě. Nejde tedy o žebříček, ale o osm vstupních bodů do dějin filmu. U každého snímku pomáhá sledovat nejen děj, ale i to, čí perspektivu kamera připouští, co střih vynechá a jak obraz zachází s časem."
+      "text": "Slovo „zásadní“ není totéž co „nejlepší“. Zde znamená snímek, na němž je dobře vidět autorův postup, který vstoupil do širší filmové debaty nebo propojil místní zkušenost s mezinárodním publikem. Divácká obliba, ceny a kritické kánony se mohou rozcházet; žádný z nich není měřítkem sám o sobě. Nejde tedy o žebříček, ale o jedenáct vstupních bodů do dějin filmu. U každého snímku pomáhá sledovat nejen děj, ale i to, čí perspektivu kamera připouští, co střih vynechá a jak obraz zachází s časem."
     },
     {
       "title": "Charlie Chaplin: smích jako obrana důstojnosti",
@@ -134,6 +134,108 @@
           "title": "Zachraňte vojína Ryana (1998) — ČSFD",
           "summary": "Po vylodění v Normandii dostane americká jednotka rozkaz najít jediného vojáka. Film se ptá, jakou cenu má jeho záchrana.",
           "url": "https://www.csfd.cz/film/8652-zachrante-vojina-ryana/prehled/"
+        }
+      ]
+    },
+    {
+      "title": "Ridley Scott: prostor a atmosféra",
+      "text": "Britský režisér Ridley Scott (*1937) využívá kulisy, světlo a zvuk k tomu, aby prostředí ovlivňovalo jednání postav. Ve Vetřelci vyvolávají stísněné chodby nákladní lodi dojem, že hrozba může přijít odkudkoli. V Blade Runnerovi zase déšť, neony a přeplněné ulice pomáhají vytvořit město, kde se lidé a jejich výtvory pohybují vedle sebe.",
+      "image": {
+        "file": "Ridley_Scott_at_the_RCA_July_2015.jpg",
+        "alt": "Ridley Scott na Royal College of Art v roce 2015",
+        "credit": "GooglerW",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "thumbnailWidth": 500
+      },
+      "works": [
+        {
+          "title": "Vetřelec (1979) — ČSFD",
+          "summary": "Posádka nákladní lodi Nostromo odpoví na neznámý signál a přiveze na palubu nebezpečného tvora. Klaustrofobní prostředí dělá ze sci-fi komorní horor.",
+          "url": "https://www.csfd.cz/film/8265-vetrelec/prehled/"
+        },
+        {
+          "title": "Blade Runner (1982) — ČSFD",
+          "summary": "Bývalý policista hledá uprchlé replikanty v budoucím Los Angeles. Detektivní zápletka otevírá otázky paměti a lidskosti.",
+          "url": "https://www.csfd.cz/film/8268-blade-runner/prehled/"
+        },
+        {
+          "title": "Gladiátor (2000) — ČSFD",
+          "summary": "Římský vojevůdce Maximus se ocitne v aréně. Historická fikce propojuje osobní pomstu s bojem o moc.",
+          "url": "https://www.csfd.cz/film/8271-gladiator/prehled/"
+        },
+        {
+          "title": "Marťan (2015) — ČSFD",
+          "summary": "Astronaut zůstane sám na Marsu a musí si zajistit vodu, jídlo i spojení se Zemí. Napětí vyrůstá z řešení konkrétních problémů.",
+          "url": "https://www.csfd.cz/film/384557-martan/prehled/"
+        }
+      ]
+    },
+    {
+      "title": "James Cameron: akce, technologie a emoce",
+      "text": "Kanadský režisér James Cameron (*1954) staví akci na jednoduchých cílech a vztazích, které dávají velkým scénám osobní váhu. Ve Vetřelcích se Ellen Ripleyová vrací do světa Scottova filmu s oddílem mariňáků. Oba filmy o Terminátorovi ukazují, jak odlišně může fungovat podobná zápletka: první je úsporná honička, druhý rozvíjí vztah chlapce a stroje. Za Titanic získal Cameron Oscara za režii.",
+      "image": {
+        "file": "James_Cameron_by_Gage_Skidmore.jpg",
+        "alt": "James Cameron na Comic-Conu v San Diegu v roce 2016",
+        "credit": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "thumbnailWidth": 500
+      },
+      "works": [
+        {
+          "title": "Terminátor (1984) — ČSFD",
+          "summary": "Z budoucnosti přicházejí dva protivníci a oba hledají Sarah Connorovou. Prostá zápletka žene vpřed téměř nepřetržitou honičku.",
+          "url": "https://www.csfd.cz/film/1249-terminator/prehled/"
+        },
+        {
+          "title": "Vetřelci (1986) — ČSFD",
+          "summary": "Ripleyová se vrací k místu prvního setkání s vetřelcem. Pokračování rozšiřuje uzavřený horor do akčního příběhu se silnou osobní motivací.",
+          "url": "https://www.csfd.cz/film/1245-vetrelci/prehled/"
+        },
+        {
+          "title": "Terminátor 2: Den zúčtování (1991) — ČSFD",
+          "summary": "Dospívajícího Johna Connora pronásleduje nový model Terminátora. Proměny jeho podoby ukazují, jak digitální triky mohou ovlivnit samotné vyprávění.",
+          "url": "https://www.csfd.cz/film/1248-terminator-2-den-zuctovani/prehled/"
+        },
+        {
+          "title": "Titanic (1997) — ČSFD",
+          "summary": "Fiktivní vztah dvou cestujících spojuje historickou katastrofu s pohledem na třídní rozdíly na palubě.",
+          "url": "https://www.csfd.cz/film/1250-titanic/prehled/"
+        }
+      ]
+    },
+    {
+      "title": "John McTiernan: přehledná akce a napětí",
+      "text": "Americký režisér John McTiernan se prosadil akčními filmy na přelomu osmdesátých a devadesátých let. Napětí staví na tom, kdo se kde nachází a co ví o protivníkovi. V Predátorovi se dobře vyzbrojená jednotka v džungli mění z lovců v kořist. První Smrtonosná past využívá patra, schodiště a výtahy mrakodrapu k tomu, aby divák rozuměl možnostem hlavního hrdiny.",
+      "image": {
+        "file": "John_McTiernan_2025_3.jpg",
+        "alt": "John McTiernan před setkáním s diváky v Cinémathèque française v roce 2025",
+        "credit": "ManoSolo13241324",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "thumbnailWidth": 330
+      },
+      "works": [
+        {
+          "title": "Predátor (1987) — ČSFD",
+          "summary": "Záchranná mise v džungli se změní v boj o přežití proti protivníkovi, kterého je obtížné vůbec zahlédnout.",
+          "url": "https://www.csfd.cz/film/6648-predator/prehled/"
+        },
+        {
+          "title": "Smrtonosná past (1988) — ČSFD",
+          "summary": "Policista John McClane uvázne v mrakodrapu obsazeném ozbrojenou skupinou. Napětí stojí na orientaci v budově a na hrdinově zranitelnosti.",
+          "url": "https://www.csfd.cz/film/6642-smrtonosna-past/prehled/"
+        },
+        {
+          "title": "Hon na ponorku (1990) — ČSFD",
+          "summary": "Američané zkoušejí odhadnout záměr velitele sovětské ponorky. Pod hladinou rozhodují neúplné informace stejně jako technická převaha.",
+          "url": "https://www.csfd.cz/film/6644-hon-na-ponorku/prehled/"
+        },
+        {
+          "title": "Smrtonosná past 3 (1995) — ČSFD",
+          "summary": "McClane a jeho nečekaný spojenec řeší úkoly rozeseté po New Yorku. Městská doprava a vzdálenosti určují tempo filmu.",
+          "url": "https://www.csfd.cz/film/6643-smrtonosna-past-3/prehled/"
         }
       ]
     },
@@ -280,6 +382,18 @@
   ],
   "sources": [
     {
+      "title": "Academy of Motion Picture Arts and Sciences — Titanic",
+      "url": "https://www.oscars.org/collection-highlights/titanic"
+    },
+    {
+      "title": "Royal Albert Hall — Ridley Scott",
+      "url": "https://catalogue.royalalberthall.com/Record.aspx?id=DS%2FUK%2F20679&src=CalmView.Persons"
+    },
+    {
+      "title": "La Cinémathèque française — retrospektiva Johna McTiernana",
+      "url": "https://www.cinematheque.fr/cycle/john-mctiernan-38.html"
+    },
+    {
       "title": "BFI — Where to begin with Akira Kurosawa",
       "url": "https://www.bfi.org.uk/features/where-begin-with-akira-kurosawa"
     },
@@ -305,6 +419,7 @@
     }
   ],
   "quiz": [
+    {"question":"Jak se liší způsob vyprávění ve Vetřelci Ridleyho Scotta a Vetřelcích Jamese Camerona?","answer":"Scott buduje komorní horor kolem izolované posádky a neznámé hrozby na lodi. Cameron ve stejném světě rozšiřuje měřítko a klade větší důraz na akci a na to, koho se Ripleyová snaží ochránit."},
     {"question":"Proč tato lekce neoznačuje své filmy prostě za „nejlepší“?","answer":"Protože divácká obliba, ocenění a kritické kánony měří různé věci. Výběr ukazuje snímky, na nichž je dobře vidět autorský postup a jejich širší vliv, nikoli objektivní pořadí kvality."},
     {"question":"Jak Moderní doba využívá grotesku k sociálnímu tématu?","answer":"Chaplinův Tulák se u výrobního pásu doslova stává součástí stroje. Komické pohyby tak zároveň ukazují tlak mechanizované práce a ztrátu lidské důstojnosti."},
     {"question":"Co znamená, že Rašómon pracuje s rozpornými svědectvími?","answer":"Tatáž událost je podána různými postavami neslučitelně. Film proto nenabízí jednoduché potvrzení jediné verze, ale nutí přemýšlet o paměti, zájmu vypravěče a pravdě."},
