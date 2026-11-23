@@ -148,12 +148,14 @@ export function renderIndex(lessons, plan = []) {
         <ul class="lesson-grid">${items.map(lesson => card(lesson)).join('')}</ul>
       </section>`).join('')}
     </section>
-    ${plan.length ? `<section id="pripravujeme" class="planned wrap" aria-labelledby="plan-title">
+    <section id="pripravujeme" class="planned wrap" aria-labelledby="plan-title">
       <p class="eyebrow">Kam dál</p>
       <h2 id="plan-title">Plánované lekce</h2>
-      <p>Pokračování a samostatná česká témata zařadíme mezi další lekce při střídání oborů. Termíny zatím nejsou stanovené.</p>
-      <ul>${plan.map(({ title, category, summary }) => `<li><h3>${escape(title)}</h3><p class="card-meta">${escape(category)}</p><p>${escape(summary)}</p></li>`).join('')}</ul>
-    </section>` : ''}
+      ${plan.length
+        ? `<p>Pokračování a samostatná česká témata zařadíme mezi další lekce při střídání oborů. Termíny zatím nejsou stanovené.</p>
+      <ul>${plan.map(({ title, category, summary }) => `<li><h3>${escape(title)}</h3><p class="card-meta">${escape(category)}</p><p>${escape(summary)}</p></li>`).join('')}</ul>`
+        : '<p>Další téma se vybírá podle střídání oborů a dosavadní knihovny.</p>'}
+    </section>
   </main>` });
 }
 

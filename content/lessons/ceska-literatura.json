@@ -1,0 +1,148 @@
+{
+  "id": "ceska-literatura",
+  "scheduledFor": "2026-11-23",
+  "date": "2026-11-23",
+  "category": "Literatura",
+  "title": "Čeští autoři ve světové literatuře: od robota ke Švejkovi",
+  "intro": "Česká literatura nevstupovala do světa jedním hlasem ani jedním jazykem. Karel Čapek dal mezinárodnímu slovníku robota, Jaroslav Hašek proměnil zkušenost první světové války v satiru, Jaroslav Seifert ukázal sílu lyriky a Bohumil Hrabal našel velké dějiny v hospodě, na nádraží i ve všední řeči. Milan Kundera psal z české zkušenosti také francouzsky. Vedle nich stojí Franz Kafka: pražský autor německého jazyka, nikoli český spisovatel, bez něhož však nelze kulturní mapu Prahy pochopit.",
+  "cover": {
+    "file": "Karel-capek.jpg",
+    "alt": "Černobílý portrét Karla Čapka před rokem 1936",
+    "credit": "Neznámý autor, portrét Karla Čapka",
+    "license": "Volné dílo (Public Domain)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "thumbnailWidth": 500
+  },
+  "sections": [
+    {
+      "title": "Karel Čapek: technika jako otázka pro člověka",
+      "text": "Karel Čapek (1890–1938) byl dramatik, prozaik, novinář a esejista první Československé republiky. Jeho hra R.U.R. z roku 1920 vypráví o továrně, která vyrábí umělé dělníky; slovo robot pro ně navrhl podle Čapkova svědectví jeho bratr Josef. Důležité je, že roboti u Čapka nejsou původně kovové stroje v dnešním filmovém smyslu, nýbrž biologicky vytvořené pracovní bytosti. Hra proto míří k otázce, co se stane, když společnost měří lidskou hodnotu jen užitečností. Válka s Mloky (1936) zase používá fantastickou zápletku k satiře kolonialismu, nacionalismu a ochoty ustupovat násilí. Čapek nepsal proroctví o konkrétní budoucnosti; fantastika mu sloužila jako přesné zrcadlo přítomnosti.",
+      "works": [
+        {
+          "title": "R.U.R. (1920) — databáze Městské knihovny v Praze",
+          "summary": "Drama o masově vyráběných pracovnících dalo světu slovo robot a ptá se, zda lze práci i život redukovat na výkon.",
+          "url": "https://search.mlp.cz/cz/titul/r-u-r/1631/"
+        },
+        {
+          "title": "Válka s Mloky (1936) — databáze Městské knihovny v Praze",
+          "summary": "Románová satira skládá děj z novin, zpráv a komentářů; v rozpínání Mloků odhaluje lidskou chamtivost i zbabělost.",
+          "url": "https://search.mlp.cz/cz/titul/valka-s-mloky/1571/"
+        }
+      ]
+    },
+    {
+      "title": "Jaroslav Hašek: smích proti válečné mašinérii",
+      "text": "Jaroslav Hašek (1883–1923) v Osudech dobrého vojáka Švejka za světové války obrátil vlastní zkušenost z habsburské armády a ruského zajetí v rozsáhlou protiválečnou satiru. První díl vyšel roku 1921; román zůstal po autorově smrti nedokončený. Josef Švejk není jednoduchý hrdina ani pouhý hlupák. Jeho doslovná poslušnost, historky a ochota plnit rozkazy mohou působit jako obrana před absurditou byrokracie, ale čtenář si nemůže být stále jistý, zda systém podvrací, nebo jen přežívá v jeho řeči. Právě tato nejistota drží Švejka dál od pohodlné nálepky „národní povahy“. Haškův humor nemírní hrůzu první světové války; ukazuje, jak ji úřední jazyk dokáže zneviditelnit.",
+      "works": [
+        {
+          "title": "Osudy dobrého vojáka Švejka za světové války — Kramerius",
+          "summary": "Nedokončený román sleduje Švejka od mobilizace přes vojenskou administrativu až k východní frontě.",
+          "url": "https://kramerius5.nkp.cz/uuid/uuid:6d4a0180-3cbb-11e7-9435-005056827e51"
+        }
+      ]
+    },
+    {
+      "title": "Jaroslav Seifert: poezie paměti a občanské odvahy",
+      "text": "Jaroslav Seifert (1901–1986) prošel avantgardní poetikou, levicovou publicistikou i intimní lyrikou. Jeho básně často vycházejí z Prahy, dětství, lásky, krajiny a paměti, ale nejsou jen soukromé: v době omezené svobody dokázala poezie nést i občanské gesto. Roku 1984 získal Seifert Nobelovu cenu za literaturu jako dosud jediný laureát, který psal převážně česky. Nemohl si ji kvůli špatnému zdravotnímu stavu osobně převzít; ve Stockholmu jej zastoupila dcera Jana. V pozdější tvorbě, například v Morovém sloupu, se něha střetává s obavou o veřejný prostor. Seifertova řeč bývá prostá, její síla však leží v přesném obrazu a v tom, co naznačuje mezi řádky.",
+      "image": {
+        "file": "Jaroslav_Seifert_(portrait_by_Karel_Teige,_1921).jpg",
+        "alt": "Historický portrét mladého Jaroslava Seiferta od Karla Teigeho z roku 1921",
+        "credit": "Karel Teige, portrét Jaroslava Seiferta, 1921",
+        "license": "Volné dílo (Public Domain)",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "thumbnailWidth": 500
+      },
+      "works": [
+        {
+          "title": "Morový sloup (1981) — databáze Městské knihovny v Praze",
+          "summary": "Pozdní sbírka propojuje osobní vzpomínku s naléhavým pohledem na společnost normalizace.",
+          "url": "https://search.mlp.cz/cz/titul/morovy-sloup/24204/"
+        }
+      ]
+    },
+    {
+      "title": "Bohumil Hrabal: velké dějiny ve všední větě",
+      "text": "Bohumil Hrabal (1914–1997) dokázal poslouchat řeč lidí z hospod, dílen, sběren i železnice. Jeho prózy působí, jako by se vyprávění valilo v jednom proudu; vedle komiky v nich zůstává zranitelnost, násilí a zkušenost diktatur. Ostře sledované vlaky (1965) umísťují dospívání mladého železničáře do okupovaných Čech na konci druhé světové války. Novela střídá trapnost, erotiku i hrozbu odboje bez hrdinského patosu. Film Jiřího Menzela podle Hrabalovy předlohy získal roku 1968 Oscara za nejlepší cizojazyčný film, ale knihu nelze ztotožnit s adaptací: její rytmus a vypravěčský hlas jsou samostatným zážitkem. Po okupaci v roce 1968 Hrabal čelil zákazům vydávání; část jeho textů vycházela v samizdatu či v zahraničí.",
+      "image": {
+        "file": "Bohumil_Hrabal.jpg",
+        "alt": "Fotografický portrét Bohumila Hrabala v Praze roku 1987",
+        "credit": "Kertész Dániel, Praha, 1987",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "thumbnailWidth": 500
+      },
+      "works": [
+        {
+          "title": "Ostře sledované vlaky (1965) — databáze Městské knihovny v Praze",
+          "summary": "Novela spojuje příběh nezkušeného výpravčího s okupací a odbojem na malé železniční stanici.",
+          "url": "https://search.mlp.cz/cz/titul/ostre-sledovane-vlaky/1881/"
+        }
+      ]
+    },
+    {
+      "title": "Kundera a Kafka: dva pražské a středoevropské horizonty",
+      "text": "Milan Kundera (1929–2023) odešel roku 1975 do Francie a od osmdesátých let psal také francouzsky. Román Žert (1967) ukazuje, jak se z politického vtipu může v autoritářském systému stát nástroj zničení života; Nesnesitelná lehkost bytí (1984) spojuje milostný příběh s dějinami kolem roku 1968. Kundera se bránil čtení románu jako prostého politického dokumentu: zajímala jej také náhoda, paměť a několik různých pohledů na tutéž postavu.",
+      "extra": "Franz Kafka (1883–1924) patří do tohoto vyprávění jako pražský německy píšící autor židovského původu, ne jako český autor. Proměna a Proces vznikly v mnohonárodnostní Praze habsburské monarchie; jejich svět neprůhledné moci a nejisté viny nelze zúžit na jednu národní tradici. České prostředí však bylo jedním z jazykově i kulturně vrstevnatých zdrojů, z nichž Kafka vyrůstal.",
+      "works": [
+        {
+          "title": "Žert (1967) — databáze Městské knihovny v Praze",
+          "summary": "Román sleduje, jak jediná pohlednice a mocenské podezření poznamenají životy několika lidí.",
+          "url": "https://search.mlp.cz/cz/titul/zert/3062/"
+        },
+        {
+          "title": "Proces — digitální knihovna Národního muzea",
+          "summary": "Kafkův nedokončený román staví Josefa K. proti řízení, jehož pravidla ani vině nerozumí.",
+          "url": "https://digital.nm.cz/uuid/uuid:edb5a1a0-0ca4-11e5-9e0e-005056825209"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Společnost bratří Čapků — Karel Čapek: život a dílo",
+      "url": "https://karelcapek.cz/en/life-and-creation/karel-capek"
+    },
+    {
+      "title": "Památník národního písemnictví — rukopis Osudů dobrého vojáka Švejka",
+      "url": "https://65.pamatniknarodnihopisemnictvi.cz/dielo/CZE:PNP.XVII"
+    },
+    {
+      "title": "Nobel Prize — Jaroslav Seifert, Nobelova přednáška",
+      "url": "https://www.nobelprize.org/prizes/literature/1984/seifert/25113-nobel-lecture-czech/"
+    },
+    {
+      "title": "Bohumil Hrabal — soupis díla",
+      "url": "https://www.bohumil-hrabal.cz/cela-tvorba/"
+    },
+    {
+      "title": "Bibliothèque nationale de France — Milan Kundera (1929–2023)",
+      "url": "https://www.bnf.fr/fr/milan-kundera-1929-2023-bibliographie"
+    },
+    {
+      "title": "National Library of Israel — Franz Kafka: život a dílo",
+      "url": "https://www.nli.org.il/en/discover/literature-and-language/kafka"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Kdo podle Karla Čapka navrhl slovo robot pro hru R.U.R.?",
+      "answer": "Čapkův bratr Josef. Slovo vychází z českého výrazu robota; R.U.R. je roku 1920 uvedlo do světového kulturního oběhu."
+    },
+    {
+      "question": "Proč není Švejk jen jednoduchou postavou poslušného hlupáka?",
+      "answer": "Jeho doslovná poslušnost může být zároveň obranou, ironií i způsobem přežití. Hašek nenechává vždy jednoznačně rozhodnout, zda Švejk řád podvrací, nebo se mu přizpůsobuje."
+    },
+    {
+      "question": "V kterém roce získal Jaroslav Seifert Nobelovu cenu za literaturu a proč ji nepřevzal osobně?",
+      "answer": "V roce 1984. Kvůli špatnému zdravotnímu stavu jej ve Stockholmu zastoupila dcera Jana."
+    },
+    {
+      "question": "Jaký historický rámec mají Ostře sledované vlaky?",
+      "answer": "Odehrávají se v okupovaných Čechách na konci druhé světové války. Vedle dospívání hlavní postavy se do děje promítá železniční provoz pro německou armádu i odboj."
+    },
+    {
+      "question": "Proč je přesnější označit Franze Kafku za pražského německy píšícího autora než za českého spisovatele?",
+      "answer": "Kafka psal německy a patřil k pražskému židovskému prostředí habsburské monarchie. S českou kulturou a Prahou je silně spojen, ale není autorem českého jazyka."
+    }
+  ]
+}
