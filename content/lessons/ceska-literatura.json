@@ -16,7 +16,7 @@
   "sections": [
     {
       "title": "Karel Čapek: technika jako otázka pro člověka",
-      "text": "Karel Čapek (1890–1938) byl dramatik, prozaik, novinář a esejista první Československé republiky. Jeho hra R.U.R. z roku 1920 vypráví o továrně, která vyrábí umělé dělníky; slovo robot pro ně navrhl podle Čapkova svědectví jeho bratr Josef. Důležité je, že roboti u Čapka nejsou původně kovové stroje v dnešním filmovém smyslu, nýbrž biologicky vytvořené pracovní bytosti. Hra proto míří k otázce, co se stane, když společnost měří lidskou hodnotu jen užitečností. Válka s Mloky (1936) zase používá fantastickou zápletku k satiře kolonialismu, nacionalismu a ochoty ustupovat násilí. Čapek nepsal proroctví o konkrétní budoucnosti; fantastika mu sloužila jako přesné zrcadlo přítomnosti.",
+      "text": "Karel Čapek (1890–1938) byl dramatik, prozaik, novinář a esejista první Československé republiky. V jeho tvorbě se potkává zájem o techniku, politiku, vědu i obyčejnou lidskou odpovědnost. Často používal fantastický námět, ale nepsal proroctví o konkrétní budoucnosti: tento postup mu sloužil jako přesné zrcadlo přítomnosti. Důležitým partnerem mu byl bratr Josef, malíř a spisovatel; společně se podíleli na podobě několika knih i na kulturním životě meziválečné Prahy.",
       "works": [
         {
           "title": "R.U.R. (1920) — databáze Městské knihovny v Praze",
@@ -27,23 +27,38 @@
           "title": "Válka s Mloky (1936) — databáze Městské knihovny v Praze",
           "summary": "Románová satira skládá děj z novin, zpráv a komentářů; v rozpínání Mloků odhaluje lidskou chamtivost i zbabělost.",
           "url": "https://search.mlp.cz/cz/titul/valka-s-mloky/1571/"
+        },
+        {
+          "title": "Krakatit (1924) — Wikizdroje",
+          "summary": "Román sleduje vynálezce Prokopa po objevu výbušniny mimořádné síly a klade otázku odpovědnosti vědce za použití objevu.",
+          "url": "https://cs.wikisource.org/wiki/Krakatit"
+        },
+        {
+          "title": "Bílá nemoc (1937) — Wikizdroje",
+          "summary": "Drama o epidemii a diktátorské moci varuje před nastupujícím fašismem; lékař Galén podmiňuje lék zastavením války.",
+          "url": "https://cs.wikisource.org/wiki/B%C3%ADl%C3%A1_nemoc"
+        },
+        {
+          "title": "Matka (1938) — Wikizdroje",
+          "summary": "Komorní drama staví matčin odpor k válce proti rodinné tradici hrdinství; závěr ukazuje, jak násilí promění i její rozhodnutí.",
+          "url": "https://cs.wikisource.org/wiki/Matka_%28%C4%8Capek%29"
         }
       ]
     },
     {
       "title": "Jaroslav Hašek: smích proti válečné mašinérii",
-      "text": "Jaroslav Hašek (1883–1923) v Osudech dobrého vojáka Švejka za světové války obrátil vlastní zkušenost z habsburské armády a ruského zajetí v rozsáhlou protiválečnou satiru. První díl vyšel roku 1921; román zůstal po autorově smrti nedokončený. Josef Švejk není jednoduchý hrdina ani pouhý hlupák. Jeho doslovná poslušnost, historky a ochota plnit rozkazy mohou působit jako obrana před absurditou byrokracie, ale čtenář si nemůže být stále jistý, zda systém podvrací, nebo jen přežívá v jeho řeči. Právě tato nejistota drží Švejka dál od pohodlné nálepky „národní povahy“. Haškův humor nemírní hrůzu první světové války; ukazuje, jak ji úřední jazyk dokáže zneviditelnit.",
+      "text": "Jaroslav Hašek (1883–1923) proměnil vlastní zkušenost z habsburské armády a ruského zajetí v rozsáhlou protiválečnou satiru. Jeho humor nemírní hrůzu první světové války; ukazuje, jak ji úřední jazyk dokáže zneviditelnit. Ústřední postava jeho nejznámější knihy není jednoduchý hrdina ani pouhý hlupák: doslovná poslušnost, historky a ochota plnit rozkazy mohou působit jako obrana před absurditou byrokracie. Čtenář si však nemůže být stále jistý, zda postava systém podvrací, nebo se v jeho řeči jen snaží přežít. Právě tato nejistota drží Haškův román dál od pohodlné nálepky „národní povahy“.",
       "works": [
         {
           "title": "Osudy dobrého vojáka Švejka za světové války — Kramerius",
-          "summary": "Nedokončený román sleduje Švejka od mobilizace přes vojenskou administrativu až k východní frontě.",
+          "summary": "Nedokončený román, jehož první díl vyšel roku 1921, sleduje Švejka od mobilizace přes vojenskou administrativu až k východní frontě.",
           "url": "https://kramerius5.nkp.cz/uuid/uuid:6d4a0180-3cbb-11e7-9435-005056827e51"
         }
       ]
     },
     {
       "title": "Jaroslav Seifert: poezie paměti a občanské odvahy",
-      "text": "Jaroslav Seifert (1901–1986) prošel avantgardní poetikou, levicovou publicistikou i intimní lyrikou. Jeho básně často vycházejí z Prahy, dětství, lásky, krajiny a paměti, ale nejsou jen soukromé: v době omezené svobody dokázala poezie nést i občanské gesto. Roku 1984 získal Seifert Nobelovu cenu za literaturu jako dosud jediný laureát, který psal převážně česky. Nemohl si ji kvůli špatnému zdravotnímu stavu osobně převzít; ve Stockholmu jej zastoupila dcera Jana. V pozdější tvorbě, například v Morovém sloupu, se něha střetává s obavou o veřejný prostor. Seifertova řeč bývá prostá, její síla však leží v přesném obrazu a v tom, co naznačuje mezi řádky.",
+      "text": "Jaroslav Seifert (1901–1986) prošel avantgardní poetikou, levicovou publicistikou i intimní lyrikou. Jeho básně často vycházejí z Prahy, dětství, lásky, krajiny a paměti, ale nejsou jen soukromé: v době omezené svobody dokázala poezie nést i občanské gesto. Roku 1984 získal Seifert Nobelovu cenu za literaturu jako dosud jediný laureát, který psal převážně česky. Nemohl si ji kvůli špatnému zdravotnímu stavu osobně převzít; ve Stockholmu jej zastoupila dcera Jana. Seifertova řeč bývá prostá, její síla však leží v přesném obrazu a v tom, co naznačuje mezi řádky.",
       "image": {
         "file": "Jaroslav_Seifert_(portrait_by_Karel_Teige,_1921).jpg",
         "alt": "Historický portrét mladého Jaroslava Seiferta od Karla Teigeho z roku 1921",
@@ -62,7 +77,7 @@
     },
     {
       "title": "Bohumil Hrabal: velké dějiny ve všední větě",
-      "text": "Bohumil Hrabal (1914–1997) dokázal poslouchat řeč lidí z hospod, dílen, sběren i železnice. Jeho prózy působí, jako by se vyprávění valilo v jednom proudu; vedle komiky v nich zůstává zranitelnost, násilí a zkušenost diktatur. Ostře sledované vlaky (1965) umísťují dospívání mladého železničáře do okupovaných Čech na konci druhé světové války. Novela střídá trapnost, erotiku i hrozbu odboje bez hrdinského patosu. Film Jiřího Menzela podle Hrabalovy předlohy získal roku 1968 Oscara za nejlepší cizojazyčný film, ale knihu nelze ztotožnit s adaptací: její rytmus a vypravěčský hlas jsou samostatným zážitkem. Po okupaci v roce 1968 Hrabal čelil zákazům vydávání; část jeho textů vycházela v samizdatu či v zahraničí.",
+      "text": "Bohumil Hrabal (1914–1997) dokázal poslouchat řeč lidí z hospod, dílen, sběren i železnice. Jeho prózy působí, jako by se vyprávění valilo v jednom proudu; vedle komiky v nich zůstává zranitelnost, násilí a zkušenost diktatur. Vyhýbal se hrdinskému patosu a velké dějiny nechával vstupovat do všedních situací. Po okupaci v roce 1968 Hrabal čelil zákazům vydávání; část jeho textů vycházela v samizdatu či v zahraničí.",
       "image": {
         "file": "Bohumil_Hrabal.jpg",
         "alt": "Fotografický portrét Bohumila Hrabala v Praze roku 1987",
@@ -74,15 +89,14 @@
       "works": [
         {
           "title": "Ostře sledované vlaky (1965) — databáze Městské knihovny v Praze",
-          "summary": "Novela spojuje příběh nezkušeného výpravčího s okupací a odbojem na malé železniční stanici.",
+          "summary": "Novela z roku 1965 spojuje dospívání nezkušeného výpravčího s okupací a odbojem na malé železniční stanici. Film Jiřího Menzela podle předlohy získal roku 1968 Oscara za nejlepší cizojazyčný film.",
           "url": "https://search.mlp.cz/cz/titul/ostre-sledovane-vlaky/1881/"
         }
       ]
     },
     {
       "title": "Kundera a Kafka: dva pražské a středoevropské horizonty",
-      "text": "Milan Kundera (1929–2023) odešel roku 1975 do Francie a od osmdesátých let psal také francouzsky. Román Žert (1967) ukazuje, jak se z politického vtipu může v autoritářském systému stát nástroj zničení života; Nesnesitelná lehkost bytí (1984) spojuje milostný příběh s dějinami kolem roku 1968. Kundera se bránil čtení románu jako prostého politického dokumentu: zajímala jej také náhoda, paměť a několik různých pohledů na tutéž postavu.",
-      "extra": "Franz Kafka (1883–1924) patří do tohoto vyprávění jako pražský německy píšící autor židovského původu, ne jako český autor. Proměna a Proces vznikly v mnohonárodnostní Praze habsburské monarchie; jejich svět neprůhledné moci a nejisté viny nelze zúžit na jednu národní tradici. České prostředí však bylo jedním z jazykově i kulturně vrstevnatých zdrojů, z nichž Kafka vyrůstal.",
+      "text": "Milan Kundera (1929–2023) odešel roku 1975 do Francie a od osmdesátých let psal také francouzsky. Ve svých románech se bránil výkladu, který by je zúžil na prostý politický dokument: zajímaly jej také náhoda, paměť a několik různých pohledů na tutéž postavu. Franz Kafka (1883–1924) patří do tohoto vyprávění jako pražský německy píšící autor židovského původu, ne jako český autor. České prostředí však bylo jedním z jazykově i kulturně vrstevnatých zdrojů, z nichž Kafka vyrůstal.",
       "works": [
         {
           "title": "Žert (1967) — databáze Městské knihovny v Praze",
@@ -90,9 +104,19 @@
           "url": "https://search.mlp.cz/cz/titul/zert/3062/"
         },
         {
-          "title": "Proces — digitální knihovna Národního muzea",
+          "title": "Nesnesitelná lehkost bytí (1984) — Knihovna Milana Kundery",
+          "summary": "Román propojuje osudy několika milostných párů s Pražským jarem a invazí roku 1968; ptá se, zda je lidský život lehký, nebo zatížený nenahraditelnými volbami.",
+          "url": "https://kundera.knihovny.cz/cs/dilo/nesnesitelna-lehkost-byti"
+        },
+        {
+          "title": "Proměna (1915) — National Library of Israel",
+          "summary": "Novela začíná proměnou Řehoře Samsy v hmyz a přes rodinnou situaci zkoumá odcizení, stud i podmíněnou přijetí člověka.",
+          "url": "https://www.nli.org.il/en/visit/exhibitions-and-displays/past-exhibitions/kafka-100-years"
+        },
+        {
+          "title": "Proces — National Library of Israel",
           "summary": "Kafkův nedokončený román staví Josefa K. proti řízení, jehož pravidla ani vině nerozumí.",
-          "url": "https://digital.nm.cz/uuid/uuid:edb5a1a0-0ca4-11e5-9e0e-005056825209"
+          "url": "https://www.nli.org.il/en/a-topic/987007263456805171"
         }
       ]
     }
