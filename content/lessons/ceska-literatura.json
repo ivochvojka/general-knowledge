@@ -95,8 +95,8 @@
       ]
     },
     {
-      "title": "Kundera a Kafka: dva pražské a středoevropské horizonty",
-      "text": "Milan Kundera (1929–2023) odešel roku 1975 do Francie a od osmdesátých let psal také francouzsky. Ve svých románech se bránil výkladu, který by je zúžil na prostý politický dokument: zajímaly jej také náhoda, paměť a několik různých pohledů na tutéž postavu. Franz Kafka (1883–1924) patří do tohoto vyprávění jako pražský německy píšící autor židovského původu, ne jako český autor. České prostředí však bylo jedním z jazykově i kulturně vrstevnatých zdrojů, z nichž Kafka vyrůstal.",
+      "title": "Milan Kundera",
+      "text": "Milan Kundera (1929–2023) odešel roku 1975 do Francie a od osmdesátých let psal také francouzsky. Ve svých románech se bránil výkladu, který by je zúžil na prostý politický dokument: zajímaly jej také náhoda, paměť a několik různých pohledů na tutéž postavu.",
       "works": [
         {
           "title": "Žert (1967) — databáze Městské knihovny v Praze",
@@ -107,15 +107,21 @@
           "title": "Nesnesitelná lehkost bytí (1984) — Knihovna Milana Kundery",
           "summary": "Román propojuje osudy několika milostných párů s Pražským jarem a invazí roku 1968; ptá se, zda je lidský život lehký, nebo zatížený nenahraditelnými volbami.",
           "url": "https://kundera.knihovny.cz/cs/dilo/nesnesitelna-lehkost-byti"
-        },
+        }
+      ]
+    },
+    {
+      "title": "Franz Kafka",
+      "text": "Franz Kafka (1883–1924) byl pražský německy píšící autor židovského původu. České prostředí bylo jedním z jazykově i kulturně vrstevnatých zdrojů, z nichž Kafka vyrůstal.",
+      "works": [
         {
           "title": "Proměna (1915) — National Library of Israel",
-          "summary": "Novela začíná proměnou Řehoře Samsy v hmyz a přes rodinnou situaci zkoumá odcizení, stud i podmíněnou přijetí člověka.",
+          "summary": "Novela začíná proměnou Řehoře Samsy v hmyz a přes rodinnou situaci zkoumá odcizení, stud i podmíněné přijetí člověka.",
           "url": "https://www.nli.org.il/en/visit/exhibitions-and-displays/past-exhibitions/kafka-100-years"
         },
         {
           "title": "Proces — National Library of Israel",
-          "summary": "Kafkův nedokončený román staví Josefa K. proti řízení, jehož pravidla ani vině nerozumí.",
+          "summary": "Kafkův nedokončený román staví Josefa K. proti řízení, jehož pravidlům nerozumí a v němž se ani nedozví, z čeho je obviněn.",
           "url": "https://www.nli.org.il/en/a-topic/987007263456805171"
         }
       ]
